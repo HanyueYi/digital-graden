@@ -59,7 +59,7 @@ iii) Let $\{A_i\}\subseteq\mathcal M$ and let $B_n=\cap_{i=1}^n A_i$. Then $B_n\
 
 
 **_Proof._**
-Since $\sigma(\mathcal C)$ is a $d$-system, then $\sigma(\mathcal C)\supseteq\mathcal D(\mathcal C)$. It suffices to show $\mathcal D(\mathcal C)$ is a $\sigma$-algebra. By [[#^b47d33]], only need to show $\mathcal D(\mathcal C)$ is an algebra, and only need to show for any $A,B\in\mathcal D(C)$, there is $A\cap B\in\mathcal D(C)$. $(*)$
+Since $\sigma(\mathcal C)$ is a $d$-system, then $\sigma(\mathcal C)\supseteq\mathcal D(\mathcal C)$. It suffices to show $\mathcal D(\mathcal C)$ is a $\sigma$-algebra. By [[MATH/测度论/Nodes/3 the Monotone Class Theorem#^b47d33\|#^b47d33]], only need to show $\mathcal D(\mathcal C)$ is an algebra, and only need to show for any $A,B\in\mathcal D(C)$, there is $A\cap B\in\mathcal D(C)$. $(*)$
 
 Let $\mathcal D_1=\{A\in\mathcal D:A\cap B\in\mathcal D,\forall B\in\mathcal C\}$. Since $\mathcal C$ is a $\pi$-system, then $\mathcal C\subseteq\mathcal D_1$. We claim that $\mathcal D_1$ is a $d$-system and so $\mathcal D_1=\mathcal D$.
 - $X\in\mathcal D_1$
@@ -78,7 +78,7 @@ Now we prove $(*)$ and so the proof is completed.
 
 
 **_Proof._**
-By [[#^ydfduz|this example]], $\mathcal L:=\{A\in\mathcal{A}:\mu(A)=\nu(A)\}$ is a $d$-system. Since $\mathcal{C}\subseteq\mathcal L$, then $\mathcal L\supseteq\mathcal D(\mathcal C)=\sigma(\mathcal C)=\mathcal A$. Thus $\mathcal L=\mathcal{A}$ and so $\mu=\nu$.
+By [[MATH/测度论/Nodes/3 the Monotone Class Theorem#^ydfduz\|this example]], $\mathcal L:=\{A\in\mathcal{A}:\mu(A)=\nu(A)\}$ is a $d$-system. Since $\mathcal{C}\subseteq\mathcal L$, then $\mathcal L\supseteq\mathcal D(\mathcal C)=\sigma(\mathcal C)=\mathcal A$. Thus $\mathcal L=\mathcal{A}$ and so $\mu=\nu$.
 □
 
 
@@ -88,7 +88,7 @@ By [[#^ydfduz|this example]], $\mathcal L:=\{A\in\mathcal{A}:\mu(A)=\nu(A)\}$ is
 
 
 **_Proof._**
-Define $\mu_i:\mathcal A\to[0,\infty),\mu_i(A)=\mu(A\cap C_i)$, and define $\nu_i:\mathcal A\to[0,\infty),\nu(A_i)=\nu(A\cap C_i)$. Then by [[#^9bd144]], we have that $\mu_i=\nu_i$ on $\mathcal C$ and $\mu_i=\nu_i$ on $\mathcal{A}$. For any $A\in\mathcal{A}$, there is $A\cap C_i\uparrow A\cap X=A$ and so 
+Define $\mu_i:\mathcal A\to[0,\infty),\mu_i(A)=\mu(A\cap C_i)$, and define $\nu_i:\mathcal A\to[0,\infty),\nu(A_i)=\nu(A\cap C_i)$. Then by [[MATH/测度论/Nodes/3 the Monotone Class Theorem#^9bd144\|#^9bd144]], we have that $\mu_i=\nu_i$ on $\mathcal C$ and $\mu_i=\nu_i$ on $\mathcal{A}$. For any $A\in\mathcal{A}$, there is $A\cap C_i\uparrow A\cap X=A$ and so 
 
 $$\mu(A)=\lim_{i\to\infty}\mu_i(A)=\lim_{i\to\infty}\nu_i(A)=\nu(A).$$
 
@@ -125,7 +125,7 @@ Note that a family which is both $d$-system and $\pi$-system is a $\sigma$-algeb
 The major application of $d$-system is $\pi$-$\lambda$ theorem:
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/测度论/Nodes/3 the Monotone Class Theorem/#5uc4kq" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/3-the-monotone-class-theorem/#5uc4kq" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 

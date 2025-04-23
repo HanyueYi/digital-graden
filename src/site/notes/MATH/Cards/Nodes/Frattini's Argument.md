@@ -14,7 +14,7 @@ Suppose that $H$ is transitive on $\Omega$. For any $\omega\in\Omega$ and any $g
 Conversely, assume that $G=HG_{\omega}$. For any $\omega,\omega'\in\Omega$, there is $g\in G$ such that $\omega^g=\omega'$. As $g$ can be written as $g=xh$ with $x\in G_\omega$ and $h\in H$, there is $\omega^g=\omega^{xh}=\omega^h=\omega'$, i.e., $H$ acts on $\Omega$ transitively.
 □
 
-Here is another version of Frattini's argument from [wiki](https://en.wikipedia.org/wiki/Frattini%27s_argument). In fact, it is a special case of [[#^9wyb80]]. Let $\Omega$ be the set of Sylow subgroups of $H\lhd G$. Then both $G$ and $H$ act on $\Omega$ by conjugation transitively, and the point stabilizer $G_P=N_G(P)$ for a $P\in\Omega$. 
+Here is another version of Frattini's argument from [wiki](https://en.wikipedia.org/wiki/Frattini%27s_argument). In fact, it is a special case of [[MATH/Cards/Nodes/Frattini's Argument#^9wyb80\|#^9wyb80]]. Let $\Omega$ be the set of Sylow subgroups of $H\lhd G$. Then both $G$ and $H$ act on $\Omega$ by conjugation transitively, and the point stabilizer $G_P=N_G(P)$ for a $P\in\Omega$. 
 
 
 > [!corollary]

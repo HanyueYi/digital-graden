@@ -4,7 +4,7 @@
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.1 Preliminary for Symmetric Groups/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-1-preliminary-for-symmetric-groups/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -41,7 +41,7 @@ and this composition is stable by the action of $n$. Therefore, $|\Gamma_{n+1}|\
 > Any element of $S_n$ can be written as product of $s_i
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.2 Tableaux, Tabloids and Specht Module/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-2-tableaux-tabloids-and-specht-module/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -143,7 +143,7 @@ Note that $\pi\in R_{\sigma t}$ iff $\pi\{\sigma t\}=\{\sigma t\}$ iff $\pi\sigm
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.3 Ordering of Partitions/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-3-ordering-of-partitions/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -167,7 +167,7 @@ We will arrange the tableau $t$ to new form $t'$ by permuting entries within eac
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.4 Complete List of Irreducible Modules/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-4-complete-list-of-irreducible-modules/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -190,7 +190,7 @@ Easy. See [[Pasted image 20241118154911.png|here]].
 > [!corollary]
 > Let $t$ be tableau of shape $\lambda$ and $s$ be tableau of shape $\mu$, where $\lambda\vdash n$ and $\mu\vdash n$. If $K_t\{s\}\neq 0$, then $\lambda\rhd \mu$. Moreover, if $\lambda=\mu$ and $K_t\{s\}\neq 0$, then $K_t\{s\}=\pm e_t$. 
 **_Proof._**
-Suppose $b$ and $c$ are in the same row of $s$, then they belong to different columns of $t$. Otherwise $K_t\{s\}=\kappa(1-(bc))\{t\}=0$ by [[#^fae9c5]]. Then by [[MATH/代数专题/Nodes/10.3 Ordering of Partitions#^3e06ba\|10.3 Ordering of Partitions#^3e06ba]] $\lambda\rhd \mu$. If $\lambda=\mu$ and $K_t\{s\}\neq 0$, then $\{s\}=\pi\{t\}$ for some $\pi\in C_t$ (by [[#^fae9c5]], each pair of numbers in the same column does not appear in the same row of $\{s\}$). It follows that $K_t\{s\}=K_t\{\pi t\}=\mathrm{sgn}\pi K_t\{t\}=\pm e_t$ by [[#^fae9c5]].
+Suppose $b$ and $c$ are in the same row of $s$, then they belong to different columns of $t$. Otherwise $K_t\{s\}=\kappa(1-(bc))\{t\}=0$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]]. Then by [[MATH/代数专题/Nodes/10.3 Ordering of Partitions#^3e06ba\|10.3 Ordering of Partitions#^3e06ba]] $\lambda\rhd \mu$. If $\lambda=\mu$ and $K_t\{s\}\neq 0$, then $\{s\}=\pi\{t\}$ for some $\pi\in C_t$ (by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]], each pair of numbers in the same column does not appear in the same row of $\{s\}$). It follows that $K_t\{s\}=K_t\{\pi t\}=\mathrm{sgn}\pi K_t\{t\}=\pm e_t$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]].
 □
 
 
@@ -198,7 +198,7 @@ Suppose $b$ and $c$ are in the same row of $s$, then they belong to different co
 > If $u\in M^\mu$ and $t$ is tableau of shape $\mu$, then $K_tu$ is multiple of $e_t$. 
 
 **_Proof._**
-Since $u$ is a linear combination of tabloid of shape $\mu$, it follows from [[#^2fe718]].
+Since $u$ is a linear combination of tabloid of shape $\mu$, it follows from [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^2fe718\|#^2fe718]].
 □
 
 
@@ -221,7 +221,7 @@ Since $\theta$ is non-zero, there exists polytabloid $e_t$ such that $\theta(e_t
 
 $\theta:M^\lambda\to M^\mu,(S^\lambda)^\bot\mapsto 0.$
 
-Since $0\neq \theta(e_t)=\theta(K_t\{t\})=K_t(\theta\{t\})=K_t\sum_i\alpha_i\{s_i\}$ for some $\mu$-tabloids $\{s_i\}$, there is $\lambda\rhd \mu$ by [[#^2fe718]]. 
+Since $0\neq \theta(e_t)=\theta(K_t\{t\})=K_t(\theta\{t\})=K_t\sum_i\alpha_i\{s_i\}$ for some $\mu$-tabloids $\{s_i\}$, there is $\lambda\rhd \mu$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^2fe718\|#^2fe718]]. 
 
 If $\lambda=\mu$, then $\theta(e_t)=K_t\sum_i\alpha_i\{s_i\}=ce_t$. Then for any permutation $\pi$, 
 
@@ -237,7 +237,7 @@ and so $\theta$ is a multiplication by $c$.
 **_Proof._**
 Since the number of $S^\lambda$ equals the number of $\lambda\vdash n$ and so the number of conjugacy classes of $S_n$, it suffices to show $S^\lambda\neq S^\mu$ for any $\lambda\neq \mu$.
 
-Otherwise, suppose that $S^\lambda =S^\mu$ with $\lambda\neq \mu$. Since $S^\mu\hookrightarrow M^\mu$ is non-trivial, we have non-zero $\theta\in\mathrm{Hom}(S^\lambda, M^\mu)$ and so $\lambda\rhd \mu$ by [[#^376fda]]. Similarly we have $\mu\rhd \lambda$ and so $\mu=\lambda$, contradiction. Now we finish the proof.
+Otherwise, suppose that $S^\lambda =S^\mu$ with $\lambda\neq \mu$. Since $S^\mu\hookrightarrow M^\mu$ is non-trivial, we have non-zero $\theta\in\mathrm{Hom}(S^\lambda, M^\mu)$ and so $\lambda\rhd \mu$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]]. Similarly we have $\mu\rhd \lambda$ and so $\mu=\lambda$, contradiction. Now we finish the proof.
 □
 
 
@@ -250,7 +250,7 @@ Otherwise, suppose that $S^\lambda =S^\mu$ with $\lambda\neq \mu$. Since $S^\mu\
 [[Pasted image 20241120154248.png|Here]] is an example.
 
 **_Proof._**
-Note that $\kappa_{\lambda\mu}=\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\mu)=\left\langle \chi^\lambda,\psi^\mu\right\rangle$ where $\chi^\lambda$ and $\psi^\mu$ are characters of $S^\lambda$ and $M^\mu$, respectively. If $\kappa_{\lambda\mu}\neq 0$, then $\lambda\rhd \mu$ by [[#^376fda]]. Furthermore, since $\theta\in \mathrm{Hom}(S^\mu,M^\mu)$ is multiplication by scalar by [[#^376fda]], we have $\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\lambda)=\kappa_{\mu\mu}=1$. 
+Note that $\kappa_{\lambda\mu}=\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\mu)=\left\langle \chi^\lambda,\psi^\mu\right\rangle$ where $\chi^\lambda$ and $\psi^\mu$ are characters of $S^\lambda$ and $M^\mu$, respectively. If $\kappa_{\lambda\mu}\neq 0$, then $\lambda\rhd \mu$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]]. Furthermore, since $\theta\in \mathrm{Hom}(S^\mu,M^\mu)$ is multiplication by scalar by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]], we have $\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\lambda)=\kappa_{\mu\mu}=1$. 
 □
 
 
@@ -260,7 +260,7 @@ Note that $\kappa_{\lambda\mu}=\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\mu)=\left\lan
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.5 Basis of Specht Modules/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-5-basis-of-specht-modules/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -315,11 +315,11 @@ We do induction on number of "inversions" in $s$, that is, the number of pairs $
 
 ![Pasted image 20241125150516.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020241125150516.png)
 
-For the last term $\{s\}$, $\{1,2\}$ and $\{3,4\}$ are two inversions. By [[#^rswrnz]], $\{s\}\lhd (12)\{s\}\lhd (12)(34)\{s\}=\{t\}$.
+For the last term $\{s\}$, $\{1,2\}$ and $\{3,4\}$ are two inversions. By [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^rswrnz\|#^rswrnz]], $\{s\}\lhd (12)\{s\}\lhd (12)(34)\{s\}=\{t\}$.
 □
 
 
-Now we are ready to prove [[#^030a4e]]. 
+Now we are ready to prove [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^030a4e\|#^030a4e]]. 
 **_Proof._**
 First we prove that they are linear independent. Suppose $c_1e_{t_1}+\cdots+c_ne_{t_n}=0$, and we label $\{t_1\}$ in such way that there is no $i>1$ with $\{t_1\}\rhd \{t_i\}$. Then by corollary $\{t_1\}$ only appears in $e_{t_1}$ and so $c_1=0$. By induction all $c_i=0$, contradiction. 
 
@@ -340,7 +340,7 @@ Next we prove that standard polytabloids of shape $\lambda$ span $S^\lambda$. Fo
 > 
 > ![Pasted image 20241128213634.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020241128213634.png)
 > 
-> and the Garnir element $g_{A, B}=1-(45)+(245)+(465)-(2465)+(25)(46)$. One may [[#^791bdb|check]] $g_{A,B}e_t=0$ and so 
+> and the Garnir element $g_{A, B}=1-(45)+(245)+(465)-(2465)+(25)(46)$. One may [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^791bdb\|check]] $g_{A,B}e_t=0$ and so 
 > 
 > $e_t=e_{t_2}-e_{t_3}-e_{t_4}+e_{t_5}-e_{t_6}.$
 > 
@@ -365,7 +365,7 @@ $\{0\}=S^-_{A\sqcup B}e_t=g_{A,B}(S_A\times S_B)^- e_t=g_{A,B}|S_A\times S_B|e_t
 yields that $g_{A,B}e_t=0$.
 □
 
-Now we finish the proof of [[#^030a4e]]. 
+Now we finish the proof of [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^030a4e\|#^030a4e]]. 
 □ 
 
 
@@ -384,7 +384,7 @@ Therefore, each transposition $(k\;k+1)$ induces a linear transformation on the 
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.6 Frobenius Character Formula/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-6-frobenius-character-formula/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -403,7 +403,7 @@ Therefore, each transposition $(k\;k+1)$ induces a linear transformation on the 
 > $\dim S^\lambda=f^\lambda=\frac{n!}{\ell_1!\cdots\ell_n!}\prod_{1\leqslant i<j\leqslant n}(\ell_i-\ell_j).$
 
 **_Proof._**
-Note that $\dim S^\lambda=\chi^\lambda(1)$, then by [[#^4b468a]] 
+Note that $\dim S^\lambda=\chi^\lambda(1)$, then by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^4b468a\|#^4b468a]] 
 
 $\dim S^\lambda=\mbox{ coefficient of }x_1^{\ell_1}\cdots x_n^{\ell_n}\mbox{ in } (x_1+\cdots+x_n)^n\prod_{1\leqslant i<j\leqslant n}(x_i-x_j).$
 
@@ -450,7 +450,7 @@ The number of standard tableaux for $\lambda$ is the number of path from $\empty
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.7 Branching Rule/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-7-branching-rule/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -520,7 +520,7 @@ and so $m_\mu=0$ if $\lambda\neq \mu^-$ and $m_\mu=1$ if $\lambda=\mu^-$. Note t
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.8 Symmetric Polynomials/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-8-symmetric-polynomials/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -668,7 +668,7 @@ To show $e_{\lambda'}$ form a basis, suppose that $\lambda\vdash n$ with $\lambd
 
 $e_{\lambda'}=e_{\rho_1}\cdots e_{\rho_k}=(x_1\cdots x_{\rho_1}+\cdots)(x_1\cdots x_{\rho_2}+\cdots)\cdots(x_1\cdots x_{\rho_k}+\cdots)=x_1^{\lambda_1}\cdots x_m^{\lambda_m}+\cdots+\mbox{smaller terms}=m_\lambda+\sum_{\mu\lhd\lambda}m_\mu.$
 
-For $h_\lambda$, we can do it by [[#^jrsjoc]], as it deduces that $\left\langle \mathscr s_\lambda:\lambda\vdash n\right\rangle\subseteq\left\langle h_\lambda:\lambda\vdash n\right\rangle$. 
+For $h_\lambda$, we can do it by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^jrsjoc\|#^jrsjoc]], as it deduces that $\left\langle \mathscr s_\lambda:\lambda\vdash n\right\rangle\subseteq\left\langle h_\lambda:\lambda\vdash n\right\rangle$. 
 □
 
 
@@ -699,7 +699,7 @@ The sequence of Schur polynomials $\mathscr s_\lambda$ defines Schur functions, 
 Recall that 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.8 Symmetric Polynomials/#skztji" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-8-symmetric-polynomials/#skztji" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -726,7 +726,7 @@ and it deduces what we desire. Similarly we can prove $e_n=\sum_{\lambda\vdash n
 > 
 
 **_Proof._**
-By [[#^dbe3dc]], we have
+By [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^dbe3dc\|#^dbe3dc]], we have
 
 $\prod_{i\geqslant 1}(1-x_it)^{-1}=\sum_\lambda z_\lambda^{-1}p_\lambda t^{|\lambda|}\tag{*}$
 
@@ -746,7 +746,7 @@ Equip $\Lambda$ with the following form $\left\langle h_\lambda, m_\mu\right\ran
 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.9 Characteristical Map/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-9-characteristical-map/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -849,7 +849,7 @@ and $\mathrm{ch}(\widetilde {\chi^\lambda})=\mathscr s_\lambda$. Now we finish t
 
 
 **_Proof._**
-It suffices to show $p_{\mathscr p}=\sum_{\lambda}\chi_{\mathscr p}^\lambda \mathscr s_\lambda$. By [[#^492b55]] we have 
+It suffices to show $p_{\mathscr p}=\sum_{\lambda}\chi_{\mathscr p}^\lambda \mathscr s_\lambda$. By [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^492b55\|#^492b55]] we have 
 
 $\mathscr s_\lambda=\mathrm{ch}(\chi^\lambda)=\sum_{\mathscr p}z_{\mathscr p}^{-1}\chi_{\mathscr p}^\lambda p_{\mathscr p}$
 
@@ -874,7 +874,7 @@ Now we finish the proof.
 Recall that $p_{\rho}=\prod_{i=1}^m(x_1^{\rho_i}+\cdots+x_k^{\rho_i})$ and 
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/代数专题/Nodes/10.8 Symmetric Polynomials/#i6y60w" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/10-8-symmetric-polynomials/#i6y60w" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -898,7 +898,7 @@ x_1^{m-2} & \cdots & x_m^{m-2} \\
 </div></div>
 
 
-By [[#^7ed3d1]], we have $p_{\mathscr p}=\sum_{\lambda}\chi_{\mathscr p}^\lambda \mathscr s_\lambda$ and it deduces that 
+By [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^7ed3d1\|#^7ed3d1]], we have $p_{\mathscr p}=\sum_{\lambda}\chi_{\mathscr p}^\lambda \mathscr s_\lambda$ and it deduces that 
 
 $\mathrm{LHS}=\sum_{\mu}\chi_{\rho}^\mu\left|\begin{matrix}
 x_1^{\mu_1+k-1} & ... & x_k^{\mu_1+k-1} \\

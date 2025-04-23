@@ -35,7 +35,7 @@ Since $P$ is not a Sylow $p$-group, then LHS of $(*)$ is divisible by $p$. Thus 
 > - If $N$ is a normal subgroup of $G$ and $|N|=p$, then $N\leqslant Z(G)$.
 
 **_Proof._**
-i) Since $H<G$, then $H$ is not a Sylow subgroup of $G$ and so $H<N_G(H)$ by [[#^1c3218]]. 
+i) Since $H<G$, then $H$ is not a Sylow subgroup of $G$ and so $H<N_G(H)$ by [[MATH/Cards/Nodes/Normalizer of p-subgroup#^1c3218\|#^1c3218]]. 
 
 ii) By i), we obtain that $H<N_G(H)$ and so $N_G(H)=G$. Thus $H\lhd G$ and $G/H$ is simple. Therefore, $G/H\cong \mathbb{Z}_p$ by [[MATH/Cards/Nodes/Minimal Normal Subgroup and Maximal Normal Subgroup#^afncdw\|here]] and $|G|/|H|=p$. 
 
@@ -63,7 +63,7 @@ Since $g^{-1}Pg$ and $P$ are Sylow subgroups of $H$, by [[MATH/Cards/Nodes/Sylow
 
 
 **_Proof._**
-By [[#^d0505d]].
+By [[MATH/Cards/Nodes/Normalizer of p-subgroup#^d0505d\|#^d0505d]].
 □
 
 > [!theorem]

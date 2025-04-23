@@ -78,7 +78,7 @@ for some $n$, which contradicts with $(x)\in \Sigma$.
 **_Proof._**
 Recall that if $(0)=m_1\cdots m_n$ is a product of some maximal ideals, then $A$ Noetherian iff $A$ Artinian by [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]]. 
 
-"->" By [[#^fsei3o]], one have $\dim A=0$. By [[#^eii4v9]], $N^k=0$ for some $k$. By [[#^steden]], $N$ is the intersection of all prime ideals, which is a finite intersection. It deduces that $(m_1\cdots m_k)^k\subseteq \cap_{i=1}^n m_i^k=(0)$, verifying assumption of [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]]. 
+"->" By [[MATH/交换代数/Nodes/8 Artinian Rings#^fsei3o\|#^fsei3o]], one have $\dim A=0$. By [[MATH/交换代数/Nodes/8 Artinian Rings#^eii4v9\|#^eii4v9]], $N^k=0$ for some $k$. By [[MATH/交换代数/Nodes/8 Artinian Rings#^steden\|#^steden]], $N$ is the intersection of all prime ideals, which is a finite intersection. It deduces that $(m_1\cdots m_k)^k\subseteq \cap_{i=1}^n m_i^k=(0)$, verifying assumption of [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]]. 
 
 
 "<-" By [[MATH/交换代数/Nodes/7 Noetherian Rings#^k8wbyb\|7 Noetherian Rings#^k8wbyb]], $(0)=\cap_{i=1}^n q_i$ with distinct $r(q_i)=p_i$. Since $\dim A=0$, we have $p_i$ are maximal ideals. It deduces that $\mathrm{Nil}(A)=r((0))=\cap _{i=1}^n p_i$. Since $A$ is Noetherian, $N$ is nilpotent. Then $(0)=N^k\supseteq (p_1\cdots p_n)^k$ verifying assumption of [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]]. 
@@ -100,9 +100,9 @@ If i) does not hold, then $m^n=m^{n+1}$. By [[MATH/交换代数/Nodes/2 Modules#
 > $A$ is Artinian if $A=\prod_{i=1}^n A_i$ is a finite product of Artinian local rings. 
 
 **_Proof._**
-"<-" Each $A_i$ is Noetherian and dimension $0$. Then by [[#^myy86x]], $A$ is also Noetherian and dimension $0$. It deduces that $A$ is Artinian. 
+"<-" Each $A_i$ is Noetherian and dimension $0$. Then by [[MATH/交换代数/Nodes/8 Artinian Rings#^myy86x\|#^myy86x]], $A$ is also Noetherian and dimension $0$. It deduces that $A$ is Artinian. 
 
-"->" By [[#^steden]], $A$ has finitely many maximal ideals $m_1,\cdots,m_n$. By proof of [[#^myy86x]], we have $(m_1\cdots m_n)^k=0$. 
+"->" By [[MATH/交换代数/Nodes/8 Artinian Rings#^steden\|#^steden]], $A$ has finitely many maximal ideals $m_1,\cdots,m_n$. By proof of [[MATH/交换代数/Nodes/8 Artinian Rings#^myy86x\|#^myy86x]], we have $(m_1\cdots m_n)^k=0$. 
 
 Note that $\{m_i\}_{i=1}^n$ are pairwise coprime, so $\{m_i^k\}$ are also coprime 
 
@@ -129,7 +129,7 @@ ii)->iii) $m=(x)$ yields $m/m^2=k\cdot \overline x$. Then $\dim_k m/m^2\leqslant
 
 iii)->i) $\dim_k m/m^2\leqslant 1$ yields that there exists $x\in m$ such that $\overline x\in m/m^2$ generate $m/m^2$ as a $k$-vector space. 
 
-Note that [[MATH/交换代数/Nodes/2 Modules#^w0idub\|2 Modules#^w0idub]] yields that $m=(x)$. Let $\alpha\subseteq A$ be a proper ideal. Since $\mathrm{Nil}(A)=m$, we have $m^k=0$ for a big enough $k$ by [[#^eii4v9]]. It deduces that $m^k\subseteq \alpha\subseteq m$.
+Note that [[MATH/交换代数/Nodes/2 Modules#^w0idub\|2 Modules#^w0idub]] yields that $m=(x)$. Let $\alpha\subseteq A$ be a proper ideal. Since $\mathrm{Nil}(A)=m$, we have $m^k=0$ for a big enough $k$ by [[MATH/交换代数/Nodes/8 Artinian Rings#^eii4v9\|#^eii4v9]]. It deduces that $m^k\subseteq \alpha\subseteq m$.
 
 So there exists $r$ such that $\alpha\subseteq m^r=(x^r)$ but $\alpha\not\subseteq m^{r+1}=(x^{r+1})$. Then there is $y\in \alpha$ such that $y\notin (x^{r+1})$. But $y\in (x^r)$ yields $y=x^ra$. It deduces $a\notin (x)=m$ and $a$ is a unit. Thus $\alpha\supseteq(y)=(x^r)\supseteq \alpha$ and so $\alpha=(x^r)$ is principal.
 □

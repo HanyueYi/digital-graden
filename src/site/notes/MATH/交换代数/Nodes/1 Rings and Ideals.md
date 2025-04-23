@@ -46,7 +46,7 @@ ii) Let $y\in A\setminus m$, then $m+(y)=A$ and so $1=m_0+ay$ for some $m_0\in M
 
 **Example.**
 - If $A_1,A_2$ are local, then $A_1\times A_2$ is semi-local, as it has only two maximal ideals.
-- $\mathbb{C}[x]/(x-1)(x-2)$. By [[#^9eaa9e]], there is a bijection between ideals of $\mathbb{C}[x]/(x-1)(x-2)$ and ideals of $\mathbb{C}[x]$ containing $(x-1)(x-2)$. Hence, all maximal ideals of $\mathbb{C}[x]/(x-1)(x-2)$ are $(x-1)$ and $(x-2)$. 
+- $\mathbb{C}[x]/(x-1)(x-2)$. By [[MATH/交换代数/Nodes/1 Rings and Ideals#^9eaa9e\|#^9eaa9e]], there is a bijection between ideals of $\mathbb{C}[x]/(x-1)(x-2)$ and ideals of $\mathbb{C}[x]$ containing $(x-1)(x-2)$. Hence, all maximal ideals of $\mathbb{C}[x]/(x-1)(x-2)$ are $(x-1)$ and $(x-2)$. 
 
 # Nilradical
 
@@ -177,7 +177,7 @@ Note that
 
 $$r(\alpha)/\alpha=\mathrm{Nil}(A/\alpha)=\cap _{\alpha\subseteq P,P\mbox{ is prime}}(P/\alpha)=(\cap _{\alpha\subseteq P}P)/\alpha$$
 
-by [[#^bgejpl]]. Now we finish the proof.
+by [[MATH/交换代数/Nodes/1 Rings and Ideals#^bgejpl\|#^bgejpl]]. Now we finish the proof.
 □
 
 
@@ -217,7 +217,7 @@ It is easy to verify that $r(\alpha+\beta)=r(r(\alpha)+r(\beta))$, and it deduce
 
 
 **_Proof._**
-i) Note that $E\subseteq \alpha\subseteq r(\alpha)$, and then $V(E)=V(\alpha)\supseteq V(r(\alpha))$. For any $q\supseteq\alpha$, note that $r(\alpha)=\cap_{P\supseteq \alpha}P$ by [[#^8da6f1]] and so $q\supseteq r(\alpha)$. Hence $q\in V(r(\alpha))$ and then $V(\alpha)=V(r(\alpha))$. Now we finish the proof.
+i) Note that $E\subseteq \alpha\subseteq r(\alpha)$, and then $V(E)=V(\alpha)\supseteq V(r(\alpha))$. For any $q\supseteq\alpha$, note that $r(\alpha)=\cap_{P\supseteq \alpha}P$ by [[MATH/交换代数/Nodes/1 Rings and Ideals#^8da6f1\|#^8da6f1]] and so $q\supseteq r(\alpha)$. Hence $q\in V(r(\alpha))$ and then $V(\alpha)=V(r(\alpha))$. Now we finish the proof.
 
 ii) and iii) are trivial.
 
@@ -266,13 +266,13 @@ iv) Since $\alpha\supseteq\alpha\cap\beta\supseteq \alpha\beta$, there is $V(\al
 > - an open subset of $X$ is quasi-compact iff it is a finite union of some $X_f$.
 
 **_Proof._**
-i) By [[#^vf0aa5]] $V(fg)=V(f)\cup V(g)$. It deduces that $X_f\cap X_g=X_{fg}$. 
+i) By [[MATH/交换代数/Nodes/1 Rings and Ideals#^vf0aa5\|#^vf0aa5]] $V(fg)=V(f)\cup V(g)$. It deduces that $X_f\cap X_g=X_{fg}$. 
 
 ii) $X_f=\emptyset$ iff $V(f)=X$ iff $f\in\cap_{P\mbox{ is prime ideal}} P=\mathrm{Nil}(A)$ iff $f$ is nilpotent.
 
 iii) $X_f=X$ iff $V(f)=\emptyset$ iff $f$ is not contained in any prime ideals. If $f$ is not contained in any prime ideals, then it is not contained in any maximal ideals as [maximal ideal is prime](https://math.stackexchange.com/a/68493/1445401). So it can not contained in any non-trivial ideals and $\left\langle f\right\rangle=A$. On the other hand, if $f\in A^\times$, $\left\langle f\right\rangle=A$ and so $X_f=X$. 
 
-iv) If $r((f))=r((g))$, then $V(f)=V(r(f))=V(r(g))=V(g)$ and $X_f=X_g$. If $V(f)=V(g)$, then $r((f))=r((g))$ by [[#^8da6f1]]. 
+iv) If $r((f))=r((g))$, then $V(f)=V(r(f))=V(r(g))=V(g)$ and $X_f=X_g$. If $V(f)=V(g)$, then $r((f))=r((g))$ by [[MATH/交换代数/Nodes/1 Rings and Ideals#^8da6f1\|#^8da6f1]]. 
 
 v) Suppose $\{X_{f_i}:i\in I\}$ is an open cover of $X$, then $\cup_{i\in I}X_{f_i}=X_{({\{f_i:i\in I\}})}=X$ and so $\{f_i:i\in I\}$ generate $A$. Therefore, there is a finite subset $J$ such that $1=\sum_{j\in J}g_jf_j$ with $g_j\in A$. Now $\{f_j:j\in J\}$ generates $A$ and so $\{X_{_{f_j}}:j\in J\}$ is a finite subcover of $X$. 
 

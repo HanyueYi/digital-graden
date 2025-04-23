@@ -10,7 +10,7 @@
 
 When the characteristic is $0$, $K/F$ is algebraic and so is separable. Now we assume that all fields are of characteristic $p$. 
 
-Let $S$ be the set of all elements of $K$ that are separable over $F$. Then $E \subseteq S$ as $E / F$ is separable. Note that $S$ is a subfield of $K$ by [[#^1104cb]].
+Let $S$ be the set of all elements of $K$ that are separable over $F$. Then $E \subseteq S$ as $E / F$ is separable. Note that $S$ is a subfield of $K$ by [[MATH/Cards/Nodes/Separable Extension is Transitive#^1104cb\|#^1104cb]].
 
 We claim that $K$ is purely inseparable over $S$. To show it, it suffices to show for any $u\in K$, there exists $n$ such that $u^{p^n}\in S$. For any $u\in K$, if $u\in S$, then $u^{p^0}\in S$ is trivial. Otherwise, $u\in K\setminus S$. If $u^p\in S$, we have done. If $u^p\notin S$, then $g=\mathrm{Irr}(u^p,S)$ and $f(x):=g(x^p)$ has a root $u$. Therefore, the degree of $\mathrm{Irr}(u^p,K)$ is less than $\mathrm{Irr}(u,K)$. Repeat this procedure, there exists $n$ such that $u^{p^{n-1}}$ is inseparable and $u^{p^{n}}$ is separable. Therefore, $u^{p^n}\in S$ and the minimal polynomial of $u$ over $S$ is a divisor of $x^{p^n}-u^{p^n}=(x-u)^{p^n}$, so $K$ is purely inseparable over $S$.
 

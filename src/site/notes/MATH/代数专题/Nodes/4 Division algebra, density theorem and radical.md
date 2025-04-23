@@ -57,9 +57,9 @@ Let $Y=\mathrm{End}(V)$, and choose basis $\{v_1,\cdots,v_n\}$ for $V$. Define $
 
 
 **_Proof._**
-(i) Let $B=\rho(A)\subseteq\mathrm{End}(V)$. Take any $c\in\mathrm{End}(V)$ and let $v_1,\cdots,v_n$ be a basis of $V$. Let $w_i=cv_i$. But it follows that there exists $a\in A$ such that $w_i=av_i$ by [[#^f1e9c8]]. So $\rho(a)=c$ and so $\rho$ is surjective.
+(i) Let $B=\rho(A)\subseteq\mathrm{End}(V)$. Take any $c\in\mathrm{End}(V)$ and let $v_1,\cdots,v_n$ be a basis of $V$. Let $w_i=cv_i$. But it follows that there exists $a\in A$ such that $w_i=av_i$ by [[MATH/代数专题/Nodes/4 Division algebra, density theorem and radical#^f1e9c8\|#^f1e9c8]]. So $\rho(a)=c$ and so $\rho$ is surjective.
 
-(ii) Let $B_i=\rho_i(A)=\mathrm{End}(V_i)\simeq d_iV_i$ by [[#^67e432]]. Let $B=\rho(A)\subseteq\oplus\mathrm{End}(V_i)\simeq\oplus d_iV_i$ where $d_i=\dim V_i$. Then $B=\mathrm{Im}\rho$ is a submodule in $\oplus_{i=1}^kd_iV_i$. Conversely, $B=\rho(A)\supseteq\rho_i(A)\simeq d_iV_i$ for all $i$. Therefore, we have that $B=\oplus\mathrm{End}(V_i)$. 
+(ii) Let $B_i=\rho_i(A)=\mathrm{End}(V_i)\simeq d_iV_i$ by [[MATH/代数专题/Nodes/4 Division algebra, density theorem and radical#^67e432\|#^67e432]]. Let $B=\rho(A)\subseteq\oplus\mathrm{End}(V_i)\simeq\oplus d_iV_i$ where $d_i=\dim V_i$. Then $B=\mathrm{Im}\rho$ is a submodule in $\oplus_{i=1}^kd_iV_i$. Conversely, $B=\rho(A)\supseteq\rho_i(A)\simeq d_iV_i$ for all $i$. Therefore, we have that $B=\oplus\mathrm{End}(V_i)$. 
 □
 
 > [!theorem]
@@ -72,7 +72,7 @@ First, the given representations are clearly irreducible, as for any $v \neq 0, 
 
 $$\phi: \underbrace{A \oplus \cdots \oplus A}_{n \text { copies }} \longrightarrow X^*,(a_1,\cdots,a_n)\mapsto a_1y_1+\cdots+a_ny_n$$
 
-where $\left\{y_i\right\}$ is a basis of $X^*$. Note that $\phi$ is clearly surjective, as $k \subset A$. Thus, the dual map $\phi^*: X \longrightarrow A^{n *}$ is injective. But $A^{n *} \cong A^n$ as representations of $A$, which is easy to check. Hence, $\operatorname{Im} \phi^* \cong X$ is a sub-representation of $A^n$. Next, $\operatorname{Mat}_{d_i}(k)=d_i V_i$, so $A=\oplus_{i=1}^r d_i V_i, A^n=\oplus_{i=1}^r n d_i V_i$, as a representation of $A$. Hence by [[#^ey40pv]], $X=\oplus_{i=1}^r m_i V_i$, as desired.
+where $\left\{y_i\right\}$ is a basis of $X^*$. Note that $\phi$ is clearly surjective, as $k \subset A$. Thus, the dual map $\phi^*: X \longrightarrow A^{n *}$ is injective. But $A^{n *} \cong A^n$ as representations of $A$, which is easy to check. Hence, $\operatorname{Im} \phi^* \cong X$ is a sub-representation of $A^n$. Next, $\operatorname{Mat}_{d_i}(k)=d_i V_i$, so $A=\oplus_{i=1}^r d_i V_i, A^n=\oplus_{i=1}^r n d_i V_i$, as a representation of $A$. Hence by [[MATH/代数专题/Nodes/4 Division algebra, density theorem and radical#^ey40pv\|#^ey40pv]], $X=\oplus_{i=1}^r m_i V_i$, as desired.
 □
 
 **Remark.** An alternating proof: see [[MATH/代数专题/Nodes/List 1#^vf7yrg\|Exercise 16]] and [[Etingof 等 - 2011 - Introduction to representation theory.pdf#page=25&selection=155,0,155,9|Etingof]].
@@ -93,7 +93,7 @@ where $\left\{y_i\right\}$ is a basis of $X^*$. Note that $\phi$ is clearly surj
 
 
 **_Proof._**
-Let $V$ be irreducible. Take non-zero $v\in V$. Then $Av$ is a non-zero $A$-submodule in $V$ and $Av$ is finite-dimensional. Since $V$ is irreducible, then $Av=V$ is finite-dimensional. Let $V_1,\cdots,V_r$ be any set of pairwise non-isomorphic irreducible modules. Then by [[#^ca6f8a]], $\rho:A\to\oplus_{i=1}^r\mathrm{End} V_i$ is surjective. Since $\dim A\geqslant\dim\oplus_{i=1}^r \mathrm{End} V_r\geqslant r$, then $r$ is finite by $\dim A$ finite. Consider $\{V_1,\cdots,V_m\}$ is the complete set of irreducible pairwise non-isomorphic modules. Then the map $\rho:A\to\oplus_{i=1}^m\mathrm{End} V_i$ is surjective with $\ker \rho=\mathrm{rad} A$ and so $A/\mathrm{rad} A\simeq\oplus_{i=1}^m\mathrm{End} V_i$. 
+Let $V$ be irreducible. Take non-zero $v\in V$. Then $Av$ is a non-zero $A$-submodule in $V$ and $Av$ is finite-dimensional. Since $V$ is irreducible, then $Av=V$ is finite-dimensional. Let $V_1,\cdots,V_r$ be any set of pairwise non-isomorphic irreducible modules. Then by [[MATH/代数专题/Nodes/4 Division algebra, density theorem and radical#^ca6f8a\|#^ca6f8a]], $\rho:A\to\oplus_{i=1}^r\mathrm{End} V_i$ is surjective. Since $\dim A\geqslant\dim\oplus_{i=1}^r \mathrm{End} V_r\geqslant r$, then $r$ is finite by $\dim A$ finite. Consider $\{V_1,\cdots,V_m\}$ is the complete set of irreducible pairwise non-isomorphic modules. Then the map $\rho:A\to\oplus_{i=1}^m\mathrm{End} V_i$ is surjective with $\ker \rho=\mathrm{rad} A$ and so $A/\mathrm{rad} A\simeq\oplus_{i=1}^m\mathrm{End} V_i$. 
 □
 
 

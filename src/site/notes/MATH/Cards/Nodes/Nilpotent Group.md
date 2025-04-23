@@ -64,7 +64,7 @@ Assume (ii) holds. Let $M$ be a maximal subgroup of $G$. Then $M\lhd N_G(M)\leqs
 
 Assume (iii) holds. Let $P\in\mathrm{Syl}_p(G)$. If $P$ is not normal in $G$, then $P<G$ and $P<N_G(P)<G$. Let $M$ be a maximal subgroup of $G$ such that $N_G(P)\leqslant M<G$. Then $M\lhd G$. By [[MATH/Cards/Nodes/Frattini's Argument\|Frattini's argument]], $G=N_G(P)M=M$, a contradiction. Hence, $P\lhd G$ and so $G$ is a direct product of Sylow subgroups.
 
-Assume (iv) holds. [[#^0b8777|Since]] $p$-group is nilpotent and direct product of nilpotent groups is nilpotent, we obtain (i). 
+Assume (iv) holds. [[MATH/Cards/Nodes/Nilpotent Group#^0b8777\|Since]] $p$-group is nilpotent and direct product of nilpotent groups is nilpotent, we obtain (i). 
 □
 
 **Remark.** [[MATH/Cards/Nodes/Normalizer of p-subgroup#^srj1g6\|Note]] that $N_G(N_G(P))=N_G(P)$ for any Sylow $p$-subgroup. So (ii)->(iv) is easy. 

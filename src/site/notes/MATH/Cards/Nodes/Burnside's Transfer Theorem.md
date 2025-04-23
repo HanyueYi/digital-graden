@@ -48,7 +48,7 @@ Since $P$ is cyclic and $p$ is the smallest prime divisor, we have that $N_G(P)/
 > If a Sylow $2$-group of $G$ is cyclic, then $G$ is solvable.
 
 **_Proof._**
-By [[#^sezt3q]], $G$ is $2$-nilpotent and so there exists $N\lhd G$ such that $G=NP$ and $|N|$ is odd. By [Feit–Thompson theorem](https://en.wikipedia.org/wiki/Feit–Thompson_theorem), $G$ is solvable.
+By [[MATH/Cards/Nodes/Burnside's Transfer Theorem#^sezt3q\|#^sezt3q]], $G$ is $2$-nilpotent and so there exists $N\lhd G$ such that $G=NP$ and $|N|$ is odd. By [Feit–Thompson theorem](https://en.wikipedia.org/wiki/Feit–Thompson_theorem), $G$ is solvable.
 □
 
 > [!proposition]

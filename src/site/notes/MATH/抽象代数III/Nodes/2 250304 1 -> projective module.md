@@ -34,7 +34,7 @@ Not too hard.
 
 
 **_Proof._**
-i) -> ii) By [[#^9f21f9]] i), take $\gamma=\mathrm{id}_P:P\to P$. 
+i) -> ii) By [[MATH/抽象代数III/Nodes/2 250304 1 -> projective module#^9f21f9\|#^9f21f9]] i), take $\gamma=\mathrm{id}_P:P\to P$. 
 
 ii)->iii) Note that every module is a quotient of free modules, then by [[MATH/抽象代数II/Nodes/2.2 Modules#^qtklfv\|2.2 Modules#^qtklfv]] we finish the proof.
 
@@ -66,7 +66,7 @@ We may conclude that there is a short exact sequence
 
 $$0 \rightarrow K^{\prime} \rightarrow X \rightarrow P \rightarrow 0.$$
 
-Since $P$ is projective and this sequence splits, so $X \cong K^{\prime} \oplus P$ by [[#^3rkmd6]]. Similarly, we can write another map $\pi^{\prime}: X \rightarrow P^{\prime}$, and the same argument as above shows that there is another short exact sequence
+Since $P$ is projective and this sequence splits, so $X \cong K^{\prime} \oplus P$ by [[MATH/抽象代数III/Nodes/2 250304 1 -> projective module#^3rkmd6\|#^3rkmd6]]. Similarly, we can write another map $\pi^{\prime}: X \rightarrow P^{\prime}$, and the same argument as above shows that there is another short exact sequence
 
 $$
 0 \rightarrow K \rightarrow X \rightarrow P^{\prime} \rightarrow 0

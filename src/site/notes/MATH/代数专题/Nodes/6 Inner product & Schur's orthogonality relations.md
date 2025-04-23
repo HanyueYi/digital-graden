@@ -19,7 +19,7 @@ where $C$ runs over all conjugacy classes of $G$.
 { #rld430}
 
 
-To prove theorem first we talk about dual representation and tensor product of representation. The proof is written [[#^wl1f85|here]].
+To prove theorem first we talk about dual representation and tensor product of representation. The proof is written [[MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations#^wl1f85\|here]].
 
 # Dual Representation
 
@@ -118,7 +118,7 @@ by $\varphi(v)=f(v)w$.
 □
 
 
-For characters, [[#^65b04d]] gives 
+For characters, [[MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations#^65b04d\|#^65b04d]] gives 
 
 $$\chi_{\mathrm{Hom}(V,W)}(g)=\chi_{V^*\otimes W}(g)=\chi_{V^*}(g)\chi_{W}(g)=\overline{\chi_V(g)}\chi_W(g).$$
 
@@ -131,7 +131,7 @@ By Maschke's theorem, for $V=V_1\oplus\cdots\oplus V_r$ with irreducible $V_i$'s
 
 **Remark.** Note that $\chi_V(g)=\mathrm{tr}(\rho(g))$ where $\rho:G\to\mathrm{GL}(V)$ satisfies $gv:=\rho(g)v$.
 
-Now we are ready to prove [[#^rld430]].
+Now we are ready to prove [[MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations#^rld430\|#^rld430]].
 
 **_Proof._**
 For any $g\in G$ and $\varphi\in\mathrm{Hom}(V,W)$ with $g\varphi=\varphi$, there is $\varphi(v)=(g\varphi)(v)=g\varphi(g^{-1}v)$ and so $\varphi(g^{-1}v)=g^{-1}\varphi(v)$. It follows that $\varphi\in\mathrm{Hom}_{\mathbb{C}G}(V,W)$. Note that 

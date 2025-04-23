@@ -92,7 +92,7 @@ and now we finish the proof.
 □
 
 
-Now we are ready to prove [[#^df16b3]].
+Now we are ready to prove [[MATH/代数专题/Nodes/7 Character Table, Frobenius-Schur Indicator & Complexification#^df16b3\|#^df16b3]].
 
 **_Proof._**
 Note that 

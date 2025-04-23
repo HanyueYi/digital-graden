@@ -62,7 +62,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=79&selection=355,0,356,1|here]].
 
 
 **_Proof._**
-It suffices to show these statements hold for character functions by [[#^db74fa]] and [[#^b32528]] and so for simple function. Then use simple function to approximate measurable function and by MCT we finish the proof. 
+It suffices to show these statements hold for character functions by [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^db74fa\|#^db74fa]] and [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^b32528\|#^b32528]] and so for simple function. Then use simple function to approximate measurable function and by MCT we finish the proof. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=80&selection=115,0,116,1|here]]. 
 □
@@ -78,7 +78,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=80&selection=115,0,116,1|here]].
 > $$\int_{X \times Y} f d(\mu \times \nu)=\int_X\left(\int_Y f_x d \nu\right) d \mu=\int_Y\left(\int_X f^y d \mu\right) d \nu.$$
 
 **_Proof._**
-By $\int_{X\times Y}|f|<\infty$, we have $\int_Y|f|$, $\int_X|f|$, $\int_Y f_x^+$, $\int_Y f_x^-$ are finite almost everywhere. Then use [[#^67db20]]. 
+By $\int_{X\times Y}|f|<\infty$, we have $\int_Y|f|$, $\int_X|f|$, $\int_Y f_x^+$, $\int_Y f_x^-$ are finite almost everywhere. Then use [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^67db20\|#^67db20]]. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=81&selection=104,0,105,0|here]].
 □
@@ -87,10 +87,10 @@ Also see [[Measure  Theory    (Xia).pdf#page=81&selection=104,0,105,0|here]].
 **Remark.** $\mathcal{A},\mathcal{B}$ being $\sigma$-finite is necessary. As a counterexample, consider Lebesgue measure $(\mathbb{R},\mathcal{A},\mu)$, counting measure $(\mathbb{R},\mathcal{B},\nu)$ and $f(x,y)=\delta_{xy}$ with $0\leqslant x\leqslant 1$. 
 
 **Remark of the remark above.** 这一节几乎所有结果都需要 $\sigma$-finite，主要是因为我们需要 $\nu(E_x)$ 和 $\mu(E^y)$ 可测来定义 $\mu\times \nu$ 上的积分, which is defined as $\int_{X \times Y} f d(\mu \times \nu)=\int_X\left(\int_Y f_x d \nu\right) d \mu$. 
-- [[#^db74fa]]
+- [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^db74fa\|#^db74fa]]
 	- we prove the finite measure case and then the $\sigma$-finite case;
-	- it ensures that $\nu(E_x)$ and $\mu(E^y)$ are measurable sets, which is important for [[#^b32528]].
-- [[#^b32528]] is a proof of Tonelli's theorem for character functions. Only with this conclusion, Tonelli's theorem holds for simple functions and so measurable functions.
+	- it ensures that $\nu(E_x)$ and $\mu(E^y)$ are measurable sets, which is important for [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^b32528\|#^b32528]].
+- [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^b32528\|#^b32528]] is a proof of Tonelli's theorem for character functions. Only with this conclusion, Tonelli's theorem holds for simple functions and so measurable functions.
 
 
 > [!note] Example
@@ -99,7 +99,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=81&selection=104,0,105,0|here]].
 > $$\int_X f d \mu=\int_0^{\infty} \mu(\{x \in X: f(x)>t\}) d t .$$
 > 
 > **_Proof._**
-> Define $E=\{(x,t):0\leqslant t<f(x)\}$, which is the region under the graph of $f$. Since $f$ is measurable, there exists $s_n\uparrow f$ and $E_{s_n}=\{(x.t):0\leqslant t<s_n(x)\}$ is measurable. Then we can compute $\mu\times m(E)$ by [[#^67db20]]. Also see [[Measure  Theory    (Xia).pdf#page=81&selection=361,0,362,0|here]].
+> Define $E=\{(x,t):0\leqslant t<f(x)\}$, which is the region under the graph of $f$. Since $f$ is measurable, there exists $s_n\uparrow f$ and $E_{s_n}=\{(x.t):0\leqslant t<s_n(x)\}$ is measurable. Then we can compute $\mu\times m(E)$ by [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^67db20\|#^67db20]]. Also see [[Measure  Theory    (Xia).pdf#page=81&selection=361,0,362,0|here]].
 > □
 
 > [!theorem]
@@ -120,7 +120,7 @@ $$
 \end{aligned}
 $$
 
-By [[#^67db20]] we have
+By [[MATH/测度论/Nodes/11 Product measures, Tonelli, Fubini theorems#^67db20\|#^67db20]] we have
 
 $$
 \begin{aligned}

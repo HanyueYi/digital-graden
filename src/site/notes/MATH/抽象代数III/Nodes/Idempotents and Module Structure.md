@@ -184,11 +184,11 @@ So we get an inclusion $FRF/FIF\hookrightarrow R/I$, and its image is $E(R/I)E$.
 
 
  **_Proof._**
-i) [[#^1dezlm|Recall]] that there is a bijection between the idempotent decomposition of $e$ are in bijection with the direct sum decomposition of the left ideals $Ae$. Since $A$ is semisimple and Artinian, there is a decomposition $1=e_1+\cdots+e_n$ and $A=\oplus_{i=1}^nAe_i$. By [[#^tv7l9r]], $Ae_i$ is simple. 
+i) [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^1dezlm\|Recall]] that there is a bijection between the idempotent decomposition of $e$ are in bijection with the direct sum decomposition of the left ideals $Ae$. Since $A$ is semisimple and Artinian, there is a decomposition $1=e_1+\cdots+e_n$ and $A=\oplus_{i=1}^nAe_i$. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^tv7l9r\|#^tv7l9r]], $Ae_i$ is simple. 
 
 ii) Since each simple $A$-module is a quotient of the left regular module ${}_A A$ by [[MATH/抽象代数III/Nodes/5 250325#^09efb3\|5 250325#^09efb3]], $S$ is isomorphic to $Ae$ for some primitive idempotent $e$. 
 
-iii) Notice that $S=1S=(e_1+\cdots+e_n)S$, and there exists $i$ such that $e_iS\neq 0$. For any given simple $A$-module $T$, there exists $e$ such that $T\simeq Ae$. By [[#^yr2ffd]], one have
+iii) Notice that $S=1S=(e_1+\cdots+e_n)S$, and there exists $i$ such that $e_iS\neq 0$. For any given simple $A$-module $T$, there exists $e$ such that $T\simeq Ae$. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], one have
 
 $$e_iT=e_iAe\simeq \mathrm{Hom}_R(Ae,Ae_i)=0$$
 
@@ -233,13 +233,13 @@ is an $A$-morphism with kernel $J(A)Af=\mathrm{Rad}(Af)=\mathrm{Rad}(P_S)$. Then
 
 
 **_Proof._**
-Let $\bar{A}=A / J(A)$. Since $A$ is Artinian, $\overline A$ is an Artinian semisimple ring. Hence by [[#^drcz17]], one have a primitive idempotent decomposition $1=e_1+\cdots+e_n$ in $\overline A$. By [[#^3rmbjt]], lift each $e_i$ to an idempotent $f_i \in A$ and so $1=f_1+\cdots+f_n$ in $A$.
+Let $\bar{A}=A / J(A)$. Since $A$ is Artinian, $\overline A$ is an Artinian semisimple ring. Hence by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^drcz17\|#^drcz17]], one have a primitive idempotent decomposition $1=e_1+\cdots+e_n$ in $\overline A$. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^3rmbjt\|#^3rmbjt]], lift each $e_i$ to an idempotent $f_i \in A$ and so $1=f_1+\cdots+f_n$ in $A$.
 
 Thus, the regular module $A^A$ decomposes as
 
 $${ }_A A=A f_1 \oplus \cdots \oplus A f_n,$$
 
-where each $A f_i$ is an indecomposable projective module. By [[#^koarlo]], we know
+where each $A f_i$ is an indecomposable projective module. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^koarlo\|#^koarlo]], we know
 
 $$A f_i / \operatorname{Rad}\left(A f_i\right) \simeq A e_i$$
 
@@ -270,7 +270,7 @@ and ${}_A A \simeq \bigoplus_S\left(P_S\right)^{n_S}$, where $n_S=\operatorname{
 
 
 **_Proof._**
-Since $A$ is an Artinian ring and $V$ is a finitely generated $A$-module, we know $V$ has a finite length composition series by [[MATH/抽象代数III/Nodes/6 250401#^y1hlpb\|6 250401#^y1hlpb]]. Notice that $e$ is primitive by [[#^lz95r0]]. 
+Since $A$ is an Artinian ring and $V$ is a finitely generated $A$-module, we know $V$ has a finite length composition series by [[MATH/抽象代数III/Nodes/6 250401#^y1hlpb\|6 250401#^y1hlpb]]. Notice that $e$ is primitive by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^lz95r0\|#^lz95r0]]. 
 
 Let $V=V_0\supseteq V_1\supseteq\cdots\supseteq V_n=0$ be a composition series of $V$. Consider the chain of $fAf$-modules 
 
@@ -280,7 +280,7 @@ where $V_i/V_{i+1}\simeq \overline A e$ iff $fV_i/fV_{i+1}\neq 0$. Furthermore,
 
 $$e\overline Ae\simeq f\left(V_i / V_{i+1}\right) \cong f V_i /\left(f V_i \cap V_{i+1}\right)=f V_i / f V_{i+1}.$$
 
-By [[#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $e\overline A e$ is a simple $fAf$-module. Therefore, the multiplicity of $\overline A e$ in any finitely generated $A$-module $V$ is equal to the composition length of $fV$ as an $fAf$-module. 
+By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $e\overline A e$ is a simple $fAf$-module. Therefore, the multiplicity of $\overline A e$ in any finitely generated $A$-module $V$ is equal to the composition length of $fV$ as an $fAf$-module. 
 □
 
 
@@ -290,7 +290,7 @@ By [[#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e)
 	- For any $x\in fJf$, there is $x=faf$ for some $a\in J$. Since $A$ is Artinian, $J$ is nilpotent and so $fJf$ is nilpotent. It deduces that $fJf\subseteq J(fAf)$. 
 	- On the other hand, $fAf/fJf=f\overline Af$ is semisimple and so $fJf\supseteq J(fAf)$. 
 - We claim that $fAf$ is local. 
-	- By [[#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]].
+	- By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]].
 	- Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $J(fAf)$ is a maximal ideal and $fAf$ is local. 
 
 
@@ -305,7 +305,7 @@ Let $1=e_1+\cdots+e_n$ be a primitive idempotent decomposition in $A/J(A)$, and 
 > $c_{ij}\neq 0$ iff $f_iAf_j\neq 0$. 
 
 **_Proof._**
-It is a direct corollary of [[#^3hxo3d]]. 
+It is a direct corollary of [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^3hxo3d\|#^3hxo3d]]. 
 □
 
 
@@ -334,7 +334,7 @@ one have $\mathrm{Hom}_A(S,T)\simeq \mathrm{End}_A(S)$.
 
 ii) is trivial by i).
 
-iii) is trivial by [[#^yr2ffd]].
+iii) is trivial by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]].
 
 iv) is trivial by iii) and note that $\dim_k\mathrm{End}_A(S)=1$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. 
 □

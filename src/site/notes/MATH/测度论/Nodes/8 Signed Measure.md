@@ -63,7 +63,7 @@ $$L\leqslant\mu(A)=\mu(A\setminus A_n)+\mu(A_n)\leqslant\mu(A_n)\to L\mbox{ as }
 
 Therefore, $\mu(A)=L$. 
 
-Let $E=A$ and $F=E^c$. Then $E,F$ is a partition of $X$. Now we claim that $F$ is a positive set. Otherwise, there is $G\in\mathcal{A}$ such that $\mu(G)<0$. By [[#^6e1e47]], we can assume $G$ is a negative set and then $\mu(E\cup G)<\mu(E)$, which is a contradiction. 
+Let $E=A$ and $F=E^c$. Then $E,F$ is a partition of $X$. Now we claim that $F$ is a positive set. Otherwise, there is $G\in\mathcal{A}$ such that $\mu(G)<0$. By [[MATH/测度论/Nodes/8 Signed Measure#^6e1e47\|#^6e1e47]], we can assume $G$ is a negative set and then $\mu(E\cup G)<\mu(E)$, which is a contradiction. 
 
 ii) If $E_0,F_0\in\mathcal{A}$ with $E_0,F_0$ another pair, then $E-E_0=F_0-F$ and $E_0-E=F-F_0$. Thus $E\Delta E_0=F\Delta F_0$. Let $A\subseteq E-E_0=F_0-F$. It follows that $\mu(A)\geqslant 0$, $\mu(A)\leqslant 0$ and so $\mu(A)=0$. Therefore, $E\cap E_0$ is null.
 
@@ -143,7 +143,7 @@ $$\int_A h_2 d\mu=\int_{A_1} g_1 d\mu+\int_{A_2} g_2d\mu\leqslant \nu(A_1)+\nu(A
 
 we have that $h_2\in\mathcal J$. Note that $h_n\uparrow h$, so we have that $\int_X g_nd\mu\leqslant \int_X h_nd\mu\leqslant\int_X hd\mu$. Take $n\to\infty$, then $L\leqslant\int_X hd\mu\leqslant L$. Therefore, $\int_X hd\mu=L$, i.e. there exists $f\in\mathcal J$ such that $\int_X fd\mu=L=\sup_{g\in \mathcal J}\int_x gd\mu$. 
 
-Consider $\lambda(A)=\nu(A)-\int_X fd\mu$, then $\lambda$ is a positive measure on $(X,\mathcal{A})$. By [[#^37ff4c]], one of the following holds:
+Consider $\lambda(A)=\nu(A)-\int_X fd\mu$, then $\lambda$ is a positive measure on $(X,\mathcal{A})$. By [[MATH/测度论/Nodes/8 Signed Measure#^37ff4c\|#^37ff4c]], one of the following holds:
 - $\lambda\bot\mu$ 
 - there exists $G\in \mathcal{A}$, $\epsilon>0$ such that $\mu(G)>0$ and $G$ is a positive set of $\lambda-\epsilon \mu$. 
 
@@ -180,7 +180,7 @@ Now we finish the proof.
 > for every $A \in \mathcal{A}$. The function $f$ is unique in the sense that if $g$ is any real-valued measurable function on $X$ with $\nu(A)=\int_A g d \mu$ for all $A \in \mathcal{A}$, then $f=g$ a.e. respect to $\mu$.
 
 **_Proof._**
-Let $\nu=\nu^+-\nu^-$ be the Jordan decomposition of $\nu$, i.e. there exists $E,F\in\mathcal{A}$ such that $\nu^+(E)=\nu^-(F)=0$, $E\cap F=\emptyset$ and $E\cup F=X$. Note that $\nu^-$ is finite and $\nu^+$ is $\sigma$-finite. If $|\mu|(A)=0$, then $|\mu|(A\cap F)=0$, $|\mu|(A\cap E)=0$ and $\nu(A\cap F)=\nu(A\cap E)=0$. It follows that $\nu^+\ll\mu$ and $\nu^-\ll \mu$. By [[#^bdb1bb]], there exists $f_1,f_2$ such that $\nu^+(A)=\int_A f_1d\mu$ and $\nu^-(A)=\int_A f_2d\mu$ for all $A\in\mathcal{A}$. Let $f=f_1-f_2$. 
+Let $\nu=\nu^+-\nu^-$ be the Jordan decomposition of $\nu$, i.e. there exists $E,F\in\mathcal{A}$ such that $\nu^+(E)=\nu^-(F)=0$, $E\cap F=\emptyset$ and $E\cup F=X$. Note that $\nu^-$ is finite and $\nu^+$ is $\sigma$-finite. If $|\mu|(A)=0$, then $|\mu|(A\cap F)=0$, $|\mu|(A\cap E)=0$ and $\nu(A\cap F)=\nu(A\cap E)=0$. It follows that $\nu^+\ll\mu$ and $\nu^-\ll \mu$. By [[MATH/测度论/Nodes/8 Signed Measure#^bdb1bb\|#^bdb1bb]], there exists $f_1,f_2$ such that $\nu^+(A)=\int_A f_1d\mu$ and $\nu^-(A)=\int_A f_2d\mu$ for all $A\in\mathcal{A}$. Let $f=f_1-f_2$. 
 
 Consider the decomposition $f=f^+-f^-$, and we claim that $f^+\leqslant f_1$ and $f^-\leqslant f_2$. If $f(x)> 0$, then $f^+(x)=f(x)\leqslant f_1(x)$. If $f(x)\leqslant 0$, then $0=f^+(x)\leqslant f_1(x)$. Thus $f^+(x)\leqslant f_1(x)$. If $f(x)\leqslant 0$, then $f^-(x)=-f(x)=f_2(x)-f_1(x)\leqslant f_2(x)$. Thus $f^-(x)\leqslant f_2(x)$ for all $x\in X$. Now we prove the claim. With this claim and $\nu^-(X)<\infty$, we deduce that$\int_X f^-d\mu\leqslant\int_X f_2d\mu<\infty$ and so $\int_Xfd\mu$ is well-defined.
 

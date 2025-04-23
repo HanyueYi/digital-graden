@@ -68,7 +68,7 @@ Some of them are easy, and we only prove $B_2\supseteq B_3\supseteq \mathcal{B}(
 > - set of the form $\{(x_1,\cdots,x_n):a_i<x_i\leqslant b_i,a_i,b_i\in \mathbb{R}\}$.
 
 **_Proof._**
-It is similar to the case of [[#^m1q4o8|$B(\mathbb{R})$]]. 
+It is similar to the case of [[MATH/测度论/Nodes/1 Algebra, sigma-Algebra, Measurable Spaces, limsup#^m1q4o8\|$B(\mathbb{R})$]]. 
 □
 
 > [!definition]

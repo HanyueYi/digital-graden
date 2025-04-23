@@ -23,7 +23,7 @@
 # Some Corollary
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/抽象代数II/Nodes/1.5 Sylow Theorem/#ne0n10" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math/ii/nodes/1-5-sylow-theorem/#ne0n10" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -69,7 +69,7 @@ The key idea of the following propositions are similar:
 	- If $G$ has a subgroup $H$ of index $n$, then $G$ acting on $\{Hg:g\in G\}$ induces a normal subgroup $H_G\lhd G$ and $G/H_G\lesssim S_n$. If $G$ is simple, then $H_G=\{1\}$ and $G\lesssim S_n$. Thus, there is a lower bound of index of subgroups of $G$.
 	- Since $n_p=[G:N_G(P)]$ has lower bounder, we can determine $n_p$.
 	- If $n_p$ is large enough, the intersection of Sylow $p$-subgroups may not trivial. Let $A=P_i\cap P_j$ for example. Then consider the index/order of $C_G(A)$ or $N_G(A)$. 
-	- [[#^56a6de]] describes the order of intersection of two Sylow $p$-subgroups. 
+	- [[MATH/Cards/Nodes/Sylow Theorems#^56a6de\|#^56a6de]] describes the order of intersection of two Sylow $p$-subgroups. 
 
 
 > [!theorem]
@@ -106,7 +106,7 @@ Now we finish the proof.
 □
 
 
-In [[#^24a4c2]] and [[#^9a9397]], the key is to consider the intersection of two Sylow $p$-subgroups. Here is a more refined result, which is used to prove [[#^f95b09]].
+In [[MATH/Cards/Nodes/Sylow Theorems#^24a4c2\|#^24a4c2]] and [[MATH/Cards/Nodes/Sylow Theorems#^9a9397\|#^9a9397]], the key is to consider the intersection of two Sylow $p$-subgroups. Here is a more refined result, which is used to prove [[MATH/Cards/Nodes/Sylow Theorems#^f95b09\|#^f95b09]].
 
 > [!theorem]
 > Let $P_1,\cdots,P_n$ be all Sylow $p$-subgroups of $G$. If for any $i\neq j$ there is $|P_i:P_i\cap P_j|\geqslant p^d$, then $n\equiv 1\pmod{p^d}$.
@@ -126,5 +126,5 @@ Let $\Omega=\{P_1,\cdots,P_n\}$ be the set of Sylow $p$-subgroups. Consider $P_n
 **_Proof._**
 Assume that $G$ is simple. Note that $n_3\in\{4,16\}$. If $n_3=4$, $G$ has a subgroup of index $4$ and $G\lesssim S_4$, which is impossible. Thus $n_3=16$. Since $n_3\not\equiv 1\pmod{3^2}$, there exist Sylow $3$-subgroups $P_i$ and $P_j$ such that $|P_i:P_i\cap P_j|=3$. Then $|P_i\cap P_j|=9$. 
 
-By [[#^qes1qo]], $P_i\cap P_j$ is a maximal subgroup of $P_i$, so $N_{P_i}(P_i\cap P_j)=P_i$. It deduces that $N_G(P_i\cap P_j)\geqslant\left\langle P_i,P_j\right\rangle$. Since $N_G(P_i\cap P_j)$ has at least $4$ Sylow $3$-subgroups, we have $|N_G(P_i\cap P_j)|\geqslant 4\cdot N_{N_G(P_i\cap P_j)}(P_i)\geqslant 4\cdot 3^3=108$ and $[G:N_G(P_i\cap P_j)]\leqslant 4$. Then $G$ has a subgroup of index $\leqslant 4$ and $G\lesssim S_4$, which is impossible.
+By [[MATH/Cards/Nodes/Sylow Theorems#^qes1qo\|#^qes1qo]], $P_i\cap P_j$ is a maximal subgroup of $P_i$, so $N_{P_i}(P_i\cap P_j)=P_i$. It deduces that $N_G(P_i\cap P_j)\geqslant\left\langle P_i,P_j\right\rangle$. Since $N_G(P_i\cap P_j)$ has at least $4$ Sylow $3$-subgroups, we have $|N_G(P_i\cap P_j)|\geqslant 4\cdot N_{N_G(P_i\cap P_j)}(P_i)\geqslant 4\cdot 3^3=108$ and $[G:N_G(P_i\cap P_j)]\leqslant 4$. Then $G$ has a subgroup of index $\leqslant 4$ and $G\lesssim S_4$, which is impossible.
 □

@@ -30,7 +30,7 @@ Then we have the following corollary:
 > Conversely, for a Lie algebra $g$, if every finite dimensional complex representation of $g$ has a weight, would it must be solvable? 
 
 > [!note] Answer
-> The answer is yes. Consider the adjoint representation. Since $\mathrm{ad}:g\to\mathrm{End}(g)$ is an representation, using the same argument in [[#^e008cf|Lie's theorem]], there exists a set of basis such that $\mathrm{ad}g$ are upper triangular matrices. Then $\mathrm{ad}([g,g])$ are nilpotent. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $[g,g]$ is nilpotent and so $g$ is solvable by [[#^2be7fe]].
+> The answer is yes. Consider the adjoint representation. Since $\mathrm{ad}:g\to\mathrm{End}(g)$ is an representation, using the same argument in [[MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra#^e008cf\|Lie's theorem]], there exists a set of basis such that $\mathrm{ad}g$ are upper triangular matrices. Then $\mathrm{ad}([g,g])$ are nilpotent. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $[g,g]$ is nilpotent and so $g$ is solvable by [[MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra#^2be7fe\|#^2be7fe]].
 
 > [!proposition] Lie's theorem
 > Let $g$ be a finite dimensional solvable Lie algebra over $\mathbb C$ and $(\rho,V)$ a finite dimensional representation. Then one can choose a basis $\{v_1,\cdots,v_n\}$ of $V$ and $\rho(g)\subseteq\{\text{ upper triangular matrices }\}$ w.r.t. the identification $\mathrm{End}(V)\cong M_{n\times n}(\mathbb C)$.
@@ -55,7 +55,7 @@ $$g^{(1)}\subsetneq g^{(1)}\oplus\mathbb CY_1\subsetneq\cdots\subsetneq g^{(1)}\
 
 where $Y_i\in g\backslash g^{(1)}$. Similarly, use $Z_i\in g^{(1)}\backslash Y^{(2)}$ to construct subsequence of $(*)$ between $g^{(2)}$ and $g^{(1)}$. Repeat this process and get the sequence we want.
 
-ii) Conversely, suppose $g$ admits a sequence $(*)$. Take a set of basis $\{e_1,\cdots,e_n\}$ such that $I_k=\mathrm{span}\{e_1,\cdots,e_k\}$. Then under this basis $\mathrm{ad}X$ is an upper triangular matrix for any $X\in g$, and so $\mathrm{ad}([g,g])$ are nilpotent. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $[g,g]$ is nilpotent and so $g$ is solvable by [[#^2be7fe]].
+ii) Conversely, suppose $g$ admits a sequence $(*)$. Take a set of basis $\{e_1,\cdots,e_n\}$ such that $I_k=\mathrm{span}\{e_1,\cdots,e_k\}$. Then under this basis $\mathrm{ad}X$ is an upper triangular matrix for any $X\in g$, and so $\mathrm{ad}([g,g])$ are nilpotent. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $[g,g]$ is nilpotent and so $g$ is solvable by [[MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra#^2be7fe\|#^2be7fe]].
 □
 ## Unique Maximal Nilpotent Ideal of Solvable Lie Algebra
 
@@ -97,7 +97,7 @@ Every representation of a nilpotent Lie algebra can be decomposed as a direct su
 ## Engel's Theorem
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem/#e1bcc4" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math/lie-group-and-lie-algebra/nodes/2-2-engel-s-theorem/#e1bcc4" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 

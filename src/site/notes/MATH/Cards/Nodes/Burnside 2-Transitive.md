@@ -9,7 +9,7 @@
 > - elementary abelian, where $G$ is called affine.
 
 **_Proof._**
-#todo By [[#^e3ccf0]], $\mathrm{soc}(G)\cong T^n$ with simple group $t$ and some $n\in \mathbb{N}_+$. If $\mathrm{soc}(G)\cong \mathbb{F}_p^n:=V$, then by [[MATH/Cards/Nodes/Frattini's Argument\|Frattini's Argument]] we have $G=V{:}G_0$ where $G_0\leq \mathrm{GL}(V)$. Therefore, $G$ is affine. 
+#todo By [[MATH/Cards/Nodes/Burnside 2-Transitive#^e3ccf0\|#^e3ccf0]], $\mathrm{soc}(G)\cong T^n$ with simple group $t$ and some $n\in \mathbb{N}_+$. If $\mathrm{soc}(G)\cong \mathbb{F}_p^n:=V$, then by [[MATH/Cards/Nodes/Frattini's Argument\|Frattini's Argument]] we have $G=V{:}G_0$ where $G_0\leq \mathrm{GL}(V)$. Therefore, $G$ is affine. 
 
 Now we assume that $\mathrm{soc}(G)$ is a direct product of isomorphic non abelian simple groups. 
 

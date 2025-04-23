@@ -15,7 +15,7 @@ Easy.
 □
 
 
-**Remark**. Let $M$ be an $A$-module, and let $\Sigma=\{\mbox{submodule of }M\}$. If $(\Sigma,\subseteq)$ is the poset in [[#^1ab5b8]], then it is denoted as a.c.c. If $(\Sigma,\supseteq)$ is the poset in [[#^1ab5b8]], then it is denoted as d.c.c. 
+**Remark**. Let $M$ be an $A$-module, and let $\Sigma=\{\mbox{submodule of }M\}$. If $(\Sigma,\subseteq)$ is the poset in [[MATH/交换代数/Nodes/6 Chain Condition#^1ab5b8\|#^1ab5b8]], then it is denoted as a.c.c. If $(\Sigma,\supseteq)$ is the poset in [[MATH/交换代数/Nodes/6 Chain Condition#^1ab5b8\|#^1ab5b8]], then it is denoted as d.c.c. 
 
 > [!definition]
 > If $M$ satisfies a.c.c., then we say $M$ is a Noetherian $A$-module. 
@@ -153,13 +153,13 @@ Indeed, if $M_{i-1}/M_i$ is not simple, then we can strictly add a module $M_{i-
 **_Proof._**
 "->" Both acc and dcc are satisfied because the length of a chain is bounded by Step 2 above.
 
-"<-" $M$ is Noetherian yields $M$ has a proper maximal submodule $M_1$. Then $M_1$ is Noetherian by [[#^a5f817]] and it has a proper maximal submodule $M_2$. The process stops by $M$ Artinian. Since $M_{i}$ is a maximal submodule of $M_{i-1}$, $M_{i-1}/M_{i}$ is simple. Thus, $M$ has a finite length composition series.
+"<-" $M$ is Noetherian yields $M$ has a proper maximal submodule $M_1$. Then $M_1$ is Noetherian by [[MATH/交换代数/Nodes/6 Chain Condition#^a5f817\|#^a5f817]] and it has a proper maximal submodule $M_2$. The process stops by $M$ Artinian. Since $M_{i}$ is a maximal submodule of $M_{i-1}$, $M_{i-1}/M_{i}$ is simple. Thus, $M$ has a finite length composition series.
 □
 
 **Remark.** For $\mathbb{Z}$-module $\mathbb{Z}$, $\mathbb{Z}\supseteq(2)\supseteq (4)\supseteq (8)\supseteq \cdots$ has a infinite length composition series, and it is not an Artinian ring.
 
 > [!definition]
-> If $M$ satisfies [[#^a89d3d]], then call it *a module of finite length*. Denote $\ell(M)$ as the length of any composition series. 
+> If $M$ satisfies [[MATH/交换代数/Nodes/6 Chain Condition#^a89d3d\|#^a89d3d]], then call it *a module of finite length*. Denote $\ell(M)$ as the length of any composition series. 
 
  **Fact (Jordan-Holder theorem for modules of finite length).** if $\left(M_i\right)_{0<1<\pi}$ and $\left(M_i^{\prime}\right)_{0<1<n}$ are any two composition series of $M$, there is a one-to-one correspondence between the set of quotients $\left(M_{i-1} / M_i\right)_{1<1<n}$ and the set of quotients $\left(M_{i-1}^{\prime} / M_i^{\prime}\right)_{1<1<n}$, such that corresponding quotients are isomorphic. The proof is the same as for finite groups.
 { #yj9lim}
@@ -171,7 +171,7 @@ Indeed, if $M_{i-1}/M_i$ is not simple, then we can strictly add a module $M_{i-
 > - in this case, $\ell(M)=\ell(M')+\ell(M'')$.
 
 **_Proof._**
-i) By [[#^a5f817]] and [[#^a89d3d]]. 
+i) By [[MATH/交换代数/Nodes/6 Chain Condition#^a5f817\|#^a5f817]] and [[MATH/交换代数/Nodes/6 Chain Condition#^a89d3d\|#^a89d3d]]. 
 
 ii) Let $M'=M_0'\supset M_1'\supset\cdots\supset M'_{\ell(M')}=0$ and $M''=M_0''\supset M_1''\supset\cdots\supset M_{\ell(M'')}''=0$ be composition series. Then it is easy to show 
 
@@ -217,7 +217,7 @@ Consider the chain
 
 $$A\supsetneq m_1\supseteq m_1m_2\supseteq\cdots\supseteq m_1\cdots m_n=0,$$
 
-where each factor $m_1\cdots m_{i-1}/m_1\cdots m_i$ is a $A/m_i$-module as $m_i$ acts on $m_1\cdots m_{i-1}/m_1\cdots m_i$ trivially. Remark that $A/m_i:=k_i$ is a field. By [[#^e2295f]], for each factor we have "acc iff dcc". By [[#^a5f817]], $A$ also satisfies "acc iff dcc".
+where each factor $m_1\cdots m_{i-1}/m_1\cdots m_i$ is a $A/m_i$-module as $m_i$ acts on $m_1\cdots m_{i-1}/m_1\cdots m_i$ trivially. Remark that $A/m_i:=k_i$ is a field. By [[MATH/交换代数/Nodes/6 Chain Condition#^e2295f\|#^e2295f]], for each factor we have "acc iff dcc". By [[MATH/交换代数/Nodes/6 Chain Condition#^a5f817\|#^a5f817]], $A$ also satisfies "acc iff dcc".
 □
 
 

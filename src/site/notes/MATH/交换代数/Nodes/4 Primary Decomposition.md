@@ -84,7 +84,7 @@ ii) Let $y\in (q:x)$, then $xy\in q$. Since $x\notin q$, there is $y\in r(q)=p$.
 
 > [!definition]
 > A primary decomposition of ideal $\alpha\subseteq A$ is an expression $\alpha=\cap_{i=1}^n q_i$ for finitely many primary ideal. 
-> - If it exists, then we can apply [[#^188cbb]] and assume $r(q_i)=p_i$ are all distinct. $(*)$
+> - If it exists, then we can apply [[MATH/交换代数/Nodes/4 Primary Decomposition#^188cbb\|#^188cbb]] and assume $r(q_i)=p_i$ are all distinct. $(*)$
 > - We can also "throw away" the big deals, that is, we can assume for all $i$, $q_i\not\supseteq\cap _{j\neq i}q_j$. $(**)$
 > 
 > We call a decomposition satisfying $(*)$ and $(**)$ a minimal decomposition. 
@@ -110,7 +110,7 @@ ii) Let $y\in (q:x)$, then $xy\in q$. Since $x\notin q$, there is $y\in r(q)=p$.
 **_Proof._**
 **Step 1.** Show LHS $(*)\supseteq$ RHS $(*)$. 
 
-For $x\in A$, one have $(\alpha:x)=\cap_{i=1}^n (q_i:x)$. It deduces $r(\alpha:x)=\cap_{i=1}^n r(q_i:x)$. By [[#^2df6cb]],  
+For $x\in A$, one have $(\alpha:x)=\cap_{i=1}^n (q_i:x)$. It deduces $r(\alpha:x)=\cap_{i=1}^n r(q_i:x)$. By [[MATH/交换代数/Nodes/4 Primary Decomposition#^2df6cb\|#^2df6cb]],  
 
 $$\cap_{i=1}^n r(q_i:x)=\cap_{x\notin q_j}p_j.$$
 
@@ -118,12 +118,12 @@ Now suppose $r(\alpha:x)\in\text{RHS}(*)$, that is, $\cap_{x\notin q_j}p_j=p$ pr
 
 **Step 2.** Show LHS $(*)\subseteq$ RHS $(*)$. 
 
-Take $p_i\in \text{LHS}$. Suppose $\alpha=\cap _{i=1}^n q_i$ is a minimal decomposition. Then there exists $x\notin q_i$ such that $x=\cap_{j\neq i}q_j$. By [[#^2df6cb]], $r(\alpha:x)=\cap_{i=1}^nr(q_i:x)=r(q_i:x)=p_i$ and so $p_i\in \text{RHS}$. 
+Take $p_i\in \text{LHS}$. Suppose $\alpha=\cap _{i=1}^n q_i$ is a minimal decomposition. Then there exists $x\notin q_i$ such that $x=\cap_{j\neq i}q_j$. By [[MATH/交换代数/Nodes/4 Primary Decomposition#^2df6cb\|#^2df6cb]], $r(\alpha:x)=\cap_{i=1}^nr(q_i:x)=r(q_i:x)=p_i$ and so $p_i\in \text{RHS}$. 
 □
 
 
 > [!definition]
-> In [[#^3049a9]], we call $\{p_1,\cdots,p_n\}$ the associated primes of $\alpha$; or say $p_1,\cdots,p_n$ belong to $\alpha$. 
+> In [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], we call $\{p_1,\cdots,p_n\}$ the associated primes of $\alpha$; or say $p_1,\cdots,p_n$ belong to $\alpha$. 
 
 **Example.** $\alpha=(x^2,xy)=(x)\cap(x,y)^2$ is a minimal decomposition;
 
@@ -154,7 +154,7 @@ In remains to show, if $p_i$ is minimal element in $\{p_1,\cdots,p_n\}$, then $p
 Recall that
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/交换代数/Nodes/1 Rings and Ideals/#gz1sp0" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/1-rings-and-ideals/#gz1sp0" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -168,11 +168,11 @@ and an irreducible component is defined as a maximal irreducible subspace.
 
 - [ ] In general, irreducible component of $\mathrm{Spec}A$ are $V(p)$'s where $p$ is a minimal prime ideal.
 
-If $\alpha$ is decomposable, then by [[#^6e2c2b]], $\mathrm{Spec}(A/\alpha)$ has finitely many irreducible components. 
+If $\alpha$ is decomposable, then by [[MATH/交换代数/Nodes/4 Primary Decomposition#^6e2c2b\|#^6e2c2b]], $\mathrm{Spec}(A/\alpha)$ has finitely many irreducible components. 
 
 **Example.** $k[x,y]\supseteq \alpha=(x^2,xy)=(x)\cap (x,y)^2$, then $(x)$ is the minimal associated prime ideal.
 
-**Remark.** So above discussion, together with [[#^6e2c2b]] tells us, to compute irreducible components of $\mathrm{Spec}(A/\alpha)$, it suffices to find a primary decomposition of $\alpha$. 
+**Remark.** So above discussion, together with [[MATH/交换代数/Nodes/4 Primary Decomposition#^6e2c2b\|#^6e2c2b]] tells us, to compute irreducible components of $\mathrm{Spec}(A/\alpha)$, it suffices to find a primary decomposition of $\alpha$. 
 
 **Remark.** Consider the closed subspace $V(\alpha)\subseteq \mathrm{Spec}(A)$ with induced topology, also $\mathrm{Spec}(A/\alpha)$ with its own topology. Then the map 
 
@@ -192,14 +192,14 @@ $(\alpha:x)\neq \alpha$ iff $(\overline 0:\overline x)\neq \overline 0$ in $A/\a
 
 So WLOG we can assume $\alpha=0$. 
 
-So $D=\cup_{x\neq 0}(0:x)=\cup_{x\neq 0}r(0:x)$ because $r(D)=D$. Since $0=\cap_{i=1}^n q_i$, in the proof of [[#^3049a9]], $r(0:x)=\cap _{x\notin q_j}p_j\subseteq p_j$ for some $j$. Then $D\subseteq \cup_{i=1}^n p_i$. 
+So $D=\cup_{x\neq 0}(0:x)=\cup_{x\neq 0}r(0:x)$ because $r(D)=D$. Since $0=\cap_{i=1}^n q_i$, in the proof of [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], $r(0:x)=\cap _{x\notin q_j}p_j\subseteq p_j$ for some $j$. Then $D\subseteq \cup_{i=1}^n p_i$. 
 
-Also by [[#^3049a9]], each $p_i=r(0:x)$ with $x\notin q_i$, $x\notin \cap_{j\neq i}p_j$. Then $\cup_{i=1}^n p_i\subseteq D$
+Also by [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], each $p_i=r(0:x)$ with $x\notin q_i$, $x\notin \cap_{j\neq i}p_j$. Then $\cup_{i=1}^n p_i\subseteq D$
 □
 # Part 2 of Chapter 7: primary decomposition in Noetherian rings
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/MATH/交换代数/Nodes/7 Noetherian Rings/#primary-decomposition" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/7-noetherian-rings/#primary-decomposition" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -234,7 +234,7 @@ Since $(0)$ is irreducible and $(y)\neq 0$, we have $(x^n)=(0)$ and so we finish
 > [!theorem]
 > A Noetherian proper ideals have primary decomposition.  
 **_Proof._**
-By [[#^98d425]] and [[#^3e8c56]]. 
+By [[MATH/交换代数/Nodes/4 Primary Decomposition#^98d425\|#^98d425]] and [[MATH/交换代数/Nodes/4 Primary Decomposition#^3e8c56\|#^3e8c56]]. 
 □
 
 
@@ -249,7 +249,7 @@ Suppose $r(\alpha)$ is finitely generated by $x_1,\cdots,x_k$ with $x_i^n\in \al
 > For a Noetherian ring $A$, then there exists $n$ such that $(\mathrm{Nil}(A))^n=0$. 
 
 **_Proof._**
-Take $\alpha=(0)$ in [[#^384015]]. 
+Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]. 
 □
 
 
@@ -264,7 +264,7 @@ i)->ii) by definition.
 
 - [ ] ii)->i) by 4 ? 这个证明没看懂
 
-ii)->iii) by [[#^384015]]
+ii)->iii) by [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]
 
 iii)->ii) obvious.
 □

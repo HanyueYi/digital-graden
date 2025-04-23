@@ -22,7 +22,7 @@ We can prove that:
 > If $f(x)$ is measurable in $\mathbb{R}^n$, then the function $F(x, t)=f(x-t)$ is measurable in $\mathbb{R}^n \times \mathbb{R}^n=\mathbb{R}^{2 n}$.
 
 **_Proof._**
-Define $g(x,t)=f(x)$, then $g$ is measurable because $g^{-1}((a,\infty))=\{x\in \mathbb{R}^n:f(x)>a\}\times \mathbb{R}^n$. Define $T(x,t)=(x-t,x+t)$, then $T$ is Lipschitz. Note that $F(x,t)=g\circ T(x,t)$ and $F^{-1}((a,\infty))=T^{-1}\circ g^{-1}((a,\infty))$ is measurable by [[#^179d20]]. Thus $F$ is measurable.
+Define $g(x,t)=f(x)$, then $g$ is measurable because $g^{-1}((a,\infty))=\{x\in \mathbb{R}^n:f(x)>a\}\times \mathbb{R}^n$. Define $T(x,t)=(x-t,x+t)$, then $T$ is Lipschitz. Note that $F(x,t)=g\circ T(x,t)$ and $F^{-1}((a,\infty))=T^{-1}\circ g^{-1}((a,\infty))$ is measurable by [[MATH/测度论/Nodes/14 Fractional Integral and Hardy-Littlewood-Sobolev Inequality#^179d20\|#^179d20]]. Thus $F$ is measurable.
 □
 
 
@@ -104,7 +104,7 @@ See [[Measure  Theory    (Xia).pdf#page=101&selection=421,0,422,1|here]].
 - 现在考虑一般的 $f$，注意到 $\left\|I_\alpha f\right\|_q \leq\left\|I_\alpha(|f|)\right\|_q$ 就可以了。
 □
 
-**Remark.** Here is a motivation of [[#^z20dwo]]. Define 
+**Remark.** Here is a motivation of [[MATH/测度论/Nodes/14 Fractional Integral and Hardy-Littlewood-Sobolev Inequality#^z20dwo\|#^z20dwo]]. Define 
 { #3qk3we}
 
 

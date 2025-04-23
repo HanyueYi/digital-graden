@@ -35,5 +35,5 @@ Define the canonical map as $\pi:G\to G/H,\ g\mapsto \overline g$. If $G/H$ is a
 > A group is [[MATH/Cards/Nodes/Solvable Group\|solvable]] if and only if all its composition factors are abelian.
 
 **_Proof._**
-Let $G$ be a group and let $1=H_0\lhd \dots\lhd H_n=G$ be a [[MATH/Cards/Nodes/Composition Series\|composition series]] of $G$. We prove the proposition by induction. Assume that the statement is true when the order of group is less than $|G|$. Since $G/H_{n-1}\cong \mathbb{Z}_p$ for some prime $p$, there is $H_{n-1}\geqslant G'$ by [[#^n7ko5p]]. By induction hypothesis $H_{n-1}$ is solvable and so for $G'$. Therefore, the group $G$ is a solvable group. 
+Let $G$ be a group and let $1=H_0\lhd \dots\lhd H_n=G$ be a [[MATH/Cards/Nodes/Composition Series\|composition series]] of $G$. We prove the proposition by induction. Assume that the statement is true when the order of group is less than $|G|$. Since $G/H_{n-1}\cong \mathbb{Z}_p$ for some prime $p$, there is $H_{n-1}\geqslant G'$ by [[MATH/Cards/Nodes/Solvable Group#^n7ko5p\|#^n7ko5p]]. By induction hypothesis $H_{n-1}$ is solvable and so for $G'$. Therefore, the group $G$ is a solvable group. 
 □

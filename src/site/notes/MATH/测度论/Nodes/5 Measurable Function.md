@@ -74,7 +74,7 @@ Note that $f_i=\pi_i\circ f$ and $\pi_i$ is continuous, then $f_i$ is measurable
 
 $$f^{-1}(Q(a,b))=\cap\{x\in X:f_i(x)\in(a_i,b_i)\}=\cap f_i^{-1}((a_i,b_i))\in\mathcal{A} .$$
 
-Since any open subset in $\mathbb{R}^n$ is a countable union of the set $Q(a,b)$ by [[#^2bca2c]], then $f$ is measurable.
+Since any open subset in $\mathbb{R}^n$ is a countable union of the set $Q(a,b)$ by [[MATH/测度论/Nodes/5 Measurable Function#^2bca2c\|#^2bca2c]], then $f$ is measurable.
 □
 
 > [!proposition]
@@ -109,7 +109,7 @@ Since $f:=(u,v)$ and $\phi$ are measurable, then $h$ is measurable.
 
 
 **_Proof._**
-i) By [[#^12414f]].
+i) By [[MATH/测度论/Nodes/5 Measurable Function#^12414f\|#^12414f]].
 
 ii) Define $g:=\sup _k f_k: X \rightarrow \overline{\mathbb{R}}$ and let $a \in \mathbb{R}$. Then the set
 
@@ -133,7 +133,7 @@ are also measurable.
 > If $f_n:X\to \overline {\mathbb{R}}$ is measurable and $f_n(x)\to f(x)$ for all $x$, then $f:X\to \mathbb{R}$ is measurable.
 
 **_Proof._**
-By [[#^e11178]], ii).
+By [[MATH/测度论/Nodes/5 Measurable Function#^e11178\|#^e11178]], ii).
 □
 
 > [!proposition]

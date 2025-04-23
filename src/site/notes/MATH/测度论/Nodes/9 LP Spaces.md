@@ -27,7 +27,7 @@ Let $f=x^p/p-xb$ and consider its critical points.
 
 
 **_Proof._**
-For Holder inequality, assume that $\|f\|_p=\|g\|_q=1$ and use [[#^bbb4ba]].
+For Holder inequality, assume that $\|f\|_p=\|g\|_q=1$ and use [[MATH/测度论/Nodes/9 LP Spaces#^bbb4ba\|#^bbb4ba]].
 
 For Minkowski inequality, we can suppose that $\|f\|_p<\infty$ and $\|g\|_q<\infty$. It deduces that $\|f+g\|_p<\infty$ by $f,g\leqslant(f^p+g^p)^{1/p}$ and $(f+g)^p\leqslant 2^p(f^p+g^p)$. Then by Holder inequality, there is
 
@@ -186,7 +186,7 @@ Now assume that $p=\infty$. Define $E=\{x:|f(x)|>||f||_\infty\}$, then $\mu(E)=0
 >
 > $$T_g(f)=\int_X f g d \mu, f \in L^p(\mu) .$$
 
-Since $|T_g(f)|\leqslant ||f||_p||g||_q$ by [[#^cef2ff]], we have $||T_g||\leqslant ||g||_q$ and so $T_g\in L^p(\mu)^*$. 
+Since $|T_g(f)|\leqslant ||f||_p||g||_q$ by [[MATH/测度论/Nodes/9 LP Spaces#^cef2ff\|#^cef2ff]], we have $||T_g||\leqslant ||g||_q$ and so $T_g\in L^p(\mu)^*$. 
 
 
 > [!lemma]
@@ -229,7 +229,7 @@ Since $T_g,T\in L^p(\mu)^*$ and $T(s)=T_g(s)$ for any simple measurable function
 
 
 **_Proof._**
-Let $\{E_i\}\subseteq \mathcal{A}$ with $\mu(E_i)<\infty$ and $E_i\uparrow X$. We identity $L^p(E_n)$ as a subspace of $L^p(X)$. By [[#^051f47]], there exists $g_n\in L^q(E_n)\subseteq L^q(X)$ such that $T(f)=\int_{E_n}fg_n$ for all $f\in L^p(E_n)$. Note that $g_{n+1}=g_n$ almost everywhere on $E_n$. Define $g:X\to R$ such that $g(x)=g_n(x)$ for $x\in E_n$. Claim that $T(f)=\int_{X}fgd\mu$ for all $f\in L^p(X)$. 
+Let $\{E_i\}\subseteq \mathcal{A}$ with $\mu(E_i)<\infty$ and $E_i\uparrow X$. We identity $L^p(E_n)$ as a subspace of $L^p(X)$. By [[MATH/测度论/Nodes/9 LP Spaces#^051f47\|#^051f47]], there exists $g_n\in L^q(E_n)\subseteq L^q(X)$ such that $T(f)=\int_{E_n}fg_n$ for all $f\in L^p(E_n)$. Note that $g_{n+1}=g_n$ almost everywhere on $E_n$. Define $g:X\to R$ such that $g(x)=g_n(x)$ for $x\in E_n$. Claim that $T(f)=\int_{X}fgd\mu$ for all $f\in L^p(X)$. 
 
 Note that $f\chi_{E_n}\to f$ in $L^p$, $T(f\chi_{E_n})\to T(f)$ and so $T(f)=\int_Xfgd\mu$. 
 □

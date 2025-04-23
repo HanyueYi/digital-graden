@@ -41,5 +41,5 @@ Let $Z$ be the centralizer of $N$. Since $N$ is abelian, $Z\geq N$ and so $Z$ is
 
 
 **_Proof._**
-By [[#^9gl6q2|Lemma 1]], $X$ has at most two minimal normal subgroup $K_1,K_2$ and they are interchanges by an involution. Thus $K_1\cong K_2$ and so $B=K_1\times K_2\cong T^k$ with $k\geq 1$ where $T$ is a simple group.
+By [[MATH/Cards/Nodes/Minimal Normal Subgroups of Permutation Groups#^9gl6q2\|Lemma 1]], $X$ has at most two minimal normal subgroup $K_1,K_2$ and they are interchanges by an involution. Thus $K_1\cong K_2$ and so $B=K_1\times K_2\cong T^k$ with $k\geq 1$ where $T$ is a simple group.
 □

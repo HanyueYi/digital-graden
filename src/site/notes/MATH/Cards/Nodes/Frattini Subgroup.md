@@ -66,9 +66,9 @@ Hence, $PD/D\lhd G/D$ and $PD\lhd G$. It follows that $PD\lhd N$. By [[MATH/Card
 
 
 **_Proof._**
-(i) Taking $N=D=\Phi(G)$. Then by [[#^124c42]] $N$ is nilpotent.
+(i) Taking $N=D=\Phi(G)$. Then by [[MATH/Cards/Nodes/Frattini Subgroup#^124c42\|#^124c42]] $N$ is nilpotent.
 
-(ii) Let $N=G$ and $D=\Phi(G)$. Then $N/D=G/\Phi(G)$ is nilpotent iff $N=G$ is nilpotent, by [[#^124c42]].
+(ii) Let $N=G$ and $D=\Phi(G)$. Then $N/D=G/\Phi(G)$ is nilpotent iff $N=G$ is nilpotent, by [[MATH/Cards/Nodes/Frattini Subgroup#^124c42\|#^124c42]].
 
 (iii) Suppose $G$ is nilpotent. Let $M$ be the maximal subgroup of $G$. Then $M\lhd G$ and $G/M\cong \mathbb{Z}_p$ is abelian. Thus $M\geqslant G'$. By the arbitrary of $M$, we have that $G'\leqslant\Phi(G)$. Conversely, assume that $G'\leqslant\Phi(G)$. Then $G/\Phi(G)$ is abelian and so is nilpotent. Then by (ii), $G$ is nilpotent.
 □
@@ -81,11 +81,11 @@ Hence, $PD/D\lhd G/D$ and $PD\lhd G$. It follows that $PD\lhd N$. By [[MATH/Card
 
 
 **_Proof._**
-Since $G$ is a $p$-group, then $G$ is nilpotent. Thus $\Phi(G)\geqslant G'$ by [[#^395831]] (iii), and so $G/\Phi(G)$ is abelian. If there is a $\overline g\in G/\Phi(G)$ with $|\overline g|$ is not a prime, then $\overline g^a$ is a non-generator with $|\overline g|=ab$, which contradicts with [[#^7vww3g]]. Therefore, $G/\Phi(G)$ is elementary abelian.
+Since $G$ is a $p$-group, then $G$ is nilpotent. Thus $\Phi(G)\geqslant G'$ by [[MATH/Cards/Nodes/Frattini Subgroup#^395831\|#^395831]] (iii), and so $G/\Phi(G)$ is abelian. If there is a $\overline g\in G/\Phi(G)$ with $|\overline g|$ is not a prime, then $\overline g^a$ is a non-generator with $|\overline g|=ab$, which contradicts with [[MATH/Cards/Nodes/Frattini Subgroup#^7vww3g\|#^7vww3g]]. Therefore, $G/\Phi(G)$ is elementary abelian.
 
 Assume that $N\lhd G$ is a normal subgroup of $G$ and $G/N$ is elementary abelian. It remains to show $N\geqslant\Phi(G)$. Suppose that $G/N=\left\langle\overline{g_1}\right\rangle\times \cdots\times\left\langle\overline{g_m}\right\rangle\cong \mathbb{Z}_p^m$. For any preimage $g_i\in G$ of $\overline{g_i}$, $g_i$ is not a non-generator of $G$ because $\left\langle g_1,\cdots,g_m,N\right\rangle=G$ and $\left\langle g_1,\cdots,\check g_i,\cdots,g_m,N\right\rangle\neq G$. Therefore, if $g\in G\setminus N$, then $g$ is not a non-generator and so $N\geqslant\Phi(G)$. 
 
-For the "moreover" part, since $G/\Phi(G)\cong \mathbb{Z}_p^k$ for some $k$, it can be seen as a linear space and it has a basis $\{\overline e_1,\cdots,\overline e_k\}$. Let $\{e_1,\cdots,e_k\}$ be a set of preimage of $G\to G/\Phi(G)$. Then $\left\langle e_1,\cdots,e_k,\Phi(G)\right\rangle=G$ and so $\left\langle e_1,\cdots,e_k\right\rangle =G$ by [[#^7vww3g]]. 
+For the "moreover" part, since $G/\Phi(G)\cong \mathbb{Z}_p^k$ for some $k$, it can be seen as a linear space and it has a basis $\{\overline e_1,\cdots,\overline e_k\}$. Let $\{e_1,\cdots,e_k\}$ be a set of preimage of $G\to G/\Phi(G)$. Then $\left\langle e_1,\cdots,e_k,\Phi(G)\right\rangle=G$ and so $\left\langle e_1,\cdots,e_k\right\rangle =G$ by [[MATH/Cards/Nodes/Frattini Subgroup#^7vww3g\|#^7vww3g]]. 
 □
 
 

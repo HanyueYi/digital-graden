@@ -48,7 +48,7 @@ With the remark above, we know $f^*$ is measurable.
 
 
 **_Proof._**
-Let $E_\alpha=\left\{x \in \mathbb{R}^n: f^*(x)>\alpha\right\}$. For each $x \in E_\alpha$, there exists $r_x>0$ such that $A_{r_x}|f|(x)>\alpha$ and so the balls $B\left(x, r_x\right)$ cover $E_\alpha$. By [[#^e42f5f]], for any $c<m(E_\alpha)$, there are finite disjoint balls $B_j=B\left(x_j, r_{x_j}\right)$ satisfying $\sum_{j=1}^k m\left(B_j\right)>3^{-n} c$. It deduces that
+Let $E_\alpha=\left\{x \in \mathbb{R}^n: f^*(x)>\alpha\right\}$. For each $x \in E_\alpha$, there exists $r_x>0$ such that $A_{r_x}|f|(x)>\alpha$ and so the balls $B\left(x, r_x\right)$ cover $E_\alpha$. By [[MATH/测度论/Nodes/12 the Maximal Theorem#^e42f5f\|#^e42f5f]], for any $c<m(E_\alpha)$, there are finite disjoint balls $B_j=B\left(x_j, r_{x_j}\right)$ satisfying $\sum_{j=1}^k m\left(B_j\right)>3^{-n} c$. It deduces that
 
 $$c<3^n \sum_{j=1}^k m\left(B_j\right) \leqslant \frac{3^n}{\alpha} \sum_{j=1}^k \int_{B_j}|f| d m \leqslant \frac{3^n}{\alpha} \int_{\mathbb{R}^n}|f| d m .$$
 
@@ -87,7 +87,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=85&selection=642,0,642,6|here]].
 > If $f \in L_{\text {loc }}^1$, then $m\left(\left(L_f\right)^c\right)=0$.
 
 **_Proof._**
-For each $c \in \mathbb{C}$, define $g_c(x)=|f(x)-c|$. By [[#^34aaa4]], there is
+For each $c \in \mathbb{C}$, define $g_c(x)=|f(x)-c|$. By [[MATH/测度论/Nodes/12 the Maximal Theorem#^34aaa4\|#^34aaa4]], there is
 
 $$\lim _{r \rightarrow 0} \frac{1}{m(B(x, r))} \int_{B(x, r)}|f(y)-c| d y=|f(x)-c|, \forall x\in E_c^c\mbox{ with }m(E_c)=0.$$
 
@@ -130,7 +130,7 @@ then $g \in L^1\left(\mathbb{R}^n\right)$. Also, we have $\|f-g\|_{\infty} \leqs
 
 $$\left\{x \in \mathbb{R}^n: f^*(x)>\alpha\right\} \subset\left\{x \in \mathbb{R}^n: g^*(x)>\alpha / 2\right\}.$$
 
-For any $\alpha>0$, define $h(\alpha)=\left|\left\{x \in \mathbb{R}^n: f^*(x)>\alpha\right\}\right|$ as the distribution function of $f^*$. Then by [[#^vufshf]], there is
+For any $\alpha>0$, define $h(\alpha)=\left|\left\{x \in \mathbb{R}^n: f^*(x)>\alpha\right\}\right|$ as the distribution function of $f^*$. Then by [[MATH/测度论/Nodes/12 the Maximal Theorem#^vufshf\|#^vufshf]], there is
 
 $$
 \begin{aligned}

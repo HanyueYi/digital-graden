@@ -81,7 +81,7 @@ We have done.
 $$
 
 **_Proof._**
-By [[MATH/测度论/Nodes/6 Convergence of Measurable Functions#^n03bsd\|6 Convergence of Measurable Functions#^n03bsd]], there exist $0\leqslant s_1\leqslant s_2\leqslant\cdots$ and $0\leqslant t_1\leqslant t_2\leqslant\cdots$ such that $s_i(x)\to f(x)$ and $t_i(x)\to g(x)$. Then by [[#^33d8fd]], $\int_X s_i+t_i=\int_X s_i+\int_X t_i$. It follows that 
+By [[MATH/测度论/Nodes/6 Convergence of Measurable Functions#^n03bsd\|6 Convergence of Measurable Functions#^n03bsd]], there exist $0\leqslant s_1\leqslant s_2\leqslant\cdots$ and $0\leqslant t_1\leqslant t_2\leqslant\cdots$ such that $s_i(x)\to f(x)$ and $t_i(x)\to g(x)$. Then by [[MATH/测度论/Nodes/7 Integration#^33d8fd\|#^33d8fd]], $\int_X s_i+t_i=\int_X s_i+\int_X t_i$. It follows that 
 
 $$\int_X(f+g)=\lim_{n\to\infty}\int_X(s_n+t_n)=\lim_{n\to\infty}(\int_Xs_n+\int_X t_n)=\int_Xf+\int_Xg.$$
 
@@ -287,7 +287,7 @@ Easy.
 > Let $(X, \mathcal{A}, \mu)$ be a measure space and $f$ a nonnegative measurable function on $X$ for which $\int_X f d \mu<\infty$. Then $f$ is finite a.e. on $X$ and $\{x \in X: f(x)>0\}$ is $\sigma$-finite.
 
 **_Proof._**
-By [[#^ceec71]]. 
+By [[MATH/测度论/Nodes/7 Integration#^ceec71\|#^ceec71]]. 
 □
 
 > [!proposition]
@@ -304,7 +304,7 @@ Since $\{x:f(x)>0\}=\cup_{n=1}^\infty \{x:f(x)>1/n\}$, we have $0=\int_X f\geqsl
 > Suppose $f$ is real-valued and integrable and for every measurable set $A$ we have $\int_A f d \mu=0$. Then $f=0$ almost everywhere.
 
 **_Proof._**
-Let $A=\{x:f(x)>0\}$, and let $B=\{x:f(x)<0\}$. By [[#^ra34bw]], $f=0$ almost everywhere on both $A$ and $B$. Now we finish the proof.
+Let $A=\{x:f(x)>0\}$, and let $B=\{x:f(x)<0\}$. By [[MATH/测度论/Nodes/7 Integration#^ra34bw\|#^ra34bw]], $f=0$ almost everywhere on both $A$ and $B$. Now we finish the proof.
 □
 
 # VCT

@@ -12,7 +12,7 @@ Assume $(V,B)$ is an [[MATH/Classical Groups/Nodes/1 Sesquilinear Form#^6hwkgu\|
 > [!theorem]
 > Suppose $(V,Q)$ is a non-degenerated orthogonal space and $B$ is the corresponding symmetric form. Then there exist $e_1,\cdots,e_n$ such that $(B(e_i,e_j))$ is $I_n$ or $\mathrm{diag}(1,\cdots,1,\alpha)$, where $\alpha\in F$ is a non-square element.
 
-**Remark.** If there are $e_1,e_2$ satisfying $B(e_1,e_1)=B(e_2,e_2)=\alpha$ where $\alpha$ is non-square. By [[#^b21b58]], there exist $b,c\in F$ such that $\alpha^{-1}=b^2+c^2$. Let $e_1'=be_1+ce_2$ and $e_2'=ce_1-be_2$. Then $B(e_1',e_1')=B(e_2',e_2')=1$. 
+**Remark.** If there are $e_1,e_2$ satisfying $B(e_1,e_1)=B(e_2,e_2)=\alpha$ where $\alpha$ is non-square. By [[MATH/Classical Groups/Nodes/4 Orthogonal Space and Orthogonal Groups#^b21b58\|#^b21b58]], there exist $b,c\in F$ such that $\alpha^{-1}=b^2+c^2$. Let $e_1'=be_1+ce_2$ and $e_2'=ce_1-be_2$. Then $B(e_1',e_1')=B(e_2',e_2')=1$. 
 
 > [!lemma]
 > If $\mathrm{char}F\neq 2$, then for any $a\in F^\times$, there are $b,c\in F$ satisfying $b^2+c^2=a$.
@@ -55,7 +55,7 @@ Note that:
 
 The general orthogonal group $\mathrm{GO}(V,f)$ is defined as the group of isometries of non-singular symmetric bilinear form $f$. Let $\alpha$ be a non-square element.
 
-When $\dim V=2m+1$ is odd, by [[#^171a94]], $V$ can be decomposed as $V=H_1\oplus\cdots\oplus H_m\oplus V'$, where $V'$ is congruent to $[1]$ or $[\alpha]$. Note that if $f$ is congruent to $I_n$, then $\alpha f$ is congruent to $\mathrm{diag}(1,\cdots,1,a)$ and vice versa. Moreover, we have $\mathrm{GO}(V,f)=\mathrm{GO}(V,\alpha f)$. So there is only one orthogonal group.
+When $\dim V=2m+1$ is odd, by [[MATH/Classical Groups/Nodes/4 Orthogonal Space and Orthogonal Groups#^171a94\|#^171a94]], $V$ can be decomposed as $V=H_1\oplus\cdots\oplus H_m\oplus V'$, where $V'$ is congruent to $[1]$ or $[\alpha]$. Note that if $f$ is congruent to $I_n$, then $\alpha f$ is congruent to $\mathrm{diag}(1,\cdots,1,a)$ and vice versa. Moreover, we have $\mathrm{GO}(V,f)=\mathrm{GO}(V,\alpha f)$. So there is only one orthogonal group.
 
 When $\dim V=2m$ is even, then $f$ is either of plus type or minus type. So there are two orthogonal groups. If $f$ is of plus type we write $\mathrm{GO}_{2m}^+(q)$ for $\mathrm{GO}(V,f)$, while if $f$ is of minus type we write $\mathrm{GO}_{2m}^-(q)$. 
 

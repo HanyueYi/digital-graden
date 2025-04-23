@@ -96,7 +96,7 @@ To show $f$ injective, let $f(x)=0$. Note that $x=\sum_{i=1}^n a_i/s_i\otimes m_
 
 
 **_Proof._**
-By [[#^092787]] and [[#^d61f0b]].
+By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^092787\|#^092787]] and [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^d61f0b\|#^d61f0b]].
 □
 
 
@@ -106,7 +106,7 @@ By [[#^092787]] and [[#^d61f0b]].
 
 
 **_Proof._**
-By [[#^d61f0b]], we have 
+By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^d61f0b\|#^d61f0b]], we have 
 
 $$\begin{aligned}
 S^{-1}M\otimes_{S^{-1}A} S^{-1}N&\simeq (M\otimes_A S^{-1}A)\otimes_{S^{-1}A}(N\otimes_A S^{-1}A)\\&=M\otimes _A N\otimes _AS^{-1}A\\
@@ -152,11 +152,11 @@ Consider $M\to M_m=M\otimes_A (A-m)^{-1}A,x\mapsto x\otimes 1$. Since $M_m=0$, $
 
 
 **_Proof._**
-i)->ii) Recall $M_p\simeq M\otimes_A A_p$ and by [[#^8p663h]].
+i)->ii) Recall $M_p\simeq M\otimes_A A_p$ and by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^8p663h\|#^8p663h]].
 
 ii)->iii) Trivial. 
 
-iii)->i) Let $P=\ker \phi$. Then $0\to P\to M\to N$ is left exact. For any maximal ideal $m$, $A_m$ is flat $A$-module yields that $0\to P_m\to M_n\to N_n$ is left exact. It deduces that $P_m=0$ and so $P=0$ by [[#^663ccb]]. 
+iii)->i) Let $P=\ker \phi$. Then $0\to P\to M\to N$ is left exact. For any maximal ideal $m$, $A_m$ is flat $A$-module yields that $0\to P_m\to M_n\to N_n$ is left exact. It deduces that $P_m=0$ and so $P=0$ by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^663ccb\|#^663ccb]]. 
 □
 
 
@@ -171,7 +171,7 @@ i)->ii) Given injective homomorphism $X\hookrightarrow Y$ of $A_p$-module, we ai
 
 ii)->iii) is trivial. 
 
-iii)->i) Suppose $N\hookrightarrow P$ is an injective homomorphism of $A$-modules. By [[#^766550]], it suffices to check injective after localization at any maximal ideal $m$. By [[#^udklm4]], it is same as $N_m\otimes_{A_m} M_m\to P_m\otimes_{A_m}M_m$, which is injective by iii).
+iii)->i) Suppose $N\hookrightarrow P$ is an injective homomorphism of $A$-modules. By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^766550\|#^766550]], it suffices to check injective after localization at any maximal ideal $m$. By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^udklm4\|#^udklm4]], it is same as $N_m\otimes_{A_m} M_m\to P_m\otimes_{A_m}M_m$, which is injective by iii).
 □
 
 
@@ -218,7 +218,7 @@ iii) Recall that $\alpha\in C$ iff $\alpha=(\alpha^e)^c$, it is a HW. See [[MATH
 
 By ii), $\alpha^{ec}=\cup_{s\in S}(\alpha:s)$, where $(\alpha:s)\supseteq \alpha$. Hence $\alpha\in C$ iff $\alpha=\alpha^{ec}$ iff $(\alpha:s)=\alpha$ for all $s\in S$ iff $\forall s\in S$, $s$ is not zero divisor in $A/\alpha$. 
 
-iv) **Step 1. For a given prime ideal $p$ with $p\cap S=\emptyset$, we show $S^{-1}p$ is prime.** Since $0\to p\to A\to A/p\to 0$ is exact, $0\to S^{-1}p\to S^{-1}A\to S^{-1}A/p\to 0$ is also exact by [[#^092787]] and [[#^d61f0b]]. It deduces that $S^{-1}A/S^{-1}p\simeq S^{-1}A/(S^{-1}A\otimes_A p)\simeq S^{-1}A\otimes_A A/p$, and it suffices to show $S^{-1}(A/p)$ is an integral domain. 
+iv) **Step 1. For a given prime ideal $p$ with $p\cap S=\emptyset$, we show $S^{-1}p$ is prime.** Since $0\to p\to A\to A/p\to 0$ is exact, $0\to S^{-1}p\to S^{-1}A\to S^{-1}A/p\to 0$ is also exact by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^092787\|#^092787]] and [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^d61f0b\|#^d61f0b]]. It deduces that $S^{-1}A/S^{-1}p\simeq S^{-1}A/(S^{-1}A\otimes_A p)\simeq S^{-1}A\otimes_A A/p$, and it suffices to show $S^{-1}(A/p)$ is an integral domain. 
 
 It is easy to check $S^{-1}(A/p)\simeq \overline S^{-1}(A/p)$ where $\overline S=\mathrm{im}(S\to A/p)$. Note that $P\cap S=\emptyset$ yields that $0\notin \overline S$. Since $A/p$ is an integral domain and $\overline S$ is a subset without $0$, one have $\overline S^{-1} (A/p)\subseteq \mathrm{Frac}(A/p)$ and so $S^{-1}(A/p)$ is an integral domain.
 
@@ -247,7 +247,7 @@ Now we finish the proof.
 **Remarks.** "Many fields."
 - Let $p\subseteq A$ be a prime ideal. Then $A_p$ is a local ring, where $p^e=(A-p)^{-1}p$ is the unique maximal ideal. It deduces that $A_p/p^e$ is the residue field of $A_p$. In fact, $\mathrm{Frac}(A/p)\simeq A_p/p^e$.
 	- RHS equals $(A-p)^{-1}A/(A-p)^{-1}p=A_p/p\otimes_A A_p=A_p\otimes_A A/p=(A-p)^{-1}(A/p)$
-	- as argument in [[#^961e0a]] iv), it is isomorphic to $(\overline {A-p})^{-1}(A/p)=\mathrm{Frac}(A/p)$, where $\overline {A-p}=\mathrm{im}(A-p\to A/p)=A/p\setminus\{0\}$.
+	- as argument in [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|#^961e0a]] iv), it is isomorphic to $(\overline {A-p})^{-1}(A/p)=\mathrm{Frac}(A/p)$, where $\overline {A-p}=\mathrm{im}(A-p\to A/p)=A/p\setminus\{0\}$.
 	- **Examples.**
 		- $(p)\subseteq \mathbb{Z}$, $\mathbb{Z}_{(p)}=\mathbb{Z}/(\mathbb{Z}-p\mathbb{Z})$ and $\mathbb{Z}_{(p)}/p\mathbb{Z}_{(p)}\simeq \mathbb{F}_p=\mathrm{Frac}(\mathbb{Z}/p)$
 		- $(0)\subseteq \mathbb{Z}$, $\mathbb{Z}_{(0)}=\mathbb{Q}$ and $\mathbb{Q}/(0)=\mathbb{Q}=\mathrm{Frac}(\mathbb{Z}/(0))$. 
@@ -284,17 +284,17 @@ We claim that $p^e\cap S=\emptyset$. If $x\in p^e\cap S$, then $f^{-1}(x)\cap A-
 
 This implies $S^{-1}p^e\subseteq S^{-1}B$ is a proper ideal: Otherwise, $1/1=a/s$ where $a\in p^e$, and $1/1=a/s$ means $s'(s-a)=0$ and $s's=s'a\in S\cap p^e=\emptyset$.
 
-Now there exists a maximal ideal of $S^{-1}B$ which containing $S^{-1}(p^e)$. By [[#^961e0a]], this maximal ideal is of form $S^{-1}m$ with $m\cap S=\emptyset$ and $m\subseteq B$ is prime. 
+Now there exists a maximal ideal of $S^{-1}B$ which containing $S^{-1}(p^e)$. By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|#^961e0a]], this maximal ideal is of form $S^{-1}m$ with $m\cap S=\emptyset$ and $m\subseteq B$ is prime. 
 
 Claim that $m^c=p$. Indeed, $S^{-1}m\supseteq S^{-1}(p^e)$ yields $m\supseteq p^e$ and so $m^c\supseteq p^{ec}=p$. Since $m\cap S=\emptyset$, one have $f^{-1}(m\cap S)=\emptyset$, $m^c\cap (A-p)=\emptyset$ and $m^c\subseteq p$. Therefore, $m^c=p$. 
 □
 
 > [!Remark]
-> In [[#^961e0a]] (iv), the preimage of a maximal ideal in $S^{-1}A$ under the localization map is not necessarily maximal in $A$. For instance, consider the canonical map $A_p \to S^{-1}A_p$. The ideal $pA_p$ is the unique maximal ideal of $S^{-1}A_p$, but its preimage in $A$ is the prime ideal $p$, which may not be maximal.
+> In [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|#^961e0a]] (iv), the preimage of a maximal ideal in $S^{-1}A$ under the localization map is not necessarily maximal in $A$. For instance, consider the canonical map $A_p \to S^{-1}A_p$. The ideal $pA_p$ is the unique maximal ideal of $S^{-1}A_p$, but its preimage in $A$ is the prime ideal $p$, which may not be maximal.
 > 
 > Conversely, if $m\subseteq A$ is a maximal element in the set  $\{\mathfrak{p} \subseteq A :\mathfrak{p} \cap S = \emptyset\}$, then its extension $m^e \subseteq S^{-1}A$ is a maximal ideal. Indeed, suppose otherwise: there exists a prime ideal $q=n^e\in S^{-1}A$ such that $q \supsetneq m^e$. Then its contraction $n \supsetneq m$ in $A$ would contradict the maximality of $m$ in the set of primes disjoint from $S$.
 > 
-> In summary, in $1$-$1$ correspondence in [[#^961e0a]] (iv), 
+> In summary, in $1$-$1$ correspondence in [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|#^961e0a]] (iv), 
 > 
 > $$\{\text{prime ideals of }p\subseteq A,p\cap S=\emptyset\}\leftrightarrow\{\text{prime ideals of }S^{-1}A\}.$$
 > 

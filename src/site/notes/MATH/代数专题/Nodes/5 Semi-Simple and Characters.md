@@ -37,7 +37,7 @@
 
 
 **Remark.** 
-- $G$ and $\mathbb{C}G$ have the same representation. Let $G$ be a finite group. Then $\mathbb{C}G$ is semi-simple $\iff$ By [[#^7b841b]], any representation for $\mathbb{C}G$, or for $G$, is completely reducible $\iff$ $|G|=\dim\mathbb{C}G=\sum(\dim V_i)^2$. 
+- $G$ and $\mathbb{C}G$ have the same representation. Let $G$ be a finite group. Then $\mathbb{C}G$ is semi-simple $\iff$ By [[MATH/代数专题/Nodes/5 Semi-Simple and Characters#^7b841b\|#^7b841b]], any representation for $\mathbb{C}G$, or for $G$, is completely reducible $\iff$ $|G|=\dim\mathbb{C}G=\sum(\dim V_i)^2$. 
 - Completely reducible is composable, but not vice versa. See [[MATH/代数专题/Nodes/3 Quaternions and Associative Algebra#^ahq6o8\|here]].
 
 # Characters
@@ -80,7 +80,7 @@ For any $i\neq j$, we have that $f(E_{ij})=f(E_{ii}E_{ij})=f(E_{ij}E_{ii})=0$ an
 
 
 **_Proof._**
-Note that $F_C(G,\mathbb{C})=\{f\in\mathrm{Hom}(\mathbb{C}G,\mathbb{C}):f(ab)=f(ba),\forall a,b\in \mathbb{C}G\}$. Since $\mathbb{C}G$ is semi-simple, by [[#^7b841b]], $\mathbb{C}G=\mathrm{Mat}_{n_1}(\mathbb{C})\oplus\cdots\oplus\mathrm{Mat}_{n_r}(\mathbb{C})$. By [[#^230d2b]], any $f\in F_C(G,\mathbb{C})$ can be written as 
+Note that $F_C(G,\mathbb{C})=\{f\in\mathrm{Hom}(\mathbb{C}G,\mathbb{C}):f(ab)=f(ba),\forall a,b\in \mathbb{C}G\}$. Since $\mathbb{C}G$ is semi-simple, by [[MATH/代数专题/Nodes/5 Semi-Simple and Characters#^7b841b\|#^7b841b]], $\mathbb{C}G=\mathrm{Mat}_{n_1}(\mathbb{C})\oplus\cdots\oplus\mathrm{Mat}_{n_r}(\mathbb{C})$. By [[MATH/代数专题/Nodes/5 Semi-Simple and Characters#^230d2b\|#^230d2b]], any $f\in F_C(G,\mathbb{C})$ can be written as 
 
 $$f=c_1\mathrm{tr}_{n_1}+\cdots+c_r\mathrm{tr}_{n_r}=c_1\chi_{V_1}+\cdots+c_r\chi_{V_r}.$$
 
@@ -98,7 +98,7 @@ and similarly each $c_i=0$. Therefore, $\chi_{V_1},\cdots,\chi_{V_r}$ are linear
 > The number of irreducible characters is equal to the number of conjugacy classes of $G$.
 
 **_Proof._**
-Since $\dim F_C(G,\mathbb{C})=\#\mbox{ conjugacy classes}$, then by [[#^c62c01]] we have that 
+Since $\dim F_C(G,\mathbb{C})=\#\mbox{ conjugacy classes}$, then by [[MATH/代数专题/Nodes/5 Semi-Simple and Characters#^c62c01\|#^c62c01]] we have that 
 
 $$\#\mbox{ conjugacy classes}=\#\mbox{ irreducible }G\mbox{-modules}.$$
 

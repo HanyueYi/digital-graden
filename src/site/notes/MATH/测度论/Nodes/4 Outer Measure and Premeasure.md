@@ -109,4 +109,4 @@ and so $\nu(A)=\mu^*(A)$.
 **Case 2.** Assume that $l$ is $\sigma$-finite. Let $\{C_i\}\subseteq\mathcal{A}_0$ such that $C_i\uparrow X$ and $l(C_i)<\infty$. Consider $l_i:\mathcal{A}_0\to[0,\infty),l_i(A)=l(A\cap C_i)$. Let $\nu,\mu$ be measures on $\sigma(\mathcal{A}_0)$ with $\nu=\mu$ on $\mathcal{A}_0$. Define $\mu_i,\nu_i$ as $\nu_i(A)=\nu(A\cap C_i)$ and $\mu_i(A)=\mu(A\cap C_i)$. By Case 1 we have $\nu_i=\mu_i$ for all $A\in\sigma(\mathcal{A}_0)$. Thus $\nu(A)=\lim\nu(A\cap C_i)=\lim\mu(A\cap C_i)=\mu(A)$.  
 □
 
-**Remark.** Note that $\mathcal{A}$ defined in [[#^036d19]] is a $\sigma$-algebra and $\mathcal{A}\supseteq\mathcal{A}_0$. Thus $\sigma(\mathcal{A}_0)\subseteq\mathcal{A}$. 
+**Remark.** Note that $\mathcal{A}$ defined in [[MATH/测度论/Nodes/4 Outer Measure and Premeasure#^036d19\|#^036d19]] is a $\sigma$-algebra and $\mathcal{A}\supseteq\mathcal{A}_0$. Thus $\sigma(\mathcal{A}_0)\subseteq\mathcal{A}$. 

@@ -55,7 +55,7 @@ where $m_1^{\alpha_1}\cdots m_s^{\alpha_s}\in M_1$ can be written as $m_1^{\alph
 > Let $R$ be a subring of $S$ containing $1_S$. The integral elements of $S$ over $R$ form a subring of $S$ containing $R$. 
 
 **_Proof._**
-Since $\alpha,\beta$ are integral, by [[#^274bb5]] we know $R[\alpha],R[\beta]$ are finitely generated. Then by [[#^0f6d0e]], $R[\alpha,\beta]$ is finitely generated. It deduces that $\alpha-\beta$, $\alpha\beta$ are integral and so the integral elements of $S$ form a subring. 
+Since $\alpha,\beta$ are integral, by [[MATH/抽象代数III/Nodes/Integrality and Integral Closures#^274bb5\|#^274bb5]] we know $R[\alpha],R[\beta]$ are finitely generated. Then by [[MATH/抽象代数III/Nodes/Integrality and Integral Closures#^0f6d0e\|#^0f6d0e]], $R[\alpha,\beta]$ is finitely generated. It deduces that $\alpha-\beta$, $\alpha\beta$ are integral and so the integral elements of $S$ form a subring. 
 □
 
 

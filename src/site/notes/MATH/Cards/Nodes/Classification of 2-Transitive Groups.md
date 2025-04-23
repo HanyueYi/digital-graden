@@ -44,7 +44,7 @@ Suppose that $N$ is regular on $\Omega$. Then we have $G=N{:}G_{\omega}$ and so 
 > Let $G$ be a quasiprimitive permutation group on $\Omega$, and let $N=\mathrm{soc}(G)$. If $N$ is regular on $\Omega$, then $\mathrm{rank}(G)\geq 4$.
 
 **_Proof._**
-By the proof of (ii) of [[#^ou5ao7]].
+By the proof of (ii) of [[MATH/Cards/Nodes/Classification of 2-Transitive Groups#^ou5ao7\|#^ou5ao7]].
 □
 
 > [!theorem]
@@ -55,7 +55,7 @@ By the proof of (ii) of [[#^ou5ao7]].
 > where $\delta_i\in\Delta$ and $\pi\in S_k$. Furthermore, in this case $G$ is PA.
 
 **_Proof._**
-Let $N\lhd_{\min}G$ such that $N=T^k$ with $k\geq 2$ and $T$ nonabelian simple. Note that $N$ is transitive as $G$ is $2$-transitive and quasiprimitive. So $N_\omega\neq 1$ and $N$ does not have a normal subgroup which is regular on $\Omega$ by [[#^ou5ao7]]. Additionally, by the proof of [[MATH/Cards/Nodes/Minimal Normal Subgroups of Permutation Groups\|Minimal Normal Subgroups of Permutation Groups]], $N$ is the unique minimal normal subgroup. We write $N$ as $N=T_1\times\cdots\times T_k$ where $T_1\cong\cdots\cong T_k$. 
+Let $N\lhd_{\min}G$ such that $N=T^k$ with $k\geq 2$ and $T$ nonabelian simple. Note that $N$ is transitive as $G$ is $2$-transitive and quasiprimitive. So $N_\omega\neq 1$ and $N$ does not have a normal subgroup which is regular on $\Omega$ by [[MATH/Cards/Nodes/Classification of 2-Transitive Groups#^ou5ao7\|#^ou5ao7]]. Additionally, by the proof of [[MATH/Cards/Nodes/Minimal Normal Subgroups of Permutation Groups\|Minimal Normal Subgroups of Permutation Groups]], $N$ is the unique minimal normal subgroup. We write $N$ as $N=T_1\times\cdots\times T_k$ where $T_1\cong\cdots\cong T_k$. 
 
 Let $H_i$ be the projection of $N_\omega$ into $T_i$. Then $H_i\cong N_\omega/(N_\omega\cap M_i)\cong N_\omega M_i/M_i$, where $M_i=\Pi_{j\neq i}T_j$ and $N/M_i\cong T_i$. 
 

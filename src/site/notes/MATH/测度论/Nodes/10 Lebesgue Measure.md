@@ -71,7 +71,7 @@ and so we finish the proof.
 > Then $\left(\mathbb{R}^n, \mathcal{L}\left(\mathbb{R}^n\right), m\right)$ is the completion of $\left(\mathbb{R}^n, \mathcal{B}, \nu\right)$.
 
 **_Proof._**
-Use [[#^7b1c20]] to construct union of compact sets $B_0$ and intersection of open sets $B_1$ such that $B_0\subseteq A\subseteq B_1$ with $\mu^*(B_1-B_0)=0$. Also see [[Measure  Theory    (Xia).pdf#page=73&selection=358,0,359,1|here]]. 
+Use [[MATH/测度论/Nodes/10 Lebesgue Measure#^7b1c20\|#^7b1c20]] to construct union of compact sets $B_0$ and intersection of open sets $B_1$ such that $B_0\subseteq A\subseteq B_1$ with $\mu^*(B_1-B_0)=0$. Also see [[Measure  Theory    (Xia).pdf#page=73&selection=358,0,359,1|here]]. 
 □
 
 
@@ -101,7 +101,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=75&selection=253,0,254,0|here]].
 **_Proof._**
 Suppose $f \in L^p$. We have $\int_{\mathbb{R}^n}\left|f-f \chi_{B(0, n)}\right|^p \rightarrow 0$ as $n \rightarrow \infty$ by DCT. Hence it suffices to approximate functions in $L^p$ that have compact support. By writing $f=f^{+}-f^{-}$ we may suppose $f \geqslant 0$. 
 
-Similarly as [[#^110128]], it suffices to approximate characteristic functions of any partly open cube. For any given partly open cube $I$, there exists $g$ continuous with compact support and with values in $[0,1]$ such that $\int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. Since $\left|g-\chi_I\right| \leqslant 1$, then $\int_{\mathbb{R}^n}\left|g-\chi_I\right|^p \leqslant \int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. This completes the proof.
+Similarly as [[MATH/测度论/Nodes/10 Lebesgue Measure#^110128\|#^110128]], it suffices to approximate characteristic functions of any partly open cube. For any given partly open cube $I$, there exists $g$ continuous with compact support and with values in $[0,1]$ such that $\int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. Since $\left|g-\chi_I\right| \leqslant 1$, then $\int_{\mathbb{R}^n}\left|g-\chi_I\right|^p \leqslant \int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. This completes the proof.
 □
 
 
@@ -111,7 +111,7 @@ Similarly as [[#^110128]], it suffices to approximate characteristic functions o
 > $$\lim _{|h| \rightarrow 0}\|f(\cdot+h)-f(\cdot)\|_p=0$$
 
 **_Proof._**
-Define the set $C_p$ as the class of $f\in L^p$ such that $||f(\cdot+h)-f(\cdot)||_p\to 0$ as $|h|\to 0$. Then $f$ is closed under finite linear combination and the convergence with norm $L^p$. Since the characteristic function of a cube is contained in $C_p$, by [[#^110128]] and [[#^fe0685]] we finish the proof. 
+Define the set $C_p$ as the class of $f\in L^p$ such that $||f(\cdot+h)-f(\cdot)||_p\to 0$ as $|h|\to 0$. Then $f$ is closed under finite linear combination and the convergence with norm $L^p$. Since the characteristic function of a cube is contained in $C_p$, by [[MATH/测度论/Nodes/10 Lebesgue Measure#^110128\|#^110128]] and [[MATH/测度论/Nodes/10 Lebesgue Measure#^fe0685\|#^fe0685]] we finish the proof. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=75&selection=521,0,522,1|here]].
 □
