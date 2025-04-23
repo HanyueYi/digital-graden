@@ -15,7 +15,7 @@ Let $S$ be the set of all elements of $K$ that are separable over $F$. Then $E \
 We claim that $K$ is purely inseparable over $S$. To show it, it suffices to show for any $u\in K$, there exists $n$ such that $u^{p^n}\in S$. For any $u\in K$, if $u\in S$, then $u^{p^0}\in S$ is trivial. Otherwise, $u\in K\setminus S$. If $u^p\in S$, we have done. If $u^p\notin S$, then $g=\mathrm{Irr}(u^p,S)$ and $f(x):=g(x^p)$ has a root $u$. Therefore, the degree of $\mathrm{Irr}(u^p,K)$ is less than $\mathrm{Irr}(u,K)$. Repeat this procedure, there exists $n$ such that $u^{p^{n-1}}$ is inseparable and $u^{p^{n}}$ is separable. Therefore, $u^{p^n}\in S$ and the minimal polynomial of $u$ over $S$ is a divisor of $x^{p^n}-u^{p^n}=(x-u)^{p^n}$, so $K$ is purely inseparable over $S$.
 
 But since $E \subseteq S \subseteq K$ and $K$ is separable over $E$, then it is separable over $S$. So $K$ is both purely inseparable and separable over $S$. This can only occur if $S=K$, hence every element of $K$ is separable over $F$.
-<p align="right">□</p>
+□
 
 
 > [!lemma]
@@ -25,4 +25,4 @@ But since $E \subseteq S \subseteq K$ and $K$ is separable over $E$, then it is 
 
 **_Proof._**
 Let $v \in K$. Then there exist $u_1, \ldots, u_n \in X$ such that $v \in F\left(u_1, \ldots, u_n\right)$. Let $f_i(x) \in F[x]$ be the irreducible polynomial of $u_i$ over $F$; by assumption, $f_i(x)$ is separable. Let $E$ be a splitting field over $F\left(u_1, \ldots, u_n\right)$ of $f_1(x), \ldots, f_n(x)$. Then $E$ is also a splitting field of $f_1, \ldots, f_n$ over $F$, and since the $f_i$ are separable, $E$ is separable over $F$. Therefore, since $v \in F\left(u_1, \ldots, u_n\right) \subseteq E$, it follows that $v$ is separable over $F$.
-<p align="right">□</p>
+□

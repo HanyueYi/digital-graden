@@ -10,7 +10,7 @@
 The case of odd prime is easy, using the existence of primitive root. 
 
 For the case of $2^n$, we can prove that $a^{2^{k-2}} \equiv 1 \pmod{2^k}$ and $3^{2^{k-3}}\not\equiv 1\bmod{ 2^k}$ with $k\geqslant 3$ by induction. Then we finish the proof by [here](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n#Powers_of_2). 
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -37,7 +37,7 @@ Let $A:=\left\langle\varphi_m:0\leq m\leq n-1\right\rangle$ and $B:=\left\langle
 $$\mathrm{Aut}(D_{2n})=A{:}B\cong \mathbb{Z}_n{:}\mathrm{Aut}(\mathbb{Z}_n)$$
 
 and so the proof is completed.
-<p align="right">□</p>
+□
 > [!proposition]
 > $\mathrm{Aut}(Q_8)=S_4$.
 { #5s4s0f}
@@ -59,7 +59,7 @@ Therefore, $\operatorname{Aut}\left(Q_8\right)=\operatorname{ker}(\Phi) \rtimes 
 
 Consider an element $f: i \mapsto-i, j \mapsto j$ of $\operatorname{ker}(\Phi)$, and two elements of $K \cong \operatorname{Im}$: $g: i \mapsto j, j \mapsto i$ (like a transposition), and $h: i \mapsto j, j \mapsto k$ (like a 3-cycle). One can check that $f$ doesn't commute with $g$ as well as $h$.
 In fact, this shows that no element of $V_4 \backslash\{1\}$ commutes with any element of $K \backslash\{1\}$. This means, the action of $K$ on $V_4$ (by conjugation) is faithful; and up to equivalence, there is only one such action. Therefore, $\operatorname{Aut}\left(Q_8\right)=V_4 \rtimes K \cong S_4$. 
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -75,4 +75,4 @@ i) #todo Assume that $G:=p_{-}^{1+2}=\left\langle a\right\rangle{:}\left\langle 
 ii) Since $G=\langle a,b|a^p=b^p=c^p=1,[a,b]=c\rangle$ by the argument of [[MATH/Cards/Nodes/Structure of p-groups#^oymbgb\|Structure of p-groups#^oymbgb]], it is easy to prove. 
 
 
-<p align="right">□</p>
+□

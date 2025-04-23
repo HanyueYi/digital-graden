@@ -12,7 +12,7 @@
 
 **_Proof._**
 Easy.
-<p align="right">□</p>
+□
 
 
 **Remark**. Let $M$ be an $A$-module, and let $\Sigma=\{\mbox{submodule of }M\}$. If $(\Sigma,\subseteq)$ is the poset in [[#^1ab5b8]], then it is denoted as a.c.c. If $(\Sigma,\supseteq)$ is the poset in [[#^1ab5b8]], then it is denoted as d.c.c. 
@@ -42,7 +42,7 @@ Easy.
 
 **_Proof._**
 See [[MATH/抽象代数II/Nodes/2.3 Noetherian Rings and Modules#^4af1b0\|2.3 Noetherian Rings and Modules#^4af1b0]].
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -78,7 +78,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 where some terms may repeat. Since $M'$ and $M''$ are Artinian, these two chains must contain infinitely many same terms. That is, there exists $n_1$ and $n_2$ such that $\alpha^{-1}(M_n)=\alpha^{-1}(M_{n+1})$ for all $n\geqslant n_1$ and $\beta(M_n)=\beta(M_{n+1})$ for all $n\geqslant n_2$. Take $n=n_1+n_2$, then $\alpha^{-1}(M_n)=\alpha^{-1}(M_{n+1})$ and $\beta(M_n)=\beta(M_{n+1})$ hold, which is impossible. 
-<p align="right">□</p>
+□
 
 **Remark.** Similarly to [[MATH/抽象代数II/Nodes/2.3 Noetherian Rings and Modules#^4af1b0\|2.3 Noetherian Rings and Modules#^4af1b0]]., Artinian also has equivalent definition, see [[MATH/抽象代数III/Nodes/3 250311#^ff57ab\|here]]. 
 
@@ -94,7 +94,7 @@ where some terms may repeat. Since $M'$ and $M''$ are Artinian, these two chains
 
  **_Proof._**
  See [[MATH/抽象代数II/Nodes/2.3 Noetherian Rings and Modules#^gmjk45\|2.3 Noetherian Rings and Modules#^gmjk45]].
- <p align="right">□</p>
+ □
 
 > [!proposition]
 > Let $A$ be a Noetherian (rep. Artinian) ring, and let $\alpha\subseteq A$ be an ideal. Then $A/\alpha$ is a Noetherian (rep. Artinian) ring.
@@ -104,7 +104,7 @@ where some terms may repeat. Since $M'$ and $M''$ are Artinian, these two chains
 
 **_Proof._**
 [[MATH/交换代数/Nodes/1 Rings and Ideals#^9eaa9e\|Recall]] that ideals of quotient ring are quotient of ideals.
-<p align="right">□</p>
+□
 
 
 # Composition Series
@@ -142,7 +142,7 @@ Indeed, if $M=M_0\supsetneq M_1\supsetneq \cdots\supsetneq M_n=0$, then use step
 **Step 4.** Claim that any chain can be refined to be a composition series. 
 
 Indeed, if $M_{i-1}/M_i$ is not simple, then we can strictly add a module $M_{i-1}\supsetneq N\supsetneq M_i$ to make its length strictly bigger. This process stops after finite times by Step 2. 
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -154,7 +154,7 @@ Indeed, if $M_{i-1}/M_i$ is not simple, then we can strictly add a module $M_{i-
 "->" Both acc and dcc are satisfied because the length of a chain is bounded by Step 2 above.
 
 "<-" $M$ is Noetherian yields $M$ has a proper maximal submodule $M_1$. Then $M_1$ is Noetherian by [[#^a5f817]] and it has a proper maximal submodule $M_2$. The process stops by $M$ Artinian. Since $M_{i}$ is a maximal submodule of $M_{i-1}$, $M_{i-1}/M_{i}$ is simple. Thus, $M$ has a finite length composition series.
-<p align="right">□</p>
+□
 
 **Remark.** For $\mathbb{Z}$-module $\mathbb{Z}$, $\mathbb{Z}\supseteq(2)\supseteq (4)\supseteq (8)\supseteq \cdots$ has a infinite length composition series, and it is not an Artinian ring.
 
@@ -178,7 +178,7 @@ ii) Let $M'=M_0'\supset M_1'\supset\cdots\supset M'_{\ell(M')}=0$ and $M''=M_0''
 $$M=M_0=\beta^{-1}(M_0'')\supset\beta^{-1}(M_1'')\supset\cdots\supset\beta^{-1}(M_{\ell(M'')}'')=\beta^{-1}(0)=\alpha(M')\supset\cdots\supset \alpha(M'_{\ell(M')})=0$$
 
 is a composition series. 
-<p align="right">□</p>
+□
 
 
 **Examples.** Here are several examples to compute the length of composition series.
@@ -204,7 +204,7 @@ Note that i)->ii)->iii) and i)->ii)->iv) are easy. Then it remains to show iii)-
 iii)->i). Otherwise dimension is not finite, then $0\supset ke_1\supset ke_1\oplus ke_2\supset\cdots\supset\oplus_{i=1}^n ke_i\supset\cdots$ is not acc.
 
 iv)->i). Take $V\supset\oplus_{i=1}^\infty ke_i$, then it gives $V\supset\oplus_{i=2}^\infty ke_i\supset\cdots\supset\oplus_{i=n}^\infty ke_i\supset\cdots$ and dcc fails.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -218,7 +218,7 @@ Consider the chain
 $$A\supsetneq m_1\supseteq m_1m_2\supseteq\cdots\supseteq m_1\cdots m_n=0,$$
 
 where each factor $m_1\cdots m_{i-1}/m_1\cdots m_i$ is a $A/m_i$-module as $m_i$ acts on $m_1\cdots m_{i-1}/m_1\cdots m_i$ trivially. Remark that $A/m_i:=k_i$ is a field. By [[#^e2295f]], for each factor we have "acc iff dcc". By [[#^a5f817]], $A$ also satisfies "acc iff dcc".
-<p align="right">□</p>
+□
 
 
 > [!proposition] Text-Ex. 6.5
@@ -230,4 +230,4 @@ where each factor $m_1\cdots m_{i-1}/m_1\cdots m_i$ is a $A/m_i$-module as $m_i$
 i) Given any open cover $X=\cup_{i\in I}U_i$, remark that $U_1\subseteq U_1\cup U_2\subseteq\cdots\subseteq \cup_{i\in I}U_i$ has to stop by a.c.c.
 
 ii) Let $Y\subseteq X$. Consider open cover $Y=\cup_{i\in I}V_i$. We aim to get $U_i$ with $U_i\cap Y=V_i$ and $U_i\subsetneq U_{i+1}$. Take any $U_1$. For any $U_2$, take $U_2':=U_2\cup U_1$. That is, change the sequence $\{U_i\}_{i\in I}$ to $\{U_i'=\cup_{j\leqslant i}U_i\}_i$. Then $\{U_i'\}$ stabilizes and so $\{V_i\}$ stabilizes.
-<p align="right">□</p>
+□

@@ -27,7 +27,7 @@ Let $G$ be a finite group, and let $\Omega:=[G:H]$ where $H<G$. Then
 
 **_Proof._**
 If there is a $g\in G$ such that $Hg_ig=Hg_i$ for all $g_i\in G$, then $g^G\in H$ and $g\in \cap_{g_i\in G} H^{g_i}=\mathrm{Core}_G(H)=\{1\}$. Therefore, $g=1$ and so the action is faithful.
-<p align="right">□</p>
+□
 
 # Properties of $p$-core
 
@@ -43,7 +43,7 @@ i) Easy.
 ii) Since $O_p(G)$ is the intersection of all Sylow $p$-subgroups, then $O_p(G)\lhd_{\mathrm{char}} G$. Suppose $\overline{P_1},\cdots,\overline {P_k}$ are all Sylow $p$-subgroups of $\overline G$, and suppose $P_i$ are preimage of $\overline{P_i}$. Then $\cap_{i=1}^kP_i\leqslant O_p(G)$ and so $\cap_{i=1}^k\overline{P_i}=1$, i.e., $O_p(\overline G)=1$. 
 
 iii) See [[MATH/Cards/Nodes/Fitting Subgroups#^mudriu\|here]]. 
-<p align="right">□</p>
+□
 
 > [!proposition]
 > If $G$ is solvable, then there exists a prime $p$ such that $O_p(G)\neq 1$.
@@ -52,5 +52,5 @@ iii) See [[MATH/Cards/Nodes/Fitting Subgroups#^mudriu\|here]].
 
 **_Proof._**
 Let $M$ be a minimal normal subgroup of $G$. [[MATH/Cards/Nodes/Minimal Normal Subgroup and Maximal Normal Subgroup\|Then]] $M\cong \mathbb{Z}_p^d$ for some prime $p$ and some positive integer $d$. Thus $O_p(G)$ is not trivial.
-<p align="right">□</p>
+□
 

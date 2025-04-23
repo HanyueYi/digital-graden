@@ -8,4 +8,4 @@
 
 **_Proof._** 
 By induction hypothesis, apply Cauchy theorem to $Z(G/N_k)$ where $N_k$ is normal subgroup of order $p^k$.
-<p align="right">□</p>
+□

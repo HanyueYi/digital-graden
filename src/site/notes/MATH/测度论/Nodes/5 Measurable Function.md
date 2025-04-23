@@ -33,7 +33,7 @@
 
 **_Proof._**
 Easy. 
-<p align="right">□</p>
+□
 
 > [!proposition] measurable and continuous maps
 > Let $(X, \mathcal{A})$ and $(Y, \mathcal{B})$ be measurable spaces. Assume that $\mathcal{B}$ is the Borel $\sigma$-algebra of a topology on $Y$.
@@ -42,7 +42,7 @@ Easy.
 
 **_Proof._**
 Easy.
-<p align="right">□</p>
+□
 
 
 > [!proposition] characterization of measurable functions
@@ -55,7 +55,7 @@ Easy.
 
 **_Proof._**
 Easy.
-<p align="right">□</p>
+□
 
 > [!lemma]
 > Any open subset in $\mathbb{R}^n$ is a countable union of the sets in the form of $(a_1,b_1)\times\cdots\times(a_n,b_n)$.
@@ -64,7 +64,7 @@ Easy.
 
 **_Proof._**
 Let $O$ be the open subset in $\mathbb{R}^n$. Define $X:=\{x\in O:x=(x_1,\cdots,x_n),x_i\in \mathbb{Q} \}$. Then $X$ is a countable set. For each $x\in X$, define $R_x=(a_1,b_1)\times\cdots\times (a_n,b_n)$ be the maximal cube such that $R_x\subseteq O$. Then $\cup_{x\in X} R_x=O$. 
-<p align="right">□</p>
+□
 
 > [!proposition] vector valued measurable functions
 > Let $(X, \mathcal{A})$ be a measurable space and let $f=\left(f_1, \cdots, f_n\right): X \rightarrow \mathbb{R}^n$ be a function. Then $f$ is measurable if and only if $f_i: X \rightarrow \mathbb{R}$ is measurable for each $i$.
@@ -75,7 +75,7 @@ Note that $f_i=\pi_i\circ f$ and $\pi_i$ is continuous, then $f_i$ is measurable
 $$f^{-1}(Q(a,b))=\cap\{x\in X:f_i(x)\in(a_i,b_i)\}=\cap f_i^{-1}((a_i,b_i))\in\mathcal{A} .$$
 
 Since any open subset in $\mathbb{R}^n$ is a countable union of the set $Q(a,b)$ by [[#^2bca2c]], then $f$ is measurable.
-<p align="right">□</p>
+□
 
 > [!proposition]
 > Let $(X, \mathcal{A})$ be a measurable space and let $u, v: X \rightarrow \mathbb{R}$ be measurable functions. If $\phi: \mathbb{R}^2 \rightarrow \mathbb{R}$ is continuous, then the function $h: X \rightarrow \mathbb{R}$ defined by
@@ -90,7 +90,7 @@ Since any open subset in $\mathbb{R}^n$ is a countable union of the set $Q(a,b)$
 
 **_Proof._**
 Since $f:=(u,v)$ and $\phi$ are measurable, then $h$ is measurable.
-<p align="right">□</p>
+□
 
 
 > [!proposition] properties of measurable functions
@@ -127,14 +127,14 @@ $$
 $$
 
 are also measurable.
-<p align="right">□</p>
+□
 
 > [!corollary]
 > If $f_n:X\to \overline {\mathbb{R}}$ is measurable and $f_n(x)\to f(x)$ for all $x$, then $f:X\to \mathbb{R}$ is measurable.
 
 **_Proof._**
 By [[#^e11178]], ii).
-<p align="right">□</p>
+□
 
 > [!proposition]
 > If $f:\mathbb{R}\to \mathbb{R}$ is monotone, then $f$ is Borel measurable.
@@ -145,4 +145,4 @@ Suppose that $f$ is increasing, for otherwise let $g=-f$. For any $a\in \mathbb{
 - If $f(x_0)\leqslant a$, then $f^{-1}((a,\infty))=(x_0,\infty)$. 
 
 Therefore, $f^{-1}((a,\infty))$ is measurable and so $f$ is Borel measurable.
-<p align="right">□</p>
+□

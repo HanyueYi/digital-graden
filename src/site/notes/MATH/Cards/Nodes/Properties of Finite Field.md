@@ -15,7 +15,7 @@ If $\mathbb{F}_q \supseteq \mathbb{F}_{q'} \supseteq \mathbb{F}_p$ is a sub-exte
 
 Therefore, $\mathbb{F}_{p^r}$ contains a field with $p^s$ elements if and only if $s \mid r$, and such subfield is unique.
 
-<p align="right">□</p>
+□
 
 > [!proposition] 
 > The followings hold.

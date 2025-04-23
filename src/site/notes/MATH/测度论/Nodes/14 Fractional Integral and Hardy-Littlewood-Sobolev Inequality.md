@@ -15,7 +15,7 @@ We can prove that:
 - $T$ maps sets of measure zero into sets of measure zero by considering the cover of sets with cubes.
 
 [[MATH/测度论/Nodes/10 Lebesgue Measure#^7b1c20\|Recall]] that for any measurable set $E$, there exists $F_\sigma$-set $H$ and $Z$ of measure zero such that $E=H\cup Z$. Then we finish the proof.
-<p align="right">□</p>
+□
 
 
 > [!lemma]
@@ -23,7 +23,7 @@ We can prove that:
 
 **_Proof._**
 Define $g(x,t)=f(x)$, then $g$ is measurable because $g^{-1}((a,\infty))=\{x\in \mathbb{R}^n:f(x)>a\}\times \mathbb{R}^n$. Define $T(x,t)=(x-t,x+t)$, then $T$ is Lipschitz. Note that $F(x,t)=g\circ T(x,t)$ and $F^{-1}((a,\infty))=T^{-1}\circ g^{-1}((a,\infty))$ is measurable by [[#^179d20]]. Thus $F$ is measurable.
-<p align="right">□</p>
+□
 
 
 **Remark.** If we take $T(x,t)=(x-t,x+t)$, the proof also works. ChatGPT tells me the choice of $T(x,t)=(x-t,x+t)$ might simply reflect a convention or aesthetic preference.
@@ -78,7 +78,7 @@ When $p=\infty$, for any given $x$, we have
 $$f*g(x)=\int_{\mathbb{R}^n}f(y)g(x-y)dy\leqslant \|g\|_\infty\int_{\mathbb{R}^n}|f(y)|dy=\|f\|_1\|g\|_\infty.$$
 
 By the arbitrary of $x$, we finish the proof.
-<p align="right">□</p>
+□
 
 The definition of $I_\alpha f$ is written in this [[MATH/测度论/Nodes/14 Fractional Integral and Hardy-Littlewood-Sobolev Inequality#^3qk3we\|remark]].
 
@@ -102,7 +102,7 @@ See [[Measure  Theory    (Xia).pdf#page=101&selection=421,0,422,1|here]].
 - 用[[MATH/测度论/Nodes/12 the Maximal Theorem#^4tmmbv\|12 the Maximal Theorem#^4tmmbv]]算 $||I_\alpha f||_q$. 现在我们完成了 i) 的对于 nonnegative 的证明。
 - 当 $p=1$ 时，还是用 $I_\alpha f$ 的估计，用一下 [[MATH/测度论/Nodes/12 the Maximal Theorem#^vufshf\|Hardy-Littlewood]]. 现在我们完成了 ii) 的对于 nonnegative 的证明。
 - 现在考虑一般的 $f$，注意到 $\left\|I_\alpha f\right\|_q \leq\left\|I_\alpha(|f|)\right\|_q$ 就可以了。
-<p align="right">□</p>
+□
 
 **Remark.** Here is a motivation of [[#^z20dwo]]. Define 
 { #3qk3we}

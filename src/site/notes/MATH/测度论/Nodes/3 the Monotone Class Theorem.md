@@ -30,7 +30,7 @@ i) Let $N_1=\{A\in\mathcal M:A\cap B\in\mathcal M,\forall B\in\mathcal A_0\}$. T
 ii) $N_2=\{A\in\mathcal M:A\cap B\in\mathcal M,\forall B\in\mathcal M\}$. Similarly we can show that $N_2$ is a monotone class and so $N_2=\mathcal M$. 
 
 iii) Let $\{A_i\}\subseteq\mathcal M$ and let $B_n=\cap_{i=1}^n A_i$. Then $B_n\downarrow A$ and so $A\in\mathcal M$.
-<p align="right">□</p>
+□
 
 
 > [!definition]
@@ -69,7 +69,7 @@ Let $\mathcal D_1=\{A\in\mathcal D:A\cap B\in\mathcal D,\forall B\in\mathcal C\}
 Let $\mathcal D_2=\{A\in\mathcal D:A\cap B\in\mathcal D,\forall B\in\mathcal D\}$. Similarly, we can prove that $\mathcal D_2=\mathcal D$. 
 
 Now we prove $(*)$ and so the proof is completed.
-<p align="right">□</p>
+□
 
 
 > [!corollary]
@@ -79,7 +79,7 @@ Now we prove $(*)$ and so the proof is completed.
 
 **_Proof._**
 By [[#^ydfduz|this example]], $\mathcal L:=\{A\in\mathcal{A}:\mu(A)=\nu(A)\}$ is a $d$-system. Since $\mathcal{C}\subseteq\mathcal L$, then $\mathcal L\supseteq\mathcal D(\mathcal C)=\sigma(\mathcal C)=\mathcal A$. Thus $\mathcal L=\mathcal{A}$ and so $\mu=\nu$.
-<p align="right">□</p>
+□
 
 
 > [!corollary]
@@ -92,7 +92,7 @@ Define $\mu_i:\mathcal A\to[0,\infty),\mu_i(A)=\mu(A\cap C_i)$, and define $\nu_
 
 $$\mu(A)=\lim_{i\to\infty}\mu_i(A)=\lim_{i\to\infty}\nu_i(A)=\nu(A).$$
 
-<p align="right">□</p>
+□
 
 
 # Remark 

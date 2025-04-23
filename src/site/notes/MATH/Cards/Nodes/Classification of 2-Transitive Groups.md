@@ -38,14 +38,14 @@ Let $G$ be a $2$-transitive group. Then $G$ is primitive and quasiprimitive, and
 Assume that there is a regular $M\lhd N$. Note that $N_{\omega}\neq 1$ is half-transitive on $\Omega\setminus\{\omega\}$ as $N_\omega\lhd G_\omega$, and define $m$ as the size of an orbits of $N_\omega$ on $\Omega\setminus\{1\}$. Then both $|\Omega|-1$ and $|N_\omega|$ are divisible by $m$. Furthermore, because $N=M{:}N_\omega$, we have $|\Omega|=|M|=|T|^l$ and $|N_\omega|=|T|^{k-l}$ with $1\leq l<k$. So $m$ divides $\gcd(|\Omega|-1,|N_\omega|)=(|T|^l-1,|T^{k-l}|)=1$ and it yields $m=1$, which is impossible.
 
 Suppose that $N$ is regular on $\Omega$. Then we have $G=N{:}G_{\omega}$ and so $G_\omega$ acting on $\Omega$ can be identified by $G_\omega$ acting $N$ by conjugation. By [[MATH/Cards/Nodes/Burnside's Theorem\|Burnside's Theorem]] $|N|$ has at least $3$ prime divisors $r,s,t$. Let $x,y,z$ be elements of $N$ such that $|x|=r$, $|y|=s$ and $|z|=t$. Then $x^{G_\omega}$, $y^{G_\omega}$ and $z^{G_\omega}$ are three orbits and so $\mathrm{rank}(G)\geq 4$. Contradiction.
-<p align="right">□</p>
+□
 
 > [!corollary]
 > Let $G$ be a quasiprimitive permutation group on $\Omega$, and let $N=\mathrm{soc}(G)$. If $N$ is regular on $\Omega$, then $\mathrm{rank}(G)\geq 4$.
 
 **_Proof._**
 By the proof of (ii) of [[#^ou5ao7]].
-<p align="right">□</p>
+□
 
 > [!theorem]
 > Let $G\leq\mathrm{Sym}(\Omega)$ be a $2$-transitive group. Then $G$ acts on $\Omega$ in product action, that is, $\Omega=\Delta^k$ and $G\leq\mathrm{Sym}({\Delta})\wr S_k$ acting on $\Omega$ by 
@@ -77,7 +77,7 @@ $$\omega^{(t_1,\cdots,t_k)}=(H_1x_1,\cdots,H_kx_k)^{(t_1,\cdots,t_k)}=(H_1x_1t_1
 
 
 It yields that $G$ acts on $\Omega$ in product action and we complete the proof.
-<p align="right">□</p>
+□
 
 > [!corollary]
 > By [[MATH/Cards/Nodes/Classification of Quasiprimitive Groups\|Classification of Quasiprimitive Groups]], a $2$-transitive permutation group is one of the three types: HA, AS and PA.

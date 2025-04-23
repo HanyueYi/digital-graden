@@ -33,7 +33,7 @@
 (iv)->(v) is trivial. 
 
 (v)->(iii). Let $A=\oplus_{i=1}^r n_iV_i$, where $V_i$ are pairwise non-isomorphic. By Schur lemma, $\mathrm{End}_A(V_i)\simeq \mathbb{C}$. It follows that $\mathrm{End}_A(n_iV_i)=M_{n_i}(\mathbb{C})$ and $\mathrm{End}_A(A)=\oplus_{i=1}^rM_{n_i}(\mathbb{C})$. Take $f\in\mathrm{End}_A(A)$, then $f$ satisfies that $f(av)=af(v)$ for any $a,v\in A$. Since $f(a\cdot1_A)=af(1_A)$, then $f$ is a multiplication by $f(1_A)$ and so $\mathrm{End}_A(A)\simeq A^{op}$. Therefore, $A\simeq\oplus_{i=1}^r M_{n_i}(\mathbb{C})$ and we get (iii). 
-<p align="right">□</p>
+□
 
 
 **Remark.** 
@@ -71,7 +71,7 @@
 
 **_Proof._**
 For any $i\neq j$, we have that $f(E_{ij})=f(E_{ii}E_{ij})=f(E_{ij}E_{ii})=0$ and $f(E_{ii})=f(E_{ij}E_{ji})=f(E_{ji}E_{ij})=f(E_{jj})$. Therefore, $f=c\cdot\mathrm{Tr}$ for some $c\in\mathbb{C}$. 
-<p align="right">□</p>
+□
 
 
 > [!theorem]
@@ -91,7 +91,7 @@ Assume that $c_1\mathrm{tr}_{n_1}+\cdots+c_r\mathrm{tr}_{n_r}=0$, where $c_i\in 
 $$c_1=(c_1\mathrm{tr}_{n_1}+\cdots+c_r\mathrm{tr}_{n_r})(E_{11})=0$$
 
 and similarly each $c_i=0$. Therefore, $\chi_{V_1},\cdots,\chi_{V_r}$ are linear independent, and so irreducible characters form a basis of $F_C(G,\mathbb{C})$.
-<p align="right">□</p>
+□
 
 
 > [!corollary]
@@ -103,7 +103,7 @@ Since $\dim F_C(G,\mathbb{C})=\#\mbox{ conjugacy classes}$, then by [[#^c62c01]]
 $$\#\mbox{ conjugacy classes}=\#\mbox{ irreducible }G\mbox{-modules}.$$
 
 Now we finish the proof.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -111,5 +111,5 @@ Now we finish the proof.
 
 **_Proof._**
 Assume that $V=m_1V_1\oplus\cdots\oplus m_rV_r$ where $V_i$ are pairwise non-isomorphic irreducible modules and $W=n_1V_1\oplus\cdots\oplus n_r V_r$. Then $\chi_V=m_1\chi_{V_1}+\cdots+m_r\chi_{V_r}$ and $\chi_{W}=n_1\chi_{V_1}+\cdots+n_r\chi_{V_r}$. Therefore, $\chi_V=\chi_W$ iff $m_i=n_i$ iff $V\simeq W$. 
-<p align="right">□</p>
+□
 

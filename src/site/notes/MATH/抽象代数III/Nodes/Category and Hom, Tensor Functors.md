@@ -120,4 +120,4 @@ If ${}_SM_R$ and ${}_RN_T$ are bimodules, then $M\otimes_R N$ is a left $S$- rig
 ![Pasted image 20250316235524.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250316235524.png)
 
 Remark that Theorem 7.4 is same as [[MATH/交换代数/Nodes/2 Modules#^60fa98\|2 Modules#^60fa98]]
-<p align="right">□</p>
+□

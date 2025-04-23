@@ -38,7 +38,7 @@
 i) For any ideal $I\subsetneq A$ and any $i\in I$, $i\not\in A^\times$. Hence $I\subseteq m$ and so $m$ is the unique maximal ideal. 
 
 ii) Let $y\in A\setminus m$, then $m+(y)=A$ and so $1=m_0+ay$ for some $m_0\in M$. Then $ay\in A^\times$ and so for $y$. By i) we finish the proof.
-<p align="right">□</p>
+□
 
 
 > [!definition]
@@ -57,7 +57,7 @@ ii) Let $y\in A\setminus m$, then $m+(y)=A$ and so $1=m_0+ay$ for some $m_0\in M
 It is easy to verify $\mathcal N$ is an ideal: for any $a,b\in\mathcal N$, we have $a+b,ab,ra\in\mathcal N$ for any $r\in A$. 
 
 Let $\overline x\in A/\mathcal N$. If $\overline x$ is nilpotent, then $\overline x^n=0$ and so $x^n\in\mathcal N$. Then $(x^n)^m=0$ and $x\in\mathcal N$. It deduces that $\overline x=0$.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -77,7 +77,7 @@ $$\Sigma=\{\alpha\subseteq A:\alpha\mbox{ is an ideal and }f^n\not\in\alpha,\for
 Notice that $\Sigma\neq\emptyset$ as $(0)\in\Sigma$. By Zorn's lemma, there exists a maximal element $\beta\in \Sigma$. 
 
 We claim that $\beta$ is a prime ideal. Otherwise, there exist $x,y\notin \beta$ such that $xy\in\beta$. Since $\beta+(x)$ and $\beta+(y)$ are not contained in $\Sigma$, there are $t$ and $s$ such that $f^t\in \beta+(x)$ and $f^s\in \beta+(y)$. It deduces that $f^{t+s}\in (\beta+(x))(\beta+(y))\subseteq \beta$, which is a contradiction. Hence $\beta$ is a prime ideal and $f\notin\beta$. It contradicts with $f\in \mathbb P$.
-<p align="right">□</p>
+□
 
 
 # Jacobson Radical
@@ -98,7 +98,7 @@ We claim that $\beta$ is a prime ideal. Otherwise, there exist $x,y\notin \beta$
 "->" If $1-xy\notin A^\times$, then there exists a maximal ideal $m$ such that $1-xy\in m$. Since $x\in m$, we have $1\in m$, which is impossible.
 
 "<-" If $x\notin R$, then there is a maximal ideal $m$ such that $x\not\in m$. Then $m+(x)=A$ and so $1=m_0+xy_0$ for some $m_0\in m$ and $y_0\in A$. It deduces that $1-xy_0\in m$ and so $1-xy^0\notin A^\times$, contradiction.
-<p align="right">□</p>
+□
 
 # Some Propositions
 
@@ -116,7 +116,7 @@ i) is a generalization of the above "recall" part.
 ii) By the Chinese remainder theorem, if $\alpha_i,\alpha_j$ are coprime, then $A/(\cap_{i=1}^n \alpha_i)\simeq \prod_{i=1}^n (A/\alpha_i)$ and so $\phi$ can be identified as a quotient map. 
 
 iii) By ii).
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -133,7 +133,7 @@ iii) By ii).
 i) Consider the contrapositive statement. If $\alpha\not\subseteq p_i$ for all $i$, then $\alpha\not\subseteq\cup_{i=1}^n p_i$. We prove it by induction. The case of $n=1$ is trivial. Suppose it is true for $n-1$. By induction hypothesis, we have $\alpha\not\subseteq \cup_{j\neq i }p_j$ for each $1\leqslant i\leqslant n$. Take $x_i\in \alpha$ such that $x_i\not\in p_j$ for all $j\neq i$. If for some $i$ there is $x_i\notin p_i$, then $x_i\not\in \cup_{i=1}^n p_i$ and we have done. Otherwise $x_i\in p_i$ for all $i$. Define $y:=\sum_{i=1}^n x_1\cdots \hat x_i\cdots x_n$, then $y\in\alpha$ and $y\notin \cup_{i=1}^n p_i$. 
 
 ii) If not, we have $p\not\supseteq \alpha_i$ for all $i$. Then there exists $x_i\in\alpha_i$ such that $x_i\not\in p$. Consider $y\in x_1\cdots x_n$, then $y\in\cap_{i=1}^n\alpha_i$ and so $y\in p$, which is a contradiction.
-<p align="right">□</p>
+□
 
 # Ideal Quotient
 
@@ -162,7 +162,7 @@ ii) If not, we have $p\not\supseteq \alpha_i$ for all $i$. Then there exists $x_
 **_Proof._**
 It is easy to show $P\subseteq r(P^n)$. For any $y\in r(P^n)$, there exists $m$ such that $y^m\in P^n\subseteq P$ and so $y\in P$. Hence, $r(P^n)\subseteq P$. 
 
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -178,7 +178,7 @@ Note that
 $$r(\alpha)/\alpha=\mathrm{Nil}(A/\alpha)=\cap _{\alpha\subseteq P,P\mbox{ is prime}}(P/\alpha)=(\cap _{\alpha\subseteq P}P)/\alpha$$
 
 by [[#^bgejpl]]. Now we finish the proof.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -186,7 +186,7 @@ by [[#^bgejpl]]. Now we finish the proof.
 
 **_Proof._**
 It is easy to verify that $r(\alpha+\beta)=r(r(\alpha)+r(\beta))$, and it deduces that $r(\alpha+\beta)=r(r(\alpha)+r(\beta))=r(A)=A$.
-<p align="right">□</p>
+□
 
 
 # Extension and Contraction
@@ -222,7 +222,7 @@ i) Note that $E\subseteq \alpha\subseteq r(\alpha)$, and then $V(E)=V(\alpha)\su
 ii) and iii) are trivial.
 
 iv) Since $\alpha\supseteq\alpha\cap\beta\supseteq \alpha\beta$, there is $V(\alpha)\subseteq V(\alpha\cap\beta)\subseteq V(\alpha\beta)$ and $V(\beta)\subseteq V(\alpha\cap\beta)\subseteq V(\alpha\beta)$. It remains to show $V(\alpha)\cup V(\beta)\supseteq V(\alpha\beta)$. For $P\in X$ with $P\supseteq\alpha\beta$, we have $P\supseteq\alpha$ or $P\supseteq\beta$ (otherwise, there exist $x\in \alpha\setminus P$ and $y\in\beta\setminus P$, which is impossible as $xy\in P$). 
-<p align="right">□</p>
+□
 
 
 **Remark.** Notice that $X=\{P:P\mbox{ is a prime ideal of }A\}$ is a topological space, using $\mathcal S:=\{V(E):E\subseteq A\}$ as the set of closed subsets of $X$. Denote $X$ by $\mathrm{Spec}A$, call the topology the *Zariski topology*.
@@ -288,7 +288,7 @@ $$X_{f}=X_{f^n}=\cup_{j\in J}X_{fg_j}\subseteq\cup_{j\in J}X_{g_j}.$$
 Therefore, $\{X_{g_j}:j\in J\}\subseteq \{X_{g_i}:i\in I\}$ is an open subcover of $X_f$ and so $X_f$ is quasi-compact.
 
 vii) If an open set is a finite union of some $X_f$, then it is quasi-compact by vi). Otherwise, if an open set $O$ is quasi-compact, then there exists an open cover $\{X_{f_i}:i\in I\}$. Since $\{X_f:f\in A\}$ forms a basis of Zariski topology, we can take $I$ such that $\cup_{i\in I}X_{f_i}=O$. As it has a finite subcover, there is finite $J\subseteq I$ with $O=\cup_{j\in J}X_{f_j}$ and so $O$ is a finite union of some $X_f$. 
-<p align="right">□</p>
+□
 
 
 > [!proposition] Text-Ex. 1.19
@@ -298,5 +298,5 @@ vii) If an open set is a finite union of some $X_f$, then it is quasi-compact by
 
 **_Proof._**
 Note that $\mathrm{Spec}A$ is irreducible iff $X_f\cap X_g=X_{fg}\neq\emptyset$ for any $X_f,X_g\neq \emptyset$ iff for any non-nilpotent $f,g$, $fg$ is also not nilpotent iff $\mathrm{Nil}(A)$ is a prime ideal. 
-<p align="right">□</p>
+□
 

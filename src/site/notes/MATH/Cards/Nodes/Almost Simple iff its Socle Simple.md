@@ -14,4 +14,4 @@ Conversely, suppose $\mathrm{soc}(G):=N$ is simple. If $C_G(N)\neq 1$, then $C_G
 $$G=G/C_G(N)=N_G(N)/C_G(N)\lesssim\mathrm{Aut}(N)$$
 
 and so $G$ is almost simple.
-<p align="right">□</p>
+□

@@ -19,4 +19,4 @@ Now suppose that $G$ is semiregular.
 
 
 
-<p align="right">□</p>
+□

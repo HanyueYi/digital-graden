@@ -10,4 +10,4 @@
 
 **_Proof._**
 See [[Representations and characters of groups-James_Liebeck.pdf#page=120&selection=249,0,249,17\|Representations and characters of groups-James_Liebeck.pdf#page=120&selection=249,0,249,17]]. 
-<p align="right">□</p>
+□

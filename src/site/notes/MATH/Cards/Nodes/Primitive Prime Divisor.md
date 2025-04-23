@@ -10,7 +10,7 @@
 
 **_Proof._**
 See [here](https://angyansheng.github.io/blog/an-elementary-proof-of-zsigmondys-theorem).
-<p align="right">□</p>
+□
 
 # an Application
 

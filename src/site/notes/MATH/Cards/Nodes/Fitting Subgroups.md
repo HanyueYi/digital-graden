@@ -19,6 +19,6 @@ Note that $\Phi(G)$ is a normal nilpotent subgroup. So $\Phi(G)\leqslant\mathrm{
 (i) Let $N$ be a nilpotent normal subgroup of $G$. Then $N=Q_1\times\cdots\times Q_t$ where $Q_i$ are Sylow subgroups. Now $Q_i\lhd_{\mathrm{char}} N\lhd G$ and so $Q_i\lhd G$. Then $Q_i\leqslant O_{p_i}(G)$ and $N\leqslant O_{p_1}(G)\times\cdots\times O_{p_k}(G)$. By the arbitrary of $N$, we have that $F\leqslant O_{p_1}(G)\times\cdots\times O_{p_k}(G)$. On the other hand, since $O_{p_1}(G)\times\cdots\times O_{p_k}(G)$ is a nilpotent normal subgroup, $F\geqslant O_{p_1}(G)\times\cdots\times O_{p_k}(G)$. Therefore, we obtain that $F=O_{p_1}(G)\times\cdots\times O_{p_k}(G)$. 
 
 (ii) See [here](https://groupprops.subwiki.org/wiki/Solvable_implies_Fitting_subgroup_is_self-centralizing). 
-<p align="right">□</p>
+□
 
 

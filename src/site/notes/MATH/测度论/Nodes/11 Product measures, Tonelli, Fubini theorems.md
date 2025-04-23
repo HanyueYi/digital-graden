@@ -13,7 +13,7 @@
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=78&selection=454,0,455,1|here]]. It is similar as the proof in [[MATH/测度论/Nodes/3 the Monotone Class Theorem\|3 the Monotone Class Theorem]].
-<p align="right">□</p>
+□
 
 
 > [!lemma]
@@ -23,7 +23,7 @@ See [[Measure  Theory    (Xia).pdf#page=78&selection=454,0,455,1|here]]. It is s
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=78&selection=724,0,724,6|here]]. It is also similar as the proof in [[MATH/测度论/Nodes/3 the Monotone Class Theorem\|3 the Monotone Class Theorem]].
-<p align="right">□</p>
+□
 
 
 > [!theorem]
@@ -46,7 +46,7 @@ We define $(\mu\times\nu)_1:=\int_X\nu(E_x)d\mu$ and $(\mu\times\nu)_2:=\int_Y\m
 - use [[MATH/测度论/Nodes/3 the Monotone Class Theorem#^ljjfjj\|3 the Monotone Class Theorem#^ljjfjj]].
 
 Also see [[Measure  Theory    (Xia).pdf#page=79&selection=355,0,356,1|here]]. 
-<p align="right">□</p>
+□
 
 
 > [!theorem] Tonelli's Theorem
@@ -65,7 +65,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=79&selection=355,0,356,1|here]].
 It suffices to show these statements hold for character functions by [[#^db74fa]] and [[#^b32528]] and so for simple function. Then use simple function to approximate measurable function and by MCT we finish the proof. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=80&selection=115,0,116,1|here]]. 
-<p align="right">□</p>
+□
 
 
 > [!theorem] Fubini's Theorem
@@ -81,7 +81,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=80&selection=115,0,116,1|here]].
 By $\int_{X\times Y}|f|<\infty$, we have $\int_Y|f|$, $\int_X|f|$, $\int_Y f_x^+$, $\int_Y f_x^-$ are finite almost everywhere. Then use [[#^67db20]]. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=81&selection=104,0,105,0|here]].
-<p align="right">□</p>
+□
 
 
 **Remark.** $\mathcal{A},\mathcal{B}$ being $\sigma$-finite is necessary. As a counterexample, consider Lebesgue measure $(\mathbb{R},\mathcal{A},\mu)$, counting measure $(\mathbb{R},\mathcal{B},\nu)$ and $f(x,y)=\delta_{xy}$ with $0\leqslant x\leqslant 1$. 
@@ -100,7 +100,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=81&selection=104,0,105,0|here]].
 > 
 > **_Proof._**
 > Define $E=\{(x,t):0\leqslant t<f(x)\}$, which is the region under the graph of $f$. Since $f$ is measurable, there exists $s_n\uparrow f$ and $E_{s_n}=\{(x.t):0\leqslant t<s_n(x)\}$ is measurable. Then we can compute $\mu\times m(E)$ by [[#^67db20]]. Also see [[Measure  Theory    (Xia).pdf#page=81&selection=361,0,362,0|here]].
-> <p align="right">□</p>
+> □
 
 > [!theorem]
 > Let $(X, \mathcal{A}, \mu)$ and $(Y, \mathcal{B}, \nu)$ be $\sigma$-finite measure spaces, and let $K$ be a $\mathcal{A} \otimes \mathcal{B}$-measurable function on $X \times Y$. Suppose that there exists $C>0$ such that $\int_X|K(x, y)| d \mu \leqslant C$ for a.e. $y \in Y$ and $\int_Y|K(x, y)| d \nu \leqslant C$ for a.e. $x \in X$, and that $1<p<\infty$. If $f \in L^p(\nu)$, the integral
@@ -130,7 +130,7 @@ $$
 $$
 
 and we finish the proof. Also see [[Measure  Theory    (Xia).pdf#page=82&selection=225,0,226,2|here]].
-<p align="right">□</p>
+□
 
 
 The following theorem is a generalization of Minkowski's inequality, which replace $\sum$ as $\int$. 
@@ -163,7 +163,7 @@ On the other hand, it follows from [[MATH/测度论/Nodes/9 LP Spaces#^on15z3\|t
 $$\|T\|=\left(\int_X\left(\int_Y f(x, y) d \nu\right)^p d \mu\right)^{1 / p}$$
 
 Now we finish the proof.
-<p align="right">□</p>
+□
 
 **Remark.** 用了 Riesz representation theorem. 右边凑一个 Holder 比较容易想到，左边是线性变换的模长就有点变态了。
 

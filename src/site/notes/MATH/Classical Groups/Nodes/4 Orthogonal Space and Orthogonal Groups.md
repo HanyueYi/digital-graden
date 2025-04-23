@@ -21,7 +21,7 @@ Assume $(V,B)$ is an [[MATH/Classical Groups/Nodes/1 Sesquilinear Form#^6hwkgu\|
 
 **_Proof._**
 Let $S=\{b^2:b\in F\}$ and $T=\{a-c^2:c\in F\}$. Then $|S|=|T|=(q+1)/2$. Then $S\cap T\neq \emptyset$ and it yields the existence of $b,c$. 
-<p align="right">□</p>
+□
 
 > [!theorem]
 > If $\dim V\geq 3$, there is a isotropic vector $v$ and a hyperbolic plane $H$ containing $v$. Furthermore, suppose $(V,Q)$ is a non-degenerated orthogonal space and $\mathrm{char}F\neq 2$. Then $V$ can be written as

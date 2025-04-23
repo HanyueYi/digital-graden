@@ -39,5 +39,5 @@ $$\delta(a) \delta(b)=\overline{\delta(a)} \delta(b) \overline{\delta(a)}^{-1}=\
 and hence $\delta$ is acting as a field automorphism of $F$. Therefore, $\mathrm{Aut}(\mathrm{AGL}_1(p^n))=\mathrm{A}\mathrm{\Gamma L}_1(p^n)$.
 
 Furthermore, since $\mathrm{A}\mathrm{\Gamma L}_1(p^n)$ acts on $G=N{:}H$ faithfully, we obtain that $\mathrm{Aut}(G)=\mathrm{A}\mathrm{\Gamma L}_1(p^n)$. 
-<p align="right">□</p>
+□
 

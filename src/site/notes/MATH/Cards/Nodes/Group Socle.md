@@ -12,4 +12,4 @@
 
 **_Proof._**
 Note that any different minimal normal subgroups intersects trivially, see [[MATH/Cards/Nodes/Normal Subgroups that Intersect Trivially\|here]]. Then by [[MATH/Cards/Nodes/Minimal Normal Subgroup and Maximal Normal Subgroup\|this lemma]] the socle is a direct product of simple groups.
-<p align="right">□</p>
+□

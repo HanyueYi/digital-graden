@@ -18,7 +18,7 @@
 Suppose now that $K_1$ and $K_2$ are distinct transitive minimal normal subgroups of $G$. As was noted above, $K_1=C_G(K_2)$ and $K_2=C_G(K_1)$, and they are both regular on $\Omega$. 
 
 (to be continued)
-<p align="right">□</p>
+□
 
 
 > [!theorem]
@@ -29,7 +29,7 @@ Suppose now that $K_1$ and $K_2$ are distinct transitive minimal normal subgroup
 **_Proof._**Suppose $M,N$ are two different minimal normal subgroups of primitive $G$. Then $M,N$ are transitive by [[MATH/Cards/Nodes/Orbits of Normal Subgroups Form a Block System\|here]]. By [[MATH/Cards/Nodes/Abelian Transitive Action is Regular\|Abelian Transitive Action is Regular]], we know that $|M|=|N|=|\Omega|$. Note that $M\cap N=\{1\}$. Since $[M,N]\subseteq M\cap N$ by normal, $[M,N]=1$ and so $M$ is in the centralizer of $N$. 
 
 Let $Z$ be the centralizer of $N$. Since $N$ is abelian, $Z\geq N$ and so $Z$ is transitive. For any $\alpha,\beta\in\Omega$, there is $n\in N$ such that $\alpha^n=\beta$. Then $Z_\alpha=Z_\alpha^n=Z_\beta$. By the arbitrary of $\beta$, $Z_\alpha=1$. Thus $Z$ is also regular and so $Z=N$. It contradicts to $M\leq Z$. Hence the minimal normal subgroup is unique.
-<p align="right">□</p>
+□
 
 
 
@@ -42,4 +42,4 @@ Let $Z$ be the centralizer of $N$. Since $N$ is abelian, $Z\geq N$ and so $Z$ is
 
 **_Proof._**
 By [[#^9gl6q2|Lemma 1]], $X$ has at most two minimal normal subgroup $K_1,K_2$ and they are interchanges by an involution. Thus $K_1\cong K_2$ and so $B=K_1\times K_2\cong T^k$ with $k\geq 1$ where $T$ is a simple group.
-<p align="right">□</p>
+□

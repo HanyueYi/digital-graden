@@ -9,5 +9,5 @@
 
 **_Proof._**
 Note that $hkh^{-1}k^{-1}\in H\cap K=\{1\}$.
-<p align="right">□</p>
+□
 

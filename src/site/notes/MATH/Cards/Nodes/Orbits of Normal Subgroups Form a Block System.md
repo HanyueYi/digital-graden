@@ -13,5 +13,5 @@ Suppose $O_1,\cdots,O_k$ are orbits of $N$. Then $\sqcup_{i=1}^kO_i=\Omega$ and 
 $$(O_i^g)^N=(O_i^{gNg^{-1}})^g=(O_i^N)^g=O_i^g,$$
 
 and it yields $O_i^g$ is a union of $N$-orbits. For $\omega_1^g,\omega_2^g\in O_i^g$, there exists $n\in N$ such that $\omega_1^n=\omega_2$. Then $(\omega_1^g)^m=\omega_2^g$ with $m=g^{-1}ng\in N$. So $N$ is transitive on $O_i^g$ and so $O_i^g=O_j$ for some $j\in\{1,\cdots,k\}$. Therefore, the set of orbits of $N$ forms a block system.
-<p align="right">□</p>
+□
 

@@ -53,7 +53,7 @@ where $s=\sum_{j=1}^\infty a_j\chi_{E_j}$. As $n\to\infty$,
 $$c\sum a_j\mu(A_n\cap E_j)\to c\sum a_j\chi(E_j)=c\int_X sd\mu.$$
 
 Take $c\to 1$, then we have $\lim_{n\to\infty}\int_X f_n\geqslant\int_X s$ for all simple functions $s\leqslant f$ hold. Then we obtain $\lim_{n\to\infty}\int_X f_n\geqslant\int_X f$. On the other hand, as $f_1\uparrow f$, $\lim_{n\to\infty}\int_X f_n\leqslant\int_X f$. Now we finish the proof.
-<p align="right">□</p>
+□
 
 **Remark.** $f$ is non-negative is necessary. Let $X=[0, \infty)$ and $f_n(x)=-1 / n$ for all $x$. Then $\int f_n=-\infty$, but $f_n \uparrow f$ where $f=0$ and $\int f=0$. 
 
@@ -70,7 +70,7 @@ Assume that $s=\sum_{j=1}^n a_j\chi_{E_j}$ and $t=\sum_{i=1}^m b_i\chi_{E_i}$. T
 $$\int_X(s+t)d\mu=\sum_{i=1}^m\sum_{j=1}^n(a_i+b_j)\chi_{A_i\cap B_j}=\int_Xsd\mu+\int_Xtd\mu.$$
 
 We have done.
-<p align="right">□</p>
+□
 
 
 > [!theorem]
@@ -86,7 +86,7 @@ By [[MATH/测度论/Nodes/6 Convergence of Measurable Functions#^n03bsd\|6 Conve
 $$\int_X(f+g)=\lim_{n\to\infty}\int_X(s_n+t_n)=\lim_{n\to\infty}(\int_Xs_n+\int_X t_n)=\int_Xf+\int_Xg.$$
 
 Therefore, we have that $\int_X(f+g) d \mu=\int_X f d \mu+\int_X g d \mu$.
-<p align="right">□</p>
+□
 
 
 > [!theorem]
@@ -128,7 +128,7 @@ $$
 
 
 If $f$ and $g$ are complex-valued, apply the above to the real and imaginary parts.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -140,7 +140,7 @@ Let $E=\cup_{i=1}^\infty E_i$ and $F_n=\cup_{i=1}^n E_i$. Then $F_n\uparrow E$ a
 $$\int_E s=\int_Xs\chi_E=\lim_{n\to\infty}\int_Xs\chi_{F_n}=\lim_{n\to\infty}\int_{F_n}s.$$
 
 Since $\int_{F_n}s=\sum_{i=1}^n\int_{E_i}s$, we have that $\int_{\cup_{i=1}^\infty E_i}s=\sum_{i=1}^\infty\int_{E_i}s$.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -159,7 +159,7 @@ $$
 $$
 
 Taking $n \rightarrow \infty$ and using the monotone convergence theorem, one gets $\int_{\cup_{i=1}^{\infty} E_i} f d \mu=\sum_{i=1}^{\infty} \int_{E_i} f d \mu$. 
-<p align="right">□</p>
+□
 
 
 
@@ -188,7 +188,7 @@ $$
 $$
 
 Now we finish the proof.
-<p align="right">□</p>
+□
 
 **Example.** For a non-negative double sequence of reals, the order of summation can be reversed. See [[Measure  Theory    (Xia).pdf#page=36&selection=532,0,532,7|here]].
 
@@ -207,7 +207,7 @@ Note that
 $$\int_X\liminf_{n\to\infty} f_n=\int_X\lim_{n\to\infty}\inf_{k\geqslant n}f_k=\lim_{n\to\infty}\int_X\inf_{k\geqslant n}f_k=\liminf_{n\to\infty}\int_X\inf_{k\geqslant n}f_k\leqslant\liminf_{n\to\infty}\int_X f_n.$$
 
 We have done.
-<p align="right">□</p>
+□
 
 **Remark.** The inequality can be strict, see [[Measure  Theory    (Xia).pdf#page=37&selection=302,0,303,0|here]].
 
@@ -234,7 +234,7 @@ $$
 $$
 
 and so $-\int f \leq \liminf _{n \rightarrow \infty} \int\left(-f_n\right)=-\limsup _{n \rightarrow \infty} \int f_n$, which with $(*)$ proves the theorem.
-<p align="right">□</p>
+□
 
 
 > [!theorem] GDCT/An Extension of the Dominated Convergence 
@@ -257,7 +257,7 @@ Since $f_n+g_n\geqslant 0$, then
 $$\int(g+f) \leq \liminf _{n \rightarrow \infty} \int\left(g_n+f_n\right)=\int g+\liminf _{n \rightarrow \infty} \int f_n$$
 
 and so $\int f\leqslant\liminf\int f_n$. Similarly, since $g_n-f_n\geqslant 0$ we can show that $\limsup\int f_n\leqslant\int f$. Now we have that $\lim\int f_n=\int f$.
-<p align="right">□</p>
+□
 
 # Chebyshev's Inequality
 
@@ -280,7 +280,7 @@ and so $\int f\leqslant\liminf\int f_n$. Similarly, since $g_n-f_n\geqslant 0$ w
 
 **_Proof._**
 Easy.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -288,7 +288,7 @@ Easy.
 
 **_Proof._**
 By [[#^ceec71]]. 
-<p align="right">□</p>
+□
 
 > [!proposition]
 > Suppose $f$ is measurable and non-negative and $\int_X f d \mu=0$. Then $f=0$ almost everywhere.
@@ -297,7 +297,7 @@ By [[#^ceec71]].
 
 **_Proof._**
 Since $\{x:f(x)>0\}=\cup_{n=1}^\infty \{x:f(x)>1/n\}$, we have $0=\int_X f\geqslant 1/n\cdot\mu(\{x:f(x)>1/n\})$ and so $\mu(\{x:f(x)>0\})=0$.
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -305,7 +305,7 @@ Since $\{x:f(x)>0\}=\cup_{n=1}^\infty \{x:f(x)>1/n\}$, we have $0=\int_X f\geqsl
 
 **_Proof._**
 Let $A=\{x:f(x)>0\}$, and let $B=\{x:f(x)<0\}$. By [[#^ra34bw]], $f=0$ almost everywhere on both $A$ and $B$. Now we finish the proof.
-<p align="right">□</p>
+□
 
 # VCT
 
@@ -350,7 +350,7 @@ ii) Let $X_0=\{x:s(x)\geqslant 0\}$, and let $s$ be the same function defined in
 $$\int_{X-X_0}f=\int_{X-X_0}(f-s)+\int_{X-X_0}s\leqslant\int_X(f-s)<\epsilon.$$
 
 Now we finish the proof.
-<p align="right">□</p>
+□
 
 
 > [!theorem] Vitali Convergence Theorem 
@@ -372,7 +372,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 As $f_n\to f$ uniformly on $X_1$, there exists $N$ such that $|f_n(x)-f(x)|<\epsilon/6\mu(X_1)$ for any $n>N$. Hence, when $n>N$, $\int_X|f_n-f|<\epsilon/2$, i.e., $\lim_{n\to\infty}\int_Xf_n=\int_X f$.
-<p align="right">□</p>
+□
 
 
 > [!theorem]

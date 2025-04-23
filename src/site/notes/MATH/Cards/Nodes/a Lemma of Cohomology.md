@@ -17,4 +17,4 @@ G_0&\mapsto N_0=G_0\cap (V{:}N)
 \end{aligned}$$
 
 is injective and so $|\mathrm H^1(G,V)|\leqslant |\mathrm H^1(N,V)|$.
-<p align="right">□</p>
+□

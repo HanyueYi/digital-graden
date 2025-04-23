@@ -38,7 +38,7 @@ We first list some properties of $\hat f(x)$ in $L^1(\mathbb{R})$.
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=107&selection=486,0,487,0|here]].
-<p align="right">□</p>
+□
 
 
 > [!proposition]
@@ -49,7 +49,7 @@ See [[Measure  Theory    (Xia).pdf#page=107&selection=486,0,487,0|here]].
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=109&selection=41,0,41,5|here]].  （我并没有看。
-<p align="right">□</p>
+□
 
 
 > [!theorem] Inversion of the Fourier transform on $L^1$
@@ -95,7 +95,7 @@ This follows easily from Fubini's theorem and is left as an exercise.
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=111&selection=206,0,207,0|here]]. 
-<p align="right">□</p>
+□
 
 
 # Fourier Transform on $L^2$
@@ -105,7 +105,7 @@ See [[Measure  Theory    (Xia).pdf#page=111&selection=206,0,207,0|here]].
 
 **_Proof._**
 By Cauchy inequality. See [[Measure  Theory    (Xia).pdf#page=112&selection=4,0,4,5|here]]. 
-<p align="right">□</p>
+□
 
 
 > [!theorem] Plancherel
@@ -125,7 +125,7 @@ $$(2\pi)^n\int|\hat f(u)|^2H_a(u)du=(f*g)*\hat{H_a}(0).$$
 Take $a\to \infty$ and we finish the proof.
 
 Also see [[Measure  Theory    (Xia).pdf#page=112&selection=332,0,332,5|here]].
-<p align="right">□</p>
+□
 
 
 **Remark.** If $\{f_k\}$ satisfying $||f_k-f||_2\to 0$, then $\{\hat{f_k}\}$ is Cauchy in $L^2$ and converges to a function $\hat f$ in $L^2$. We can check that $\hat f$ is not depending on the choice of $f_k$, and so it is well-defined. (That is the way how we define $\hat f$?)

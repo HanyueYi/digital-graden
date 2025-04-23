@@ -14,7 +14,7 @@ Consider the subspace $W\subset V$ and $V$ can be decomposed as $V=W\oplus W_0$.
 $$\pi_0:V\to W, v\mapsto\frac{1}{|G|}\sum_{g\in G}g\pi(g^{-1}v).$$
 
 Then we have $\pi_0(w)=\frac{1}{|G|}\sum_{g\in G}g(g^{-1}w)=w$ and so $\pi_0$ is surjective. Therefore, $V=W\oplus \ker\pi_0$ as vector space. We now prove that $\ker\pi_0$ is a $G$-submodule. For any $h\in G$ and $v\in\ker\pi_0$, there is $\pi_0(hv)=\frac{1}{|G|}\sum_{g\in G}h(h^{-1}g)\pi(g^{-1}hv)=h\pi_0(v)=0$. Therefore, $\ker\pi_0$ is a $G$-submodule and we finish the proof.
-<p align="right">□</p>
+□
 
 **Remark.** Note that $\pi_0(hv)=h\pi_0(v)$ yields that $\pi_0:V\to W$ is a morphism of $G$-modules.
 
