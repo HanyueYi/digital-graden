@@ -10,4 +10,86 @@ body {
     //  h1 {
     //   color: black;
     //  }
+
+
+    img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+
+ .markdown-source-view.mod-cm6 .cm-content > * {
+    margin: auto auto !important;
+    }    
+
+  /* ========================================== */
+/* 自定义 Callout 样式 (V5 - Grouped)      */
+/* - Theorem, Proposition, Lemma, Corollary, Definition */
+/* ========================================== */
+
+/* 主要样式块 (应用于所有五种类型) */
+div.callout[data-callout="theorem"],
+div.callout[data-callout="proposition"],
+div.callout[data-callout="lemma"],
+div.callout[data-callout="corollary"],
+div.callout[data-callout="definition"] { 
+    color: #000000; 
+    background-color: rgba(0, 0, 0, 0); 
+    border: 1px solid rgb(15, 15, 15); /* 或 #000000 */
+    border-radius: 6px; /* 或 0 */              
+    padding: 1.5em;                    
+    position: relative; 
+    font-family: "CMU Serif", Times, "Noto Serif JP", serif; 
+    /* overflow: hidden; */ 
+}
+
+/* 隐藏图标 (应用于所有五种类型) */
+div.callout[data-callout="theorem"] .callout-icon,
+div.callout[data-callout="proposition"] .callout-icon,
+div.callout[data-callout="lemma"] .callout-icon,
+div.callout[data-callout="corollary"] .callout-icon,
+div.callout[data-callout="definition"] .callout-icon {
+    display: none; 
+}
+
+/* 标题样式 (应用于所有五种类型) */
+div.callout[data-callout="theorem"] .callout-title,
+div.callout[data-callout="proposition"] .callout-title,
+div.callout[data-callout="lemma"] .callout-title,
+div.callout[data-callout="corollary"] .callout-title,
+div.callout[data-callout="definition"] .callout-title {
+    font-size: 1.1em; 
+    font-weight: bold; 
+    margin-bottom: 0.5em; 
+    color: #000000; 
+}
+
+/* 内容文字样式: 斜体 + 字号 (应用于 Theorem, Proposition, Lemma, Corollary) */
+div.callout[data-callout="theorem"] .callout-content,
+div.callout[data-callout="proposition"] .callout-content,
+div.callout[data-callout="lemma"] .callout-content,
+div.callout[data-callout="corollary"] .callout-content {
+    font-style: italic; 
+    font-size: 1.1em; /* 用户指定的大小 */
+}
+
+/* 内容文字样式: 非斜体 + 字号 (仅应用于 Definition) */
+div.callout[data-callout="definition"] .callout-content {
+    font-style: normal; /* 确保不是斜体 */
+    font-size: 1.1em; /* 用户指定的大小 */
+}
+
+/* ========================================== */
+/* 增大页面主要内容区域的最大宽度          */
+/* ========================================== */
+
+.content { /* 使用我们找到的选择器 .content */
+    max-width: 1000px; /* <-- 在这里设置你想要的新宽度 (例如 1100px, 1000px, 1200px, 65rem, 70rem 等，可以多试试找到你喜欢的) */
+}
+
+
+ 
+
+
+    
 }
