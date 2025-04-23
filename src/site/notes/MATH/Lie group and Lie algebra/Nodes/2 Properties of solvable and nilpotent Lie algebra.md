@@ -38,7 +38,7 @@ Then we have the following corollary:
 
 
 **_Proof._**Since $g$ is solvable, there is a weight $U\subseteq V$ and $\rho|_U$ is diagonalizable. Let $U=\mathrm{span}\{v_1,\cdots,v_t\}$. Then consider $\tilde\rho:g\to V/U$, still $\tilde \rho$ has a weight $\widetilde{U_1}$.  Let $U_1$ be the preimage of $\widetilde{U_1}$ and $U_1=\mathrm{span}\{v_1,\cdots,v_t,v_{t+1},\cdots,v_m\}$. Then repeat the procedure, that is consider ${\tilde\rho}':g\to V/U_1$ and its weight until we get a set of basis of $V$. It is easy to verify under this basis $\rho(g)\subseteq\{\text{ upper triangular matrices }\}$. 
-□
+<p align="left">□</p>
 
 ## Finest Ideal Sequence
 
@@ -56,7 +56,7 @@ $$g^{(1)}\subsetneq g^{(1)}\oplus\mathbb CY_1\subsetneq\cdots\subsetneq g^{(1)}\
 where $Y_i\in g\backslash g^{(1)}$. Similarly, use $Z_i\in g^{(1)}\backslash Y^{(2)}$ to construct subsequence of $(*)$ between $g^{(2)}$ and $g^{(1)}$. Repeat this process and get the sequence we want.
 
 ii) Conversely, suppose $g$ admits a sequence $(*)$. Take a set of basis $\{e_1,\cdots,e_n\}$ such that $I_k=\mathrm{span}\{e_1,\cdots,e_k\}$. Then under this basis $\mathrm{ad}X$ is an upper triangular matrix for any $X\in g$, and so $\mathrm{ad}([g,g])$ are nilpotent. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $[g,g]$ is nilpotent and so $g$ is solvable by [[MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra#^2be7fe\|#^2be7fe]].
-□
+<p align="left">□</p>
 ## Unique Maximal Nilpotent Ideal of Solvable Lie Algebra
 
 > [!corollary]
@@ -76,7 +76,7 @@ ii) Since $g$ is solvable, we have the following diagram.
 
 ![Pasted image 20231010164310.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020231010164310.png)
 
-Thus $n$ is a nilpotent ideal. Let $n'$ be a nilpotent ideal. Since $n'$ is nilpotent, for each $Y\in n'$, $\mathrm{ad}(Y)$ is nilpotent. Then $Y\in n$ yields $n'\subseteq n$ and $n$ is the unique maximal nilpotent ideal. □
+Thus $n$ is a nilpotent ideal. Let $n'$ be a nilpotent ideal. Since $n'$ is nilpotent, for each $Y\in n'$, $\mathrm{ad}(Y)$ is nilpotent. Then $Y\in n$ yields $n'\subseteq n$ and $n$ is the unique maximal nilpotent ideal. <p align="left">□</p>
 
 
 > [!Warning] Open Question
@@ -115,5 +115,5 @@ This theorem is proved [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theore
 **_Proof._**i) Suppose any $\mathrm{ad}X$ is upper triangular matrix. By Cayley-Hamilton $\mathrm{ad}X$ is nilpotent. Then $g$ is nilpotent by [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]]. 
 
 ii) Suppose $g$ is nilpotent. Then $g$ is solvable and there is a basis s.t. $\mathrm{ad}X$ is upper triangular for all $X\in g$. By [[MATH/Lie group and Lie algebra/Nodes/2.2 Engel's theorem#^e1bcc4\|Engel's theorem]], $\mathrm{ad}X$ is nilpotent. By Cayley-Hamilton $\mathrm{ad}X$ is strictly upper triangular matrix. 
-□
+<p align="left">□</p>
 

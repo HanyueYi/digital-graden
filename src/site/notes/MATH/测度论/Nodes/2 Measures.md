@@ -38,7 +38,7 @@ ii) Let $B_1=A_1$, and let $B_i=A_i-\cup_{j=1}^{i-1}A_j$. Then $\{B_i\}_{i=1}^\i
 iii) Let $A_0=\emptyset$. Then $\mu(A)=\sum_{i=1}^\infty\mu(A_i-A_{i-1})=\lim_{n\to\infty}\mu(A_n)-\mu(A_{0})=\lim_{n\to\infty}\mu(A_n)$.
 
 iv) Let $B_n=A_1-A_n$. Since $B_n\uparrow A_1-A$, we have $\mu(A_1)-\mu(A)=\mu(A_1-A)=\lim_{n\to\infty}\mu(B_n)=\mu(A_1)-\lim_{n\to\infty}\mu(A_n)$. Therefore, $\mu(A)=\lim _{i \rightarrow \infty} \mu\left(A_i\right)$.
-□
+<p align="left">□</p>
 
 
 **Remark.** In iv), $\mu(A_1)<\infty$ is necessary. Consider 
@@ -61,7 +61,7 @@ iv) Let $B_n=A_1-A_n$. Since $B_n\uparrow A_1-A$, we have $\mu(A_1)-\mu(A)=\mu(A
 
 **_Proof._**
 Let $D=\{x:x\mbox{ belongs to at most finite number of the }E_k\mbox{'s}\}$. It suffices to show that $\mu(D^c)=0$. Note that $D^c=\{x:x\mbox{ belongs to infinitely many }E_k\mbox{'s}\}=\lim\sup_{n\to\infty} E_n$. So we have $\mu(D^c)=\mu(\cap_{n=1}^\infty\cup_{k=n}^\infty E_k)\leqslant\mu(\cap_{k=n}^\infty E_k)\leqslant\sum_{k=n}^\infty\mu(E_k)=0$.
-□
+<p align="left">□</p>
 
 > [!definition] complete
 > A measure space $(X, \mathcal{A}, \mu)$ is said to be *complete* if
@@ -89,7 +89,7 @@ $\mu(A^c-B^c)=\mu(A^c\cap B)=\mu(B-A)=0$. So $E^c\in\mathcal A^*$. Let $\{E_n\}\
 ii) For any $E\in\mathcal A^*$, we have $A\subset E\subset B$ and $\mu(B-A)=0$. If $\mu^*$ is defined, then $\mu^*(E)=\mu(A)$. Define $\mu^*(E)=\mu(A)$ if $A\subset E\subset B$. Claim that $\mu^*$ is well defined. Otherwise, assume that $A_1\subset E\subset B_1$ and $A_2\subset E\subset B_2$ with $\mu(B_i-A_i)=0$. Then $\mu(A_1)\leqslant\mu(B_2)=\mu(A_2)\leqslant\mu(B_1)=\mu(A_1)$, i.e., $\mu(A_1)=\mu(A_2)$. If $\{E_i\}\subseteq\mathcal{A}^*$ with $E_i\cap E_j=\emptyset$, then there exist $A_i\subseteq E_i\subseteq B_i$ such that $\mu(B_i-A_i)=\emptyset$. Let $A=\cup_{i=1}^\infty A_i$, and let $B=\cup_{i=1}^\infty B_i$. Then $B-A\subseteq\cup_{i=1}^\infty(B_i-A_i)$ and so $\mu(B-A)=0$. It follows that $\mu^*(\cup_{i=1}^\infty E_i)=\mu^*(A)=\mu(A)=\sum_{i=1}^\infty\mu^*(E_i)$. Therefore, $\mu^*$ is a measure.
 
 iii) If $N\in\mathcal{A}^*$ and $\mu^*(N)=0$, then there exists $A,B$ such that $A\subseteq N\subseteq B$ such that $\mu(B-A)=0$. Since $\mu(A)=0$, we have $\mu(B)=0$. For any $M\subseteq N$, there is $\emptyset\subseteq M\subseteq B$ and $\mu(B-\emptyset)=0$. Therefore, $M\in\mathcal{A}^*$ and we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!definition]

@@ -19,7 +19,7 @@ Since $G$ is quasiprimitive, groups $M$ and $N$ are transitive. By [[MATH/Cards/
 $$M\times N=\hat M\times \check M=\hat M{:}\tilde M=M{:}\mathrm{Inn}(M),$$
 
 where the notations come from [[MATH/Cards/Nodes/Three Permutations on G Induced from G\|Three Permutations on G Induced from G]]. By NC lemma, there is $N_G(N)/C_G(N)=G/M\leqslant\mathrm{Aut}(M)$ and so $G\leqslant M{:}\mathrm{Aut}(M)$. Moreover, $\mathrm{Aut}(M)=\mathrm{Aut}(T)\wr S_l$ is proved [[MATH/Cards/Nodes/Automorphism Groups of Direct Product of Isomorphic Simple Groups\|here]]. 
-□
+<p align="left">□</p>
 
 **Remark.** If $l=1$, the type is named HS; while when $l>1$ the type is named HC. We have the following lemma. 
 
@@ -40,4 +40,4 @@ Since $H\geqslant\mathrm{Inn}(T)$, the action of $T$ on $M$ by conjugation fixes
 ii) The proof is similar to i). Let $G=M{:}H$ be of type HC with $M\cong T^l$ a direct product of isomorphic simple groups. By [[MATH/Cards/Nodes/Properties of HS and HC#^04lqgl\|#^04lqgl]], we have $\mathrm{Inn}(M)\leqslant H\leqslant\mathrm{Aut}(M)$. If $H=G_\omega$ with $\omega=1\in T$ is not a maximal subgroup of $G$, then there is a $L$ such that $H<L<G$ and $L$ has a subgroup $N:=m^H$ where $(m,h)\in L\setminus H$. Note that $N\lhd M$ and $M$ is a minimal normal subgroup of $G$. Thus $N=M$ and so $L=G$, which is impossible. So $G$ is primitive.
 
 iii) When $G$ is of type HA, the primitivity of $G$ is proved [[MATH/Cards/Nodes/Affine Quasiprimitive is Primitive\|here]].
-□
+<p align="left">□</p>

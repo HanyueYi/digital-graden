@@ -10,7 +10,7 @@
 
 **_Proof._**
 By [[MATH/交换代数/Nodes/6 Chain Condition#^7j4294\|6 Chain Condition#^7j4294]].
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -18,7 +18,7 @@ By [[MATH/交换代数/Nodes/6 Chain Condition#^7j4294\|6 Chain Condition#^7j429
 
 **_Proof._**
 By [[MATH/交换代数/Nodes/6 Chain Condition#^8ezl57\|6 Chain Condition#^8ezl57]], $B$ is a Noetherian $A$-module. For any $B$-submodule $N$ of $B$, it is also a $A$-submodule and so is finitely generated over $A$. Then $N$ is finitely generated over $B$. Thus $B$ is a Noetherian $B$-module.
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -26,7 +26,7 @@ By [[MATH/交换代数/Nodes/6 Chain Condition#^8ezl57\|6 Chain Condition#^8ezl5
 
 **_Proof._**
 By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|3 Rings and Modules of Fractions#^961e0a]], ideals in $S^{-1}A$ are of form $S^{-1}I$ with $I\subseteq A$ ideal. But $I$ is finitely generated $A$-module. Then $S^{-1}I=S^{-1}A\otimes _A I$ is a finitely generated $S^{-1}A$-module.
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -56,7 +56,7 @@ and its degree $<\deg f$. Repeat this procedure, and we get $f=g+h$ where $g\in 
 Let $M=\oplus_{i=1}^{r-1}Ax^i\subseteq A[x]$ be a $A$-submodule. By the decomposition $f=g+h$, we have $\alpha=\alpha'+\alpha\cap M$ as $A$-modules. 
 
 But now, $M$ is a Noetherian $A$-module and $\alpha \cap M$ is also Noetherian $A$-module. So $\alpha\cap M=(g_1,\cdots,g_m)_A$. It is easy to see $\alpha=(f_1,\cdots,f_n,g_1,\cdots,g_m)_{A[x]}$ and so $\alpha$ is finitely generated. 
-□
+<p align="left">□</p>
 
 **Remark.** We have proved it [[MATH/抽象代数II/Nodes/2.3 Noetherian Rings and Modules#^75xtmd\|here]]. Similarly, we can prove that if $A$ is Noetherian, then $A[\![x]\!]$ is also Noetherian. The proof is similar, using "lowest term coefficient". See [[MATH/交换代数/Nodes/HW6#^elab7i\|here]]. 
 
@@ -71,7 +71,7 @@ But now, $M$ is a Noetherian $A$-module and $\alpha \cap M$ is also Noetherian $
 There exists surjective map $A[x_1,\cdots,x_n]\twoheadrightarrow B$. 
 
 Or see [[MATH/抽象代数II/Nodes/2.3 Noetherian Rings and Modules#^gmjk45\|2.3 Noetherian Rings and Modules#^gmjk45]]. 
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -96,7 +96,7 @@ Let $B_0=A[b_{ij},b_{ijk}]\subseteq B$ be a subring, which is a finitely generat
 Indeed, for any $b\in B\subseteq C=A[x_1,\cdots,x_m]$, $B$ is a polynomial in $x_1,\cdots,x_m$ over $A$ and so $b$ is a polynomial in $y_1,\cdots,y_n$ over $B$ by (1). Furthermore, $b$ is a linear combination of $y_1,\cdots,y_n$ over $B_0$ by (2). Remark that $y_j\in C$ NOT in $B$, so they are not a set of generator of $B$ over $B_0$. But the above argument shows $B\subseteq \left\langle y_1,\cdots,y_n\right\rangle_{B_0}\subseteq C$. 
 
 Since $A$ is a Noetherian ring, by [[MATH/交换代数/Nodes/7 Noetherian Rings#^b4d5c1\|#^b4d5c1]], $B_0=A[b_{ij},b_{ijk}]$ is also Noetherian ring. Then it yields that $\left\langle y_1,\cdots,y_n\right\rangle_{B_0}\supseteq B$ is a Noetherian $B_0$-module. So $B$ is a Noetherian $B_0$-module, proving the claim. 
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -108,7 +108,7 @@ Since $A$ is a Noetherian ring, by [[MATH/交换代数/Nodes/7 Noetherian Rings#
 Write $E=k[x_1,\cdots,x_n]$ where $x_i\in E$. Since $E$ is also a field, $E=k(x_1,\cdots,x_n)$. If $E/k$ is not a finite extension, then not all $x_i$ are algebraic over $k$. We can reorder $x_i$ such that $x_1,\cdots,x_r$ are algebraic independent over $k$, and $x_{r+1},\cdots,x_n$ are algebraic over $k(x_1,\cdots,x_r):=F$. So we get $k\subseteq F\subseteq E$ where $E$ is a finitely generated $k$-algebra and $E$ is finitely generated $F$-module. By [[MATH/交换代数/Nodes/7 Noetherian Rings#^983c2e\|#^983c2e]], $F$ is a finitely generated $k$-algebra.
 
 We claim that it is impossible. That is, it is impossible to write $k(x_1,\cdots,x_r)=k[y_1,\cdots,y_m]$. Indeed, write $y_j=f_j(x_1,\cdots,x_r)/g_j(x_1,\cdots,x_r)$ where $f_j,g_j\in k[x_1,\cdots,x_r]$, then $1/(g_1\cdots g_m+1)\notin\text{RHS}$. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -118,7 +118,7 @@ We claim that it is impossible. That is, it is impossible to write $k(x_1,\cdots
 
 **_Proof._**
 Let $E=A/m$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^f58c35\|#^f58c35]]. 
-□
+<p align="left">□</p>
 
 
 > [!corollary] Hilbert Nullstellensatz, weak form
@@ -132,7 +132,7 @@ Let $E=A/m$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^f58c35\|#^f58c35]].
 It has been proved in [[MATH/代数几何/Nodes/1.1 Some Algebra#^6rh0cw\|1.1 Some Algebra#^6rh0cw]]. 
 
 By [[MATH/交换代数/Nodes/7 Noetherian Rings#^0346fb\|#^0346fb]], $k[x_1,\cdots,x_n]/m$ is a finite extension over $k$. Since $\overline k=k$, one have $k[x_1,\cdots,x_n]/m\stackrel{\theta}{\simeq} k$. Write $\theta(x_i)=a_i\in k$. Then $(x_1-a_1,\cdots,x_n-a_n)\subseteq m$. But LHS is maximal, which yields that $(x_1-a_1,\cdots,x_n-a_n)=m$.
-□
+<p align="left">□</p>
 
 
 > [!corollary] Equivalent form of [[MATH/交换代数/Nodes/7 Noetherian Rings#^8sohrm\|#^8sohrm]]
@@ -140,7 +140,7 @@ By [[MATH/交换代数/Nodes/7 Noetherian Rings#^0346fb\|#^0346fb]], $k[x_1,\cdo
 
 **_Proof._**
 Since $I$ is proper, $I\subseteq m$ for some maximal ideal $m$. By [[MATH/交换代数/Nodes/7 Noetherian Rings#^8sohrm\|#^8sohrm]], $I\subseteq (x_1-a_1,\cdots,x_n-a_n)$ and so $(a_1,\cdots,a_n)$ is a common solution for any $f\in I$. 
-□
+<p align="left">□</p>
 
 
 **Remark.** For an ideal $I\subseteq k[x_1,\cdots,x_n]$, solution of $I$ is empty iff $I=k[x_1,\cdots,x_n]$. 
@@ -153,7 +153,7 @@ Since $I$ is proper, $I\subseteq m$ for some maximal ideal $m$. By [[MATH/交换
 
 **_Proof._**
 See [[MATH/交换代数/Nodes/HW6#^oex7wh\|here]]. 
-□
+<p align="left">□</p>
 
 
 # Primary Decomposition
@@ -169,7 +169,7 @@ See [[MATH/交换代数/Nodes/HW6#^oex7wh\|here]].
 
 **_Proof._**
 Let $S=\{\alpha\subseteq A:\alpha\text{ is not a finite intersection of irreducible ideals}\}$. If $S\neq \emptyset$, then by $A$ Noetherian $S$ has a maximal element $\alpha$. Since $\alpha$ is reducible, $\alpha$ can be written as $\alpha=\beta\cap \gamma$ and both $\beta,\gamma$ are finite intersection of irreducible ideals, leading to contradiction. 
-□
+<p align="left">□</p>
 
 
 > [!lemma]
@@ -187,7 +187,7 @@ As $A$ Noetherian, there exists $n$ such that $\mathrm{Ann}(x^n)=\mathrm{Ann}(x^
 We claim that $(x^n)\cap (y)=(0)$. For any $a\in (x^n)\cap (y)$, we have $ax=0$ by $xy=0$ and $a=x^nb$ for some $b\in A$. It deduces that $bx^{n+1}=0$ and $b\in \mathrm{Ann}(x^{n+1})=\mathrm{Ann}(x^n)$ and so $a=x^nb=0$. Now we prove the claim. 
 
 Since $(0)$ is irreducible and $(y)\neq 0$, we have $(x^n)=(0)$ and so we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -197,7 +197,7 @@ Since $(0)$ is irreducible and $(y)\neq 0$, we have $(x^n)=(0)$ and so we finish
 
 **_Proof._**
 By [[MATH/交换代数/Nodes/7 Noetherian Rings#^98d425\|#^98d425]] and [[MATH/交换代数/Nodes/7 Noetherian Rings#^3e8c56\|#^3e8c56]]. 
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -207,7 +207,7 @@ By [[MATH/交换代数/Nodes/7 Noetherian Rings#^98d425\|#^98d425]] and [[MATH/�
 
 **_Proof._**
 Suppose $r(\alpha)$ is finitely generated by $x_1,\cdots,x_k$ with $x_i^n\in \alpha$ for big enough $n$. Then $\alpha\supseteq (r(\alpha))^{nk+1}$ and we have done. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -215,7 +215,7 @@ Suppose $r(\alpha)$ is finitely generated by $x_1,\cdots,x_k$ with $x_i^n\in \al
 
 **_Proof._**
 Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384015]]. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -232,5 +232,5 @@ i)->ii) by definition.
 ii)->iii) by [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384015]]
 
 iii)->ii) obvious.
-□
+<p align="left">□</p>
 

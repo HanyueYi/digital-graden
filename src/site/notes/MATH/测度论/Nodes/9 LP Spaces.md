@@ -10,7 +10,7 @@
 
 **_Proof._**
 Let $f=x^p/p-xb$ and consider its critical points. 
-□
+<p align="left">□</p>
 
 
 > [!lemma] Holder and Minkowski
@@ -36,7 +36,7 @@ $$\begin{aligned} C^p & =\int_X f(f+g)^{p-1} d \mu+\int_X g(f+g)^{p-1} d \mu \\ 
 where $C=\left(\int_X(f+g)^p d \mu\right)^{1 / p}$, $A=\left(\int_X f^p d \mu\right)^{1 / p}$ and $B=\left(\int_X g^p d \mu\right)^{1 / p}$. Now we finish the proof.
 
 Also see [[Measure  Theory    (Xia).pdf#page=54&selection=140,0,141,1|here]].
-□
+<p align="left">□</p>
 
 
 # Definition of $L^p$
@@ -95,7 +95,7 @@ i) is easy.
 ii) Let $\{t_n\}\subseteq G(f)$ with $t_n\downarrow ||f||_\infty$. Let $E_n=\{x:|f(x)|>t_n\}$, then $\mu(E_n)=0$. Since $\{x:|f(x)|>||f||_\infty\}=\cup_{n=1}^\infty E_n$, we have that $\mu(\{x:|f(x)|>||f||_\infty\})=0$ and so $||f||_\infty\in G(f)$.
 
 iii) is also easy. 
-□
+<p align="left">□</p>
 
 
 > [!lemma]
@@ -105,7 +105,7 @@ iii) is also easy.
 
 **_Proof._**
 Easy.
-□
+<p align="left">□</p>
 
 
 Denote the equivalence class of a function $f\in \mathfrak L^\infty(\mu)$ under the equivalence relation $f\sim g\iff f=g$ almost everywhere. Then define $L^\infty(\mu)=\mathfrak L^\infty(\mu)/\sim$ and it is a norm space where $||\cdot ||_\infty$ is the norm.
@@ -131,7 +131,7 @@ $$
 $$
 
 so $\lim _{k \rightarrow \infty} x_{n_k}=\sum_{j=1}^{\infty} y_j$ exists. But since $\left\{x_n\right\}$ is Cauchy, we know that $\left\{x_n\right\}$ converges to the same limit as $\left\{x_{n_k}\right\}$.
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -156,7 +156,7 @@ Then
 $$\left|f(x)-\sum_{k=1}^n f_k(x)\right|=\left|\sum_{k=n+1}^{\infty} f_k(x)\right| \leqslant \sum_{k=n+1}^{\infty}\left|f_k(x)\right| \leqslant \sum_{k=n+1}^{\infty}\left\|f_k\right\|_{\infty} \text { a.e. }$$
 
 Thus $\left\|f-\sum_{k=1}^n f_k\right\|_{\infty} \leq \sum_{k=n+1}^{\infty}\left\|f_k\right\|_{\infty}$. Letting $n \rightarrow \infty$, we have $\sum_{k=n+1}^{\infty}\left\|f_k\right\|_{\infty} \rightarrow 0$, so $\left\|f-\sum_{k=1}^n f_k\right\|_{\infty} \rightarrow 0$, i.e., $\sum_{l^n}^n f_k \rightarrow f$ in $L^{\infty}$. Therefore, $L^{\infty}$ is complete.
-□
+<p align="left">□</p>
 
 
 **Remark.** 虽然在 $L^p$ 意义下 Cauchy 不一定收敛，但在一般的求和下 Cauchy 一定收敛。所以用 $\sum|f_k|<\infty$ almost everywhere 就能说明 $\sum f_k$ 存在了。
@@ -174,7 +174,7 @@ i) Assume that $f_n\to f$ in $L^\infty$. Let $E_n=\{x:|f_n(x)-f(x)|>||f_n-f||_\i
 ii) Assume that $p<\infty$. There exists simple functions $f_n$ such that $f_n\to f$ pointwise satisfying $|f_n|\uparrow |f|$. Note that $|f_n-f|\leqslant 2|f|$, and it follows that $f_n\in L^p$ and $\lim\|f_n-f\|_p\to 0$ as $n\to\infty$ by DCT.
 
 Now assume that $p=\infty$. Define $E=\{x:|f(x)|>||f||_\infty\}$, then $\mu(E)=0$. On $E^c$, $|f(x)|\leqslant ||f||_\infty<\infty$ and so $f$ is bounded on $E^c$. Therefore, a series of simple functions $\{f_n\}$ converges to $f$ uniformly on $E^c$ and so $f_n\to f$ in $L^\infty$. 
-□
+<p align="left">□</p>
 
 **Remark.** We will prove that the set of continuous functions with compact support is also a dense subspace of $L^p$ for $1\leqslant p< \infty$. See [[MATH/测度论/Nodes/10 Lebesgue Measure#^fe0685\|10 Lebesgue Measure#^fe0685]].
 
@@ -194,7 +194,7 @@ Since $|T_g(f)|\leqslant ||f||_p||g||_q$ by [[MATH/测度论/Nodes/9 LP Spaces#^
 
 **_Proof._**
 It is easy. See [[Measure  Theory    (Xia).pdf#page=59&selection=532,0,533,0|here]].
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -220,7 +220,7 @@ and so $(\int_{E_n}|g|^qd\mu)^{1/q}\leqslant ||T||$.
 When $p=1$, $\lambda(E)=\int_E gd\mu=\int_X g\chi_Ed\mu=T(\chi_E)$. Then $|\int_Egd\mu|=|T(\chi_E)|\leqslant ||T||||\chi_E||_q=||T||\mu(E)$ and so $\frac{1}{\mu(E)}|\int_Egd\mu|\leqslant ||T||$. It yields that $\int_E(g-||T||)\leqslant 0$ and $\int_E(g+||T||)\geqslant 0$. Hence, $|g|\leqslant ||T||$ a.e. and so $||g||_{\infty}\leqslant ||T||$. Now we proved that $g\in L^q(\mu)$. 
 
 Since $T_g,T\in L^p(\mu)^*$ and $T(s)=T_g(s)$ for any simple measurable function $s$, we have $T=T_g$ on a dense subspace of $L^p$ and $T=T_g$. Note that $||T||=||T_g||\leqslant ||g||_q\leqslant ||T||$ yields $||g||_q=||T||$, then we have done.
-□
+<p align="left">□</p>
 
 
 > [!theorem] Riesz representation theorem
@@ -232,7 +232,7 @@ Since $T_g,T\in L^p(\mu)^*$ and $T(s)=T_g(s)$ for any simple measurable function
 Let $\{E_i\}\subseteq \mathcal{A}$ with $\mu(E_i)<\infty$ and $E_i\uparrow X$. We identity $L^p(E_n)$ as a subspace of $L^p(X)$. By [[MATH/测度论/Nodes/9 LP Spaces#^051f47\|#^051f47]], there exists $g_n\in L^q(E_n)\subseteq L^q(X)$ such that $T(f)=\int_{E_n}fg_n$ for all $f\in L^p(E_n)$. Note that $g_{n+1}=g_n$ almost everywhere on $E_n$. Define $g:X\to R$ such that $g(x)=g_n(x)$ for $x\in E_n$. Claim that $T(f)=\int_{X}fgd\mu$ for all $f\in L^p(X)$. 
 
 Note that $f\chi_{E_n}\to f$ in $L^p$, $T(f\chi_{E_n})\to T(f)$ and so $T(f)=\int_Xfgd\mu$. 
-□
+<p align="left">□</p>
 
 **Remark.** 复习烦的要死，忽然发现这个证明不考。
 
@@ -263,7 +263,7 @@ Recall that a Banach space is reflexive if and only if every bounded sequence in
 
 **_Proof._**
 If $f \in L^q$, let $E=\{x:|f(x)|>1\}$ and set $g=f \chi_E$ and $h=f \chi_{E^c}$. Then $|g|^p=|f|^p \chi_E \leqslant|f|^q \chi_E$, so $g \in L^p$, and $|h|^r=|f|^r \chi_{E^c} \leqslant|f|^q \chi_{E^c}$, so $h \in L^r$. (For $r=\infty$, obviously $\|h\|_{\infty} \leqslant 1$.)
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -282,5 +282,5 @@ $$
 $$
 
 Also see [[Measure  Theory    (Xia).pdf#page=63&selection=299,0,301,1|here]].
-□
+<p align="left">□</p>
 

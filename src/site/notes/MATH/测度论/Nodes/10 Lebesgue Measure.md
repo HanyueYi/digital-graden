@@ -24,7 +24,7 @@ $$\mu^*(D)\geqslant\mu^*((D\cap A)\cup( D-U_k))=\mu^*(D\cap A)+\mu^*(D-U_k).$$
 Claim that $\lim_{k\to\infty}\mu^*(D-U_k)=\mu^*(D\setminus A)$. Since $A=\cap_{k=1}^\infty U_k$, we have that $D-A=(D-U_k)\cup ((U_k-A)\cap D)$. It follows that $\mu^*(D-A)\leqslant \mu^*(D-U_k)+\mu^*((U_k-A)\cap D)$. Note that $U_k-A=U_k-\cap_{j=1}^\infty U_k=\cup_{j=k}^\infty(U_{j}-U_{j+1})$ and $D\cap(U_k-A)=\cup_{j=k}^\infty(D\cap U_j-U_{j+1})=\cup_{j=k}^\infty E_j$ where $E_j=D\cap U_j-U_{j+1}$. 
 
 Sub-claim that $\sum_{j=1}^\infty \mu^*(E_j)<\infty$. If $d(E_i,E_j)>0$ for any $j\geqslant i+2$, then we have $\mu^*(D)\geqslant\mu^*(\cup_{i=1}^\ell E_{2i})=\sum\mu^*(E_{2i})$, $\mu^*(D)\geqslant\mu^*(\cup_{i=1}^\ell E_{2i-1})=\sum \mu^*(E_{2i-1})$ and so $\sum_{k=1}^\infty \mu^*(E_i)\leqslant 2\mu^*(D)<\infty$. Thus, we only need to show $d(E_i,E_j)>0$ if $j\geqslant i+2$. If $x\in E_i$, $y\in X$ and $d(x,y)<\frac{1}{(i+1)(i+2)}$, then $y\not\in E_j$ by the definition of $U_j$. Now we finish the proof.
-□
+<p align="left">□</p>
 
 **Remark.** 学实变的时候我好像管这个证明叫瑞士卷来着。
 
@@ -39,7 +39,7 @@ Sub-claim that $\sum_{j=1}^\infty \mu^*(E_j)<\infty$. If $d(E_i,E_j)>0$ for any 
 i) & ii) are easy, but iii) is tricky. Note that $|Q|=\lim_{N\to\infty}\frac1{N^n}\#(Q\cap \frac1N \mathbb{Z}^n)$. We use it to show for any $\cup_{i=1}^\infty Q_i\supseteq Q$, there is $|Q|\leqslant \sum |Q_i|$. To make sure RHS converges, take open $U_i\supseteq Q_i$ and consider its open cover of $Q$.
 
 Also see [[Measure  Theory    (Xia).pdf#page=69&selection=495,0,496,0|here]].
-□
+<p align="left">□</p>
 
 **Remark.** 把算体积变成算格点数. As a corollary of ii), elements in $\mathcal{B}(\mathbb{R}^n)$ are Lebesgue measurable.
 
@@ -60,7 +60,7 @@ iii) If $\mu^*(A)=\infty$, done. Let $\mu^*(A)<\infty$. For any $\epsilon>0$, th
 $$\mu^*(A)\leqslant\mu^*(\cup_{i=1}^\infty V_i)=\lim_{i\to\infty}\mu^*(V_i)\leqslant \lim_{i\to\infty}\mu^*(U_i)\leqslant \lim_{i\to\infty}\mu^*(A_i)+\epsilon$$
 
 and so we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!theorem] the Lebesgue measure as a completion
@@ -72,7 +72,7 @@ and so we finish the proof.
 
 **_Proof._**
 Use [[MATH/测度论/Nodes/10 Lebesgue Measure#^7b1c20\|#^7b1c20]] to construct union of compact sets $B_0$ and intersection of open sets $B_1$ such that $B_0\subseteq A\subseteq B_1$ with $\mu^*(B_1-B_0)=0$. Also see [[Measure  Theory    (Xia).pdf#page=73&selection=358,0,359,1|here]]. 
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -90,7 +90,7 @@ Let $\mathcal J=\{f\in L^1(\mathbb{R}):\exists \{f_k\}\subseteq C_0(\mathbb{R}^n
 Then we approximate $f$ with simple functions, and it is enough to show $\chi_E\in \mathcal J$ with $\mu^*(E)<\infty$ and so for $\chi_I$ with half open cube $I$. The last one is easy to prove. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=75&selection=253,0,254,0|here]]. 
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -102,7 +102,7 @@ Also see [[Measure  Theory    (Xia).pdf#page=75&selection=253,0,254,0|here]].
 Suppose $f \in L^p$. We have $\int_{\mathbb{R}^n}\left|f-f \chi_{B(0, n)}\right|^p \rightarrow 0$ as $n \rightarrow \infty$ by DCT. Hence it suffices to approximate functions in $L^p$ that have compact support. By writing $f=f^{+}-f^{-}$ we may suppose $f \geqslant 0$. 
 
 Similarly as [[MATH/测度论/Nodes/10 Lebesgue Measure#^110128\|#^110128]], it suffices to approximate characteristic functions of any partly open cube. For any given partly open cube $I$, there exists $g$ continuous with compact support and with values in $[0,1]$ such that $\int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. Since $\left|g-\chi_I\right| \leqslant 1$, then $\int_{\mathbb{R}^n}\left|g-\chi_I\right|^p \leqslant \int_{\mathbb{R}^n}\left|g-\chi_I\right|<\epsilon$. This completes the proof.
-□
+<p align="left">□</p>
 
 
 > [!theorem] Continuity in $L^p$
@@ -114,7 +114,7 @@ Similarly as [[MATH/测度论/Nodes/10 Lebesgue Measure#^110128\|#^110128]], it 
 Define the set $C_p$ as the class of $f\in L^p$ such that $||f(\cdot+h)-f(\cdot)||_p\to 0$ as $|h|\to 0$. Then $f$ is closed under finite linear combination and the convergence with norm $L^p$. Since the characteristic function of a cube is contained in $C_p$, by [[MATH/测度论/Nodes/10 Lebesgue Measure#^110128\|#^110128]] and [[MATH/测度论/Nodes/10 Lebesgue Measure#^fe0685\|#^fe0685]] we finish the proof. 
 
 Also see [[Measure  Theory    (Xia).pdf#page=75&selection=521,0,522,1|here]].
-□
+<p align="left">□</p>
 
 
 > [!theorem] transformation formula

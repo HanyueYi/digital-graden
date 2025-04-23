@@ -10,7 +10,7 @@
 
 **_Proof._**
 For any $\varphi\in N_{\mathrm{Sym}(G)}(G_R)\leqslant\mathrm{Sym}(G)$, we may assume that $\varphi(1)=1$. Otherwise, take $\varphi'=\varphi\circ\rho_{\varphi^{-1}(1)}$. Since $\varphi\in\mathrm{Sym}(G)$, $\varphi$ is bijective and so it remains to show $\varphi(gh)=\varphi(g)\varphi(h)$ for any $g,h\in G$. Note that $\rho_g^{\varphi}=\varphi^{-1}\circ\rho_g\circ\varphi =\rho_{\varphi^{-1}(g)}$. Then by $\rho_{gh}=\rho_h\circ\rho_g$ we have $\varphi\in\mathrm{Aut}(G)$. 
-□
+<p align="left">□</p>
 
 **Remark.** We can readily deduce that 
 - $X_L=C_{\mathrm{Sym}(X)}(X_R)$.

@@ -18,4 +18,4 @@ $$
 $$
 
 and therefore $\sigma=\tau$.
-□
+<p align="left">□</p>

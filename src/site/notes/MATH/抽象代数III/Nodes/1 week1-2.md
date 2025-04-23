@@ -108,7 +108,7 @@ Let $J$ be a maximal ideal of $R$. Consider $JM$ and $M/JM$, then $M/JM$ is an $
 $$a_1x_1+\cdots+a_rx_r=a_1'x_1+\cdots+a_r'x_r$$
 
 with $a_i'\in J$. Since $x_1,\cdots,x_r$ is a basis of $M$, then $a_i\in J$ and so $\overline {a_i}=0$. Hence, $\overline{x_1},\cdots,\overline{x_r}$ are linearly independent.
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -136,7 +136,7 @@ with $a_i'\in J$. Since $x_1,\cdots,x_r$ is a basis of $M$, then $a_i\in J$ and 
 ii) is easy to prove by i).
 
 i) Let $\{e_i\}_{i\in I}$ be a basis of $L$. For $i\in I$, let $x_i$ be an element of $X$ with $\pi(x_i)=\varphi(e_i)$. Define $\widetilde \varphi:L\to X,e_i\to x_i$. Then $\widetilde \varphi$ is what we desire.
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -189,7 +189,7 @@ Existence of tensor product: See [[Pasted image 20250225194713.png|here]].
 
 **_Proof._**
 Define $\varphi:M^\lor\times N\to \mathrm{Hom}_R(M,N),(f,n)\mapsto \varphi(f,n):m\mapsto f(m)n$. Since $\varphi$ is bilinear, it induces a morphism $M^\lor\otimes N\to \mathrm{Hom}_R(M,N)$. On the other hand, let $v_1,\cdots,v_n$ be a basis of $M$, and let $v_1^\lor,\cdots,v_n^\lor$ be a dual basis of $M^\lor$. Define $\psi:\mathrm{Hom}_R(M,N)\to M^\lor\otimes N,g\mapsto \sum v_i^\lor\otimes g(v_i)$. It is easy to verify $\varphi\circ \psi$ and $\psi\circ \varphi$ are identity.
-□
+<p align="left">□</p>
 
 
 > [!proposition]

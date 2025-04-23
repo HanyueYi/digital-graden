@@ -22,7 +22,7 @@
 
 **_Proof._**
 Not too hard.
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -39,7 +39,7 @@ i) -> ii) By [[MATH/抽象代数III/Nodes/2 250304 1 -> projective module#^9f21f
 ii)->iii) Note that every module is a quotient of free modules, then by [[MATH/抽象代数II/Nodes/2.2 Modules#^qtklfv\|2.2 Modules#^qtklfv]] we finish the proof.
 
 iii)->i) Assume that $P\oplus Q=F$ is a free $R$-module. Note that the free module $F=\oplus_{i\in I}R$ is projective as $\mathrm{Hom}_R(F,M)=\prod_{i\in I}M$ and the functor $M\mapsto\prod_{i\in I}M$ is exact. Then $\mathrm{Hom}_R(F,\cdot)=\mathrm{Hom}_R(P,\cdot)\times\mathrm{Hom}_R(Q,\cdot)$ as functors, hence both $P$ and $Q$ are projective.
-□
+<p align="left">□</p>
 
 > [!corollary]
 > A finitely generated projective $R$-module is a a direct summand of $R^n$ for some $n\in \mathbb{N}_+$. 
@@ -73,4 +73,4 @@ $$
 $$
 
 and so $X \cong P^{\prime} \oplus K$. Combining the two equivalences for $X$ gives the desired result.
-□
+<p align="left">□</p>

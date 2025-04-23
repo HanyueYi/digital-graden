@@ -16,7 +16,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 

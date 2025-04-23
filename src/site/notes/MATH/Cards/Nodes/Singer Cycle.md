@@ -20,7 +20,7 @@ i) For any distinct ordered pairs $(w_1,w_2)$ and $(v_1,v_2)$ in $F^+\times F^+$
 
 ii) See [[MATH/Cards/Nodes/Affine Group\|here]]. 
 
-□
+<p align="left">□</p>
 
 # From Linear Group
 

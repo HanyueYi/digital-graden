@@ -30,7 +30,7 @@
 
 **_Proof._**
 See [[MATH/代数专题/Nodes/List 1#^rkzacd\|here]].
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -51,12 +51,12 @@ i) Let $T:V\to W$ be a morphism with $V,W$ irreducible. Since $\ker T$ and $\mat
 Thus either $T$ is zero or isomorphism.
 
 ii) Let $\lambda$ be a root of the characteristic polynomial $p_S(\lambda)$. Then $\ker(S-\lambda I)\neq\{0\}$ and $S-\lambda I$ is also a morphism. By i) we have that $\ker(S-\lambda I)=V$. Therefore, $S=\lambda I$. 
-□
+<p align="left">□</p>
 
 > [!lemma]
 > Any irreducible representation of finite group is of finite dimension.
 
 **_Proof._**
 Let $V$ be a irreducible representation of $G$. For any nonzero $v\in V$, define $W:=\left\langle v\right\rangle=\{gv:g\in G\}$. Then $\dim W<\infty$ by $|G|<\infty$. Since $W$ is $G$-invariant, we have that $W=V$ and so $V$ is of finite dimension.
-□
+<p align="left">□</p>
 

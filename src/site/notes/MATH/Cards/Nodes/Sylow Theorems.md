@@ -41,7 +41,7 @@
 
 **_Proof._**
 By [[MATH/抽象代数II/Nodes/1.5 Sylow Theorem#^ne0n10\|1.5 Sylow Theorem#^ne0n10]].
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -59,7 +59,7 @@ ii) Otherwise, there exist two fixed points of $\varphi(x)$ $N_G(P)a$ and $N_G(P
 $$N_G(P)a\varphi(px)=N_G(P)b=N_G(P)a\varphi(p)=N_G(P)a\varphi(xp)$$
 
 and so $[p,x]\in P$ fixes $N_G(P)a$. It deduces that $[p,x]=1$ for all $p\in P$ and $x\in C_G(P)$, which is impossible. 
-□
+<p align="left">□</p>
 
 
 # Application
@@ -87,7 +87,7 @@ Now we prove the claim. [[MATH/Cards/Nodes/Sylow Theorems#^7zwgij\|Recall]] that
 	- Thus there exist Sylow $2$-groups $P_1$ and $P_2$ such that $P_1\cap P_2=A$ with $|A|=2$. Then $C_G(A)\geqslant\left\langle P_1,P_2\right\rangle$ and so $C_G(A)\geqslant P_1$ and $|C_G(A)|>4$. It deduces that $|C_G(A)|\geqslant 12$. On the other hand, $[G:C_G(A)]\geqslant 4$ yields $|C_G(A)|\leqslant15$. Thus $|C_G(A)|=12$ and it is a subgroup of index $5$. 
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -103,7 +103,7 @@ Note that $n_2\in\{1,3,9\}$ and $n_3\in\{1,4,16\}$. As $n_p=[G:N_G(P)]$, we have
 - Hence there exist Sylow $3$-subgroups $P_1$ and $P_2$ such that $P_1\cap P_2=D$ and $|D|=3$. Then consider the group $H:=N_G(D)\geqslant\left\langle P_1,P_2\right\rangle$. Assume the number of Sylow $3$-subgroups of $H$ is $m_3$. Then $m_3\equiv 1\pmod 3$ and $m_3\geqslant 2$. It deduces that $m_3\geqslant 4$. Notice that $|H|=|N_H(P)|\cdot m_3\geqslant|P|\cdot m_3=9\times 4=36$ and so $[G:H]\leqslant 4$. It is a contradiction. 
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 In [[MATH/Cards/Nodes/Sylow Theorems#^24a4c2\|#^24a4c2]] and [[MATH/Cards/Nodes/Sylow Theorems#^9a9397\|#^9a9397]], the key is to consider the intersection of two Sylow $p$-subgroups. Here is a more refined result, which is used to prove [[MATH/Cards/Nodes/Sylow Theorems#^f95b09\|#^f95b09]].
@@ -115,7 +115,7 @@ In [[MATH/Cards/Nodes/Sylow Theorems#^24a4c2\|#^24a4c2]] and [[MATH/Cards/Nodes/
 
 **_Proof._**
 Let $\Omega=\{P_1,\cdots,P_n\}$ be the set of Sylow $p$-subgroups. Consider $P_n$ acts on $\{P_1,\cdots,P_{n-1}\}$ by conjugation. Note that $P_i^x\neq P_n$ for any $x\in P_n$, so the action is well-defined. Let $H_i=P_n{}_{P_i}$ be the point stabilizer of $P_i$, then $H\leqslant N_G(P_i)\cap P_n$. Since $N_G(P_i)$ has only one Sylow $p$-subgroup $P_i$, there is $N_G(P_i)\cap P_n\leqslant P_i$ and so $N_G(P_i)\cap P_n=P_i\cap P_n$. Hence, $|P_n:P_n\cap P_i|=o(P_i)\geqslant p^d$ equals to the length of the orbit containing $P_i$ and so each orbit length is $kp^d$ for some $k\in \mathbb{N}_+$. Therefore, $p^d\mid n-1$ and $n\equiv 1\pmod{p^d}$.
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -127,4 +127,4 @@ Let $\Omega=\{P_1,\cdots,P_n\}$ be the set of Sylow $p$-subgroups. Consider $P_n
 Assume that $G$ is simple. Note that $n_3\in\{4,16\}$. If $n_3=4$, $G$ has a subgroup of index $4$ and $G\lesssim S_4$, which is impossible. Thus $n_3=16$. Since $n_3\not\equiv 1\pmod{3^2}$, there exist Sylow $3$-subgroups $P_i$ and $P_j$ such that $|P_i:P_i\cap P_j|=3$. Then $|P_i\cap P_j|=9$. 
 
 By [[MATH/Cards/Nodes/Sylow Theorems#^qes1qo\|#^qes1qo]], $P_i\cap P_j$ is a maximal subgroup of $P_i$, so $N_{P_i}(P_i\cap P_j)=P_i$. It deduces that $N_G(P_i\cap P_j)\geqslant\left\langle P_i,P_j\right\rangle$. Since $N_G(P_i\cap P_j)$ has at least $4$ Sylow $3$-subgroups, we have $|N_G(P_i\cap P_j)|\geqslant 4\cdot N_{N_G(P_i\cap P_j)}(P_i)\geqslant 4\cdot 3^3=108$ and $[G:N_G(P_i\cap P_j)]\leqslant 4$. Then $G$ has a subgroup of index $\leqslant 4$ and $G\lesssim S_4$, which is impossible.
-□
+<p align="left">□</p>

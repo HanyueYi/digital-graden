@@ -34,7 +34,7 @@ Define the LHS equals $\Gamma_n$. We have a surjective homomorphism $\Gamma_n\to
 $\Gamma_{n+1}=H\cup s_n H\cup\cdots\cup s_1\cdots s_n H$
 
 and this composition is stable by the action of $n$. Therefore, $|\Gamma_{n+1}|\leqslant (n+1)!$ and so $\Gamma_n\simeq S_n$.
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -84,7 +84,7 @@ For example, see [[Pasted image 20241104154929.png|here]]. Note that $\tau\in S_
 
 **_Proof._**
 Define $\varphi:\pi_i \otimes W\mapsto\{\pi_it^\lambda\}$ where $W$ is the trivial $S_\lambda$-module and $t^\lambda$ is the tabloid whose $\ell$ rows are $\{1,\cdots,\lambda_1\}$, $\{\lambda_1+1,\cdots,\lambda_2\}$, ..., $\{n-\lambda_{\ell},\cdots,n\}$. Then $\varphi$ is an isomorphism of $S_n$-modules.
-□
+<p align="left">□</p>
 
 
 # the Row/Column Stabilizer and the Associated Polytabloid 
@@ -122,7 +122,7 @@ Define $\varphi:\pi_i \otimes W\mapsto\{\pi_it^\lambda\}$ where $W$ is the trivi
 > - $e_{\sigma t}=\sigma e_t$, where $e$ is the associated polytabloid of $t$. 
 **_Proof._**
 Note that $\pi\in R_{\sigma t}$ iff $\pi\{\sigma t\}=\{\sigma t\}$ iff $\pi\sigma\{t\}=\sigma\{t\}$ iff $\sigma^{-1}t\sigma\{t\}=\{t\}$ iff $\sigma^{-1}t\sigma\in R_t$, and the proof of ii) and iii) are similar. Furthermore, $e_{\sigma t}=K_{\sigma t}\{\sigma t\}=\sigma K_t\sigma^{-1}\{\sigma t\}=\sigma e_t$. 
-□
+<p align="left">□</p>
 
 
 # Specht Module
@@ -160,7 +160,7 @@ Note that $\pi\in R_{\sigma t}$ iff $\pi\{\sigma t\}=\{\sigma t\}$ iff $\pi\sigm
 > Let $t$ and $s$ be tableaux of shape $\lambda$ and $\mu$ respectively. If for each index $i$, the elements of row $i$ of $s$ are in different columns in $t$, then $\lambda\unrhd \mu$.  
 **_Proof._**
 We will arrange the tableau $t$ to new form $t'$ by permuting entries within each column. Take elements of the first row of $s$ all in different columns of $t$ and move them to the first row in $t$. Continue to do it for the second row for each $i$. The number of elements in the first $i$ rows of $s$ is $\mu_1+\cdots+\mu_i$ and all elements of first $i$ rows of $\mu$ appears in first $i$ rows of $t'$. Thus for any $i\geqslant 1$, $\lambda_1+\cdots+\lambda_i\geqslant \mu_1+\cdots+\mu_i$ and so $\lambda\unrhd \mu$. As an example, see [[Pasted image 20241118153116.png|here]]. 
-□
+<p align="left">□</p>
 
 
 </div></div>
@@ -184,14 +184,14 @@ We will arrange the tableau $t$ to new form $t'$ by permuting entries within eac
 > - If $b$ and $c$ are in the same row of $t$, then $H^-\{t\}=0$. 
 **_Proof._**
 Easy. See [[Pasted image 20241118154911.png|here]].
-□
+<p align="left">□</p>
 
 
 > [!corollary]
 > Let $t$ be tableau of shape $\lambda$ and $s$ be tableau of shape $\mu$, where $\lambda\vdash n$ and $\mu\vdash n$. If $K_t\{s\}\neq 0$, then $\lambda\rhd \mu$. Moreover, if $\lambda=\mu$ and $K_t\{s\}\neq 0$, then $K_t\{s\}=\pm e_t$. 
 **_Proof._**
 Suppose $b$ and $c$ are in the same row of $s$, then they belong to different columns of $t$. Otherwise $K_t\{s\}=\kappa(1-(bc))\{t\}=0$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]]. Then by [[MATH/代数专题/Nodes/10.3 Ordering of Partitions#^3e06ba\|10.3 Ordering of Partitions#^3e06ba]] $\lambda\rhd \mu$. If $\lambda=\mu$ and $K_t\{s\}\neq 0$, then $\{s\}=\pi\{t\}$ for some $\pi\in C_t$ (by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]], each pair of numbers in the same column does not appear in the same row of $\{s\}$). It follows that $K_t\{s\}=K_t\{\pi t\}=\mathrm{sgn}\pi K_t\{t\}=\pm e_t$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^fae9c5\|#^fae9c5]].
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -199,7 +199,7 @@ Suppose $b$ and $c$ are in the same row of $s$, then they belong to different co
 
 **_Proof._**
 Since $u$ is a linear combination of tabloid of shape $\mu$, it follows from [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^2fe718\|#^2fe718]].
-□
+<p align="left">□</p>
 
 
 > [!theorem] submodule theorem
@@ -211,7 +211,7 @@ Take $u\in M^\lambda$, then $K_tu=ce_t$ for some $c\in \mathbb{C}$. Suppose that
 $\left\langle u,e_t\right\rangle =\left\langle u,K_t\{t\}\right\rangle =\left\langle K_tu,\{t\}\right\rangle=\left\langle 0,\{t\}\right\rangle =0. $
 
 Therefore, $U\subseteq (S^\lambda)^\bot$. 
-□
+<p align="left">□</p>
 
 
 > [!proposition]
@@ -228,7 +228,7 @@ If $\lambda=\mu$, then $\theta(e_t)=K_t\sum_i\alpha_i\{s_i\}=ce_t$. Then for any
 $\theta(e_{\pi t})=\theta(\pi e_t)=\pi(\theta(e_t))=c\pi e_t=ce_{\pi t}$
 
 and so $\theta$ is a multiplication by $c$.
-□
+<p align="left">□</p>
 
 
 > [!theorem]
@@ -238,7 +238,7 @@ and so $\theta$ is a multiplication by $c$.
 Since the number of $S^\lambda$ equals the number of $\lambda\vdash n$ and so the number of conjugacy classes of $S_n$, it suffices to show $S^\lambda\neq S^\mu$ for any $\lambda\neq \mu$.
 
 Otherwise, suppose that $S^\lambda =S^\mu$ with $\lambda\neq \mu$. Since $S^\mu\hookrightarrow M^\mu$ is non-trivial, we have non-zero $\theta\in\mathrm{Hom}(S^\lambda, M^\mu)$ and so $\lambda\rhd \mu$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]]. Similarly we have $\mu\rhd \lambda$ and so $\mu=\lambda$, contradiction. Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -251,7 +251,7 @@ Otherwise, suppose that $S^\lambda =S^\mu$ with $\lambda\neq \mu$. Since $S^\mu\
 
 **_Proof._**
 Note that $\kappa_{\lambda\mu}=\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\mu)=\left\langle \chi^\lambda,\psi^\mu\right\rangle$ where $\chi^\lambda$ and $\psi^\mu$ are characters of $S^\lambda$ and $M^\mu$, respectively. If $\kappa_{\lambda\mu}\neq 0$, then $\lambda\rhd \mu$ by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]]. Furthermore, since $\theta\in \mathrm{Hom}(S^\mu,M^\mu)$ is multiplication by scalar by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^376fda\|#^376fda]], we have $\dim\mathrm{Hom}_{S_n}(S^\lambda,M^\lambda)=\kappa_{\mu\mu}=1$. 
-□
+<p align="left">□</p>
 
 
 
@@ -302,7 +302,7 @@ Let $\lambda^i$ and $\mu^i$ be composition sequences for $\{t\}$ and $(k,\ell)\{
 $(\lambda^i)_q=(\mu^i)_q-1,(\lambda^i)_r=(\mu^i)_r+1$
 
 and so $\lambda^i\lhd \mu^i$ for all $i$. [[Pasted image 20241128202606.png|Here]] is a illustration.
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -316,7 +316,7 @@ We do induction on number of "inversions" in $s$, that is, the number of pairs $
 ![Pasted image 20241125150516.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020241125150516.png)
 
 For the last term $\{s\}$, $\{1,2\}$ and $\{3,4\}$ are two inversions. By [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^rswrnz\|#^rswrnz]], $\{s\}\lhd (12)\{s\}\lhd (12)(34)\{s\}=\{t\}$.
-□
+<p align="left">□</p>
 
 
 Now we are ready to prove [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^030a4e\|#^030a4e]]. 
@@ -363,10 +363,10 @@ where $g_{A,B}=\sum_{k=1}^\ell\mathrm{sgn}\pi_i\cdot \pi_i$. Hence, $S_{A\sqcup 
 $\{0\}=S^-_{A\sqcup B}e_t=g_{A,B}(S_A\times S_B)^- e_t=g_{A,B}|S_A\times S_B|e_t$
 
 yields that $g_{A,B}e_t=0$.
-□
+<p align="left">□</p>
 
 Now we finish the proof of [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^030a4e\|#^030a4e]]. 
-□ 
+<p align="left">□</p> 
 
 
 Now we get a basis of Specht module $S^\lambda$. The corresponding representation of it, is Young natural representation.
@@ -427,7 +427,7 @@ $\sum_{\sigma\in S_n}\mathrm{sgn}\sigma\frac{n!}{(\ell_1-n+\sigma(1))!\cdots(\el
 \end{matrix}\right|=\frac{n!}{\ell_1!\cdots\ell_n!}\prod_{1\leqslant i<j\leqslant n}(\ell_i-\ell_j).$
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 # Hook Length Formula
@@ -467,7 +467,7 @@ The number of standard tableaux for $\lambda$ is the number of path from $\empty
 
 **_Proof._**
 Recall that basis of $S^\lambda$ is polytabloids of standard tableaux. Notice every standard tableau consist of $n$ in some removable box and a standard tableau for some $\lambda^-$ and then we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!theorem] branching rule
@@ -508,7 +508,7 @@ Furthermore, by [[MATH/代数专题/Nodes/9 Frobenius Reciprocity\|Frobenius rec
 $m_\mu=\left\langle \chi^\lambda\uparrow ^{S_{n+1}},\chi^\mu\right\rangle=\left\langle \chi^\lambda,\chi^\mu\downarrow_{S_n}\right\rangle=\left\langle \chi^\lambda,\sum_{\mu^-}\chi^{\mu^-}\right\rangle$
 
 and so $m_\mu=0$ if $\lambda\neq \mu^-$ and $m_\mu=1$ if $\lambda=\mu^-$. Note that $\lambda=\mu^-$ iff $\lambda^+=\mu$, thus $\chi^\lambda\uparrow ^{S^{n+1}}=\sum_{\lambda^+}\chi^{\lambda^+}$. Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -607,7 +607,7 @@ With $(*)$, we can prove the claim. Thus, $\det A_\alpha=\det H_\alpha\det M$ an
 $\det H_\alpha=\frac{\det A_\alpha}{\det A_\delta}=\mathscr s_\lambda,$
 
 where $\alpha=\lambda+\delta=(\lambda_1+m-1,\lambda_2+m-2,\cdots,\lambda_m)$. Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 We have a more direct formula for $\mathscr s_\lambda$ by considering a generalized tableau of shape $\lambda$. 
@@ -669,7 +669,7 @@ To show $e_{\lambda'}$ form a basis, suppose that $\lambda\vdash n$ with $\lambd
 $e_{\lambda'}=e_{\rho_1}\cdots e_{\rho_k}=(x_1\cdots x_{\rho_1}+\cdots)(x_1\cdots x_{\rho_2}+\cdots)\cdots(x_1\cdots x_{\rho_k}+\cdots)=x_1^{\lambda_1}\cdots x_m^{\lambda_m}+\cdots+\mbox{smaller terms}=m_\lambda+\sum_{\mu\lhd\lambda}m_\mu.$
 
 For $h_\lambda$, we can do it by [[MATH/代数专题/Nodes/10 Representation of Symmetric Groups#^jrsjoc\|#^jrsjoc]], as it deduces that $\left\langle \mathscr s_\lambda:\lambda\vdash n\right\rangle\subseteq\left\langle h_\lambda:\lambda\vdash n\right\rangle$. 
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -713,7 +713,7 @@ It follows
 $H(t)=\exp(\sum_{k=1}^\infty \frac{p_kt^k}{k})=\prod_{k=1}^\infty\exp(\frac{p_kt^k}{k})=\left( 1+p_1t+\frac{(p_1t)^2}{2!}+\cdots\right)\left( 1+\frac{p_2t}{2}+\frac{(p_1t)^2}{2^2\cdot2!}+\cdots\right)\left( 1+\frac{p_3t}{3}+\frac{(p_3t)^2}{3^2\cdot 2!}+\cdots\right)$
 
 and it deduces what we desire. Similarly we can prove $e_n=\sum_{\lambda\vdash n}{\epsilon_\lambda p_\lambda}/{z_\lambda}$.
-□
+<p align="left">□</p>
 
 
 > [!proposition] orthogonal properties
@@ -737,7 +737,7 @@ Note that $\sum_{i,j}(x_iy_j)^k=p_k(x)p_k(y)$. Use $(*)$ for $x_iy_j$ and set $t
 $\prod_{i,j\geqslant 1}(1-x_i y_j)^{-1}=\sum_\lambda z_\lambda^{-1} p_\lambda(x_iy_j)=\sum_\lambda z_\lambda^{-1}p_\lambda(x_i)p_\lambda(y_j).$
 
 Equip $\Lambda$ with the following form $\left\langle h_\lambda, m_\mu\right\rangle=\delta_{\lambda\mu}$, and it deduces that $\left\langle p_\lambda,p_\mu\right\rangle=z_\lambda \delta_{\lambda\mu}$ and $\left\langle \mathscr s_\lambda,\mathscr s_\mu\right\rangle=\delta_{\lambda\mu}$. With respect to this inner product, $\{\mathscr s_\lambda:\lambda\vdash n\}$ is orthonormal basis of $\Lambda^n$. 
-□
+<p align="left">□</p>
 
 
 
@@ -767,7 +767,7 @@ Define $\rho=\left(\begin{array}{ccc}1 & \cdots & n & n+1 & \cdots & m\\ m+1& \c
 $S_n\times S_m\to S_m\times S_n,\omega\mapsto \rho^{-1}\omega\rho.$
 
 For associativity, use $\left(W\uparrow_K ^H\right)\uparrow_H^G=W \uparrow_K^G$.
-□
+<p align="left">□</p>
 
 
 Furthermore, we can equip the algebra $R$ with an inner product
@@ -841,7 +841,7 @@ $\widetilde {\chi^\lambda}=\left|\begin{matrix}
 \end{matrix}\right|$
 
 and $\mathrm{ch}(\widetilde {\chi^\lambda})=\mathscr s_\lambda$. Now we finish the proof, as $\widetilde {\chi^\lambda}$ is induced $\chi^\lambda$. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -858,7 +858,7 @@ and so $\chi_{\mathscr p}^\lambda=\left\langle \mathscr s_\lambda, p_\mathscr p\
 $\left\langle \mathscr s_\lambda,p_\mu\right\rangle =\sum_{\mathscr p} z_\mathscr p^{-1}\chi_{\mathscr p}^{\lambda}\left\langle p_\mathscr p,p_\mu\right\rangle =z_{\mu}^{-1}\chi_{\mu}^\lambda z_{\mu}=\chi_{\mu}^\lambda.$
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!corollary] Frobenius character formula 
@@ -907,7 +907,7 @@ x_1^{\mu_l} & \cdots & x_k^{\mu_k}
 \end{matrix}\right|.$
 
 Therefore, the coefficient of $x_1^{\ell_1}\cdots x_k^{\ell_k}$ with $\ell_i=\lambda_i+k-i$ of right hand side is $\chi_{\rho}^\lambda$. 
-□
+<p align="left">□</p>
 
 </div></div>
 
@@ -934,7 +934,7 @@ Note that
 - $(123)(456)$ and $(456)(123)$ are same cycles and there are $m_1!\cdots m_n!$ repetitions.
 
 Now we finish the proof.
-□
+<p align="left">□</p>
 
 For any given $n\in \mathbb{N}_+$, define $p(n)$ as the number of partitions of $n$. Then we can get its generating function.
 

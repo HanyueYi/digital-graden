@@ -64,7 +64,7 @@ Note that $V$ is non-degenerated iff $\mathrm{rad}V=0$. So we have the following
 
 **_Proof._**
 One direction is easy. Conversely, for each $v\in V$, $v_L$ and $v_R$ have the same kernel, thus $v_L=\lambda_v v_R$, i.e. $B(v,u)^{\sigma^{-1}}=\lambda_vB(u,v)$, $B(v,u)=\lambda_v^{\sigma}B(u,v)^{\sigma}$. Now it remains to show $\lambda_v$ is independent with $v$. Consider $B(u+v,w)$. 
-□
+<p align="left">□</p>
 
 > [!lemma]
 > Let $B$ be a non-degenerated form. If $B$ is reflexive, then:
@@ -73,7 +73,7 @@ One direction is easy. Conversely, for each $v\in V$, $v_L$ and $v_R$ have the s
 
 **_Proof._**
 For any $\lambda\in F$, there exist $u,v$ s.t. $B(u,v)=\lambda$. Then $\lambda=B(u,v)=\epsilon\epsilon^\sigma\lambda^{\sigma^2}$ and so we finish the proof.
-□
+<p align="left">□</p>
 
 > [!theorem] Birkhoff-von Neumann
 > A non-degenerated reflexive form $B$ on a vector space of $\mathrm{dim}\geq 2$ is one of the following:
@@ -83,7 +83,7 @@ For any $\lambda\in F$, there exist $u,v$ s.t. $B(u,v)=\lambda$. Then $\lambda=B
 
 **_Proof._**
 By lemma, we have $B(u,v)=\epsilon B(v,u)^\sigma$ and $\epsilon\epsilon^\sigma=1$. Since $\epsilon\epsilon^\sigma=1$, if $\sigma=\rm id$, $\epsilon=1$ or $-1$. Otherwise, $\sigma\neq\rm id$ and so $\sigma$ is a field automorphism of order $2$. Using the method of undetermined coefficients to find $m$ such that $B=mB_0$, i.e. find $m$ such that $\epsilon m^\sigma=m$. If $\epsilon\neq -1$, $m=1+\epsilon$; otherwise, take $m=\mu-\mu^\sigma\neq 0$ ($\mu$ exists by $\sigma\neq \mathrm{id}$). Therefore, $B$ is a scalar multiple of a Hermitian form.
-□
+<p align="left">□</p>
 
 # Quadratic Form
 

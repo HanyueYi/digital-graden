@@ -32,7 +32,7 @@ This theorem shows that $FG$ is completely reducible if $F=\mathbb{C}$ or $
 Since $V$ is irreducible and $\ker\theta\leqslant V$ is an submodule, we have that $\ker\theta=0\mbox{ or }V$. If $\ker\theta=V$, then $v\theta=0$ for all $v\in V$. Otherwise, when $\ker\theta=0$, $\theta$ is an isomorphism.
 
 Now suppose that $V=W$. As $\theta$ is a linear transformation, it has at least one eigenvalue $\lambda$. Then $\theta-\lambda I$ is also a $\mathbb{C}G$-homomorphism and $\ker(\theta-\lambda I)=V$. It follows that $v\theta= \lambda v$.
-□
+<p align="left">□</p>
 
 **Remark.** Note that $V$ should be a finite-dimensional vector space, otherwise the eigenvalue of $\theta$ may not exist.
  
@@ -125,5 +125,5 @@ $$\theta:V\to V,\;
 v\mapsto vz$$
 
 is a $\mathbb CG$-homomorphism and $vz=\lambda_zv$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $V$ is faithful, we have that $\lambda_x\neq\lambda_y$ if $x\neq y$. Otherwise, there exists $1\neq xy^{-1}\in Z(G)$ such that $v(xy^{-1})=\lambda_x\lambda_y^{-1}v=v$ for all $v\in V$. Thus, $Z(G)$ is a subgroup of $\mathbb C^{*}$ and so it is cyclic.
-□
+<p align="left">□</p>
 

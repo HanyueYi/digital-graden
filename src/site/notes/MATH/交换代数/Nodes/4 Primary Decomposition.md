@@ -20,7 +20,7 @@ TFAE:
 i)<->iv) is easy. Note that $xy\in q$ iff $\overline{xy}=0$ in $A/q$. 
 
 The rest is trivial. 
-□
+<p align="left">□</p>
 
 **Examples.**
 - Any prime ideal is primary.
@@ -33,7 +33,7 @@ The rest is trivial.
 
 **_Proof._**
 Recall that $r(q)=\cap_{p\supseteq q}p$, so it suffices to show $r(q)$ is a prime. If $xy\in r(q)$, then $x^ny^n\in q$. By definition, $x^{nn'}\in q$ or $y^{nn'}\in q$. Then one of $x$, $y\in r(q)$ and so $r(q)$ is prime.
-□
+<p align="left">□</p>
 
 
 **Examples.**
@@ -52,7 +52,7 @@ Recall that $r(q)=\cap_{p\supseteq q}p$, so it suffices to show $r(q)$ is a prim
 Note that $\alpha\subseteq r(\alpha)=\cap_{p\supseteq\alpha}p=m$ is maximal. Then $m$ is the unique prime ideal containing $\alpha$, and so $m$ is the unique maximal ideal in $A/\alpha$. Hence $A/\alpha$ is a local ring. Suppose $xy\in \alpha$, if $x\notin m=r(\alpha)$, i.e., $x^n\notin \alpha$, then we aim to show $y\in \alpha$. Since $A/\alpha$ is local, $\overline x\in (A/\alpha)^\times$ and so $\overline y=0\in A/\alpha$. Thus, $y\in \alpha$. 
 
 For "in particular" part, because $r(m^n)\supseteq m$ and $m$ is maximal, one have $r(m^n)=m$ and so $m^n$ is primary.
-□
+<p align="left">□</p>
 
 
 > [!lemma]
@@ -62,7 +62,7 @@ For "in particular" part, because $r(m^n)\supseteq m$ and $m$ is maximal, one ha
 
 **_Proof._**
 First, $r(q)=\cap r(q^i)=p$. Now, let $xy\in q$. Suppose $x\notin q$, then $x\notin q_i$ for some $i$ and so $y^n\in q_i$ for some $n$. Then $y\in r(q_i)=p=r(q)$ and so $y^n\in q$. 
-□
+<p align="left">□</p>
 
 
 > [!lemma]
@@ -79,7 +79,7 @@ i) is trivial.
 iii) If $y\in (q:x)$, then $xy\in q$. Since $x\notin r(q)$, $y\in q$.
 
 ii) Let $y\in (q:x)$, then $xy\in q$. Since $x\notin q$, there is $y\in r(q)=p$. Then $q\subseteq (q:x)\subseteq p$ and so $p=r(q)\subseteq r(q:x)\subseteq r(p)=p$. It remains to show $(q:x)$ is primary. For $yz\in (q:x)$ and $y\notin p$, we aim to show $z\in (q:x)$. Since $yz\in (q:x)$, we have $xyz\in q$. By $y\notin p$, $xy\in q$ and so $z\in (q:x)$. Now we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -119,7 +119,7 @@ Now suppose $r(\alpha:x)\in\text{RHS}(*)$, that is, $\cap_{x\notin q_j}p_j=p$ pr
 **Step 2.** Show LHS $(*)\subseteq$ RHS $(*)$. 
 
 Take $p_i\in \text{LHS}$. Suppose $\alpha=\cap _{i=1}^n q_i$ is a minimal decomposition. Then there exists $x\notin q_i$ such that $x=\cap_{j\neq i}q_j$. By [[MATH/交换代数/Nodes/4 Primary Decomposition#^2df6cb\|#^2df6cb]], $r(\alpha:x)=\cap_{i=1}^nr(q_i:x)=r(q_i:x)=p_i$ and so $p_i\in \text{RHS}$. 
-□
+<p align="left">□</p>
 
 
 > [!definition]
@@ -145,7 +145,7 @@ Associated primes are $\{(x),(xy)\}$.
 If $p$ is prime, then $p\supseteq\alpha=\cap q_i$ yields $p\supseteq r(\alpha)=\cap r(q_i)=\cap p_i$. By [[MATH/交换代数/Nodes/1 Rings and Ideals#^tepoo1\|1 Rings and Ideals#^tepoo1]], $p\supseteq p_i$ for some $i$. So given a minimal element $p/\alpha$ on RHS, $p\supseteq p_i$. By minimality, $p=p_i$ and $p_i$ has to be minimal in LHS. So $\theta$ is surjective. 
 
 In remains to show, if $p_i$ is minimal element in $\{p_1,\cdots,p_n\}$, then $p_i/\alpha$ is a minimal element in $\mathrm{Spec}(A/\alpha)$. Otherwise, minimal element $p_i\supsetneq p$ for some $p$ such that $p/\alpha$ is minimal in $\mathrm{Spec}(A/\alpha)$. But by Step 1, $p=p_j$ for some $j$ but $p_i\supsetneq p_j$ leading to a contradiction. 
-□
+<p align="left">□</p>
 
 - [ ] existence of minimal prime
 
@@ -195,7 +195,7 @@ So WLOG we can assume $\alpha=0$.
 So $D=\cup_{x\neq 0}(0:x)=\cup_{x\neq 0}r(0:x)$ because $r(D)=D$. Since $0=\cap_{i=1}^n q_i$, in the proof of [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], $r(0:x)=\cap _{x\notin q_j}p_j\subseteq p_j$ for some $j$. Then $D\subseteq \cup_{i=1}^n p_i$. 
 
 Also by [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], each $p_i=r(0:x)$ with $x\notin q_i$, $x\notin \cap_{j\neq i}p_j$. Then $\cup_{i=1}^n p_i\subseteq D$
-□
+<p align="left">□</p>
 # Part 2 of Chapter 7: primary decomposition in Noetherian rings
 
 
@@ -213,7 +213,7 @@ Also by [[MATH/交换代数/Nodes/4 Primary Decomposition#^3049a9\|#^3049a9]], e
 > Let $A$ be a Noetherian ring. Then any ideal is a finite intersection of irreducible ideals, that is, for any ideal $\alpha$, $\alpha$ can be written as $\alpha=\cap_{i=1}^n\beta_i$. 
 **_Proof._**
 Let $S=\{\alpha\subseteq A:\alpha\text{ is not a finite intersection of irreducible ideals}\}$. If $S\neq \emptyset$, then by $A$ Noetherian $S$ has a maximal element $\alpha$. Since $\alpha$ is reducible, $\alpha$ can be written as $\alpha=\beta\cap \gamma$ and both $\beta,\gamma$ are finite intersection of irreducible ideals, leading to contradiction. 
-□
+<p align="left">□</p>
 
 
 > [!lemma]
@@ -228,21 +228,21 @@ As $A$ Noetherian, there exists $n$ such that $\mathrm{Ann}(x^n)=\mathrm{Ann}(x^
 We claim that $(x^n)\cap (y)=(0)$. For any $a\in (x^n)\cap (y)$, we have $ax=0$ by $xy=0$ and $a=x^nb$ for some $b\in A$. It deduces that $bx^{n+1}=0$ and $b\in \mathrm{Ann}(x^{n+1})=\mathrm{Ann}(x^n)$ and so $a=x^nb=0$. Now we prove the claim. 
 
 Since $(0)$ is irreducible and $(y)\neq 0$, we have $(x^n)=(0)$ and so we finish the proof.
-□
+<p align="left">□</p>
 
 
 > [!theorem]
 > A Noetherian proper ideals have primary decomposition.  
 **_Proof._**
 By [[MATH/交换代数/Nodes/4 Primary Decomposition#^98d425\|#^98d425]] and [[MATH/交换代数/Nodes/4 Primary Decomposition#^3e8c56\|#^3e8c56]]. 
-□
+<p align="left">□</p>
 
 
 > [!proposition]
 > Let $A$ be a Noetherian ring, and let $\alpha$ be an ideal of $A$. Then $\alpha\supseteq (r(\alpha))^n$ for some $n$. 
 **_Proof._**
 Suppose $r(\alpha)$ is finitely generated by $x_1,\cdots,x_k$ with $x_i^n\in \alpha$ for big enough $n$. Then $\alpha\supseteq (r(\alpha))^{nk+1}$ and we have done. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -250,7 +250,7 @@ Suppose $r(\alpha)$ is finitely generated by $x_1,\cdots,x_k$ with $x_i^n\in \al
 
 **_Proof._**
 Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]. 
-□
+<p align="left">□</p>
 
 
 > [!corollary]
@@ -267,7 +267,7 @@ i)->ii) by definition.
 ii)->iii) by [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]
 
 iii)->ii) obvious.
-□
+<p align="left">□</p>
 
 
 
