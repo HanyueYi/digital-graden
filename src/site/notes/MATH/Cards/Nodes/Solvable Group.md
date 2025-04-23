@@ -29,11 +29,11 @@
 
 **_Proof._**
 Define the canonical map as $\pi:G\to G/H,\ g\mapsto \overline g$. If $G/H$ is abelian, then $\pi(aba^{-1}b^{-1})=\overline a \overline b \overline a^{-1} \overline b^{-1}=\overline e$ and so $aba^{-1}b^{-1}\in\ker \pi=H$. It yields that $G'\leqslant H$. Conversely, if $aba^{-1}b^{-1}\in H$ for any $a,b\in G$, then $\overline{aba^{-1}b^{-1}}=\overline e$ and $\overline a\overline b=\overline b \overline a$. Therefore, we have $G/H$ is abelian. 
-□
+<p align="right">□</p>
 
 > [!proposition]
 > A group is [[MATH/Cards/Nodes/Solvable Group\|solvable]] if and only if all its composition factors are abelian.
 
 **_Proof._**
 Let $G$ be a group and let $1=H_0\lhd \dots\lhd H_n=G$ be a [[MATH/Cards/Nodes/Composition Series\|composition series]] of $G$. We prove the proposition by induction. Assume that the statement is true when the order of group is less than $|G|$. Since $G/H_{n-1}\cong \mathbb{Z}_p$ for some prime $p$, there is $H_{n-1}\geqslant G'$ by [[#^n7ko5p]]. By induction hypothesis $H_{n-1}$ is solvable and so for $G'$. Therefore, the group $G$ is a solvable group. 
-□
+<p align="right">□</p>

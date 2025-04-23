@@ -34,4 +34,4 @@ $$
 
 
 Therefore $\# G_d=\phi(d)$ for every $d \mid n$. In particular $G_n \neq \varnothing$. This proves that $G$ is cyclic.
-□
+<p align="right">□</p>

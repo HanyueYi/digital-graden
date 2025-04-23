@@ -23,7 +23,7 @@ Let $p\subseteq A$ be an prime ideal. Then $B=A/p$ is an Artinian integral domai
 Let $x\in B$ with $x\neq 0$. Then $(x)\supseteq (x^2)\supseteq\cdots$ terminates. Then $x^n=x^{n+1}y$ for some $y\in B$ and so $xy=1$ by $B$ integral domain. 
 
 Therefore, $p$ is maximal, by $A/p$ being a field. 
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -36,7 +36,7 @@ Therefore, $p$ is maximal, by $A/p$ being a field.
 
 **_Proof._**
 Let $S=\{m_1\cap\cdots\cap m_r:m_i\text{ is maximal}\}$ be the set of finite intersections of maximal ideals. By d.c.c. $S$ has a minimal element, denoted by $m_1\cap\cdots\cap m_n$. Now let $m\subseteq A$ be a maximal ideal. Then $m\cap(\cap_{i=1}^n m_i)=\cap_{i=1}^n m_i$ and so $m\supseteq \cap_{i=1}^n m_i$. By [[MATH/交换代数/Nodes/1 Rings and Ideals#^tepoo1\|1 Rings and Ideals#^tepoo1]], $m\supseteq m_i$ for some $i$ and so $m=m_i$. So $\mathrm{Spec}(A)=\{m_1,\cdots,m_n\}$. 
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -54,7 +54,7 @@ Note that $x\alpha\neq 0$ yields $(x\alpha)\alpha=x\alpha\neq 0$ and $x\alpha\in
 $$x=xy=xy^2=\cdots=xy^n=0$$
 
 for some $n$, which contradicts with $(x)\in \Sigma$. 
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -82,7 +82,7 @@ Recall that if $(0)=m_1\cdots m_n$ is a product of some maximal ideals, then $A$
 
 
 "<-" By [[MATH/交换代数/Nodes/7 Noetherian Rings#^k8wbyb\|7 Noetherian Rings#^k8wbyb]], $(0)=\cap_{i=1}^n q_i$ with distinct $r(q_i)=p_i$. Since $\dim A=0$, we have $p_i$ are maximal ideals. It deduces that $\mathrm{Nil}(A)=r((0))=\cap _{i=1}^n p_i$. Since $A$ is Noetherian, $N$ is nilpotent. Then $(0)=N^k\supseteq (p_1\cdots p_n)^k$ verifying assumption of [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]]. 
-□
+<p align="right">□</p>
 
 
 **Example.** Note that $\prod_{i=1}^\infty k$ is dimension $0$ but not Artinian. 
@@ -94,7 +94,7 @@ Recall that if $(0)=m_1\cdots m_n$ is a product of some maximal ideals, then $A$
 
 **_Proof._**
 If i) does not hold, then $m^n=m^{n+1}$. By [[MATH/交换代数/Nodes/2 Modules#^mzvcc5\|Nakayama lemma]], $m^n=0$. By [[MATH/交换代数/Nodes/6 Chain Condition#^3gn38j\|6 Chain Condition#^3gn38j]], $A$ is Artinian. 
-□
+<p align="right">□</p>
 
 > [!theorem]
 > $A$ is Artinian if $A=\prod_{i=1}^n A_i$ is a finite product of Artinian local rings. 
@@ -108,7 +108,7 @@ Note that $\{m_i\}_{i=1}^n$ are pairwise coprime, so $\{m_i^k\}$ are also coprim
 
 ![Pasted image 20250421203354.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250421203354.png)
 
-□
+<p align="right">□</p>
 
 
 - [ ] Now given （最后一行
@@ -132,5 +132,5 @@ iii)->i) $\dim_k m/m^2\leqslant 1$ yields that there exists $x\in m$ such that $
 Note that [[MATH/交换代数/Nodes/2 Modules#^w0idub\|2 Modules#^w0idub]] yields that $m=(x)$. Let $\alpha\subseteq A$ be a proper ideal. Since $\mathrm{Nil}(A)=m$, we have $m^k=0$ for a big enough $k$ by [[#^eii4v9]]. It deduces that $m^k\subseteq \alpha\subseteq m$.
 
 So there exists $r$ such that $\alpha\subseteq m^r=(x^r)$ but $\alpha\not\subseteq m^{r+1}=(x^{r+1})$. Then there is $y\in \alpha$ such that $y\notin (x^{r+1})$. But $y\in (x^r)$ yields $y=x^ra$. It deduces $a\notin (x)=m$ and $a$ is a unit. Thus $\alpha\supseteq(y)=(x^r)\supseteq \alpha$ and so $\alpha=(x^r)$ is principal.
-□
+<p align="right">□</p>
 

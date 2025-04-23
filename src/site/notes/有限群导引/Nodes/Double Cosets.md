@@ -22,7 +22,7 @@ For any $g\in HaK$, there is $Hg\subseteq H(HaK)=HaK$. Assume that $HaK$ contain
 $$|HaK|=a^{-1}HaK=H^aK=\frac{|H^a||K|}{|H^a\cap K|}=\frac{|H||K|}{|H^a\cap K|},$$
 
 and it deduces that $m=|K|/|H^a\cap K|=|K:H^a\cap K|$.
-□
+<p align="right">□</p>
 
 
 **Remark.** In particular, when $H=K$, we say $HaH$ is a $H$-double coset, and the number of double cosets coincides with the rank of $H\leqslant G$ on $[G:H]$. See [[Literature/Nodes/bannaiMaximalSubgroupsLow1972#^f1n6qy\|here]]. 

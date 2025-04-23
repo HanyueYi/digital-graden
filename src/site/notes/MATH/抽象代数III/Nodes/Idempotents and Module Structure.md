@@ -40,7 +40,7 @@ Conversely, let $Re=I_1\oplus\cdots\oplus I_n$. Since $e\in Re$, $e$ can be writ
 $$a_i=a_ie=a_ie_1+\cdots+a_ie_n$$
 
 where $a_ie_i\in I_i$. Since $I_1\oplus\cdots\oplus I_n$ is a direct sum, the decomposition of $a_i$ is unique and so $a_ie_i=a_i$ and $a_ie_j=0$ for any $i\neq j$. Take $a_i=e_i$, then $e_i$ is idempotent and $e_ie_j=e_je_i=0$. Therefore, $e=e_1+\cdots+e_n$ is a idempotent decomposition.  
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -57,7 +57,7 @@ i)<->ii) is easy.
 i)->iii) Suppose $e'\in eRe$ such that $e'\neq 0$ and $e'^2=e'$. Then $e=e'+(e-e')$ is a decomposition, which contradicts with $e$ primitive. 
 
 iii)->i) If $e=e_1+e_2$ is an imprimitive idempotent in $R$, then $e_1,e_2\in eRe$, because $ee_1e=e_1$ and $ee_2e=e_2$, which is impossible. 
-□
+<p align="right">□</p>
 
 
 > [!theorem]
@@ -81,7 +81,7 @@ ii) Define $V=Re$. For $\sigma,\tau\in \mathrm{End}_R(Re)$, we have
 $$\sigma(\tau(e))=\sigma(\tau(e)e)=\tau(e)\sigma(e)$$
 
 and so $\mathrm{End}_R(Re)\simeq (eRe)^\mathrm{op}$. 
-□
+<p align="right">□</p>
 
 
 > [!theorem]
@@ -110,7 +110,7 @@ iii)->i) Assume that there exist $b\in fRe$ and $a\in eRf$ with $ab=e$ and $ba=f
 - For any $xf\in Rf$, we have $(\varphi_a\circ\varphi_b)(xf)=xb=xbe=xba=xf$. 
 
 Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 ## Lifting Idempotents Over Nilpotent Ideals
@@ -143,7 +143,7 @@ where $u^2 r^k s^k=0$ by definition of $k$. Also note that $\overline {ur^k}=\ov
 
 
 Suppose $e$ is primitive and $f$ has an idempotent decomposition $f=f_1+f_2$. Then $e=e_1+e_2$ with $e_i=\overline {f_i}$. Since $e$ is primitive, one of $e_1,e_2$ is $0$ and so WLOG $\overline {f_1}=0$ and so $f_1\in I$. It contradicts with $f_1$ idempotent. 
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -165,7 +165,7 @@ whose kernel is $FRF\cap I$. There is $FRF\cap I=FIF$, because
 - for any $x\in FRF\cap I$, $FxF\subseteq FIF$. 
 
 So we get an inclusion $FRF/FIF\hookrightarrow R/I$, and its image is $E(R/I)E$. As $E(R/I)E$ has identity $E=e_2+\cdots+e_n$, by induction hypothesis one have $F=f_2+\cdots+f_n$ with $f_i+I=e_i$ for $i\geqslant 2$. Thus $1=f_1+\cdots+f_n$ and we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -193,7 +193,7 @@ iii) Notice that $S=1S=(e_1+\cdots+e_n)S$, and there exists $i$ such that $e_iS\
 $$e_iT=e_iAe\simeq \mathrm{Hom}_R(Ae,Ae_i)=0$$
 
 if $Ae\not\simeq A e_i$. Now we finish the proof. 
-□
+<p align="right">□</p>
 
 
 > [!theorem]
@@ -219,7 +219,7 @@ af&\mapsto(a+J(A))(f+J(A))
 \end{aligned}$$
 
 is an $A$-morphism with kernel $J(A)Af=\mathrm{Rad}(Af)=\mathrm{Rad}(P_S)$. Then $P_S/\mathrm{Rad}P_S\simeq S$. 
-□
+<p align="right">□</p>
 
 
 
@@ -260,7 +260,7 @@ Finally, since $A / J(A)$ is semisimple, we have:
 $$A / J(A) \simeq \bigoplus_S S^{n_s}$$
 
 and ${}_A A \simeq \bigoplus_S\left(P_S\right)^{n_S}$, where $n_S=\operatorname{dim}_{\operatorname{End}_A(S) }S$ by [[MATH/抽象代数III/Nodes/3 250311#^8omj6z\|3 250311#^8omj6z]], as desired.
-□
+<p align="right">□</p>
 
 
 > [!theorem]
@@ -281,7 +281,7 @@ where $V_i/V_{i+1}\simeq \overline A e$ iff $fV_i/fV_{i+1}\neq 0$. Furthermore,
 $$e\overline Ae\simeq f\left(V_i / V_{i+1}\right) \cong f V_i /\left(f V_i \cap V_{i+1}\right)=f V_i / f V_{i+1}.$$
 
 By [[#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $e\overline A e$ is a simple $fAf$-module. Therefore, the multiplicity of $\overline A e$ in any finitely generated $A$-module $V$ is equal to the composition length of $fV$ as an $fAf$-module. 
-□
+<p align="right">□</p>
 
 
 **Remark.** For a primitive idempotent $f\in A$ with Artinian ring $A$, $fAf$ is a local ring.  
@@ -306,7 +306,7 @@ Let $1=e_1+\cdots+e_n$ be a primitive idempotent decomposition in $A/J(A)$, and 
 
 **_Proof._**
 It is a direct corollary of [[#^3hxo3d]]. 
-□
+<p align="right">□</p>
 
 
 For convenience, if $S$ and $T$ are two simple $A$-modules, we denote the corresponding Cartan invariant by $c_{ST}$, i.e., the multiplicity of $S$ in $P_T$. 
@@ -337,6 +337,6 @@ ii) is trivial by i).
 iii) is trivial by [[#^yr2ffd]].
 
 iv) is trivial by iii) and note that $\dim_k\mathrm{End}_A(S)=1$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. 
-□
+<p align="right">□</p>
 
 

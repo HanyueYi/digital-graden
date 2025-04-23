@@ -16,7 +16,7 @@
 
 **_Proof._**
 One direction is easy. If $\mathrm{rad}U$ is maximal, then $U/\mathrm{rad}U$ is irreducible. Conversely, suppose that $U/\mathrm{rad}U$ is irreducible. It follows that $\mathrm{rad}U$ is a maximal $kG$-submodule. If there is another maximal $kG$-submodule $W\subseteq U$, then $U/W$ is irreducible and so is semisimple. Then $W\supseteq \mathrm{rad}U$ and so $W=U$ or $\mathrm{rad}U$, contradiction.
-□
+<p align="right">□</p>
 
 **Remark.**
 - Is there some connection with [[MATH/Lie group and Lie algebra/Nodes/3 The Killing form - describe solvable and semi-simple\|3 The Killing form - describe solvable and semi-simple]]?

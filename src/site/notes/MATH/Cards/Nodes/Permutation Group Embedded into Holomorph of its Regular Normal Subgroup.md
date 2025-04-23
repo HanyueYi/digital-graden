@@ -8,4 +8,4 @@
 
 **_Proof._**
 Since $X$ is a regular normal subgroup, $\Omega$ can be identified as $X$. Since $X\lhd G$, we have $X_R\lhd G_R$ and so $G_R\leqslant N_{\mathrm{Sym}(\Omega)}(X_R)=\mathrm{Hol}(X)$. Then it is easy to verify it is a permutationally isomorphic.
-□
+<p align="right">□</p>

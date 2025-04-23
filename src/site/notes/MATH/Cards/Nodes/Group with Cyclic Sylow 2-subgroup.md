@@ -14,5 +14,5 @@ Furthermore, if there is another normal subgroup $K\lhd G$ of order $m$, then th
 Now suppose that it holds for groups of order $2m,2^2m,\cdots,2^{n-1}m$, and suppose that $|G|=2^nm$. With the similar argument, there is a $L\lhd G$ such that $|L|=2^{n-1}m$. As each Sylow $2$-subgroup of $L$ is contained in a Sylow $2$-subgroup of $G$, each Sylow $2$-subgroup of $L$ is also cyclic. Then by induction hypothesis, group $L$ has the unique normal subgroup of order $m$, denoted by $L_0$. Since $L_0$ is a [[MATH/Cards/Nodes/Characteristic Subgroup\|characteristic subgroup]] of $L$, there is $L_0\lhd G$. Additionally, with the same argument in the previous paragraph, we can prove that $L_0$ is unique.
 
 By [Feit-Thompson theorem](https://en.wikipedia.org/wiki/Feit–Thompson_theorem), a group $G$ with cyclic Sylow $2$-subgroup is solvable.
-□
+<p align="right">□</p>
 

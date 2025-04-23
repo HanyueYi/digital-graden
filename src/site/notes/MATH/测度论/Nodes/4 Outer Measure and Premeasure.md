@@ -23,7 +23,7 @@
 
 **_Proof._**
 Note that (i), (ii) is easy. So we only need to check (iii). Let $\{A_i\}\subseteq\mathcal{P}(X)$. If $\mu^{*}(A_{i})=\infty$, it is OK. Assume that $\mu^*(A_i)<\infty$ for all $i\in\mathbb{N}$. For any each $i$, any $\epsilon>0$, there exists $\{C_{ij}\}_{j=1}^\infty\subseteq\mathcal C$ such that $\sum_{i=1}^\infty l(c_{ij})\leqslant \mu^{*}(A_i)+\dfrac{\epsilon}{2^i}$. Then $\cup_{i=1}^\infty A_i\subseteq\cup_{i,j}C_{ij}$ and $\mu^{*}(\cup_{i=1}^\infty A_i)\leqslant\sum_{i,j}l(C_{ij})\leqslant\sum_{i=1}^\infty\mu^*(A_i)+\epsilon$. Take $\epsilon\to 0$, then we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -74,7 +74,7 @@ $$\mu^*(E)\geqslant\sum_{i=1}^\infty \mu^*(E\cap A_i)+\mu^*(E\cap A^c)\geqslant\
 So $\cup_{i=1}^\infty A_i\in\mathcal{A}$. In addition, since $\sum_{i=1}^\infty\mu^*(E\cap A_i)=\mu^*(E\cap A)$ for all $E\subseteq X$. Then if $E=A=\cup A_i$, we have that $\sum_{i=1}^\infty\mu^*(A_i)=\mu^*(A)$. Thus, $\mu^*$ is a measure on $\mathcal{A}$. 
 
 Note that if $A\subseteq X$ with $\mu^*(A)=0$, then for any $E\subseteq X$ there is $\mu^*(A\cap E)=0$ and so $\mu^*(E)\geqslant\mu^*(A^c\cap E)+\mu^*(A\cap E)$ and so $A\in\mathcal{A}$. Thus $\mathcal{A}$ is a complete measure.
-□
+<p align="right">□</p>
 
 
 **Example.** Let $X=\mathbb{R}$ and let $\mathcal{C}$ be the collection of intervals of the form $(a, b]$. Let $l(I)=b-a$ if $I=(a, b]$. Let $\mathcal L$ be the set of $\mu^*$-measurable set, then it is a $\sigma$-algebra, called the Lebesgue $\sigma$-algebra. However, there are subsets in $\mathbb{R}$ which are non-measurable with respect to $\mu^*$ and so $\mu^*$ is not a measure on $\mathcal{P}(\mathbb{R})$. See [[Pasted image 20241003182321.png|here]].
@@ -107,6 +107,6 @@ $$l(X)=\nu(X)=\nu(A)+\nu(A^c)\leqslant\mu^*(A)+\mu^*(A^c)=\mu^*(X)=l(X)$$
 and so $\nu(A)=\mu^*(A)$. 
 
 **Case 2.** Assume that $l$ is $\sigma$-finite. Let $\{C_i\}\subseteq\mathcal{A}_0$ such that $C_i\uparrow X$ and $l(C_i)<\infty$. Consider $l_i:\mathcal{A}_0\to[0,\infty),l_i(A)=l(A\cap C_i)$. Let $\nu,\mu$ be measures on $\sigma(\mathcal{A}_0)$ with $\nu=\mu$ on $\mathcal{A}_0$. Define $\mu_i,\nu_i$ as $\nu_i(A)=\nu(A\cap C_i)$ and $\mu_i(A)=\mu(A\cap C_i)$. By Case 1 we have $\nu_i=\mu_i$ for all $A\in\sigma(\mathcal{A}_0)$. Thus $\nu(A)=\lim\nu(A\cap C_i)=\lim\mu(A\cap C_i)=\mu(A)$.  
-□
+<p align="right">□</p>
 
 **Remark.** Note that $\mathcal{A}$ defined in [[#^036d19]] is a $\sigma$-algebra and $\mathcal{A}\supseteq\mathcal{A}_0$. Thus $\sigma(\mathcal{A}_0)\subseteq\mathcal{A}$. 

@@ -14,7 +14,7 @@
 
 **_Proof._**
 An element of the image is $\sum_{i\in I}\psi_i\varphi_i$, where $\psi_i:X\to M$ and $\varphi_i:M\to Y$. Give a morphism $\varphi:X\to M^I,x\mapsto (\varphi_i(x))$ and a morphism $\psi:M^I\to Y,(m_i)\to \sum \psi_i(m_i)$. Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 
@@ -30,7 +30,7 @@ An element of the image is $\sum_{i\in I}\psi_i\varphi_i$, where $\psi_i:X\to M$
 
 **_Proof._**
 It is easy to check for any $\varphi\in \mathrm{Hom}_R^\mathrm{pr}(M,M)$ and $\psi\in\mathrm{End}_R(M)$, one have $\varphi\circ \psi,\psi\circ\varphi\in \mathrm{Hom}_R^\mathrm{pr}(M,M)$.  
-□
+<p align="right">□</p>
 
 
 > [!theorem] 
@@ -84,4 +84,4 @@ v)->i) Assume $\{\varphi_1,\cdots,\varphi_n\}\subseteq P^*$ and $\{x_1,\cdots,x_
 $$\tau_{P,P}\left(\sum_{i=1}^n\varphi_i\otimes x_i\right)=\mathrm{id}_P\implies \sum_{i=1}^n\varphi_i(x)x_i=x.$$
 
 It deduces that $P=\left\langle x_1,\cdots,x_n\right\rangle_R$. Define $R$-module homomorphisms $\phi:R^n\to P,(r_1,\cdots,r_n)\mapsto \sum_{i=1}^n r_ix_i$ and $\psi:P\to R^n,x\mapsto(\varphi_1(x),\cdots,\varphi_n(x))$. Then $\phi\circ\psi=\mathrm{id}_P$ and so $R^n=\ker\phi\oplus \mathrm{im}\psi\simeq \ker\phi\oplus P$, i.e., $P$ is a direct summand of $R^n$. Therefore, $P$ is a finitely generated projective module. 
-□
+<p align="right">□</p>

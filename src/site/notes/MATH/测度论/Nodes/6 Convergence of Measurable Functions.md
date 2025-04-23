@@ -19,7 +19,7 @@ Define $A_{m,n}=\cap_{k=m}^\infty\{x:|f_k(x)-f(x)|<\frac{1}{n}\}$, then $A_{m,n}
 $$\mu(X-X_0)=\mu(X-\cap_{n=1}^\infty A_{m_n,n})=\mu(\cup_{n=1}^\infty(X-A_{m_n,n}))\leqslant\sum_{n=1}^\infty\frac{\epsilon}{2^n}=\epsilon.$$
 
 For any $\epsilon'>0$, take $N$ such that $1/N<\epsilon'$. If $x\in X_0\subseteq A_{m_N,N}$, for any $k>m_N$, we have $|f_k(x)-f(x)|<\frac{1}{N}<\epsilon'$ for all $x\in X_0$. Therefore, $f_n\to f$ uniformly on $X_0$.
-□
+<p align="right">□</p>
 
 
 **Remark.** $\mu(X)<\infty$ is necessary. Let $X=\mathbb{N}$, $\mathcal{A}=\mathcal{P}(X)$, and let $\mu$ be counting measure. Define $f_n=\chi_{1,\cdots,n}$, then $f_n\to f$ where $f\equiv 1$. Let $\epsilon =\frac{1}{2}$. For any $X_0\in \mathcal{P}(X)$ with $\mu(X-X_0)<1/2$, we aim to show $f_n$ does not converge uniformly on $X_0$. Since $\mu(X-X_0)\geqslant 1$ if $X\neq X_0$, then $X=X_0$. Claim that $f_n\to f$ does not converge uniformly on $X$, that is, there exists $\epsilon_0>0$, for any $N>0$, there exists $x\in X$ and $n\geqslant N$ such that $|f_n(x)-f(x)|\geqslant\epsilon_0$. Take $\epsilon_0=1/2$, then for any $N>0$ there is $|f_N(N+1)-f(N+1)|=1\geqslant\epsilon$. Hence, $f_n\to f$ is not uniformly convergent. 
@@ -42,7 +42,7 @@ For any $\epsilon'>0$, take $N$ such that $1/N<\epsilon'$. If $x\in X_0\subseteq
 Define $f_k$ as the diagram below.![Pasted image 20241011144717.png|700](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020241011144717.png)
 
 Then it is easy to prove the theorem. 
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -64,7 +64,7 @@ Then it is easy to prove the theorem.
 
 **_Proof._**
 Let $D=\{x\in X:|f_n(x)-f(x)|\not\to 0\}$. Then $\mu(D)=0$. For any $\epsilon>0$, let $A_n=\{x:|f_n(x)-f(x)|\geqslant\epsilon\}$. Note that $\lim\sup_{n\to\infty}A_n\subseteq D$ and so $\mu(\lim\sup A_n)=0$. Define $B_n=\cup_{k=n}^\infty A_k$, then $B_n\downarrow 0$, which yields that $f_n\xrightarrow{\mu} f$.
-□
+<p align="right">□</p>
 
 
 **Remark.** Let $X=\mathbb{R}$, and let $f_n=\chi_{(n,n+1)}$. Note that $f_n\to 0$ almost everywhere, and $\mu(\{x\in X:|f_{n}(x)-0|\geqslant 1/2\})=1\not\to 0$. Therefore, $f_n\not \xrightarrow{\mu} 0$. Furthermore, [[MATH/测度论/Nodes/6 Convergence of Measurable Functions#^xi5yxj\|this]] is also an example.
@@ -79,4 +79,4 @@ Since $\lim_{n\to\infty}\mu(\{x:|f_n(x)-f(x)|\geqslant 1\})=0$, there exists $n_
 $$\mu(\{x:|f_{n_k}(x)-f(x)|\geqslant\frac{1}{k}\})<\frac{1}{2^k}.$$
 
 Now we get a subsequence $\{f_{n_k}\}$. Define $A_k=\{x:|f_{n_k}(x)-f(x)|\geqslant 1/k\}$, then $D=\cap_{j=1}^\infty\cup_{k=j}^\infty A_k$. It is easy to prove that $\mu(D)=0$. If $x\not\in D$, then there exists $j$ such that $x\not\in \cup_{k=j}^\infty A_j$ and so $|f_{n_k}(x)-f(x)|<1/k$ for all $k\geqslant j$. Hence $f_{n_k}\to f$ on $D^c$. 
-□
+<p align="right">□</p>

@@ -89,7 +89,7 @@ Similarly, there is
 $$\chi_{\Lambda^2V}(g)=\frac{1}{2}(\chi_V(g)^2-\chi_V(g^2))$$
 
 and now we finish the proof.
-□
+<p align="right">□</p>
 
 
 Now we are ready to prove [[#^df16b3]].
@@ -104,7 +104,7 @@ FS(\chi_i)&=\frac{1}{|G|}\sum_{g\in G}\chi_i(g^2)=\frac{1}{|G|}\sum_{g\in G}(\ch
 \end{aligned}$$
      
 by [[MATH/代数专题/Nodes/7 Character Table, Frobenius-Schur Indicator & Complexification#^efck4j\|here]]. 
-□
+<p align="right">□</p>
 
 
 **Exercise.** Let $V$ be vector space, then $Bil(V)$ is a vector space of bilinear forms on $V$ Show that $V^*\otimes V^*\simeq Bil(V)$. (I think it is easy, with $f\otimes f'\mapsto B(v,u):=f(v)f'(u)$.)

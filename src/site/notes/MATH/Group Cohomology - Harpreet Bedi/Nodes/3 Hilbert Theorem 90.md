@@ -63,7 +63,7 @@ $$\sigma(a)=\sum_{\tau\in G}\sigma(f(\tau)\tau(b))=f(\sigma)^{-1}a.$$
 
 Thus $(f(\sigma))^{-1}=\sigma(a)/a\in B^1(G,L^\times)$ and so $Z^1(G,L^\times)=B^1(G,L^\times)$.
 
-□
+<p align="right">□</p>
 
 **Remark.** The linear independence of automorphisms comes from Dedekind-Artin theorem.
 
@@ -76,7 +76,7 @@ Thus $(f(\sigma))^{-1}=\sigma(a)/a\in B^1(G,L^\times)$ and so $Z^1(G,L^\times)=B
 
 **_Proof._**
 Suppose $f$ is a crossed homomorphism and $f(\sigma)=y$. Note that $f$ can be determined by $y$ and $f(\sigma^k)=y\cdot\sigma(y)\cdots\sigma^{k-1}(y)$. This homomorphism is well-defined because $y$ is norm $1$ and so $1=\Pi_{\sigma\in G}\sigma(y)$. Then by [[#^820f04]], $f(\sigma)=x/\sigma(x)$ for some $x\in L^\times$. 
-□
+<p align="right">□</p>
 
 **Remark.** For a Galois extension $L/K$, one may compute the norm of $\alpha\in L$ as the product of all the Galois conjugates of $\alpha$:
 
@@ -112,7 +112,7 @@ By normal basis theorem, there exists $\theta$ such that $\mathrm{Tr}_{L/K}(\the
 $$\beta:=\frac{1}{\mathrm{Tr}_{L/K}(\theta)}(\alpha\sigma(\theta)+(\alpha+\sigma(\alpha))\sigma^2(\theta)+\cdots+(\alpha+\cdots+\sigma^{n-2}(\alpha))\sigma^{n-1}(\theta)).$$
 
 It is easy to check $\alpha=\beta-\sigma(\beta)$.
-□
+<p align="right">□</p>
 
 **Reference:**
 - https://users.math.msu.edu/users/ruiterj2/math/Documents/Spring%202019/Galois%20Cohomology%20Seminar%20Week%206.pdf

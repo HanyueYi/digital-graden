@@ -38,7 +38,7 @@ Similarly, given $v:N\to N'$, it induces a homomorphism $\mathrm{Hom}(M,N)\to \m
 
 **_Proof._**
 Choose a set of generators $\{e_1,\cdots,e_n\}$ of $M$. Then $\phi\begin{pmatrix}e_1\\\vdots \\e_n\end{pmatrix}=T\begin{pmatrix}e_1\\\vdots \\e_n\end{pmatrix}$ for some $T\in\mathrm{Mat}_{n\times n}(\alpha)$. Let $P(x)$ be the characteristic polynomial of $T$, then $P(\phi)=0$ by Cayley-Hamilton.
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -52,7 +52,7 @@ Let $\phi=\mathrm{id}_M:M\to \alpha M=M$. By [[#^41223f]], $\phi$ satisfies
 $$\phi^n+\sum_{i=1}^n a_i \phi^{n-i}=0$$
 
 on $M$ with $a_i\in \alpha$. Let $x=1+a_1+\cdots+a_n$, then $xM=0$.
-□
+<p align="right">□</p>
 
 
 > [!proposition] Nakayama lemma
@@ -62,7 +62,7 @@ on $M$ with $a_i\in \alpha$. Let $x=1+a_1+\cdots+a_n$, then $xM=0$.
 
 **_Proof._**
 By [[#^d05ae0]] there exists $x=1+a$ with $a\in\mathrm{Jac}(A)$ such that $xM=0$. By [[MATH/交换代数/Nodes/1 Rings and Ideals#^h2e8bp\|1 Rings and Ideals#^h2e8bp]], $1+a\in A^\times$ and so $M=0$.
-□
+<p align="right">□</p>
 
 **Remark.** The most useful situation is when $A$ is a local ring with $\alpha=m_A=\mathrm{Jac}(A)$. [[#^c2a5d0]] tells if $M$ is finitely generated and $m_AM=M$, then $M=0$. 
 { #mzvcc5}
@@ -76,7 +76,7 @@ By [[#^d05ae0]] there exists $x=1+a$ with $a\in\mathrm{Jac}(A)$ such that $xM=0$
 
 **_Proof._**
 Apply [[#^c2a5d0]] to $M/N$. Since $M=\alpha M+N$, there is $M/N=\alpha(M/N)$ and then $M/N=0$. Therefore, $M=N$.
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -86,7 +86,7 @@ Apply [[#^c2a5d0]] to $M/N$. Since $M=\alpha M+N$, there is $M/N=\alpha(M/N)$ an
 
 **_Proof._**
 Let $N=\left\langle x_1,\cdots,x_n\right\rangle_A\subseteq M$. Then the composite $N\hookrightarrow M\twoheadrightarrow M/m_AM$ is surjective. It deduces that $M=N+m_AM$. By [[#^ffbd3c]], $M=N$ and so $x_1,\cdots,x_n$ generate $M$.
-□
+<p align="right">□</p>
 
 
 **Remark.** This is quite similar to [[MATH/Cards/Nodes/Frattini Subgroup#^k9gxk1\|Frattini Subgroup#^k9gxk1]]—in fact, the Jacobson radical can be seen as an analogue of the Frattini subgroup, but in the setting of rings instead of groups.
@@ -152,7 +152,7 @@ ii) "->" Assume that $(☺️)$ is exact. It is enough to show $\overline u$ is 
 $$0\to \mathrm{Hom}(\ker v,N')\stackrel{\overline u}{\to} \mathrm{Hom}(\ker v,N)\stackrel{\overline v}{\to} \mathrm{Hom}(\ker v,N'')$$
 
 is exact. Since $\iota':\ker v\to N$ is an element of $\mathrm{Hom}(\ker v,N)$ and $\overline v(\iota')=0$, there is $\iota'\in \ker\overline v=\mathrm{im}\overline u$ and so there exists $\phi$ such that $u\circ\phi=\iota'$. Then for any $m\in\ker v$, we have $m=\iota'(m)=u(\phi(m))$ and $m\in\mathrm{im} u$. Now we finish the proof.  
-□
+<p align="right">□</p>
 
 
 **Remark.** 
@@ -184,7 +184,7 @@ $$0\to\ker f'\stackrel{G'}{\to} \ker f\stackrel{H'}{\to} \ker f''\stackrel{d}{\t
 For any $x\in\ker d\leqslant M''$, there exists $y\in M$ such that $H(y)=x$. By the definition of $d$, we know $f(y)=g(d(x))=0$ and so $y\in \ker f$. It deduces that $x\in\mathrm{im}(H')$. Conversely, for any $x\in\mathrm{im}(H')$, there exists $y\in\ker f$ such that $x=H'(y)$. By the definition of $d$, there is $g(d(x))=f(y)=0$ and $d(x)=0$. Thus $x\in \ker d$. Now we have proved $\ker d=\mathrm{im} H'$. 
 
 For any $x\in\ker g'$, there is $g'(x)=0$ and so $g(\hat x)\in \mathrm{im} f$ for any given preimage $\hat x\in N'$. Then there is $y\in M$ such that $f(y)=g(\hat x)$. By the definition of $d$, we know $d(H(y))=x$. In addition, since $f''(H(y))=h(f(y))=h(g(\hat x))=0$, $H(y)\in \ker f''$. It yields that $x\in\mathrm{im} d$. Conversely, for any $x\in \mathrm{im} d$, there exists $y$ such that $d(y)=x$ and $z\in M$ such that $H(z)=y$ and $f(z)=g(\hat x)$ for any given $x\in N'$. By the definition of $d$, there is $g'(x)=\overline {f(z)}\in \mathrm{coker} f$ and so $g'(x)=0$, $x\in \ker g'$. Now we have proved $\mathrm{im} d=\ker g'$.
-□
+<p align="right">□</p>
 
 
 **Remark.** It is a general case of [[MATH/抽象代数II/Nodes/2.2 Modules#^b0hne4\|short five lemma]].
@@ -238,7 +238,7 @@ which is a $A$-bilinear map. We now verify the universal property. Let $f:M\time
 $$f'\circ g(m,n)=f'(m\otimes n)=f(m,n)$$
 
 and so $f'\circ g=f$. Hence, for each bilinear map $f:M\times N\to P$, we can find $f'$ such that $f'\circ g=f$ and so $(T,g)$ is what we desire. 
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -277,7 +277,7 @@ Recall the proof of [[#^aa5afc]], let $C$ be the free $A$-module $A^{M\times N}$
 $$(a,m)-(1,am)=(a,m)-a(1,m)+a(1,m)-(1,am)\in D$$
 
 which yields $g((a,m))=g((1,am))$ and so $a\otimes m=1\otimes am$. 
-□
+<p align="right">□</p>
 
 
 
@@ -290,7 +290,7 @@ which yields $g((a,m))=g((1,am))$ and so $a\otimes m=1\otimes am$.
 
 **_Proof._**
 Similar to [[#^aa5afc]]. 
-□
+<p align="right">□</p>
 
 ## Strange Things about Tensor Product
 
@@ -335,7 +335,7 @@ It is easy to check $M\otimes _AN$ is a $B$-module and $N\otimes_BP$ is an $A$-m
 Fix $z\in P$, define $M\times N\to M\otimes _A (N\otimes_B P),(x,y)\to x\otimes(y\otimes z)$. It is $A$-bilinear and it induces an $A$-linear map $f_z:M\otimes_A N\to M\otimes _A(N\otimes _BP),x\otimes y\mapsto x\otimes(y\otimes z)$.
 
 Define $(M\otimes_AN)\times P\to M\otimes _A(N\otimes _BP),(t,z)\mapsto f_z(t)$, and it is $B$-bilinear. Son it induces a $B$-linear map $(M\otimes_AN)\otimes_BP\to M\otimes_A(N\otimes_BP)$. To prove it is isomorphism, it suffices to construct its inverse, which can be done similarly.
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -354,7 +354,7 @@ $$\begin{aligned}
 \end{aligned}\tag{*}$$
 
 Let $M_0$ be the submodule generated by $(x_1+x_1',x_2+x_2,\cdots,\alpha_1,\cdots,a\gamma,\cdots,\epsilon_1,\cdots)$ and $x_1,\cdots,x_n$. Similarly define $N_0$ be the submodule generated by the second coordinates on RHS and $y_1,\cdots,y_n$. We claim that RHS of $(*)$ in $M_0\otimes N_0$ is also an element in $D_{M_0\times N_0}\subseteq C_{M_0\times N_0}$. 
-□
+<p align="right">□</p>
 
 
 # Restriction and Extension of Scalars
@@ -369,7 +369,7 @@ Let $M_0$ be the submodule generated by $(x_1+x_1',x_2+x_2,\cdots,\alpha_1,\cdot
 
 **_Proof._**
 Let $B=\left\langle b_1,\cdots,b_n\right\rangle_A$ and $N=\left\langle n_1,\cdots,n_s\right\rangle_B$. Then $N=\left\langle b_in_j:1\leqslant i\leqslant n,1\leqslant j\leqslant n\right\rangle_A$. 
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -384,7 +384,7 @@ Let $B=\left\langle b_1,\cdots,b_n\right\rangle_A$ and $N=\left\langle n_1,\cdot
 
 **_Proof._**
 Since $M=\left\langle x_1,\cdots,x_n\right\rangle_A$, we have $M_B=\left\langle 1\otimes x_1,\cdots,1\otimes x_n\right\rangle_B$. 
-□
+<p align="right">□</p>
 
 
 # Exactness Property of the Tensor Product
@@ -411,7 +411,7 @@ $$M\times N\to P,(m,n)\mapsto g(m)(n),$$
 which is $A$-bilinear and it induces $\psi(g):M\otimes N\to P$. 
 
 Finally, check $\psi$ and $\phi$ are inverse each other. 
-□
+<p align="right">□</p>
 
 
 **Example.** Recall $\mathbb{Z}/m\otimes _\mathbb{Z} \mathbb{Z}/n\simeq \mathbb{Z}/(m,n)$ (See [[MATH/抽象代数III/Nodes/HW2#^rbitq6\|here]] or [[Pasted image 20250319204119.png|here]]). We claim that $\mathrm{Hom}_\mathbb{Z}(\mathbb{Z}/m\mathbb{Z},\mathbb{Z}/n\mathbb{Z})\simeq \mathbb{Z}/(m,n)\mathbb{Z}$. Note that any $f$ in LHS is completely determined by $f(\overline 1)$. Since $f(\overline m)=0$, $f(\overline1)$ is killed by $m$. That is, for any lift $x\in \mathbb{Z}$ of $f(\overline 1)$, we have $n\mid mx$ and so $n/(m,n)\mid x$. Therefore, $\mathrm{Hom}_\mathbb{Z}(\mathbb{Z}/m\mathbb{Z},\mathbb{Z}/n\mathbb{Z})\simeq n/(m,n)\mathbb{Z}/n\mathbb{Z}\simeq \mathbb{Z}/(m,n)\mathbb{Z}$. 
@@ -439,7 +439,7 @@ is left exact. By [[#^60fa98]], it is equivalent to show
 $$0\to \mathrm{Hom}(M',\mathrm{Hom}(N,P))\to \mathrm{Hom}(M,N\otimes P)\to \mathrm{Hom}(M'',N\otimes P)$$
 
 is left exact. By [[#^jj28ws]], we have done. 
-□
+<p align="right">□</p>
 
 **Remark.** 
 - $\text{right}\to 0$ is necessary. For example, $0\to \mathbb{Z} \stackrel{\times 2}{\to} \mathbb{Z}$ is exact, but after tensor $\mathbb{Z}/2\mathbb{Z}$ we get $0\to \mathbb{Z}/2\mathbb{Z}\to 0$, which is not exact. 
@@ -480,7 +480,7 @@ iii)->ii) When iii) holds, $\otimes$ preserves right exactness. Furthermore, $\o
 It remains to show iv)->iii). Suppose $u=\sum_{i=1}^n x_i'\otimes y_i\in \ker(M'\otimes N\to M\otimes N)$, that is, $f(u)=\sum_{i=1}^n f(x_i')\otimes y_i=0$. We aim to show $u=0$. Let $M_0'=\left\langle x_1',\cdots,x_n'\right\rangle_A\subseteq M'$. Let $u_0=\sum_{i=1}^n x_i'\otimes y_i$ be an element in $M_0'\otimes N$. Remark that we do not know if $u_0$ is also zero, as $M_0\otimes N$ may not a submodule of $M'\otimes N$ by [[#Strange Things about Tensor Product]]. 
 
 [[#^6zw2e4]] says that for $\sum_{i=1}^nf(x_i')\otimes y_i=0\in M\otimes N$, there exists finitely generated submodule $M_0\subseteq M$ containing $f(M_0')$ and finitely generated submodule $N_0\subseteq N$ such that $\sum_{i=1}^n f(x_i')\otimes y_i=0$ in $M_0\otimes N_0$. So in particular, from injective map $f:M'\hookrightarrow M$, we have injective map $f:M_0'\hookrightarrow M_0$. Since $M_0'$ and $M_0$ are finitely generated, by iv) we have $M_0'\otimes N\to M_0\otimes N$ is injective. Note that $\sum_{i=1}^n f(x_i)\otimes y_i=0$ in $M_0\otimes N$, then we have $u_0=\sum_{i=1}^n x_i'\otimes y_i$ is $0$ in $M_0'\otimes N$. It deduces that $\sum_{i=1}^n x_i'\otimes y_i=0$ in $M'\otimes N$. 
-□
+<p align="right">□</p>
 
 
 > [!theorem] Text-Ex. 2.20.
@@ -492,7 +492,7 @@ Let $M'\hookrightarrow M$ be an injective map of $B$-modules. It remains to show
 $$M'\otimes_B N_B=M'\otimes_B(B\otimes_AN)=(M'\otimes_B B)\otimes _AN=M'\otimes_A N$$
 
 and then the map $M'\otimes_A N\to M\otimes_A N$ is injective by $N$ being a flat $A$-module.
-□
+<p align="right">□</p>
 
 
 **Remark.** Let $f:\mathbb{Z}\to \mathbb{Z}/2\mathbb{Z}$ and $N=\mathbb{Z}$. But $N_B=\mathbb{Z}/2\mathbb{Z}$ is not flat over $\mathbb{Z}$. 
@@ -521,7 +521,7 @@ ii)->i) It suffices to show $h(ab)=ah(b)$. By
 $$h(ab)=h(f(a)b)=h(f(a))h(b)=g(a)h(b)=ah(b)$$
 
 we finish the proof.
-□
+<p align="right">□</p>
 
 **Example.** Recall given field extensions $E/K$ and $F/K$, $E$ and $F$ are $K$-algebras and $f:E\to F$ is a field homomorphism. $f$ is also a homomorphism of $K$-vector spaces iff $f$ is a homomorphism between $k$-algebra iff $f:E\to F$ is a homomorphism such that $f(k)=k$ for any $k\in K$ iff the diagram commutes. 
 
@@ -588,7 +588,7 @@ Consider short exact sequence $0\to\alpha\to A\to A/\alpha\to 0$. Tensor with $M
 $$\alpha\otimes_A M\stackrel{f }{\to}M\to A/\alpha\otimes M\to 0.$$
 
 Recall the notation $\alpha M=\{\sum_{i=1}^N a_i m_i:a_i\in \alpha,m_i\in M\}\subseteq M$. It is [[MATH/交换代数/Nodes/HW5#^uvuyea\|easy]] to see $\mathrm{im} f=\alpha M$ (remark that in general $\alpha\otimes M\to \alpha M$ is not injective). So we get a short exact sequence $0\to \alpha M\hookrightarrow M\to A/\alpha\otimes _A M\to 0$. So $M/\alpha M\simeq (A/\alpha)\otimes_A M$. 
-□
+<p align="right">□</p>
 
 
 **Remark.** This is an example where $\alpha\otimes M\to \alpha M$ is not injective. Let $\alpha=(2)\subseteq \mathbb{Z}$, and let $M=\mathbb{Z}/2\mathbb{Z}$. Then $0\neq (2\mathbb{Z})\otimes _\mathbb{Z} \mathbb{Z}/2\mathbb{Z}$ and $(2)\cdot \mathbb{Z}/2\mathbb{Z}=0$. 
@@ -607,5 +607,5 @@ Consider
 ![Pasted image 20250331173925.png|220](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250331173925.png)
 
 Define $g_A:M\times N\to M\otimes _A N,(m,n)\mapsto m\otimes_A n$, then $g_A$ is $A/\alpha$-bilinear and there exists $f'':M\otimes_{A/\alpha}N\to M\otimes _AN$ such that $f''\circ g_{A}=g_{A/\alpha}$. Similarly, define $g_{A/\alpha}:M\times N\to M\otimes_{A/\alpha}N,(m,n)\mapsto m\otimes_{A/\alpha}n$, then $g_{A/\alpha}$ is $A$-bilinear and there exists $f':M\otimes _{A/\alpha}N\to M\otimes_A N$ such that $f'\circ g_{A/\alpha}=g_{A}$. So $f'=f''^{-1}$ and so $M\otimes_{A/\alpha}N\simeq M\otimes _A N$. 
-□
+<p align="right">□</p>
 

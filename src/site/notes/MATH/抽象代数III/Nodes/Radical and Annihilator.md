@@ -22,7 +22,7 @@ Let $\overline V=V/W=\sum_{i=1}^n R\overline v_i$ with $v_i\in V$. Let $\mathcal
 Claim that an arbitrary totally ordered subset $\{W_\lambda:\lambda\in\Lambda\}$ in $\mathcal O$, it has a upper bound. Let $U=\cup_{\lambda\in\Lambda}W_\lambda$. If $U=V$, then for each $i$, there exists $W_{\lambda_i}$ such that $v_i\in W_{\lambda_i}$. Let $W_\alpha$ be the largest among $\{W_{\lambda_i}:i=1,\cdots,n\}$. Then $W_\alpha=V$, which is a contradiction. 
 
 So $U\neq V$, and $U\in\mathcal O$ is a upper bound for $W_\lambda$. By Zorn's lemma, we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -51,7 +51,7 @@ Let $K=\operatorname{ker} f \subseteq \operatorname{Rad}(M)$. By the isomorphism
 $$\operatorname{Rad}(M / K)=(\operatorname{Rad}(M)+K) / K$$
 
 Since $K \subseteq \operatorname{Rad}(M)$, one have $\operatorname{Rad}(M / K)=\operatorname{Rad}(M) / K$. Under the isomorphism $M / K \cong N$, it deduces that $\operatorname{Rad}(N)=f(\operatorname{Rad}(M))$.
-□
+<p align="right">□</p>
 
 
 > [!lemma]
@@ -80,4 +80,4 @@ Observe that $M_j+(\cap_{i\in I}M_i)=U$. If $x\in U$, then $x=y+z$ with $y\in\ca
 ii) Since $U$ is Artinian, $\mathrm{Rad}U$ is the intersection of finitely many maximal submodules. So $U/\mathrm{Rad}U$ is semisimple by i). 
 
 If $V$ is a submodule of $U$ with semisimple $U/V$, then $U/V$ is Artinian and $U/V\simeq S_1\oplus\cdots\oplus S_n$ where $S_i$ is simple. Let $M_i$ be the kernel of the composition $U\to U/V\to S_i$, then $M_i$ is maximal and $\cap_{i=1}^n M_i\subseteq V$. Also $V\subseteq M_i$ as $V$ is the kernel of $U\to U/V\to S_i$ for all $i$. It deduces that $M_1\cap\cdots\cap M_n=V$ and so $\mathrm{Rad}U\subseteq V$. 
-□
+<p align="right">□</p>

@@ -8,4 +8,4 @@
 
 **_Proof._**
 Assume that $G/Z(G)=\left\langle xZ(G)\right\rangle$. Then for all $g \in G$ there exists $n \in N, z \in Z(G)$ such that $x^n z=g$, where $x Z(G)$ generates $G / Z(G)$. It is easy to verify that $[x^nz_1,x^mz_2]=1$. 
-□
+<p align="right">□</p>

@@ -64,7 +64,7 @@ Define $L_0=\mathrm{span}\{h\otimes w-1\otimes hw:h\in H,w\in W\}$, then $L=t_1L
 $$\mathbb{C}G\otimes W/L\simeq (t_1\mathbb{C}H\otimes W/L_0)\oplus\cdots\oplus (t_\ell \mathbb{C}H\otimes W/L_0)\simeq(t_1\otimes W)\oplus\cdots\oplus (t_{\ell}\otimes W),$$
 
 and so $\dim (\mathbb{C}G\times W/L)=|G|/|H|\dim W$.
-□
+<p align="right">□</p>
 
 **Example.** Let $G=S_3$ and $H=S_2$. Define $W=\mathbb{C}[1,2]$, then $W$ is a permutation $H$-module. A basis of $Ind_H^GW$ is 
 
@@ -91,7 +91,7 @@ By the argument above, $\psi\uparrow_H^G=\sum_{i=1}^\ell\mathrm{tr}Y(t_i^{-1}gt_
 $$\sum_{i=1}^\ell\mathrm{tr}Y(t_i^{-1}gt_i)=\frac{1}{|H|}\sum_{i=1}^\ell\sum_{h\in H}\psi(h^{-1}t_i^{-1}gt_ih)=\frac{1}{|H|}\sum_{x\in G}\psi(x^{-1}gx)$$
 
 and now we finish the proof.
-□
+<p align="right">□</p>
 
 > [!corollary]
 > $\psi\uparrow_H^G(g)=\sum_{i=1}^\ell\psi(t_i^{-1}gt_i)$. 

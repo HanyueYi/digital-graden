@@ -46,7 +46,7 @@
 
 **_Proof._**
 Define $h(a/s)=g(a)/g(s)\in B$. We only check it is well-defined. If $a/s=a'/s'$, we aim to show $g(a)/g(s)=g(a')/g(s')$. Since $(as'-a's)t=0$ for some $t\in S$, one have $(g(as')-g(a's))g(t)=0$. Thus $g(as')=g(a's)$ by $g(t)\in B^\times$. 
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -71,7 +71,7 @@ Define $h(a/s)=g(a)/g(s)\in B$. We only check it is well-defined. If $a/s=a'/s'$
 We aim to show $\mathrm{im}(S^{-1}f)=\ker (S^{-1}g)$. Since $(S^{-1}g)\circ(S^{-1}f)=S^{-1}(g\circ f)=0$, one have $\mathrm{im}(S^{-1}f)\subseteq\ker(S^{-1}g)$. 
 
 On the other hand, suppose $m/s\in\ker (S^{-1}g)$, then $g(m)/s=0/1$ in $S^{-1}M''$. It deduces that $g(m)t=0$ for some $t\in S$ and so $g(tm)=0$, $tm\in \ker g=\mathrm{im} f$. Assume that $tm=f(m')$ for some $m'\in M'$. So $m/s=tm/ts=f(m')/ts\in\mathrm{im}(S^{-1}f)$. 
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -87,7 +87,7 @@ On the other hand, suppose $m/s\in\ker (S^{-1}g)$, then $g(m)/s=0/1$ in $S^{-1}M
 Consider $S^{-1}A\times M\to S^{-1}M$ by $(a/s,m)\mapsto am/s$. It is clearly $A$-bilinear, so there exists a unique map $f:S^{-1}A\otimes _A M\to S^{-1}M$. It is easy to check $f$ is $S^{-1}A$-linear and surjective. 
 
 To show $f$ injective, let $f(x)=0$. Note that $x=\sum_{i=1}^n a_i/s_i\otimes m_i=1/(s_1\cdots s_n)\otimes m$ for some $m$. It deduces that $f(x)=f((1/s)\otimes m)=m/s=0$. Then there exists $t\in S$ such that $tm=0$ and so $x=(1/s)\otimes m=(1/st)\otimes (tm)=0$. 
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -97,7 +97,7 @@ To show $f$ injective, let $f(x)=0$. Note that $x=\sum_{i=1}^n a_i/s_i\otimes m_
 
 **_Proof._**
 By [[#^092787]] and [[#^d61f0b]].
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -114,7 +114,7 @@ S^{-1}M\otimes_{S^{-1}A} S^{-1}N&\simeq (M\otimes_A S^{-1}A)\otimes_{S^{-1}A}(N\
 \end{aligned}$$
 
 and we finish the proof.
-□
+<p align="right">□</p>
 
 
 **Example.** $M_p\otimes_{A_p}N_p=(M\otimes_A N)_p$. 
@@ -138,7 +138,7 @@ i)->ii)->iii) is trivial.
 iii)->i) If $M\neq 0$, take nonzero $x\in M$ and then $\mathrm{Ann}(x)\subseteq A$ is a proper ideal and $\mathrm{Ann}(x)\subseteq m$ for some maximal ideal $m$. 
 
 Consider $M\to M_m=M\otimes_A (A-m)^{-1}A,x\mapsto x\otimes 1$. Since $M_m=0$, $x/1=0$. Then there exists $t\in A-m$ such that $tx=0$ and so $t\in \mathrm{Ann}(x)\subseteq m$, contradicting with $t\notin m$. 
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -157,7 +157,7 @@ i)->ii) Recall $M_p\simeq M\otimes_A A_p$ and by [[#^8p663h]].
 ii)->iii) Trivial. 
 
 iii)->i) Let $P=\ker \phi$. Then $0\to P\to M\to N$ is left exact. For any maximal ideal $m$, $A_m$ is flat $A$-module yields that $0\to P_m\to M_n\to N_n$ is left exact. It deduces that $P_m=0$ and so $P=0$ by [[#^663ccb]]. 
-□
+<p align="right">□</p>
 
 
 > [!proposition]
@@ -172,7 +172,7 @@ i)->ii) Given injective homomorphism $X\hookrightarrow Y$ of $A_p$-module, we ai
 ii)->iii) is trivial. 
 
 iii)->i) Suppose $N\hookrightarrow P$ is an injective homomorphism of $A$-modules. By [[#^766550]], it suffices to check injective after localization at any maximal ideal $m$. By [[#^udklm4]], it is same as $N_m\otimes_{A_m} M_m\to P_m\otimes_{A_m}M_m$, which is injective by iii).
-□
+<p align="right">□</p>
 
 
 # Extended and Contracted Ideals in $S^{-1}A$
@@ -242,7 +242,7 @@ v) This says
 	- Conversely, for any given $x/s\in S^{-1}(r(I))$, $x^n\in I$ and $s\in S$, one have $x^n/s^n\in S^{-1}I$ and so $x/s\in r(S^{-1}I)$. 
 
 Now we finish the proof. 
-□
+<p align="right">□</p>
 
 **Remarks.** "Many fields."
 - Let $p\subseteq A$ be a prime ideal. Then $A_p$ is a local ring, where $p^e=(A-p)^{-1}p$ is the unique maximal ideal. It deduces that $A_p/p^e$ is the residue field of $A_p$. In fact, $\mathrm{Frac}(A/p)\simeq A_p/p^e$.
@@ -266,7 +266,7 @@ Now we finish the proof.
 Let $\{m_1,\cdots,m_n\}$ be generators of $M$. For $(*)$, $\subseteq$ is obvious, because $a$ kills all $m\in M$ yields that $a/s$ kills $m/t$ for all $m/t\in S^{-1}M$. 
 
 Now for $\supseteq$. For $0\neq a/s\in \mathrm{Ann}(S^{-1}M)$, we have $a/s\cdot m_i/1=0$ for all $i$. It deduces that $t_iam_i=0$ for some $t_i\in S$. Then $((\prod_{i=1}^n t_i)a)m_i=0$ for all $i$ and $a(\prod_{i=1}^n t_i)\in\mathrm{Ann}(M)$ is not zero. Therefore, $a/s=(a\prod t_i)/(s\prod t_i)\in S^{-1}(\mathrm{Ann}(M))$.
-□
+<p align="right">□</p>
 
 > [!proposition]
 > Let $A\to B$ be a ring homomorphism, and let $p\subseteq A$ be a prime ideal. Then $p$ is a contraction of a prime $q\subseteq B$ iff $p^{ec}=p$. Remark that even in this case, $p^e$ might not be prime. 
@@ -287,7 +287,7 @@ This implies $S^{-1}p^e\subseteq S^{-1}B$ is a proper ideal: Otherwise, $1/1=a/s
 Now there exists a maximal ideal of $S^{-1}B$ which containing $S^{-1}(p^e)$. By [[#^961e0a]], this maximal ideal is of form $S^{-1}m$ with $m\cap S=\emptyset$ and $m\subseteq B$ is prime. 
 
 Claim that $m^c=p$. Indeed, $S^{-1}m\supseteq S^{-1}(p^e)$ yields $m\supseteq p^e$ and so $m^c\supseteq p^{ec}=p$. Since $m\cap S=\emptyset$, one have $f^{-1}(m\cap S)=\emptyset$, $m^c\cap (A-p)=\emptyset$ and $m^c\subseteq p$. Therefore, $m^c=p$. 
-□
+<p align="right">□</p>
 
 > [!Remark]
 > In [[#^961e0a]] (iv), the preimage of a maximal ideal in $S^{-1}A$ under the localization map is not necessarily maximal in $A$. For instance, consider the canonical map $A_p \to S^{-1}A_p$. The ideal $pA_p$ is the unique maximal ideal of $S^{-1}A_p$, but its preimage in $A$ is the prime ideal $p$, which may not be maximal.

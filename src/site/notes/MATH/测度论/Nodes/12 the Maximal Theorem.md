@@ -15,7 +15,7 @@
 Consider a compact $K\subseteq \mathcal C$ and a finite open cover of $K$. Take $B_i$ such that $B_i$ is a ball with maximal radical and not intersecting with others, and they are what we desire. The key point is, each ball has intersection with some chosen ball and has shorter radius.
 
 See [[Measure  Theory    (Xia).pdf#page=84&selection=336,0,336,10|here]].
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -54,7 +54,7 @@ $$c<3^n \sum_{j=1}^k m\left(B_j\right) \leqslant \frac{3^n}{\alpha} \sum_{j=1}^k
 
 
 Let $c \rightarrow m\left(E_\alpha\right)$. Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!lemma]
@@ -74,7 +74,7 @@ $$E_\alpha\subseteq\{x:(f-g)^*(x)>\alpha/2\}\cup\{x:|f-g|(x)>\alpha/2\}=S\cup T,
 and $m(S)\leqslant \dfrac{2C}{\alpha}\epsilon$, $m(T)\leqslant \dfrac{2}{\alpha}\epsilon$, it yields that $m(E_\alpha)=0$ for any $\alpha>0$. Now we finish the proof.
 
 Also see [[Measure  Theory    (Xia).pdf#page=85&selection=642,0,642,6|here]]. 
-□
+<p align="right">□</p>
 
 **Remark.** 这里说 $f\in L_{\mathrm{loc}}^1$ 只是因为它只需要在每个半径为 $N$ 的球上可积，当然对 $f\in L^1$ 更对。我觉得为了这点宽松引入新概念没什么意思。
 
@@ -98,7 +98,7 @@ $$
 $$
 
 By the arbitrary of $\epsilon$, we finish the proof.
-□
+<p align="right">□</p>
 
 **Remark.** 这证明和结果还挺有意思的，本来想定义 $g_{x_0}(x)=|f(x)-f(x_0)|$ with $x_0$ running over $\mathbb{R}^n$, 发现放不出来。这样的收敛有点像 Cesaro 求和啊。
 
@@ -152,6 +152,6 @@ $$\begin{aligned}
 Taking $p$ th roots, we see that $\left\|f^*\right\|_p \leq c\|f\|_p$.
 
 Also see [[Measure  Theory    (Xia).pdf#page=87&selection=327,0,328,1|here]].
-□
+<p align="right">□</p>
 
 **Remark.** 最tricky的部分是定义了 $g$，因为它是 $L^1$ 的所以可以用小木头来控制。

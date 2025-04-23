@@ -30,7 +30,7 @@ It is easy to prove that $\Phi(G)$ is a [[MATH/Cards/Nodes/Characteristic Subgro
 Define $X$ as the set of all non-generators of $G$. For any $x\in X$ and any maximal subgroup $M$, $\langle M,x\rangle=\langle M\rangle$ yields $x\in M$. Thus $X\subseteq M$ for any $M$ and so $X\subseteq\Phi(G)$. 
 
 Conversely, assume that there exists a $g\in\Phi(G)\setminus X$. Then there is a subset $S$ such that $\langle S\rangle< G$ and $\langle S,g\rangle=G$. Let $H=\langle S\rangle$. If $H$ is not a maximal subgroup, there is a maximal subgroup $K$ with $H< K< G$. Since $g\in\Phi(G)\leqslant K$, we have $K\geqslant\langle H,g\rangle=G$, which is impossible. Hence, $H$ is a maximal subgroup and so $g\in H$. Then $\langle H,g\rangle=H\neq G$, which is a contradiction. Therefore, we have $X\supseteq\Phi(G)$.
-□
+<p align="right">□</p>
 
 > [!proposition]
 > If $N\lhd G$, then $\Phi(N)\leqslant\Phi(G)$.
@@ -41,7 +41,7 @@ Since $\Phi(N)\lhd_{\mathrm{char}}N$, we have that $\Phi(N)\lhd G$. It suffices 
 $$G/N\cong M\Phi(N)N/N\cong M\Phi(N)\big/(M\cap N)\Phi(N)\cong G/(M\cap N)\Phi(N).$$
 
 As $N\geqslant (M\cap N)\Phi(N)$, it yields that $N=(M\cap N)\Phi(N)$ and so $N=\left\langle M\cap N,\Phi(N)\right\rangle=M\cap N$, contradiction. 
-□
+<p align="right">□</p>
 
 # Nilpotent Subgroups
 
@@ -56,7 +56,7 @@ Assume that $N/D$ is nilpotent. Let $P$ be a Sylow $p$-subgroup of $N$. Then $PD
 $$PD/D\lhd_{\mathrm{char}} N/D\lhd G/D.$$
 
 Hence, $PD/D\lhd G/D$ and $PD\lhd G$. It follows that $PD\lhd N$. By [[MATH/Cards/Nodes/Frattini's Argument\|Frattini's argument]], we have $N=PDN_N(P)=PN_N(P)=N_N(P)$, so $P\lhd N$. [[MATH/Cards/Nodes/Nilpotent Group#^9gfd7n\|Therefore]], $N$ is nilpotent.
-□
+<p align="right">□</p>
 
 > [!corollary]
 > - $\Phi(G)$ is nilpotent.
@@ -71,7 +71,7 @@ Hence, $PD/D\lhd G/D$ and $PD\lhd G$. It follows that $PD\lhd N$. By [[MATH/Card
 (ii) Let $N=G$ and $D=\Phi(G)$. Then $N/D=G/\Phi(G)$ is nilpotent iff $N=G$ is nilpotent, by [[#^124c42]].
 
 (iii) Suppose $G$ is nilpotent. Let $M$ be the maximal subgroup of $G$. Then $M\lhd G$ and $G/M\cong \mathbb{Z}_p$ is abelian. Thus $M\geqslant G'$. By the arbitrary of $M$, we have that $G'\leqslant\Phi(G)$. Conversely, assume that $G'\leqslant\Phi(G)$. Then $G/\Phi(G)$ is abelian and so is nilpotent. Then by (ii), $G$ is nilpotent.
-□
+<p align="right">□</p>
 
 # Exactly Elementary Abelian
 
@@ -86,7 +86,7 @@ Since $G$ is a $p$-group, then $G$ is nilpotent. Thus $\Phi(G)\geqslant G'$ by [
 Assume that $N\lhd G$ is a normal subgroup of $G$ and $G/N$ is elementary abelian. It remains to show $N\geqslant\Phi(G)$. Suppose that $G/N=\left\langle\overline{g_1}\right\rangle\times \cdots\times\left\langle\overline{g_m}\right\rangle\cong \mathbb{Z}_p^m$. For any preimage $g_i\in G$ of $\overline{g_i}$, $g_i$ is not a non-generator of $G$ because $\left\langle g_1,\cdots,g_m,N\right\rangle=G$ and $\left\langle g_1,\cdots,\check g_i,\cdots,g_m,N\right\rangle\neq G$. Therefore, if $g\in G\setminus N$, then $g$ is not a non-generator and so $N\geqslant\Phi(G)$. 
 
 For the "moreover" part, since $G/\Phi(G)\cong \mathbb{Z}_p^k$ for some $k$, it can be seen as a linear space and it has a basis $\{\overline e_1,\cdots,\overline e_k\}$. Let $\{e_1,\cdots,e_k\}$ be a set of preimage of $G\to G/\Phi(G)$. Then $\left\langle e_1,\cdots,e_k,\Phi(G)\right\rangle=G$ and so $\left\langle e_1,\cdots,e_k\right\rangle =G$ by [[#^7vww3g]]. 
-□
+<p align="right">□</p>
 
 
 **Remark.** It is similar as [[MATH/交换代数/Nodes/2 Modules#^w0idub\|Nakayama lemma]]. 
@@ -100,4 +100,4 @@ For the "moreover" part, since $G/\Phi(G)\cong \mathbb{Z}_p^k$ for some $k$, it 
 If $H_0$ and $K_0$ are maximal subgroups of $H$ and $K$, respectively, then $H_0\times K$ and $H\times K_0$ are maximal subgroups of $H\times K$ and so $H_0\times K_0\subseteq (H_0\times K)\cap(H\times K_0)$. Therefore, we have $\Phi(H)\times \Phi(K)\subseteq\Phi(H\times K)$. 
 
 Conversely, suppose that $L$ is a maximal subgroup of $H\times K$. Define $\pi_1:H\times K\to H$ and $\pi_2:H\times K\to K$ be the canonical quotient maps. For any $h\in H\setminus\pi_1(H)$, we have $(h,1)\notin H\times K$ and so $\left\langle L,(h,1)\right\rangle=H\times K$. Therefore, $L_H:=\pi_1(L)$ is a maximal subgroup of $H$. Similarly, $L_K:=\pi_2(L)$ is a maximal subgroup of $K$. Then we have $\Phi(H)\times \Phi(K)\supseteq\Phi(H\times K)$. Now we finish the proof.
-□
+<p align="right">□</p>

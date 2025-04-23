@@ -25,7 +25,7 @@
 
 **_Proof._**
 ![Pasted image 20250316173427.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250316173427.png)
-□
+<p align="right">□</p>
 { #racwl1}
 
 
@@ -46,6 +46,6 @@ Since $P$ is projective, there exists a lift $f:P\to U$ such that the following 
 ![Pasted image 20250413173613.png|270](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250413173613.png)
 
 Since $h$ is a projective cover and $f$ is a lift of $h$, we conclude that $f:P\to U$ is a projective cover of $U$. Therefore, $U$ admits a projective cover. 
-□
+<p align="right">□</p>
 
 **Remark.** In particular, $U$ has the same projective cover as $U/\mathrm{Rad} U$. 

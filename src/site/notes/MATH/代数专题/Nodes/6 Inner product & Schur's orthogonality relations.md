@@ -41,7 +41,7 @@ $$\chi_{V^*}(g)=\mathrm{tr}(M^*(g))=\mathrm{tr}(M(g)^{-1})=\chi_V(g^{-1}).$$
 
 **_Proof._**
 Let $M(g)$ be matrix of $g$, and let $\lambda_1,\cdots,\lambda_n$ be eigenvalues . Since $G$ is finite, then all $\lambda$ has to be root of unity. Therefore, matrix $M(g^{-1})$ has eigenvalues $\lambda_1^{-1},\cdots,\lambda_n^{-1}$ where $\lambda_i^{-1}=\overline{\lambda_i}$. Hence, $\chi_V(g^{-1})=\overline{\chi_V(g)}$.
-□
+<p align="right">□</p>
 
 
 > [!corollary]
@@ -53,7 +53,7 @@ Note that
 $$\left\langle \chi_V,\chi_W\right\rangle=\frac{1}{|G|}\sum_{g\in G}\chi_V(g)\chi_W(g^{-1})=\frac{1}{|G|}\sum_{h\in G}\chi_V(h^{-1})\chi_W(h)=\left\langle\chi_W,\chi_V\right\rangle .$$
 
 Therefore, the inner product is symmetric.
-□
+<p align="right">□</p>
 
 # Tensor Product
 
@@ -93,7 +93,7 @@ a_{n1}B &\cdots & a_{nn }B \end{bmatrix}\tag{*}.$$
 
 **_Proof._**
 Easy by $(*)$.
-□
+<p align="right">□</p>
 
 
 Now consider the representation of $\mathrm{Hom}(V,W)$. 
@@ -115,7 +115,7 @@ Now we claim that $V^*\otimes W$ has structure of $G$-module. Define $g(f\otimes
 $$g\varphi(v)=g\Phi(f\otimes w)(v)=\Phi(gf\otimes gw)(v)=(gf)(v)(gw)=f(g^{-1}v)(gw)=g(f(g^{-1}v)w)=g\varphi(g^{-1}v)$$
 
 by $\varphi(v)=f(v)w$. 
-□
+<p align="right">□</p>
 
 
 For characters, [[#^65b04d]] gives 
@@ -139,7 +139,7 @@ For any $g\in G$ and $\varphi\in\mathrm{Hom}(V,W)$ with $g\varphi=\varphi$, ther
 $$\dim\mathrm{Hom}_{\mathbb{C}G}(V,W)=\dim\mathrm{Hom}(V,W)^G=\frac{1}{|G|}\sum_{g\in G}\chi_{\mathrm{Hom}(V,W)}(g)=\frac{1}{|G|}\sum_{g\in G}\overline{\chi_V(g)}\chi_W(g)=\left\langle\chi_W,\chi_V\right\rangle.$$
 
 By [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]], $\dim\mathrm{Hom}_{\mathbb{C}G}(s_i,s_j)=\delta_{ij}$ for irreducible representations $s_i$ and $s_j$. Now we finish the proof. 
-□ 
+<p align="right">□</p> 
 { #wl1f85}
 
 
@@ -149,4 +149,4 @@ By [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]], $\dim\mathrm{Hom}_{\mathbb
 
 **_Proof._**
 By [[MATH/Cards/Nodes/Maschke's Theorem\|Maschke's theorem]], if $V=\alpha_1 S_1\oplus\cdots\oplus \alpha_r S_r$, then $\left\langle\chi_V,\chi_V\right\rangle=\alpha_1^2+\cdots+\alpha_r^2$. Hence $V$ is simple iff $\alpha_1^2+\cdots+\alpha_r^2=1$ iff $\left\langle \chi_V,\chi_V\right\rangle=1$ iff there is the unique $\alpha_i=1$ and all others equal $0$.
-□
+<p align="right">□</p>

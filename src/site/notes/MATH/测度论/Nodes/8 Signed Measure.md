@@ -45,7 +45,7 @@ $$-\infty<\mu(F)=\mu(E)-\sum_{k=1}^\infty\mu(E_k)\leqslant\mu(E)-\sum_{k=1}^\inf
 yields that $\sum_{k=1}^\infty\frac{1}{n_k}<\infty$. It follows that $\lim_{n\to\infty}n_k=\infty$. 
 
 If $n_k>1$, then for any measurable set $G\subseteq F_{k-1}$, $\mu(G)<\frac{1}{n_k-1}$. Hence, for all $H\subseteq F$, we have that $H\subseteq F_{k-1}$ for all $k\in \mathbb{N}_+$ and so $\mu(H)<\frac{1}{n_k-1}$ for all big enough $k\in \mathbb{N}_+$. Take $k\to\infty$, there is $\mu(H)\leqslant 0$. Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!theorem] Hahn decomposition theorem
@@ -68,7 +68,7 @@ Let $E=A$ and $F=E^c$. Then $E,F$ is a partition of $X$. Now we claim that $F$ i
 ii) If $E_0,F_0\in\mathcal{A}$ with $E_0,F_0$ another pair, then $E-E_0=F_0-F$ and $E_0-E=F-F_0$. Thus $E\Delta E_0=F\Delta F_0$. Let $A\subseteq E-E_0=F_0-F$. It follows that $\mu(A)\geqslant 0$, $\mu(A)\leqslant 0$ and so $\mu(A)=0$. Therefore, $E\cap E_0$ is null.
 
 iii) If $\mu$ is not a positive measure and $\mu(E)=0$, for any $A\in\mathcal{A}$, $\mu(A)=\mu(A\cap E)+\mu(A\cap F)=\mu(A\cap F)\geqslant 0$, which contradicts with $\mu$ not positive.
-□
+<p align="right">□</p>
 
 
 # Jordan Decomposition Theorem
@@ -88,7 +88,7 @@ ii) Assume that $\mu=\mu^+-\mu^-=\nu^+-\nu^-$ with $\mu^+\bot\mu^-$ and $\nu^+\b
 $$\mu(A)=\nu^+(A)-\nu^-(A)=0-\nu^-(A)\leqslant 0.$$
 
 If $A\in\mathcal{A}$ with $A\subseteq F_0$, then $\mu(A)\geqslant 0$. Hence $E_0, F_0$ give another Hahn-decomposition of $\mu$ and so $E\Delta E_0=F\Delta F_0$ is null. For any $A\in\mathcal{A}$, $\nu^+(A)=\nu^+(A\cap F_0)+\nu^+(A\cap E_0)=\nu ^+(A\cap F_0)$ and so $\mu(A\cap F_0)=\nu^+(A)$. Further, $\mu^+(A)=\mu(A\cap F_0)$ and it follows that $\nu^+=\mu^+$ for any $A\in\mathcal{A}$. 
-□
+<p align="right">□</p>
 
 
 **Remark.** Since $\mu$ takes values in $(-\infty, \infty]$, from the construction of $\mu^{ \pm}$in the proof of Theorem 9.7, we know that $\mu^{-}$ is a finite measure. Thus if $\mu$ is a finite (respectively, $\sigma$-finite), then the same is true for $\mu^{ \pm}$.
@@ -104,7 +104,7 @@ If $A\in\mathcal{A}$ with $A\subseteq F_0$, then $\mu(A)\geqslant 0$. Hence $E_0
 
 **_Proof._**
 One direction is easy. Otherwise, assume that there exists $\epsilon_0>0$ such that for and $\delta>0$, there is $A$ with $\mu(A)<\delta$ and $\nu(A)\geqslant\epsilon_0$. By taking $\delta=1/2^k$, there is $A_k$ such that $\mu(A_k)<1/2^k$ and $\nu(A_k)\geqslant\epsilon$. It follows that $E=\cap_{n=1}^\infty\cup_{k=n}^\infty A_k$ satisfies $\mu(E)=0$ and $\nu(E)\geqslant\epsilon_0$, which is a contradiction.
-□
+<p align="right">□</p>
 
 
 # Radon-Nikodym Theorem
@@ -120,7 +120,7 @@ Consider $\nu-\frac{1}{n}\mu$. Let $E_n,F_n\in \mathcal{A}$ such that $E_n\cap F
 - if $\mu(F)>0$, then there exists $n$ with $\mu(F_n)>0$. Let $\epsilon=\frac{1}{n}$, and let $G=F_n$. Then $\mu(G)>0$ and so $G$ is positive of $\nu-\epsilon\mu$.
 
 Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!theorem] Radon-Nikodym theorem
@@ -160,7 +160,7 @@ iii) Let $\mu,\nu$ be $\sigma$-finite. There exists measurable $X_n$ with $X_n\u
 $$\nu(A)=\lim_{n\to\infty}\nu(A\cap X_n)=\lim_{n\to\infty}\int_{A\cap X_n}f_n=\lim_{n\to\infty}\int_Af\chi_{X_n}d\mu=\int_Afd\mu.$$
 
 Now we finish the proof.
-□
+<p align="right">□</p>
 
 
 **Remark.** The hypothesis that $(X,\mathcal{A},\mu)$ is $\sigma$-finite cannot be removed, see [[Measure  Theory    (Xia).pdf#page=51&selection=430,0,430,12|here]].
@@ -189,4 +189,4 @@ Note that $\int_A f^++f_2=\int_A f_1+f^-$, it follows that
 $$\int_A fd\mu=\int_A f_1d\mu-\int_A f_2d\mu=\nu^+(A)-\nu^-(A)=\nu(A)$$
 
 and so $f$ is the function we desire.
-□
+<p align="right">□</p>

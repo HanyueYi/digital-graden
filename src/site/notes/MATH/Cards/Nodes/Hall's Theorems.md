@@ -45,7 +45,7 @@ $$N_G(Q)=N_G(Q)/(N_G(Q)\cap M)\cong N_G(Q)M/M\leqslant G/M=\overline H=N_{\overl
 which is impossible. 
 
 Now we assume that $C_M(Q)=N_M(Q)=N_G(Q)\cap M\neq 1$. Let $P:=C_M(Q)\neq 1$. Note that $P\lhd_{\mathrm{char}} Z(M{:}Q)\lhd_{\mathrm{char}} M{:}Q\lhd G$ yields that $P\lhd G$. Since $P\leqslant M\lhd_{\min}G$ and $P\neq 1$, we have $P=M$ and so $M{:}Q=M\times Q\lhd G$. Thus $Q$ is a normal subgroup of $G$. Let $\overline K$ be a Hall $\pi$-subgroup of $G/Q$. Then the full preimage of $\overline K$ under $G\to G/Q$ is a Hall $\pi$-subgroup of $G$.
-□
+<p align="right">□</p>
 
 **Remark.** The proof of ii) is similar as [[MATH/Cards/Nodes/a Lemma of Cohomology\|a Lemma of Cohomology]].
 
@@ -58,7 +58,7 @@ Let $G$ be a solvable group. Let $M\lhd G$ such that $|G/M|$ is a prime $p$. The
 WLOG we may assume that Hall $\pi$-subgroups $H$ and $K$ satisfies $H\cap M=K\cap M$. It suffices to show $H$ and $K$ are conjugate. Let $L=\left\langle H,K\right\rangle$. If $L<G$, then by induction hypothesis, $H$ and $K$ are Hall $\pi$-subgroups of $L$ and so they conjugate in $L$. Then we suppose that $L=G$, that is, $G=\left\langle H,K\right\rangle$. 
 
 Let $N:=H\cap M$. Note that $N$ is a normal subgroup of $G$. Since $H/N$ and $K/N$ are Hall subgroups of $G/N$, by induction hypothesis, we have a $\overline g\in G/N$ such that $(H/N)^{\overline g}=K/N$. As $H/N\cong \mathbb{Z}_p$, there is a $h\in H$ such that $H=\left\langle N,h\right\rangle$. Let $k=h^g$ for some preimage of $\overline g$ under $G\to G/N$. Then by $K/N\cong \mathbb{Z}_p$, we have $K=\left\langle N,k\right\rangle$ and so $H^g=K$. Therefore, $H$ and $K$ are conjugate.
-□
+<p align="right">□</p>
 
 > [!theorem]
 > Let $G$ be a finite solvable group and $\pi$ be any set of primes. Then any subgroup whose order is a product of primes in $\pi$ is contained in some Hall $\pi$-subgroup.
@@ -71,5 +71,5 @@ $$|H|/|H\cap K|=|H|/(|H||K|/|HK|)=|HK|/|K|\mbox{ is a divisor of $|G|/|K|$},$$
 we have that $\gcd(|H|/|H\cap K|,|H\cap K|)=1$. So if $H\cap K\neq 1$, then $H\cap K$ is a Hall $\pi$-subgroup of $H$. Since the Hall $\pi$-subgroup of $H$ is itself, there is $H\cap K=H$ and $K\geqslant H$. Therefore, if $H$ is not contained in any Hall $\pi$-subgroup, then $H\cap K=1$ for all Hall $\pi$-subgroup $K$. 
 
 Take a prime $p\in\pi$. Let $P$ be a Sylow $p$-subgroup of $H$, and let $P_K$ be a Sylow $p$-subgroup of Hall $\pi$-subgroup $K$. As $P_K$ is a Sylow $p$-subgroup of $G$, then there exists a $g\in G$ such that $P\leqslant P_K^g$. Then $K^g$ is a Hall $\pi$-subgroup and $K^g\cap H\geqslant P$, contradiction. 
-□
+<p align="right">□</p>
 

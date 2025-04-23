@@ -18,7 +18,7 @@ For any $x\in(0,1)$, there is
 $$|h_\epsilon(x+iy)|=|h((x+iy)M_0^{x-1}M_1^{-x}e^{\epsilon x(x-1)}e^{-\epsilon y^2}|\leqslant Ce^{-\epsilon y^2}$$
 
 because $h$ and $e^{\epsilon x(x-1)}$ are bounded. Since $e^{-\epsilon y^2}\to 0$ as $y\to\infty$, there exists $A>0$ such that $|h_{\epsilon}(x+iy)|\leqslant 1$ for any $x\in(0,1)$ and $y\in (-A,A)$ by the maximum modulus principle. It holds for any arbitrarily large $A$ and so $|h_\epsilon(z)|\leqslant 1$ inside the entire strip. Take $\epsilon\to 0$ and then we finish the proof.
-□
+<p align="right">□</p>
 
 
 > [!definition]
@@ -64,7 +64,7 @@ $$
 On the other hand, Holder's inequality gives $\mathcal{M}_q(g) \leq\|g\|_q$, so the proof is complete for the case $q<\infty$.
 
 Now suppose $q=\infty$. Given $\epsilon>0$, let $A=\left\{x:|g(x)|>\mathcal{M}_{\infty}(g)+\epsilon\right\}$. If $\mu(A)$ were positive, we could choose $B \subset A$ with $0<\mu(B)<\infty$ since $\mu$ is semifinite. Setting $f=\mu(B)^{-1} \chi_B \overline{\text { sng } g}$, we would then have $\|f\|_1=1$, and $\int f g=\mu(B)^{-1} \int_B|g| \geq \mathcal{M}_{\infty}(g)+\epsilon$. But this is impossible by the argument at the beginning of the proof. Hence $\|g\|_{\infty} \leq \mathcal{M}_{\infty}(g)$, and the reverse inequality is obvious.
-□
+<p align="right">□</p>
 
 **Remark.** Note that $\mathcal{M}_q(g)<\infty$ is the most crucial condition. It essentially measures how "large" $g$ is in terms of its interaction with all $f \in \mathcal S_{\text {normalized in }} L^p$, and finite $\mathcal{M}_q(g)$ implies that $g$ is "not too wild" and suggests that $g$ should belong to $L^q$. Furthermore, with some condition on the measurable space, we get $\mathcal M_q(g)=||g||_q$. 
 
@@ -82,7 +82,7 @@ Now suppose $q=\infty$. Given $\epsilon>0$, let $A=\left\{x:|g(x)|>\mathcal{M}_{
 
 **_Proof._**
 See [[Measure  Theory    (Xia).pdf#page=90&selection=590,0,591,1|here]]. 
-□
+<p align="right">□</p>
 
 **Remark.** 这个证明不考。
 
@@ -199,7 +199,7 @@ $$
 $$
 
 Therefore, $\|T(f)\|_p \leqslant 2\left(\frac{p}{p-p_0}\right)^{1 / p} C_0^{p_0 / p} C_1^{1-p_0 / p}\|f\|_p$ and so $T$ is of strong type $(p,p)$. 
-□
+<p align="right">□</p>
 
 
 
