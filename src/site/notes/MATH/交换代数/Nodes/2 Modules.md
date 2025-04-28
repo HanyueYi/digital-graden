@@ -532,6 +532,8 @@ we finish the proof.
 > - Say $f:A\to B$ is of finite type, if there exists $x_1,\cdots,x_n\in B$ such that any $b\in B$ can be written as a polynomial in $x_1,\cdots,x_n$ with coefficient in $f(A)$. It is equivalent to there exists surjective map $A[t_1,\cdots,t_n]\twoheadrightarrow B, t_i\to x_i$. In this case, say $B$ is a finitely generated $A$-algebra. 
 >   
 > So finite $A$-algebra is a finitely generated $A$-algebra.
+{ #5pmtvz}
+
 
 **Examples.**
 - $\mathbb{Q}\to \mathbb{Q}(i)$ is a finite $\mathbb{Q}$-algebra
