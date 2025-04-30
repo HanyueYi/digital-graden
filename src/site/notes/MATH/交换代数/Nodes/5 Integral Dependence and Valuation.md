@@ -159,7 +159,7 @@ By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^f6d0xm\|#^f6d0
 **_Proof._**
 Consider the following diagram. 
 
-![Pasted image 20250428202432.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250428202432.png)
+![Pasted image 20250428202432.png|430](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250428202432.png)
 
 Note $f^{-1}(n)\supseteq p A_p=m$. Since $m$ is the unique maximal ideal of $A_p$, we know $f^{-1}(n)=m$. Similarly, $f^{-1}(n')=m$. 
 
@@ -194,7 +194,7 @@ is also a chain in $A$. Then $\dim A\geqslant n$.
 **_Proof._**
 Consider the following diagram
 
-![Pasted image 20250428203212.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250428203212.png)
+![Pasted image 20250428203212.png|280](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250428203212.png)
 
 Let $n$ be any maximal ideal of $B_p$. By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^8zjrn5\|5 Integral Dependence and Valuation#^8zjrn5]], $f^{-1}(n)$ is maximal and so $f^{-1}(n)=m$. Let $q=\beta^{-1}(n)$, which is a prime. Further 
 
