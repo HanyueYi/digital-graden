@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/测度论/Nodes/14 Fractional Integral and Hardy-Littlewood-Sobolev Inequality/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/测度论/Nodes/14 Fractional Integral and Hardy-Littlewood-Sobolev Inequality/","dgPassFrontmatter":true}
 ---
 
 

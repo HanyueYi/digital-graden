@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/代数几何/Nodes/transcendence degree/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/代数几何/Nodes/transcendence degree/","dgPassFrontmatter":true}
 ---
 
 

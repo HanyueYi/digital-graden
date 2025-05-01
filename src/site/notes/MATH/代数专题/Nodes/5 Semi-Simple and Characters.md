@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/代数专题/Nodes/5 Semi-Simple and Characters/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/代数专题/Nodes/5 Semi-Simple and Characters/","dgPassFrontmatter":true}
 ---
 
 

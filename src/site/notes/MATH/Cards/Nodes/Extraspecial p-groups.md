@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["extraspecial p-group"],"permalink":"/MATH/Cards/Nodes/Extraspecial p-groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["extraspecial p-group"],"draft":false,"permalink":"/MATH/Cards/Nodes/Extraspecial p-groups/","dgPassFrontmatter":true}
 ---
 
 

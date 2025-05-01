@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Maschke's theorem"],"permalink":"/MATH/Cards/Nodes/Maschke's Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Maschke's theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/Maschke's Theorem/","dgPassFrontmatter":true}
 ---
 
 #TERMS/representation 

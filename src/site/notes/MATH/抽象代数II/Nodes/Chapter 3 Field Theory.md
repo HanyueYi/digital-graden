@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数II/Nodes/Chapter 3 Field Theory/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数II/Nodes/Chapter 3 Field Theory/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Hall's theorem"],"permalink":"/MATH/Cards/Nodes/Hall's Theorems/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Hall's theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/Hall's Theorems/","dgPassFrontmatter":true}
 ---
 
 

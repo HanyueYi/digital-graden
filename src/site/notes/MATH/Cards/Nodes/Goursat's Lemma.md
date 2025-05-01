@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Goursat's lemma"],"permalink":"/MATH/Cards/Nodes/Goursat's Lemma/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Goursat's lemma"],"draft":false,"permalink":"/MATH/Cards/Nodes/Goursat's Lemma/","dgPassFrontmatter":true}
 ---
 
 

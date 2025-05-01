@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["composition series","Jordan-Holder theorem","composition factors"],"permalink":"/MATH/Cards/Nodes/Composition Series/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["composition series","Jordan-Holder theorem","composition factors"],"draft":false,"permalink":"/MATH/Cards/Nodes/Composition Series/","dgPassFrontmatter":true}
 ---
 
 

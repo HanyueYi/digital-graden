@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/交换代数/Nodes/2 Modules/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/交换代数/Nodes/2 Modules/","dgPassFrontmatter":true}
 ---
 
 

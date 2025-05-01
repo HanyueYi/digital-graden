@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["AGL"],"permalink":"/MATH/Cards/Nodes/Affine Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["AGL"],"draft":false,"permalink":"/MATH/Cards/Nodes/Affine Group/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Schur's lemma"],"permalink":"/MATH/Cards/Nodes/Schur's Lemma/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Schur's lemma"],"draft":false,"permalink":"/MATH/Cards/Nodes/Schur's Lemma/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":"permutational isomorphism","permalink":"/MATH/Cards/Nodes/Permutational Isomorphism/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":"permutational isomorphism","draft":false,"permalink":"/MATH/Cards/Nodes/Permutational Isomorphism/","dgPassFrontmatter":true}
 ---
 
 

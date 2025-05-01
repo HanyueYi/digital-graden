@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Clifford theorem"],"permalink":"/MATH/Cards/Nodes/Clifford Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Clifford theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/Clifford Theorem/","dgPassFrontmatter":true}
 ---
 
 

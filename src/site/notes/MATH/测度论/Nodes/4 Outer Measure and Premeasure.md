@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/测度论/Nodes/4 Outer Measure and Premeasure/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/测度论/Nodes/4 Outer Measure and Premeasure/","dgPassFrontmatter":true}
 ---
 
 

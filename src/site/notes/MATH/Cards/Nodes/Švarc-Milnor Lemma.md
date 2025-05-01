@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Milnor lemma","Švarc-Milnor lemma"],"permalink":"/MATH/Cards/Nodes/Švarc-Milnor Lemma/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Milnor lemma","Švarc-Milnor lemma"],"draft":false,"permalink":"/MATH/Cards/Nodes/Švarc-Milnor Lemma/","dgPassFrontmatter":true}
 ---
 
 

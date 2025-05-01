@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Properties of HS and HC/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Properties of HS and HC/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/quasiprimitive 

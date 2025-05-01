@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Imprimitive Rank 3 Group is a Wreath Product of two 2-Transitive Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Imprimitive Rank 3 Group is a Wreath Product of two 2-Transitive Groups/","dgPassFrontmatter":true}
 ---
 
 #TERMS/rank-3 #TERMS/imprimitive #RESOURCE/cards 

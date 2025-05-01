@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数III/Nodes/2 250304 1 -> projective module/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数III/Nodes/2 250304 1 -> projective module/","dgPassFrontmatter":true}
 ---
 
 # Projective, Injective and Flat Modules

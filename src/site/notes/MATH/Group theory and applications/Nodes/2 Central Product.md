@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["central product"],"permalink":"/MATH/Group theory and applications/Nodes/2 Central Product/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["central product"],"draft":false,"permalink":"/MATH/Group theory and applications/Nodes/2 Central Product/","dgPassFrontmatter":true}
 ---
 
 

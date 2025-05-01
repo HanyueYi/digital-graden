@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["nilpotent","lower central series","central series","upper central series"],"permalink":"/MATH/Cards/Nodes/Nilpotent Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["nilpotent","lower central series","central series","upper central series"],"draft":false,"permalink":"/MATH/Cards/Nodes/Nilpotent Group/","dgPassFrontmatter":true}
 ---
 
 

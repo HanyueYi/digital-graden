@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/CFSG/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/CFSG/","dgPassFrontmatter":true}
 ---
 
 #TERMS/simple-groups 

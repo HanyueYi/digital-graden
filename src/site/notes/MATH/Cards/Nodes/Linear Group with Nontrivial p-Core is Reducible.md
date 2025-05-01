@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Linear Group with Nontrivial p-Core is Reducible/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Linear Group with Nontrivial p-Core is Reducible/","dgPassFrontmatter":true}
 ---
 
 #TERMS/p-core #TERMS/reducible 

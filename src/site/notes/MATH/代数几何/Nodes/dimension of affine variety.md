@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/代数几何/Nodes/dimension of affine variety/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/代数几何/Nodes/dimension of affine variety/","dgPassFrontmatter":true}
 ---
 
 

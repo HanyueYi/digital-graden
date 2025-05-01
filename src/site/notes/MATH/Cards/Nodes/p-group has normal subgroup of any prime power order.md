@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/p-group has normal subgroup of any prime power order/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/p-group has normal subgroup of any prime power order/","dgPassFrontmatter":true}
 ---
 
 

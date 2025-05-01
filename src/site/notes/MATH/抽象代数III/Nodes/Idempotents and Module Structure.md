@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数III/Nodes/Idempotents and Module Structure/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数III/Nodes/Idempotents and Module Structure/","dgPassFrontmatter":true}
 ---
 
 
@@ -89,6 +89,8 @@ and so $\mathrm{End}_R(Re)\simeq (eRe)^\mathrm{op}$.
 > - $Re\simeq Rf$ as left $R$-modules.
 > - $eR\simeq fR$ as right $R$-modules.
 > - There exist $b\in fRe$ and $a\in eRf$ with $ab=e$, $ba=f$. 
+{ #spaio1}
+
 
 **_Proof._**
 Here we only prove i) and iii) are equivalent. 
@@ -186,7 +188,7 @@ So we get an inclusion $FRF/FIF\hookrightarrow R/I$, and its image is $E(R/I)E$.
  **_Proof._**
 i) [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^1dezlm\|Recall]] that there is a bijection between the idempotent decomposition of $e$ are in bijection with the direct sum decomposition of the left ideals $Ae$. Since $A$ is semisimple and Artinian, there is a decomposition $1=e_1+\cdots+e_n$ and $A=\oplus_{i=1}^nAe_i$. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^tv7l9r\|#^tv7l9r]], $Ae_i$ is simple. 
 
-ii) Since each simple $A$-module is a quotient of the left regular module ${}_A A$ by [[MATH/抽象代数III/Nodes/5 250325#^09efb3\|5 250325#^09efb3]], $S$ is isomorphic to $Ae$ for some primitive idempotent $e$. 
+ii) Since each simple $A$-module is a quotient of the left regular module ${}_A A$ by [[MATH/抽象代数III/Nodes/Annihilator and Jacobson Radical#^09efb3\|Annihilator and Jacobson Radical#^09efb3]], $S$ is isomorphic to $Ae$ for some primitive idempotent $e$. 
 
 iii) Notice that $S=1S=(e_1+\cdots+e_n)S$, and there exists $i$ such that $e_iS\neq 0$. For any given simple $A$-module $T$, there exists $e$ such that $T\simeq Ae$. By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], one have
 

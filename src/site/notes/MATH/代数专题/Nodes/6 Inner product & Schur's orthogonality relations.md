@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations/","dgPassFrontmatter":true}
 ---
 
 

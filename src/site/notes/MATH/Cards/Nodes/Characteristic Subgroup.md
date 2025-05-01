@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["characteristic subgroup"],"permalink":"/MATH/Cards/Nodes/Characteristic Subgroup/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["characteristic subgroup"],"draft":false,"permalink":"/MATH/Cards/Nodes/Characteristic Subgroup/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/a Lemma of Cohomology/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/a Lemma of Cohomology/","dgPassFrontmatter":true}
 ---
 
 

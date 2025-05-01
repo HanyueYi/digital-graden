@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Burnside's transfer theorem"],"permalink":"/MATH/Cards/Nodes/Burnside's Transfer Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Burnside's transfer theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/Burnside's Transfer Theorem/","dgPassFrontmatter":true}
 ---
 
 

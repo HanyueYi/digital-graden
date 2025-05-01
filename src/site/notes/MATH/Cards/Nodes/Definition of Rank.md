@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Definition of Rank/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Definition of Rank/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/basic 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["quasisimple"],"permalink":"/MATH/Cards/Nodes/Quasisimple Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["quasisimple"],"draft":false,"permalink":"/MATH/Cards/Nodes/Quasisimple Group/","dgPassFrontmatter":true}
 ---
 
 

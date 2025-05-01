@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["sharply transitive"],"permalink":"/MATH/Cards/Nodes/Sharply Transitive/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["sharply transitive"],"draft":false,"permalink":"/MATH/Cards/Nodes/Sharply Transitive/","dgPassFrontmatter":true}
 ---
 
 

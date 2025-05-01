@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":"Frattini's argument","permalink":"/MATH/Cards/Nodes/Frattini's Argument/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":"Frattini's argument","draft":false,"permalink":"/MATH/Cards/Nodes/Frattini's Argument/","dgPassFrontmatter":true}
 ---
 
 

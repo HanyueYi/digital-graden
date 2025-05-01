@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/PGL(V) Sharply 3-transitive iff n=2/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/PGL(V) Sharply 3-transitive iff n=2/","dgPassFrontmatter":true}
 ---
 
 

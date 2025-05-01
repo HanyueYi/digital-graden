@@ -1,5 +1,5 @@
 ---
-{"kanban-plugin":"basic","dg-publish":true,"permalink":"/MATH/Classical Groups/Classical Groups看板/","dgPassFrontmatter":true}
+{"kanban-plugin":"basic","dg-publish":true,"draft":false,"permalink":"/MATH/Classical Groups/Classical Groups看板/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Frattini subgroup"],"permalink":"/MATH/Cards/Nodes/Frattini Subgroup/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Frattini subgroup"],"draft":false,"permalink":"/MATH/Cards/Nodes/Frattini Subgroup/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/3 Hilbert Theorem 90/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/3 Hilbert Theorem 90/","dgPassFrontmatter":true}
 ---
 
 

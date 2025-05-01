@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/O'Nan-Scott Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/O'Nan-Scott Theorem/","dgPassFrontmatter":true}
 ---
 
 #TERMS/ONan-Scott #TERMS/primitive 

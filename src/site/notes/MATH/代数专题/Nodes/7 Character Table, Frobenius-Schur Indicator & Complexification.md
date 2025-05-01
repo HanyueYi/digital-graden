@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/代数专题/Nodes/7 Character Table, Frobenius-Schur Indicator & Complexification/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/代数专题/Nodes/7 Character Table, Frobenius-Schur Indicator & Complexification/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Orbits of Normal Subgroups Form a Block System/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Orbits of Normal Subgroups Form a Block System/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/normal-subgroup #TERMS/primitive 

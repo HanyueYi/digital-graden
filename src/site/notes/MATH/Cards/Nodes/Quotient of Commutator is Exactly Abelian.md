@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Quotient of Commutator is Exactly Abelian/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Quotient of Commutator is Exactly Abelian/","dgPassFrontmatter":true}
 ---
 
 #TERMS/commutator #RESOURCE/cards #TERMS/basic 

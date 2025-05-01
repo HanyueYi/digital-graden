@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["finite geometry","finite geometries"],"permalink":"/MATH/Cards/Nodes/Finite Geometry/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["finite geometry","finite geometries"],"draft":false,"permalink":"/MATH/Cards/Nodes/Finite Geometry/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards 

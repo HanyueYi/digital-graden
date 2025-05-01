@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/测度论/Nodes/5 Measurable Function/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/测度论/Nodes/5 Measurable Function/","dgPassFrontmatter":true}
 ---
 
 

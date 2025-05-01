@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Permutation Group Embedded into Holomorph of its Regular Normal Subgroup/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Permutation Group Embedded into Holomorph of its Regular Normal Subgroup/","dgPassFrontmatter":true}
 ---
 
 

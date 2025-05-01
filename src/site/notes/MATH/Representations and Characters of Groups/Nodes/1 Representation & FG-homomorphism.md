@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Representations and Characters of Groups/Nodes/1 Representation & FG-homomorphism/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Representations and Characters of Groups/Nodes/1 Representation & FG-homomorphism/","dgPassFrontmatter":true}
 ---
 
 # Basic Definitions

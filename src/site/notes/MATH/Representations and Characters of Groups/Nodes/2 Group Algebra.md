@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Representations and Characters of Groups/Nodes/2 Group Algebra/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Representations and Characters of Groups/Nodes/2 Group Algebra/","dgPassFrontmatter":true}
 ---
 
 

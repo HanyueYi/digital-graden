@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["triangle group"],"permalink":"/MATH/Cards/Nodes/Triangle Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["triangle group"],"draft":false,"permalink":"/MATH/Cards/Nodes/Triangle Group/","dgPassFrontmatter":true}
 ---
 
 

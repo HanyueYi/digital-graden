@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Lie group and Lie algebra/Lie Group and Lie Algebra/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Lie group and Lie algebra/Lie Group and Lie Algebra/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/notes/class 

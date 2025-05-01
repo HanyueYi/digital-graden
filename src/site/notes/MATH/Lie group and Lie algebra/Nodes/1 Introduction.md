@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Lie group and Lie algebra/Nodes/1 Introduction/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Lie group and Lie algebra/Nodes/1 Introduction/","dgPassFrontmatter":true}
 ---
 
 # What is a Lie Algebra?

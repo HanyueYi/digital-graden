@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/1 Group ring/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/1 Group ring/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Classical Groups/Nodes/4 Orthogonal Space and Orthogonal Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Classical Groups/Nodes/4 Orthogonal Space and Orthogonal Groups/","dgPassFrontmatter":true}
 ---
 
 

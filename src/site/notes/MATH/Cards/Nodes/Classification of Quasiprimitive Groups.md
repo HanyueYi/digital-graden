@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Classification of Quasiprimitive Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Classification of Quasiprimitive Groups/","dgPassFrontmatter":true}
 ---
 
 #TERMS/quasiprimitive #RESOURCE/cards 

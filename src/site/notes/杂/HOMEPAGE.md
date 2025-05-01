@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/杂/HOMEPAGE/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-home":true,"draft":false,"title":"课程笔记","permalink":"/杂/HOMEPAGE/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 

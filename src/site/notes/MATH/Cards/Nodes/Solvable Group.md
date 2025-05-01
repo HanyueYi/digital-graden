@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["solvable","derived series","commutator"],"permalink":"/MATH/Cards/Nodes/Solvable Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["solvable","derived series","commutator"],"draft":false,"permalink":"/MATH/Cards/Nodes/Solvable Group/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/solvable #TERMS/basic 

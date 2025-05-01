@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Eisenstein criterion"],"permalink":"/MATH/Cards/Nodes/Eisenstein Criterion/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Eisenstein criterion"],"draft":false,"permalink":"/MATH/Cards/Nodes/Eisenstein Criterion/","dgPassFrontmatter":true}
 ---
 
 

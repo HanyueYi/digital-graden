@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":"layer cake representation","permalink":"/MATH/Cards/Nodes/Layer Cake Representation/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":"layer cake representation","draft":false,"permalink":"/MATH/Cards/Nodes/Layer Cake Representation/","dgPassFrontmatter":true}
 ---
 
 

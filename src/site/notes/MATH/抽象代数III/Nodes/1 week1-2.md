@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数III/Nodes/1 week1-2/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数III/Nodes/1 week1-2/","dgPassFrontmatter":true}
 ---
 
 

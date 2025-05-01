@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Group with Cyclic Sylow 2-subgroup/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Group with Cyclic Sylow 2-subgroup/","dgPassFrontmatter":true}
 ---
 
 

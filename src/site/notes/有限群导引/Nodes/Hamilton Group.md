@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/有限群导引/Nodes/Hamilton Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":true,"permalink":"/有限群导引/Nodes/Hamilton Group/","dgPassFrontmatter":true}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Normal Subgroups that Intersect Trivially/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Normal Subgroups that Intersect Trivially/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/basic 

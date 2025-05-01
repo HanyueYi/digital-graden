@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["NC lemma"],"permalink":"/MATH/Cards/Nodes/NC Lemma/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["NC lemma"],"draft":false,"permalink":"/MATH/Cards/Nodes/NC Lemma/","dgPassFrontmatter":true}
 ---
 
 

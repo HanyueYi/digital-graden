@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["G/Z theorem"],"permalink":"/MATH/Cards/Nodes/GZ-Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["G/Z theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/GZ-Theorem/","dgPassFrontmatter":true}
 ---
 
 

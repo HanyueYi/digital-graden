@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数III/抽象代数III/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数III/抽象代数III/","dgPassFrontmatter":true}
 ---
 
 

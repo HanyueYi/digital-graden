@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Affine Quasiprimitive is Primitive/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Affine Quasiprimitive is Primitive/","dgPassFrontmatter":true}
 ---
 
 

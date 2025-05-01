@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Holomorph is the Normalizer of $X_R$/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Holomorph is the Normalizer of $X_R$/","dgPassFrontmatter":true}
 ---
 
 

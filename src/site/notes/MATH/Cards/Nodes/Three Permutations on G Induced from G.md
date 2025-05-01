@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Three Permutations on G Induced from G/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Three Permutations on G Induced from G/","dgPassFrontmatter":true}
 ---
 
 

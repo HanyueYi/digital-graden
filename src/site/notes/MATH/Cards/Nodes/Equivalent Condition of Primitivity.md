@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Equivalent Condition of Primitivity/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Equivalent Condition of Primitivity/","dgPassFrontmatter":true}
 ---
 
 #TERMS/primitive #TERMS/maximal-subgroup #RESOURCE/cards 

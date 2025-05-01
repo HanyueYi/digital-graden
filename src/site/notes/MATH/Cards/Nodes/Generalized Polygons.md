@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["generalized polygon","generalized polygons"],"permalink":"/MATH/Cards/Nodes/Generalized Polygons/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["generalized polygon","generalized polygons"],"draft":false,"permalink":"/MATH/Cards/Nodes/Generalized Polygons/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/combinatorics 

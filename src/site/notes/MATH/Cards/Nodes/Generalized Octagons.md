@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["generalized octagon","generalized octagons"],"permalink":"/MATH/Cards/Nodes/Generalized Octagons/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["generalized octagon","generalized octagons"],"draft":false,"permalink":"/MATH/Cards/Nodes/Generalized Octagons/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/combinatorics 

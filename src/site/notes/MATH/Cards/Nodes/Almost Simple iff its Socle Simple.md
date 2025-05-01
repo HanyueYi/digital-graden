@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Almost Simple iff its Socle Simple/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Almost Simple iff its Socle Simple/","dgPassFrontmatter":true}
 ---
 
 

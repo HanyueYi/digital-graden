@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/2-Group with Exponent 2 is Abelian/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/2-Group with Exponent 2 is Abelian/","dgPassFrontmatter":true}
 ---
 
 

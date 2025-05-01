@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Lie group and Lie algebra/Nodes/2 Properties of solvable and nilpotent Lie algebra/","dgPassFrontmatter":true}
 ---
 
 # Solvable Lie Algebra

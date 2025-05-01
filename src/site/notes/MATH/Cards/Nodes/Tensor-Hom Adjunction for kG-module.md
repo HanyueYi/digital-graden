@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["tensor-hom adjunction"],"permalink":"/MATH/Cards/Nodes/Tensor-Hom Adjunction for kG-module/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["tensor-hom adjunction"],"draft":false,"permalink":"/MATH/Cards/Nodes/Tensor-Hom Adjunction for kG-module/","dgPassFrontmatter":true}
 ---
 
 

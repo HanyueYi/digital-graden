@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/交换代数/Nodes/5 Integral Dependence and Valuation/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/交换代数/Nodes/5 Integral Dependence and Valuation/","dgPassFrontmatter":true}
 ---
 
 
@@ -230,6 +230,8 @@ By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^whjkcj\|#^whjk
 
 > [!proposition]
 > Let $A\subseteq B$, and let $C$ be an integral closure of $A$ in $B$. For a multiplicative closed set $S\subseteq A$, $S^{-1}C$ is a integral closure of $S^{-1}A$ in $S^{-1}B$. 
+{ #9iz2fs}
+
 
 **_Proof._**
 By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^f6d0xm\|#^f6d0xm]], $S^{-1}C$ is integral over $S^{-1}A$. Now suppose $b/s\in S^{-1}B$ is integral over $S^{-1}A$, we aim to show $b/s\in S^{-1}C$. There is 
@@ -248,3 +250,80 @@ and so $bs_1\cdots s_n$ is integral over $A$. Thus $bs_1\cdots s_n\in C$, leadin
 > For any integral domain $A$, we say it is integrally closed, if $A$ is integral closed in $\mathrm{Frac} A$. 
 
 **Example.** $\mathbb{Z}$, UFD (see [[MATH/抽象代数III/Nodes/7 250408#^ygwlsh\|here]]). 
+
+> [!proposition] integrally closed is a local property
+> For an integral domain $A$, TFAE:
+> - $A$ is integrally closed;
+> - $A_p$ is integrally closed for any prime ideal $p$;
+> - $A_m$ is integrally closed for any maximal ideal $m$.
+
+**_Proof._**
+Let $C$ be the integral closure of $A$ in $\mathrm{Frac}A$. By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^9iz2fs\|#^9iz2fs]], $C_p$ is the integral closed of $A_p$ in $\mathrm{Frac}(A_p)=\mathrm{Frac} A$. Since $A$ is integrally closed, we have $C=A$ and so $A_p=C_p$ for any prime ideal $p$. Then by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^766550\|3 Rings and Modules of Fractions#^766550]], $A_p=C_p$ for all $p$ iff $A_m=C_m$ for all $m$ iff $A=C$. 
+<p align="left">□</p>
+
+
+> [!definition]
+> Let $A\subseteq B$, and let $\alpha\subseteq A$ be an ideal. Say $x\in B$ is integral over $\alpha$ if $x^n+a_1x^{n-1}+\cdots+a_n=0$ with $a_i\in \alpha$. The integral closure of $\alpha$ in $B$ is the set of all such elements. 
+
+
+> [!lemma]
+> Let $A\subseteq B$, and let $C$ be the integral closure of $A$ in $B$. For an ideal $\alpha\subseteq A$ with $\alpha^e\subseteq C$. then the integral closure of $\alpha$ in $B$ is $r(\alpha^e)\subseteq C$, which is an ideal in $C$.
+{ #vwwek4}
+
+
+**_Proof._**
+"$\subseteq$" If $x\in B$ is integral over $\alpha$, then $x^n=-(a_1x^{n-1}+\cdots+a_n)\subseteq\alpha^e$ and so $x\in r(\alpha^e)$. 
+
+"$\supseteq$" Consider $x\in r(\alpha^e)$, then $x^n=\sum_{i=1}^N a_ix_i$ with $a_i\in \alpha$ and $x_i\in C$. Consider $M=A[x_1,\cdots,x_N]\subseteq C$. Since $x_i$ is integral over $A$, we know $M$ is a finitely generated $A$-module by [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^jy6o7s\|#^jy6o7s]]. Consider $\phi:M\to M,m\mapsto x^nm$, where $\mathrm{im}(\phi)\subseteq \alpha M$. By [[MATH/交换代数/Nodes/2 Modules#^41223f\|2 Modules#^41223f]], there is 
+
+$$\phi^m+b_1\phi^{m-1}+\cdots+b_m=0\;\text{with }b_i\in \alpha.$$
+
+It deduces that $x^{mn}+b_1x^{n(m-1)}+\cdots+b_m=0$ by $\phi(1)=x^n$ and so $x$ is integral over $\alpha$. 
+<p align="left">□</p>
+
+
+> [!proposition]
+> Let $A\subseteq B$ be two integral domains. Suppose $A$ is integrally closed and $\alpha\subseteq A$ is an ideal. If $x\in B$ is integral over $\alpha$, then $x$ is algebraic over $k=\mathrm{Frac}A$. Furthermore, if $\mathrm{Irr}(x,K)=t^n+a_1t^{n-1}+\cdots+a_n$, then $a_i\in r(\alpha)$. 
+{ #fbc39e}
+
+
+**_Proof._**
+Since $x$ is integral over $\alpha$, we have $g(x)=x^m+b_1x^{m-1}+\cdots+ b_m=0$ with $b_i\in \alpha$. Then $b_i\in \alpha\subseteq A\subseteq \mathrm{Frac} A=k$ yields $x$ is algebraic over $k$. 
+
+However, note possibly $m>n=\deg(\mathrm{Irr}(x,K))$. Now let $x_1,\cdots,x_n$ be all the roots of $f(t):=\mathrm{Irr}(x,K)$, then $x_1,\cdots,x_n$ are also roots of $g(x)$ and $x_i$ is integral over $\alpha$. By Vita's theorem, $a_i$ are symmetric functions in $x_i$. By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^vwwek4\|#^vwwek4]], $a_i$ are integral over $\alpha$. 
+
+Apply [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^vwwek4\|#^vwwek4]] in the setting $A\subseteq A\subseteq\mathrm{Frac}A$, and we know $a_i\in r(\alpha^e)=r(\alpha)$. Now we finish the proof.
+<p align="left">□</p>
+
+
+> [!theorem] Going-down theorem
+> Let $A\subseteq B$ be integral domains. Suppose $A$ is integrally closed and $B$ is integral over $A$. Let $p_1\supseteq\cdots\supseteq p_n$ be a chain of prime ideals in $A$, and let $q_1\supseteq\cdots\supseteq q_m$ be a chain of prime ideals in $B$ with $q_i^c=p_i$ and $m<n$. Then there exists $q_1\supseteq\cdots\supseteq q_m\supseteq\cdots\supseteq q_n$ such that $q_i^c=p_i$.
+
+**_Proof._**
+The case of $n=1$ is trivial by [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^whjkcj\|#^whjkcj]]. For $n\geqslant 2$, similarly it suffices to consider the case of $n=2$ and $m=1$. So we have $p_1\supseteq p_2$ and $q_1\supseteq ?$. Recall [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^7xys15\|3 Rings and Modules of Fractions#^7xys15]], for a ring homomorphism $A\to B$, prime ideal $p\subseteq A$ is a contraction iff $p^{ec}=p$. 
+
+Consider $A\to B\to B_{q_1}$. Note prime ideals of $B_{q_1}$ are precisely $qB_{q_1}$ with $q\subseteq q_1\subseteq B$. By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^7xys15\|3 Rings and Modules of Fractions#^7xys15]], it suffices to prove $p_2B_{q_1}\cap A=p_2$. Notice that "$\supseteq$" is obvious. Now we prove "$\subseteq$". 
+
+For any $x\in p_2B_{q_1}$, $x$ can be written as $x=y/s$ with $y\in p_2B$ and $s\in B-q_1$. By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^vwwek4\|#^vwwek4]], integral closure of $p_2$ in $B$ is $r(p_2B)\supseteq p_2B$. Thus $y\in p_2B$ is integral over $p_2$. Since $A$ is integrally closed, by [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^fbc39e\|#^fbc39e]], 
+
+$$\mathrm{Irr}(y,\mathrm{Frac}A)=t^r+u_1t^{r-1}+\cdots+u_r\tag{*}$$
+
+with $u_i\in r(p_2)=p_2$. 
+
+Now suppose $x\in p_2B_{q_1}\cap A$, $x=y/s$. Then $s=yx^{-1}$. Plug $y=xs$ to $(*)$, then divide $x^r$, get 
+
+$$s^r+(u_1/x) s^{r-1}+\cdots+u_r/x^r=0\tag{**}$$
+
+with coefficients in $\mathrm{Frac} A$. Thus $s$ is algebraic over $\mathrm{Frac} A$. Since $(*)$ is irreducible, we know $(**)$ is irreducible and so $\mathrm{Irr}(s,\mathrm{Frac} A)=(**)$. 
+
+But $s\in B-q_1\subseteq B$ yields $s$ is integral over $A$. Apply [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^fbc39e\|#^fbc39e]] with $\alpha=A$, then we get coefficients of $(**)$ are in $r(A)=A$. Define $v_i=u_i/x^r\in A$. 
+
+Recall that we aim to show $x\in p_2$. Suppose otherwise, since $v_ix^r=u_i\in p_2$ and $x\notin p_2$, there is $v_i\in p_2$ and so $s^r\in p_2B\subseteq p_1B\subseteq q_1$, contradicting with $s\notin q_1$. 
+<p align="left">□</p>
+
+
+> [!notes] 高辉说：
+> 
+> “这一章要考的话，主要考integral的判别法则。”
+> 
+> “going up going down 不考，主要是欣赏一下。”

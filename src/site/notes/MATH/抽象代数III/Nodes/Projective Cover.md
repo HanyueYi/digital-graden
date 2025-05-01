@@ -1,11 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数III/Nodes/Projective Cover/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数III/Nodes/Projective Cover/","dgPassFrontmatter":true}
 ---
 
 
 
 > [!definition]
 > An epimorphism of modules $f:U\twoheadrightarrow V$ is called *essential* if no proper submodule of $U$ is mapped surjectively onto $V$ by $f$. Equivalently, whenever $g:W\to U$ is a map such that $fg$ is an epimorphism, then $g$ is an epimorphism. 
+{ #ktprge}
+
 
 > [!definition]
 > A *projective cover* of a module $U$ is an essential epimorphism $P\stackrel{\tau}{\twoheadrightarrow} U$ where $P$ is projective. 

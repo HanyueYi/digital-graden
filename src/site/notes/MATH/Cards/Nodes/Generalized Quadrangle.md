@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["generalized quadrangles","generalized quadrangle"],"permalink":"/MATH/Cards/Nodes/Generalized Quadrangle/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["generalized quadrangles","generalized quadrangle"],"draft":false,"permalink":"/MATH/Cards/Nodes/Generalized Quadrangle/","dgPassFrontmatter":true}
 ---
 
 #RESOURCE/cards #TERMS/combinatorics 

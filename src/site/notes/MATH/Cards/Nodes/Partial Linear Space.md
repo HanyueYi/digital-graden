@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Partial Linear Space/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Partial Linear Space/","dgPassFrontmatter":true}
 ---
 
 #TERMS/combinatorics #RESOURCE/cards 

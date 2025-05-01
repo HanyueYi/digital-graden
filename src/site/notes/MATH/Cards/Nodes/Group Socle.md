@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Group Socle/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Group Socle/","dgPassFrontmatter":true}
 ---
 
 #TERMS/basic #RESOURCE/cards 

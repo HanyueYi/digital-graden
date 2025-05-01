@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Uniqueness of Block System of Imprimitive Rank 3 Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Uniqueness of Block System of Imprimitive Rank 3 Group/","dgPassFrontmatter":true}
 ---
 
 #TERMS/rank-3 #TERMS/imprimitive #RESOURCE/cards 

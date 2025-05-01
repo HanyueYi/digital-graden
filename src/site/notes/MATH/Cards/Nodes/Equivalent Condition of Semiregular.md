@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Equivalent Condition of Semiregular/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Equivalent Condition of Semiregular/","dgPassFrontmatter":true}
 ---
 
 #todo 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Burnside's theorem"],"permalink":"/MATH/Cards/Nodes/Burnside's Theorem/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Burnside's theorem"],"draft":false,"permalink":"/MATH/Cards/Nodes/Burnside's Theorem/","dgPassFrontmatter":true}
 ---
 
 

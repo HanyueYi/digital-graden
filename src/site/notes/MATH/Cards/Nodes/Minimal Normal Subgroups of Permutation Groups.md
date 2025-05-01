@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Minimal Normal Subgroups of Permutation Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Minimal Normal Subgroups of Permutation Groups/","dgPassFrontmatter":true}
 ---
 
 

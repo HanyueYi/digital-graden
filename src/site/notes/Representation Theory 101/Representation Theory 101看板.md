@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["radical","socle"],"permalink":"/Representation Theory 101/Representation Theory 101看板/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["radical","socle"],"draft":true,"permalink":"/Representation Theory 101/Representation Theory 101看板/","dgPassFrontmatter":true}
 ---
 
 

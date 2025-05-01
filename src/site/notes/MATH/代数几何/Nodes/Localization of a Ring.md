@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["localization of a ring"],"permalink":"/MATH/代数几何/Nodes/Localization of a Ring/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["localization of a ring"],"draft":false,"permalink":"/MATH/代数几何/Nodes/Localization of a Ring/","dgPassFrontmatter":true}
 ---
 
 

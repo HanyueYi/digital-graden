@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Fitting subgroups"],"permalink":"/MATH/Cards/Nodes/Fitting Subgroups/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["Fitting subgroups"],"draft":false,"permalink":"/MATH/Cards/Nodes/Fitting Subgroups/","dgPassFrontmatter":true}
 ---
 
 

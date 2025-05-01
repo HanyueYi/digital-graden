@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["list of transitive finite linear groups"],"permalink":"/MATH/Cards/Nodes/List of Transitive Finite Linear Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["list of transitive finite linear groups"],"draft":false,"permalink":"/MATH/Cards/Nodes/List of Transitive Finite Linear Groups/","dgPassFrontmatter":true}
 ---
 
 

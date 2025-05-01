@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/Cards/Nodes/Classification of 2-Transitive Groups/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Classification of 2-Transitive Groups/","dgPassFrontmatter":true}
 ---
 
  #RESOURCE/cards #TERMS/quasiprimitive #TERMS/2-transitive #todo 

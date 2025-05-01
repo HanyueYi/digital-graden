@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MATH/抽象代数II/Nodes/Chapter 2 Rings and Modules/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数II/Nodes/Chapter 2 Rings and Modules/","dgPassFrontmatter":true}
 ---
 
 

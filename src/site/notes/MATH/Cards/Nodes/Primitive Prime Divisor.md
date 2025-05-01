@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["ppd","primitive prime divisor"],"permalink":"/MATH/Cards/Nodes/Primitive Prime Divisor/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["ppd","primitive prime divisor"],"draft":false,"permalink":"/MATH/Cards/Nodes/Primitive Prime Divisor/","dgPassFrontmatter":true}
 ---
 
 

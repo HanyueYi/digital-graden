@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":"Sylow theorems","permalink":"/MATH/Cards/Nodes/Sylow Theorems/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":"Sylow theorems","draft":false,"permalink":"/MATH/Cards/Nodes/Sylow Theorems/","dgPassFrontmatter":true}
 ---
 
 
