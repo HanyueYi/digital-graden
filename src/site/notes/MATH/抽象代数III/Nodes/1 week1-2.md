@@ -91,6 +91,11 @@ Take $L'=M/N$, then there exists a unique isomorphism $\sigma:M/N\stackrel{\sim}
 > - The module $M/IM$ is naturally endowed with a structure of $R/I$-module.
 > - Let $\varphi:M\to M'$ be an $R$-homomorphism, then $\varphi(IM)\subseteq IM'$ and $\varphi$ induces a morphism of $R/I$-modules $M/IM\to M'/IM'$. 
 
+**_Proof._**
+See [[MATH/抽象代数III/Nodes/Module Constructions and Universal Properties#^xy300k\|Module Constructions and Universal Properties#^xy300k]].
+<p align="left">□</p>
+
+
 # Direct Product
 
 只讲了定义和那四条等价，不记了。
@@ -101,13 +106,7 @@ Take $L'=M/N$, then there exists a unique isomorphism $\sigma:M/N\stackrel{\sim}
 > Let $R$ be a commutative ring with $1$, and let $M$ be a finitely generated free $R$-module. Then any basis of $R$ has the same cardinality.
 
 **_Proof._**
-First we claim that any basis of $M$ is a finite set. Suppose that $\{x_i:i\in I\}$ is a basis and $|I|=\infty$. Since $M$ is finitely generated, there exists $y_1,\cdots,y_n$ such that $M=\left\langle y_1,\cdots,y_n\right\rangle$. Note that $y_i$ can be expressed as a linear combination of $\{x_i:i\in I_0\}$ with $|I_0|<\infty$. There exists $j\in I\setminus I_0$ such that $x_j$ is a linear combination of $y_i$ and so is a linear combination of $\{x_i:i\in I_0\}$, which is a contradiction.
-
-Let $J$ be a maximal ideal of $R$. Consider $JM$ and $M/JM$, then $M/JM$ is an $R/J$-module. Since $F:=R/J$ is a field, $M/JM$ is a vector space over $F$. Let $x_1,\cdots,x_r$ be a basis of $M$. It suffices to show $\overline {x_1},\cdots,\overline{x_r}$ is a basis of $M/JM$. It is easy to show they generate $M/JM$, so it remains to show they are linearly independent. Suppose that $\overline {a_1}\overline {x_1}+\cdots+\overline {a_r}\overline {x_r}=0$, then $a_1x_1+\cdots+a_rx_r\in JM=Jx_1+\cdots+Jx_r$. There are $a_1',\cdots,a_r'$ such that 
-
-$$a_1x_1+\cdots+a_rx_r=a_1'x_1+\cdots+a_r'x_r$$
-
-with $a_i'\in J$. Since $x_1,\cdots,x_r$ is a basis of $M$, then $a_i\in J$ and so $\overline {a_i}=0$. Hence, $\overline{x_1},\cdots,\overline{x_r}$ are linearly independent.
+See [[MATH/抽象代数III/Nodes/Module Constructions and Universal Properties#^n0vjji\|Module Constructions and Universal Properties#^n0vjji]].
 <p align="left">□</p>
 
 
@@ -133,9 +132,7 @@ with $a_i'\in J$. Since $x_1,\cdots,x_r$ is a basis of $M$, then $a_i\in J$ and 
 
 
 **_Proof._**
-ii) is easy to prove by i).
-
-i) Let $\{e_i\}_{i\in I}$ be a basis of $L$. For $i\in I$, let $x_i$ be an element of $X$ with $\pi(x_i)=\varphi(e_i)$. Define $\widetilde \varphi:L\to X,e_i\to x_i$. Then $\widetilde \varphi$ is what we desire.
+See [[MATH/抽象代数III/Nodes/Module Constructions and Universal Properties#^03hqr6\|Module Constructions and Universal Properties#^03hqr6]].
 <p align="left">□</p>
 
 
@@ -185,10 +182,10 @@ Existence of tensor product: See [[Pasted image 20250225194713.png|here]].
 > In particular, $L^2(M_1\times M_2;N)\simeq L^1(M_1\otimes M_2,N)\simeq L^1(M_1,L^1(M_2,N))$.
 
 > [!proposition]
-> Let $M,N$ be finite generated free $R$-module. Define $M^\lor=\mathrm{Hom}_R(M,N)=L(M,N)$, then $M^\lor\otimes N\simeq \mathrm{Hom}_R(M,N)=L(M,N)$.
+> Let $M,N$ be finite generated free $R$-module. Define $M^\lor=\mathrm{Hom}_R(M,R)=L(M,R)$, then $M^\lor\otimes N\simeq \mathrm{Hom}_R(M,N)=L(M,N)$.
 
 **_Proof._**
-Define $\varphi:M^\lor\times N\to \mathrm{Hom}_R(M,N),(f,n)\mapsto \varphi(f,n):m\mapsto f(m)n$. Since $\varphi$ is bilinear, it induces a morphism $M^\lor\otimes N\to \mathrm{Hom}_R(M,N)$. On the other hand, let $v_1,\cdots,v_n$ be a basis of $M$, and let $v_1^\lor,\cdots,v_n^\lor$ be a dual basis of $M^\lor$. Define $\psi:\mathrm{Hom}_R(M,N)\to M^\lor\otimes N,g\mapsto \sum v_i^\lor\otimes g(v_i)$. It is easy to verify $\varphi\circ \psi$ and $\psi\circ \varphi$ are identity.
+See [[MATH/抽象代数III/Nodes/Module Constructions and Universal Properties#^ahhdq2\|Module Constructions and Universal Properties#^ahhdq2]].
 <p align="left">□</p>
 
 

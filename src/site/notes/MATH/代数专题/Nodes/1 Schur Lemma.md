@@ -42,6 +42,8 @@ For example, let $G=S_n$ and $\sigma:G\to\mathrm{GL}_n(k),\sum\alpha_ie_i\mapsto
 > A morphism between irreducible representations of groups is either zero or isomorphism.
 > 
 > If $k$ is algebraically closed field, $\rho$ is a irreducible representation of $G$ in $V$, $\dim V<\infty$ and $S:V\to V$ morphism of $G$-modules, then there exists $\lambda\in k$ such that $S=\lambda\mathrm{Id}$. 
+{ #k1l6is}
+
 
 **_Proof._**
 i) Let $T:V\to W$ be a morphism with $V,W$ irreducible. Since $\ker T$ and $\mathrm{Im}T$ are submodules of $V$ and $W$, respectively, then one of the following holds:

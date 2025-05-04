@@ -11,6 +11,8 @@
 > The image of this morphism is comprised of those morphism from $X$ to $Y$ which factor through some finite power of $M$.
 > 
 > ![Pasted image 20250408192748.png|160](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250408192748.png)
+{ #v26ddz}
+
 
 **_Proof._**
 An element of the image is $\sum_{i\in I}\psi_i\varphi_i$, where $\psi_i:X\to M$ and $\varphi_i:M\to Y$. Give a morphism $\varphi:X\to M^I,x\mapsto (\varphi_i(x))$ and a morphism $\psi:M^I\to Y,(m_i)\to \sum \psi_i(m_i)$. Now we finish the proof.
@@ -24,9 +26,13 @@ An element of the image is $\sum_{i\in I}\psi_i\varphi_i$, where $\psi_i:X\to M$
 > $$\tau_{X, Y}: X^* \otimes_R Y \longrightarrow \operatorname{Hom}_R(X, Y),  \varphi \otimes y \mapsto(x \mapsto \varphi(x) \cdot y).$$
 > 
 > The image of $\tau_{X,Y}$ is denoted by $\operatorname{Hom}_R^{\text {pr }}(X, Y)$, and its elements are called *projective morphisms* from $X$ to $Y$. 
+{ #n1mk04}
+
 
 > [!lemma]
 > For any $R$-module $M$, $\mathrm{Hom}_R^{\rm pr}(M,M)$ is a $2$-sided ideal of the ring $\mathrm{End}_R(M)=\mathrm{Hom}_R(M,M)$. 
+{ #smhffy}
+
 
 **_Proof._**
 It is easy to check for any $\varphi\in \mathrm{Hom}_R^\mathrm{pr}(M,M)$ and $\psi\in\mathrm{End}_R(M)$, one have $\varphi\circ \psi,\psi\circ\varphi\in \mathrm{Hom}_R^\mathrm{pr}(M,M)$.  

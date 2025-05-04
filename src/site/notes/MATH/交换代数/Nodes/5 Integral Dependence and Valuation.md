@@ -249,7 +249,7 @@ and so $bs_1\cdots s_n$ is integral over $A$. Thus $bs_1\cdots s_n\in C$, leadin
 > [!definition]
 > For any integral domain $A$, we say it is integrally closed, if $A$ is integral closed in $\mathrm{Frac} A$. 
 
-**Example.** $\mathbb{Z}$, UFD (see [[MATH/抽象代数III/Nodes/7 250408#^ygwlsh\|here]]). 
+**Example.** $\mathbb{Z}$, UFD (see [[MATH/抽象代数III/Nodes/Integrality and Integral Closures#^437xgo\|here]]). 
 
 > [!proposition] integrally closed is a local property
 > For an integral domain $A$, TFAE:

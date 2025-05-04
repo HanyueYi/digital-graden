@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"draft":false,"permalink":"/MATH/Classical Groups/Nodes/2 Symplectic Space and Symplectic Group/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":true,"permalink":"/MATH/Classical Groups/Nodes/2 Symplectic Space and Symplectic Group/","dgPassFrontmatter":true}
 ---
 
 

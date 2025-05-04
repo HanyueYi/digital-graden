@@ -320,7 +320,7 @@ Here we use the isomorphism $(\mathbb{Z}\cdot 2e)\otimes_\mathbb{Z}(\mathbb{Z}/2
 > [!definition]
 > Let $A,B$ be rings. We say $M$ is an $(A,B)$-bimodule, if it is both an $A$-left module and a $B$-right module, and $(ax)b=a(xb)$ for any $a\in A$, $b\in B$ and $x\in M$. Remark that $ab$ might not exist.
 
-**Remark.** It has been defined in [[MATH/抽象代数III/Nodes/2 250304#^559amp\|2 250304#^559amp]], but I write it again.
+**Remark.** It has been defined in [[MATH/抽象代数III/Nodes/Category and Hom, Tensor Functors#^559amp\|Category and Hom, Tensor Functors#^559amp]], but I write it again.
 
 > [!proposition] Text-Ex. 2.15.
 > Let $A,B$ be rings. Let $M$ be an $A$-module, $P$ be a $B$-module and let $N$ be a $(A,B)$-bimodule. Then $M\otimes _AN$ is a $B$-module and $N\otimes_BP$ is an $A$-module, and we have an isomorphism of $(A,B)$-bimodule

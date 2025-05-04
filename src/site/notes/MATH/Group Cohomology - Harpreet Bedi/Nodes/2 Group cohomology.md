@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"draft":false,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/2 Group cohomology/","dgPassFrontmatter":true}
+{"dg-publish":true,"draft":true,"permalink":"/MATH/Group Cohomology - Harpreet Bedi/Nodes/2 Group cohomology/","dgPassFrontmatter":true}
 ---
 
 

@@ -35,6 +35,8 @@
 
 > [!theorem]
 > Let $A$ be an Artinian ring, and let $U$ be $A$-module. Then $U$ has a projective cover. 
+{ #mjip80}
+
 
 **_Proof._**
 We only prove for $U$ finitely generated. 

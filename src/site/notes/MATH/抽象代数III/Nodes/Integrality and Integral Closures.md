@@ -53,6 +53,8 @@ where $m_1^{\alpha_1}\cdots m_s^{\alpha_s}\in M_1$ can be written as $m_1^{\alph
 
 > [!theorem]
 > Let $R$ be a subring of $S$ containing $1_S$. The integral elements of $S$ over $R$ form a subring of $S$ containing $R$. 
+{ #b8xi28}
+
 
 **_Proof._**
 Since $\alpha,\beta$ are integral, by [[MATH/抽象代数III/Nodes/Integrality and Integral Closures#^274bb5\|#^274bb5]] we know $R[\alpha],R[\beta]$ are finitely generated. Then by [[MATH/抽象代数III/Nodes/Integrality and Integral Closures#^0f6d0e\|#^0f6d0e]], $R[\alpha,\beta]$ is finitely generated. It deduces that $\alpha-\beta$, $\alpha\beta$ are integral and so the integral elements of $S$ form a subring. 
@@ -69,6 +71,8 @@ Since $\alpha,\beta$ are integral, by [[MATH/抽象代数III/Nodes/Integrality a
 
 > [!theorem]
 > A UFD is integral closed. 
+{ #437xgo}
+
 
 **_Proof._**
 Let $A$ be a UFD, and let $K=\mathrm{Frac}(A)$ be its fraction field. To show $A$ is UFD, it suffices to show for any $r\in K$ which is integral over $A$, $r\in A$. Assume that $r=r_1/r_2$ with $r_1,r_2\in A$ and $\gcd(r_1,r_2)=1$. If $r$ is integral over $A$, there exist $a_0,\cdots,a_{n-1}\in A$ such that 

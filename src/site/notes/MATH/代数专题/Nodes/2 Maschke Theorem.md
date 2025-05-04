@@ -22,9 +22,9 @@ Then we have $\pi_0(w)=\frac{1}{|G|}\sum_{g\in G}g(g^{-1}w)=w$ and so $\pi_0$ is
 
 # Decomposition of Modules
 
-Assume that $G$ is a finite group with any $G$-module $V=V_1^{a_1}\oplus\cdots\oplus V_k^{a_k}$, where $V_i$ is irreducible non-isomorphic modules and $a_i$ are multiplicities. Then by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]], this decomposition is unique. Yet we can not prove that there is a finite number of irreducible $G$-modules.
+Assume that $G$ is a finite group with any $G$-module $V=V_1^{a_1}\oplus\cdots\oplus V_k^{a_k}$, where $V_i$ is irreducible non-isomorphic modules and $a_i$ are multiplicities. Then by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]], this decomposition is unique. Yet we can not prove that there is a finite number of irreducible $G$-modules.
 
-**Example.** Let $G$ be an abelian group $G=C_3=\{1,a,a^2\}$. If $\rho:G\to\mathrm{GL}(V)$ is a representation, then $\rho(h)\rho(g)=\rho(g)\rho(h)$ yields that $\rho(g):V\to V$ is a morphism of $G$-modules. If $V$ is irreducible and $k$ is a algebraically closed field, then by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]] $\rho(g)v=\lambda v$ for some $\lambda\in k$. So any $v\in V$ is an eigenvector and $\rho(g)=\lambda I$. It follows that any subspace in $V$ is $G$-submodule and so $\dim V=1$ by $V$ irreducible. So we get the following proposition.
+**Example.** Let $G$ be an abelian group $G=C_3=\{1,a,a^2\}$. If $\rho:G\to\mathrm{GL}(V)$ is a representation, then $\rho(h)\rho(g)=\rho(g)\rho(h)$ yields that $\rho(g):V\to V$ is a morphism of $G$-modules. If $V$ is irreducible and $k$ is a algebraically closed field, then by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]] $\rho(g)v=\lambda v$ for some $\lambda\in k$. So any $v\in V$ is an eigenvector and $\rho(g)=\lambda I$. It follows that any subspace in $V$ is $G$-submodule and so $\dim V=1$ by $V$ irreducible. So we get the following proposition.
 
 > [!proposition]
 > Any irreducible representation of abelian group is one-dimensional.

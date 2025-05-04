@@ -122,7 +122,7 @@ Let $E=A/m$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^f58c35\|#^f58c35]].
 
 
 > [!corollary] Hilbert Nullstellensatz, weak form
-> Let $k$ be a algebraic closed field. If $m\subseteq k[x_1,\cdots,x_n]$ is a maximal ideal, then $m=(x_1-a_1,\cdots,x_n-a_n)$ with $a_i\in k$.
+> Let $k$ be a algebraically closed field. If $m\subseteq k[x_1,\cdots,x_n]$ is a maximal ideal, then $m=(x_1-a_1,\cdots,x_n-a_n)$ with $a_i\in k$.
 { #8sohrm}
 
 
@@ -136,7 +136,7 @@ By [[MATH/交换代数/Nodes/7 Noetherian Rings#^0346fb\|#^0346fb]], $k[x_1,\cdo
 
 
 > [!corollary] Equivalent form of [[MATH/交换代数/Nodes/7 Noetherian Rings#^8sohrm\|#^8sohrm]]
-> Let $k$ be a algebraic closed field. Let $I=(f_1,\cdots,f_m)\subsetneq k[x_1,\cdots,x_n]$ be a proper ideal. Then these $f_i$ have a common solution in $k^n$. 
+> Let $k$ be a algebraically closed field. Let $I=(f_1,\cdots,f_m)\subsetneq k[x_1,\cdots,x_n]$ be a proper ideal. Then these $f_i$ have a common solution in $k^n$. 
 
 **_Proof._**
 Since $I$ is proper, $I\subseteq m$ for some maximal ideal $m$. By [[MATH/交换代数/Nodes/7 Noetherian Rings#^8sohrm\|#^8sohrm]], $I\subseteq (x_1-a_1,\cdots,x_n-a_n)$ and so $(a_1,\cdots,a_n)$ is a common solution for any $f\in I$. 

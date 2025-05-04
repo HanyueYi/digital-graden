@@ -48,6 +48,8 @@ $$1\mapsto\left[ \begin{matrix} 1 & 0 \\ 0 & 1  \end{matrix} \right],i\mapsto\le
 
 > [!lemma] Schur lemma
 > Let $V,W$ be two irreducible $A$-modules. If $\varphi:V\to W$ is a homomorphism, then either $\varphi =0$ or $\varphi$ is an isomorphism. If $k$ is algebraically closed and $V$ is finite-dimensional irreducible, then for any $\varphi:V\to V$ there is $\lambda\in k$ such that $\varphi=\lambda\mathrm{Id}$. 
+{ #qkdbf3}
+
 
 **Examples.**
 - If $A$ is a commutative algebra and $\rho:A\to V$ is a representation, then $\rho(a):V\to V$ is a homomorphism by $\rho(a)\rho(b)=\rho(b)\rho(a)$ for any $b\in A$. Then by Schur lemma, $\rho(a)=\lambda\mathrm{id}$ and each irreducible module has dimension $1$. Therefore, if $A=\mathbb{C}$, then the only irreducible module is $V=\mathbb{C}$ and the only indecomposable module is $V=\mathbb{C}$. 

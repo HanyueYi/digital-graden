@@ -167,6 +167,8 @@ Recall that
 and an irreducible component is defined as a maximal irreducible subspace.
 
 - [ ] In general, irreducible component of $\mathrm{Spec}A$ are $V(p)$'s where $p$ is a minimal prime ideal.
+{ #eai9n3}
+
 
 If $\alpha$ is decomposable, then by [[MATH/交换代数/Nodes/4 Primary Decomposition#^6e2c2b\|#^6e2c2b]], $\mathrm{Spec}(A/\alpha)$ has finitely many irreducible components. 
 

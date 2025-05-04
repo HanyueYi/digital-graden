@@ -138,7 +138,7 @@ For any $g\in G$ and $\varphi\in\mathrm{Hom}(V,W)$ with $g\varphi=\varphi$, ther
 
 $$\dim\mathrm{Hom}_{\mathbb{C}G}(V,W)=\dim\mathrm{Hom}(V,W)^G=\frac{1}{|G|}\sum_{g\in G}\chi_{\mathrm{Hom}(V,W)}(g)=\frac{1}{|G|}\sum_{g\in G}\overline{\chi_V(g)}\chi_W(g)=\left\langle\chi_W,\chi_V\right\rangle.$$
 
-By [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]], $\dim\mathrm{Hom}_{\mathbb{C}G}(s_i,s_j)=\delta_{ij}$ for irreducible representations $s_i$ and $s_j$. Now we finish the proof. 
+By [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]], $\dim\mathrm{Hom}_{\mathbb{C}G}(s_i,s_j)=\delta_{ij}$ for irreducible representations $s_i$ and $s_j$. Now we finish the proof. 
 <p align="left">□</p> 
 { #wl1f85}
 

@@ -6,7 +6,9 @@
 # Socle
 
 > [!definition]
-> The unique largest semisimple submodule of $U$ is called the socle of $U$, denote $\mathrm{soc}(U)$. 
+> The unique largest semisimple submodule of $U$ is called the *socle* of $U$, denote $\mathrm{soc}(U)$. 
+{ #4du342}
+
 
 
 # Radical of Modules
@@ -15,6 +17,7 @@
 > A *maximal submodule* $N$ of $M$ is a proper submodule $N$ satisfying $N\subseteq U\subseteq M$ $\implies$ $U=N$ or $U=M$. Equivalently, $M/N$ is simple.
 > 
 > Define $\mathrm{Rad}(M)=\cap_{N}\{\mbox{maximal submodules }N\subseteq M\}$. If $M$ does not have maximal submodules, then define $\mathrm{Rad}(M)=M$. 
+
 
 > [!lemma]
 > Let $W$ be a proper $R$-submodule of ${}_RV$. If $V/W$ is finitely generated over $R$, then there exists a maximal $R$-submodule of $V$ containing $W$. In particular, if $V$ is finitely generated, then there exists a maximal submodule of $V$ containing $W$.
@@ -37,6 +40,8 @@ So $U\neq V$, and $U\in\mathcal O$ is a upper bound for $W_\lambda$. By Zorn's l
 > Let $M,N$ be finitely generated $R$-modules, and let $f:M\to N$ be $R$-morphism. 
 > - $f(\mathrm{Rad}(M))\subseteq\mathrm{Rad}(N)$. 
 > - If $f$ is an epimorphism with $\ker f\subseteq\mathrm{Rad}(M)$, then $\mathrm{Rad}(N)=f(\mathrm{Rad}(M))$. 
+{ #27mw0t}
+
 
 **_Proof._**
 i) Let $x \in \operatorname{Rad}(M)$. We show $f(x) \in \operatorname{Rad}(N)$. Suppose $K \subseteq N$ is a maximal submodule. Consider the composite map:
@@ -65,7 +70,7 @@ Since $K \subseteq \operatorname{Rad}(M)$, one have $\operatorname{Rad}(M / K)=\
 >   
 >   $$U/(M_1\cap\cdots\cap M_n)\simeq \oplus_{i\in I}U/M_i$$
 >  
-> - Suppose that $U$ is Artinian, then $U/\mathrm{Rad}U$ is a semisimple and $\mathrm{Rad}U$ is the unique smallest submodule of $U$ wite semisimple quotient.
+> - Suppose that $U$ is Artinian, then $U/\mathrm{Rad}U$ is a semisimple and $\mathrm{Rad}U$ is the unique smallest submodule of $U$ with semisimple quotient.
 { #r8oe32}
 
 
@@ -126,6 +131,8 @@ iii) It suffices to consider $\oplus U_i/\mathrm{Rad}(\oplus U_i)\to \oplus V_i/
 
 > [!corollary]
 > If $P$ and $Q$ are projective Noetherian modules over a ring, then $P\simeq Q$ iff $P/\mathrm{Rad}P\simeq Q/\mathrm{Rad} Q$. 
+{ #9ry2ru}
+
 
 **_Proof._**
 By [[MATH/抽象代数III/Nodes/Socle and Radical of Module#^3f1b99\|#^3f1b99]], $P\to P/\mathrm{Rad} P$ and $Q\to Q/\mathrm{Rad} Q$ are essential. Thus $P$ (rep. $Q$) is a projective cover of $P/\mathrm{Rad} P$ (rep. $Q/\mathrm{Rad} Q$). By [[MATH/抽象代数III/Nodes/Projective Cover#^9so7ao\|Projective Cover#^9so7ao]], projective cover is unique up to isomorphism and so we finish the proof. 

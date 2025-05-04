@@ -261,7 +261,7 @@ Finally, since $A / J(A)$ is semisimple, we have:
 
 $$A / J(A) \simeq \bigoplus_S S^{n_s}$$
 
-and ${}_A A \simeq \bigoplus_S\left(P_S\right)^{n_S}$, where $n_S=\operatorname{dim}_{\operatorname{End}_A(S) }S$ by [[MATH/抽象代数III/Nodes/3 250311#^8omj6z\|3 250311#^8omj6z]], as desired.
+and ${}_A A \simeq \bigoplus_S\left(P_S\right)^{n_S}$, where $n_S=\operatorname{dim}_{\operatorname{End}_A(S) }S$ by [[MATH/抽象代数III/Nodes/Semisimple Artinian Rings and Algebras#^8omj6z\|Semisimple Artinian Rings and Algebras#^8omj6z]], as desired.
 <p align="left">□</p>
 
 
@@ -272,7 +272,7 @@ and ${}_A A \simeq \bigoplus_S\left(P_S\right)^{n_S}$, where $n_S=\operatorname{
 
 
 **_Proof._**
-Since $A$ is an Artinian ring and $V$ is a finitely generated $A$-module, we know $V$ has a finite length composition series by [[MATH/抽象代数III/Nodes/6 250401#^y1hlpb\|6 250401#^y1hlpb]]. Notice that $e$ is primitive by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^lz95r0\|#^lz95r0]]. 
+Since $A$ is an Artinian ring and $V$ is a finitely generated $A$-module, we know $V$ has a finite length composition series by [[MATH/抽象代数III/Nodes/Socle and Radical Series#^u3of0p\|Socle and Radical Series#^u3of0p]]. Notice that $e$ is primitive by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^lz95r0\|#^lz95r0]]. 
 
 Let $V=V_0\supseteq V_1\supseteq\cdots\supseteq V_n=0$ be a composition series of $V$. Consider the chain of $fAf$-modules 
 
@@ -282,7 +282,7 @@ where $V_i/V_{i+1}\simeq \overline A e$ iff $fV_i/fV_{i+1}\neq 0$. Furthermore,
 
 $$e\overline Ae\simeq f\left(V_i / V_{i+1}\right) \cong f V_i /\left(f V_i \cap V_{i+1}\right)=f V_i / f V_{i+1}.$$
 
-By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $e\overline A e$ is a simple $fAf$-module. Therefore, the multiplicity of $\overline A e$ in any finitely generated $A$-module $V$ is equal to the composition length of $fV$ as an $fAf$-module. 
+By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]]. Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $e\overline A e$ is a simple $fAf$-module. Therefore, the multiplicity of $\overline A e$ in any finitely generated $A$-module $V$ is equal to the composition length of $fV$ as an $fAf$-module. 
 <p align="left">□</p>
 
 
@@ -292,7 +292,7 @@ By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2f
 	- For any $x\in fJf$, there is $x=faf$ for some $a\in J$. Since $A$ is Artinian, $J$ is nilpotent and so $fJf$ is nilpotent. It deduces that $fJf\subseteq J(fAf)$. 
 	- On the other hand, $fAf/fJf=f\overline Af$ is semisimple and so $fJf\supseteq J(fAf)$. 
 - We claim that $fAf$ is local. 
-	- By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]].
+	- By [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]], $e\overline Ae\simeq (\mathrm{End}_{\overline A}(\overline A e))^\mathrm{op}$ is a division ring by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]].
 	- Since $fAf/J(fAf)\simeq e\overline {A}e$, we know $J(fAf)$ is a maximal ideal and $fAf$ is local. 
 
 
@@ -305,6 +305,8 @@ Let $1=e_1+\cdots+e_n$ be a primitive idempotent decomposition in $A/J(A)$, and 
 
 > [!theorem]
 > $c_{ij}\neq 0$ iff $f_iAf_j\neq 0$. 
+{ #e4tl53}
+
 
 **_Proof._**
 It is a direct corollary of [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^3hxo3d\|#^3hxo3d]]. 
@@ -326,6 +328,8 @@ For convenience, if $S$ and $T$ are two simple $A$-modules, we denote the corres
 >   $$c_{ST}=\dim\mathrm{Hom}_A(P_S,P_T)/\dim\mathrm{End}_A(S)=\dim e_SAe_T/\dim \mathrm{End}_A(S).$$
 >   
 >   If moreover $k=\overline k$, then $c_{ST}=\dim\mathrm{Hom}_A(P_S,P_T)=\dim e_S Ae_T$. 
+{ #qi7oer}
+
 
 **_Proof._**
 i) If $P_S\to T$ is nonzero, then the kernel must be a maximal submodule, containing $\mathrm{Rad}(P_S)$. But $P_S/\mathrm{Rad}(P_S)\simeq S$, so $S\simeq T$. Note that there is a commutative diagram
@@ -338,7 +342,7 @@ ii) is trivial by i).
 
 iii) is trivial by [[MATH/抽象代数III/Nodes/Idempotents and Module Structure#^yr2ffd\|#^yr2ffd]].
 
-iv) is trivial by iii) and note that $\dim_k\mathrm{End}_A(S)=1$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. 
+iv) is trivial by iii) and note that $\dim_k\mathrm{End}_A(S)=1$ by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]]. 
 <p align="left">□</p>
 
 

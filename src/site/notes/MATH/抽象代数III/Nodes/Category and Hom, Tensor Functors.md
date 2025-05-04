@@ -5,6 +5,19 @@
 
 # Category
 
+
+> [!definition]
+> A category $\mathscr C$ consists of 
+> - a class of object;
+> - for each pair $(A,B)$, a set $\mathrm{Hom}_{\mathscr C}(A,B)$, whose elements are called morphisms from $A$ to $B$;
+> - for each triple of objects $(A,B,C)$ one has a map $\mathrm{Hom}(A,B)\times \mathrm{Hom}(B,C)\to \mathrm{Hom}(A,C),(f,g)\to g\circ f$. 
+
+It is assumed that the objects and morphisms satisfy the following conditions.
+- If $(A,B)\neq (C,D)$, then $\mathrm{Hom}(A,B)$ and $\mathrm{Hom}(C,D)$ are disjoint. 
+- If $f\in\mathrm{Hom}(A,B)$ and $g\in \mathrm{Hom}(B,C)$, $h\in\mathrm{Hom}(C,D)$, then $(hg)f=h(gf)$.
+- (Unit) For every object $A$, we have an element $1_A\in\mathrm{Hom}(A,A)$ such that $f1_A=f$ for any $f\in\mathrm{Hom}(A,B)$ and $1_Ag=g$ for any $g\in\mathrm{Hom}(B,A)$. 
+
+
 > [!definition]
 > A category $\mathcal D$ is called a subcategory of a category $\mathcal C$ if
 > - the objects of $\mathcal D$ is a subclass of the objects of $\mathcal C$
@@ -113,11 +126,33 @@ If ${}_SM_R$ and ${}_RN_T$ are bimodules, then $M\otimes_R N$ is a left $S$- rig
 > [!definition]
 > A functor is called *exact* if it is both left exact and right exact.
 
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math//nodes/2-modules/#jj28ws" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+> [!proposition]
+> - Let $M'\stackrel{u}{\to}M\stackrel{ v}{\to}M''\to 0$ $(*)$ be a sequence of $A$-module homomorphism. Then it is exact iff for any $A$-module $N$, the induced sequence
+>   
+>   $0\to \mathrm{Hom}(M'',N)\stackrel{\overline{v}}{\to}\mathrm{Hom}(M,N)\stackrel{\overline{u}}{\to}\mathrm{Hom}(M',N)\tag{**}$
+>   
+>   is exact, where $\overline v:f\mapsto f\circ v$ and $\overline u:g\mapsto g\circ u$. 
+> - (dual statement) Let $0\to N'\stackrel{u}{\to} N\stackrel{v}{\to} N''(☺️)$ be a sequence. It is exact iff for any $A$-module $M$, the induced sequence 
+>   
+>   $0\to \mathrm{Hom}(M,N')\stackrel{\overline u}{\to} \mathrm{Hom}(M,N)\stackrel{\overline v}{\to} \mathrm{Hom}(M,N'')\tag{☺️☺️}$
+>   
+>   is exact. 
+
+</div></div>
+
+
 > [!theorem]
 >  Let ${}_SU_R$ be a bimodule. The functor $U\otimes_R\cdot:R\mbox{-module}\to S\mbox{-module}$ is right exact. 
+{ #vr29ta}
+
 
 **_Proof._**
 ![Pasted image 20250316235524.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250316235524.png)
 
-Remark that Theorem 7.4 is same as [[MATH/交换代数/Nodes/2 Modules#^60fa98\|2 Modules#^60fa98]]
+Remark that Theorem 7.4 is same as [[MATH/交换代数/Nodes/2 Modules#^60fa98\|2 Modules#^60fa98]].
 <p align="left">□</p>

@@ -55,7 +55,7 @@ By Maschke's theorem, we know that $FG=U_1\oplus...\oplus U_r$ when $F=\mathbb{R
 
 Let $G$ be an abelian group and $V$ be the group algebra $FG$. Note that for any $x\in G$, $\theta_x:v\mapsto vx$ is an $FG$-homomorphism, as $vxg=vgx$ for all $v\in V$ and $g\in G$. 
 
-For any irreducible submodule $W\subseteq V$, there exists a $\lambda_W$ such that $\theta_x|_{W}:v\mapsto\lambda_Wv$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. It follows that $W=\left\langle v\right\rangle$ is a submodule of $V$. Therefore, each irreducible submodule of $FG$ is of dimension $1$. In the other word, suppose $\rho$ is the regular representation, then there exists a basis such that $\rho(x)$ is a diagonal matrix, as the following proposition shows.
+For any irreducible submodule $W\subseteq V$, there exists a $\lambda_W$ such that $\theta_x|_{W}:v\mapsto\lambda_Wv$ by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]]. It follows that $W=\left\langle v\right\rangle$ is a submodule of $V$. Therefore, each irreducible submodule of $FG$ is of dimension $1$. In the other word, suppose $\rho$ is the regular representation, then there exists a basis such that $\rho(x)$ is a diagonal matrix, as the following proposition shows.
 
 > [!proposition]
 > Let $G$ be a finite group, and let $V$ be a $\mathbb CG$-module. Then there is a basis $\mathcal B$ such that $[g]_{\mathcal B}$ is diagonal and the entries on the diagonal of $[g]_{\mathcal B}$ are nth roots of unity, where n is the order of $g$.
@@ -80,7 +80,7 @@ Furthermore, the converse argument is also true.
 
 By [[MATH/Cards/Nodes/Maschke's Theorem\|Maschke's theorem]], We know that $FG=U_1\oplus...\oplus U_s$ where $U_i$ are irreducible $FG$-submodule.
 
-Now consider the number of $j$ such that $U_i\cong U_j$ for a fixed $U_i$, and denote the number as $d_i$. By [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]], there is $d_i=\mathrm{dim}(\mathrm{Hom}_{\mathbb{C}G}(U_i,\mathbb CG))$, because
+Now consider the number of $j$ such that $U_i\cong U_j$ for a fixed $U_i$, and denote the number as $d_i$. By [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]], there is $d_i=\mathrm{dim}(\mathrm{Hom}_{\mathbb{C}G}(U_i,\mathbb CG))$, because
 - $\dim(\mathrm{Hom}_{\mathbb{C}G}(U_i,U_j))=1$ if $U_i\cong U_j$, and
 - $\dim(\mathrm{Hom}_{\mathbb{C}G}(U_i,U_j))=0$ if $U_i\not\cong U_j$.
 
@@ -124,6 +124,6 @@ For any $z\in Z(G)$,
 $$\theta:V\to V,\;
 v\mapsto vz$$
 
-is a $\mathbb CG$-homomorphism and $vz=\lambda_zv$ by [[MATH/Cards/Nodes/Schur's Lemma\|Schur's lemma]]. Since $V$ is faithful, we have that $\lambda_x\neq\lambda_y$ if $x\neq y$. Otherwise, there exists $1\neq xy^{-1}\in Z(G)$ such that $v(xy^{-1})=\lambda_x\lambda_y^{-1}v=v$ for all $v\in V$. Thus, $Z(G)$ is a subgroup of $\mathbb C^{*}$ and so it is cyclic.
+is a $\mathbb CG$-homomorphism and $vz=\lambda_zv$ by [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]]. Since $V$ is faithful, we have that $\lambda_x\neq\lambda_y$ if $x\neq y$. Otherwise, there exists $1\neq xy^{-1}\in Z(G)$ such that $v(xy^{-1})=\lambda_x\lambda_y^{-1}v=v$ for all $v\in V$. Thus, $Z(G)$ is a subgroup of $\mathbb C^{*}$ and so it is cyclic.
 <p align="left">□</p>
 
