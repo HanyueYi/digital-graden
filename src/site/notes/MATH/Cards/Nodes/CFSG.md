@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/CFSG/","dgPassFrontmatter":true}
 ---
 
-#TERMS/simple-groups 
 
 > [!theorem]
 > Every finite simple group is isomorphic to one of the followings:

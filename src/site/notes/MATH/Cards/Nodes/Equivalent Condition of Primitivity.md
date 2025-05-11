@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Equivalent Condition of Primitivity/","dgPassFrontmatter":true}
 ---
 
-#TERMS/primitive #TERMS/maximal-subgroup #RESOURCE/cards 
 
 > [!theorem]
 > A transitive permutation group is primitive iff its some point stabilizer is a maximal subgroup.

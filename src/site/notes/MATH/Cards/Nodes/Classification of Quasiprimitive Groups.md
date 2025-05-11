@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Classification of Quasiprimitive Groups/","dgPassFrontmatter":true}
 ---
 
-#TERMS/quasiprimitive #RESOURCE/cards 
 
 > [!definition] Quasiprimitive
 > A permutation group is said to be quasiprimitive if all its non-trivial normal subgroups are transitive.{ #8e7xfa}

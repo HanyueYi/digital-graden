@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Properties of HS and HC/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/cards #TERMS/quasiprimitive 
 
 > [!proposition]
 > Let $G$ be a quasiprimitive permutation group acting on $\Omega$. If $G$ has two different minimal normal subgroups $M$ and $N$, then there is 

@@ -100,6 +100,8 @@ where $s_i\in R$ and $t_i\in R\setminus \{0\}$. There exists $\lambda\in R\setmi
 > - given any basis $(e_i)_{1\leqslant i\leqslant r}$ of $V$, there exists $\lambda\in R$ with $\lambda\neq 0$ such that $\lambda M\subseteq \oplus_{i=1}^r Re_i$. 
 
 In the case $V=F$, fractional modules are called *fractional ideals* of $R$. It is an $R$-submodule $I$ of $F$ such that there exists nonzero $\lambda\in R$ such that $\lambda I\subseteq R$. Hence $\lambda I$ is an ideal of $R$. Note that
+{ #5tlkr4}
+
 - every finitely generated $R$-submodule of $F$ is a fractional ideal (if it is not finitely generated, there may not exist $\lambda \in R$ such that $\lambda I\subseteq R$). 
 - if $R$ is Noetherian, then these submodules of $F$ are all fractional ideals. That is, when $R$ is Noetherian, finitely generated $R$-module $\iff$ fractional ideal.
 

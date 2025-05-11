@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Orbits of Normal Subgroups Form a Block System/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/cards #TERMS/normal-subgroup #TERMS/primitive 
 
 > [!proposition]
 > Let $G\leqslant\mathrm{Sym}(\Omega)$ be a group and let $N\lhd G$ be a normal subgroup of $G$. Then the set of orbits of $N$ forms a block system of $\Omega$.

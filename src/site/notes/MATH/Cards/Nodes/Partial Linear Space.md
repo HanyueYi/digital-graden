@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Partial Linear Space/","dgPassFrontmatter":true}
 ---
 
-#TERMS/combinatorics #RESOURCE/cards 
 
 > [!definition]
 > A *partial linear space* is a non-empty set of points, provided with a collection of subsets called lines such that any pair of points is contained in at most one line and every line contains at least two points.

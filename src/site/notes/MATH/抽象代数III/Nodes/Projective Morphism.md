@@ -39,7 +39,7 @@ It is easy to check for any $\varphi\in \mathrm{Hom}_R^\mathrm{pr}(M,M)$ and $\p
 <p align="left">□</p>
 
 
-> [!theorem] 
+> [!theorem] dual basis lemma
 > Let $P$ be an $R$-module. TFAE:
 > - $P$ is a finitely generated projective module.
 > - $\mathrm{Hom}_R^{\rm pr}(P,P)=\mathrm{End}_R(P)$.

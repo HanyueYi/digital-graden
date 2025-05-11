@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Linear Group with Nontrivial p-Core is Reducible/","dgPassFrontmatter":true}
 ---
 
-#TERMS/p-core #TERMS/reducible 
 
 > [!proposition]
 > Let $G\leqslant\mathrm{GL}(n,p)$ be a linear group. If $O_p(G)\neq 1$, then $G$ is reducible.

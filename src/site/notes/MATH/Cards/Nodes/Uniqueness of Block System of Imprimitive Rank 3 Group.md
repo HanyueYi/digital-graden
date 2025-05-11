@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Uniqueness of Block System of Imprimitive Rank 3 Group/","dgPassFrontmatter":true}
 ---
 
-#TERMS/rank-3 #TERMS/imprimitive #RESOURCE/cards 
 
 > [!lemma]
 > Assume that $G\leqslant\mathrm{Sym}(\Omega)$ is a finite imprimitive rank $3$ group. Then $G$ has a unique non-trivial proper block system $\mathcal{B}$.

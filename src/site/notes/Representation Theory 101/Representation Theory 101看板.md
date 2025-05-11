@@ -19,7 +19,7 @@ One direction is easy. If $\mathrm{rad}U$ is maximal, then $U/\mathrm{rad}U$ is 
 <p align="left">□</p>
 
 **Remark.**
-- Is there some connection with [[MATH/Lie group and Lie algebra/Nodes/3 The Killing form - describe solvable and semi-simple\|3 The Killing form - describe solvable and semi-simple]]?
+- Is there some connection with [[MATH/Lie Group and Lie Algebra/Nodes/3 The Killing form - describe solvable and semi-simple\|3 The Killing form - describe solvable and semi-simple]]?
 	- [Semisimple module](https://en.wikipedia.org/wiki/Semisimple_module)
 	- [Semisimple algebra](https://en.wikipedia.org/wiki/Semisimple_algebra)
 - The definition of radical above is different to [wiki](https://en.wikipedia.org/wiki/Radical_of_a_module).

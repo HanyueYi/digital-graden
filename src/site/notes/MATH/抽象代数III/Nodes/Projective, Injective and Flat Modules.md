@@ -56,7 +56,7 @@ is exact. Then $\mathrm{Hom}_R(F,\cdot)=\mathrm{Hom}_R(P,\cdot)\times\mathrm{Hom
 
 
 > [!corollary]
-> A finitely generated projective $R$-module is a a direct summand of $R^n$ for some $n\in \mathbb{N}_+$. 
+> A finitely generated projective $R$-module is a direct summand of $R^n$ for some $n\in \mathbb{N}_+$. 
 { #ajkzkw}
 
 

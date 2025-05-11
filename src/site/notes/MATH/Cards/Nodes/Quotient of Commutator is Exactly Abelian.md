@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Quotient of Commutator is Exactly Abelian/","dgPassFrontmatter":true}
 ---
 
-#TERMS/commutator #RESOURCE/cards #TERMS/basic 
 
 > [!proposition]
 > Let $G$ be a finite group and let $N\lhd G$ be a normal subgroup. Then $G/H$ is abelian if and only if $G'\leqslant H$.

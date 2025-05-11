@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/抽象代数II/抽象代数II/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/notes/class 
 
 这是MAT8020抽象代数II的随堂笔记：
 

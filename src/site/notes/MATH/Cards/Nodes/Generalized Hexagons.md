@@ -2,7 +2,7 @@
 {"dg-publish":true,"aliases":["generalized hexagon","generalized hexagons"],"draft":false,"permalink":"/MATH/Cards/Nodes/Generalized Hexagons/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/cards #TERMS/combinatorics 
+
 # Definition
 
 

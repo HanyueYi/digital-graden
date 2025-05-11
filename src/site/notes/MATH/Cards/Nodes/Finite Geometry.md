@@ -2,7 +2,6 @@
 {"dg-publish":true,"aliases":["finite geometry","finite geometries"],"draft":false,"permalink":"/MATH/Cards/Nodes/Finite Geometry/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/cards 
 
 > [!definition] [[Talks/Some progress on locally-primitive generalized polygons\|Some progress on locally-primitive generalized polygons]]
 > A finite geometry (of rank $2$) is a triple $\mathcal S=(\mathcal P,\mathcal L, \mathrm I)$, where $\mathcal P$, $\mathcal L$ are disjoint non-empty finite sets and $\mathrm I\subseteq \mathcal P\times\mathcal L$ is a relation, the *incidence relation*.

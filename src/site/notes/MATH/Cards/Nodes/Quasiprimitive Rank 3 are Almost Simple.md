@@ -2,7 +2,6 @@
 {"dg-publish":true,"draft":false,"permalink":"/MATH/Cards/Nodes/Quasiprimitive Rank 3 are Almost Simple/","dgPassFrontmatter":true}
 ---
 
-#TERMS/quasiprimitive #TERMS/rank-3 #TERMS/almost-simple 
 
 > [!proposition]
 > Let $G$ be a quasiprimitive but not primitive group. Then $G$ is almost simple.

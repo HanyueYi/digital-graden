@@ -2,7 +2,6 @@
 {"dg-publish":true,"aliases":["generalized quadrangles","generalized quadrangle"],"draft":false,"permalink":"/MATH/Cards/Nodes/Generalized Quadrangle/","dgPassFrontmatter":true}
 ---
 
-#RESOURCE/cards #TERMS/combinatorics 
 
 > [!definition] [[Literature/Nodes/devillersClassificationFinitePartial2005\|devillersClassificationFinitePartial2005]]
 > A generalized quadrangle $GQ(s,t)$ of order $(s,t)$ is a [[MATH/Cards/Nodes/Partial Geometry\|partial geometry]] with parameters $(s,t,1)$.
