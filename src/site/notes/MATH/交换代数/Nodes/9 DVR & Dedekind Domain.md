@@ -11,18 +11,21 @@
 > (Sometimes define $\nu(0)=+\infty$.)
 
 > [!definition]
-> Let $R=\{x\in k:\nu(x)\geqslant 0\}$ which contains $0$, then $R$ is a ring, which is called the valuation ring of $\nu$. It is a local ring with $m_R=\{x\in R:r(x)\geqslant 1\}$. 
+> Let $R=\{x\in k:\nu(x)\geqslant 0\}$ which contains $0$, then $R$ is a ring, which is called the valuation ring of $\nu$. It is a local ring with $m_R=\{x\in R:r(x)> 0\}$. 
 
 **_Proof._**
 It is trivial to show $R$ is a ring. To see it is local with the unique maximal ideal $m_R$, it suffices to check $x\in R\setminus m_R$ is a unit. But in this case $\nu(x)=0$ iff $\nu(1/x)=\nu(1)-\nu(x)=0$ and so $1/x\in R$. 
 <p align="left">□</p>
 
 
-**Remark.** Given a valuation as above, one can check $||x||=\epsilon^{\nu(x)}$ with $0<\epsilon<1$ a fixed element defines a norm in $k$. That is to say, $d(x,y)=|||x-y||=\epsilon^{\nu(x-y)}$ is a distance. To show it, it suffices to show it satisfies the triangle inequality.
+**Remark.** Given a valuation as above, one can check $||x||=\epsilon^{\nu(x)}$ with $0<\epsilon<1$ a fixed element defines a norm in $k$. That is to say, $d(x,y)=||x-y||=\epsilon^{\nu(x-y)}$ is a distance. To show it, it suffices to show it satisfies the triangle inequality.
 
-> [!NOTE] “在这个世界里，所有的三角形都是等腰三角形。” 
+> [!check] “在这个世界里，所有的三角形都是等腰三角形。” 
+> For a triangle $\Delta ABC$, we have 
 > 
-> See [[MATH/抽象代数III/Nodes/HW9#^lchh7e\|here]]. 
+> $$d(a-c)=d((a-b)+(b-c))=\epsilon^{\nu(a-b+b-c)}=\epsilon^{\nu(a-b)}=d(a-b)$$
+> 
+>if $\nu(a-b)>\nu(b-c)$. See [[MATH/抽象代数III/Nodes/HW9#^lchh7e\|here]]. 
 
 **Examples.**
 - $p$-adic valuation on $\mathbb{Q}$. 
@@ -40,35 +43,20 @@ It is trivial to show $R$ is a ring. To see it is local with the unique maximal 
 	- Take an irreducible polynomial $r(x)\in k[x]$. Then we define $\nu(f(x)/g(x))=\nu(f(x))-\nu(g(x))$. For $f(x)=r(x)^a\prod_{i=1}^n r_i(x)$, let $\nu(f(x))=a$. 
 	- It is valuation, similar to $\nu_p$ on $\mathbb{Q}$. 
 
-**Remark.** 这个和ED不一样，那个只是一个norm？
+**Remark.** Valuation ring and ED are different, as [[MATH/抽象代数II/Nodes/2.4 PID and Euclidean domain#^ma75tz\|a norm function]] $N$ does not satisfies $N(a+b)\geqslant \min\{N(a),N(b)\}$.
 
 > [!definition]
-> We say an integral is a DVR (discrete valuation ring) if there exists a discrete valuation $\mathrm{Frac} A\stackrel{\nu}{\twoheadrightarrow} \mathbb{Z}$ such that $A$ is a valuation ring. 
+> We say an integral is a *DVR* (discrete valuation ring) if there exists a discrete valuation $\mathrm{Frac} A\stackrel{\nu}{\twoheadrightarrow} \mathbb{Z}$ such that $A$ is a valuation ring. 
 
-**Fact.** DVR is a PID. 
+**Fact.** DVR is a PID. It is also proved in [[MATH/抽象代数III/Nodes/8 250415#^bb0319\|8 250415#^bb0319]]. 
 - Since $\mathrm{Frac} A\stackrel{\nu}{\twoheadrightarrow} \mathbb{Z}$ is surjective, there exists $x\in \mathrm{Frac}A$ such that $\nu(x)=1$ (such $x$ is called a uniformizer). 
-- Claim 1: $m_k=(x)$. Indeed, given any $y\in m_k$, notice that $y\in m_k$ iff $\nu(y)\geqslant 1$. Then $\nu(y/x)\geqslant 1-1\geqslant 0$ and $y/x\in A$. Thus $y\in (x)$ and $m_k\subseteq (x)$ yield $m_k=(x)$. 
-- Claim 2: given any ideal $I\subseteq A$, $I=(x^k)$ for some $k\geqslant 0$. 
-	- Let $k=\min\{\nu(z):z\in I\}$. There exists $y\in I$ such that $\nu(y)=k$. then
+	- Claim 1: the unique maximal ideal is $m_k=(x)$. 
+		- Indeed, given any $y\in m_k$, notice that $y\in m_k$ iff $\nu(y)\geqslant 1$. Then $\nu(y/x)\geqslant 1-1\geqslant 0$ and $y/x\in A$. Thus $y\in (x)$ and $m_k\subseteq (x)$ yield $m_k=(x)$. 
+	- Claim 2: given any ideal $I\subseteq A$, $I=(x^k)$ for some $k\geqslant 0$. 
+		- Let $k=\min\{\nu(z):z\in I\}$. There exists $y\in I$ such that $\nu(y)=k$. Then $\nu(y/x^k)=k-k=0$ and $I\supseteq (y)=(x^k)$. 
+		- For any $z\in I$, we have $\nu(z)\geqslant k$ and $\nu(z/x^k)\geqslant 0$. Thus $z\in (x^k)$ for all $z\in I$ and $I\subseteq (x^k)$. 
+		- Now we prove that $I=(x^k)$. 
 
-- [ ] 
-
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math/iii/nodes/8-250415/#bb0319" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-> [!theorem]
-> Let $(k,\nu)$ be a discrete normalized valuation field. Let $R$ be its valuation ring, and let $P$ be its valuation ideal. 
-> - Let $\pi\in R$ with $\nu(\pi)=1$. Then any $\alpha\in k$ is expressed as $\alpha=\pi^i u$ where $i=\nu(\alpha)$, $u\in R\setminus P$. 
-> - Any nonzero ideal of $R$ is of the form $p^i=(\pi^i)$ for some $i\geqslant 0$. In particular, $R$ is a $PID$. 
-> - $R$ is integral closed. 
-
-</div></div>
-
-
-
-*****
 
 > [!proposition]
 > Let $A$ be a Noetherian local domain with dimension $1$. Let $m$ be the maximal ideal of $A$, and let $k=A/m$. TFAE:
@@ -86,7 +74,7 @@ We starts with $2$ facts on $A$.
 - Fact B: $m^n\neq m^{n+1}$ for all $n\geqslant 0$. 
 	- proof. Otherwise $A$ is Artinian local and so $\dim A=0$ by [[MATH/交换代数/Nodes/8 Artinian Rings#^myy86x\|8 Artinian Rings#^myy86x]], which is impossible. 
 
-- [ ] i)->ii) [[5.18: in homework?\|5.18: in homework?]]
+i)->ii) See [[MATH/交换代数/Nodes/HW13#^bygw7s\|here]]. 
 
 ii)->iii) Choose any nonzero $a\in m$. By Fact A, there exists $n$ such that $m^n\subseteq(a)$ and $m^{n-1}\not\subseteq (a)$. Pick some $b\in m^{n-1}$ such that $b\notin(a)$. Let $x=a/b\in K=\mathrm{Frac}(A)$. We aim to show $x$ is a "uniformlizer", that is, $m=(x)$. Note $x^{-1}=b/a\notin A$, then $x^{-1}$ is not integral over $A$ by $A$ integral closed. Claim $x^{-1}m=A$ as subsets of $K$. (Remark that we don't know whether $x\in A$.) If $x^{-1}m=A$, then $m=(x)$ and iii) holds. 
 
