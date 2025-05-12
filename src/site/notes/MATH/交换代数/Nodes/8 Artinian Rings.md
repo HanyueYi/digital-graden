@@ -121,6 +121,8 @@ Note that $\{m_i\}_{i=1}^n$ are pairwise coprime, so $\{m_i^k\}$ are also coprim
 > - all ideals of $A$ are principal;
 > - $m$ is principal;
 > - $\dim_k m/m^2\leqslant 1$.
+{ #f166vm}
+
 
 **_Proof._**
 i)->ii) Obvious. 

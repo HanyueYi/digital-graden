@@ -20,7 +20,7 @@
 > Let $A\subseteq B$ be a subring. Let $x\in B$. TFAE:
 > - $x$ is integral over $A$;
 > - $A[x]$ is a finitely generated $A$-module;
-> - $A[x]\subseteq C\subseteq B$ where $C$ is a subring, and $C$ is a finitely generated $A$-module;
+> - there exists subring $C$ such that $A[x]\subseteq C\subseteq B$, and $C$ is a finitely generated $A$-module;
 > - there exists a faithful $A[x]$-module $M$, such that $M$ is a finitely generated $A$-module.
 { #jy6o7s}
 

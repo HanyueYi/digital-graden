@@ -259,8 +259,7 @@ Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|
 > Let $A$ be a Noetherian ring, and let $m\subseteq A$ be a maximal ideal. For an ideal $q\subseteq A$, TFAE:
 > - $q$ is $m$-primary
 > - $r(q)=m$
-> - $m^n\subseteq q\subseteq m$ for some $n$
-
+> - $m^n\subseteq q\subseteq m$ for some $n$ 
 **_Proof._**
 i)->ii) by definition. 
 

@@ -223,6 +223,8 @@ Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384
 > - $q$ is $m$-primary
 > - $r(q)=m$
 > - $m^n\subseteq q\subseteq m$ for some $n$
+{ #s2eg5f}
+
 
 **_Proof._**
 i)->ii) by definition. 

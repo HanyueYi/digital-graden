@@ -35,6 +35,7 @@ Let $\lambda\in R$ with $\lambda >0$. Define $\nu'(a)=\lambda\nu(a)$ for all $a\
 > 
 > In the case $\nu(k^\times)=\mathbb{Z}$, $\nu$ is said to be *normalized*. 
 
+*****
 
 > [!theorem]
 > Let $(k,\nu)$ be a discrete normalized valuation field. Let $R$ be its valuation ring, and let $P$ be its valuation ideal. 
