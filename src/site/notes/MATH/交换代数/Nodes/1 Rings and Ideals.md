@@ -109,6 +109,8 @@ Recall that if $\alpha$ and $\beta$ are coprime, i.e., $\alpha+\beta=A$, then $\
 > - If $\alpha_i,\alpha_j$ are pairwise coprime, then $\prod{\alpha_i}=\cap \alpha_i$.
 > - $\phi$ is surjective if $\alpha_i,\alpha_j$ are pairwise coprime.
 > - $\phi$ is injective if $\cap\alpha_i=(0)$.
+{ #ss3fn4}
+
 
 **_Proof._**
 i) is a generalization of the above "recall" part. 
@@ -183,6 +185,8 @@ by [[MATH/交换代数/Nodes/1 Rings and Ideals#^bgejpl\|#^bgejpl]]. Now we fini
 
 > [!proposition]
 > If $r(\alpha),r(\beta)$ are coprime, then $\alpha,\beta$ are coprime.
+{ #xs5hv8}
+
 
 **_Proof._**
 It is easy to verify that $r(\alpha+\beta)=r(r(\alpha)+r(\beta))$, and it deduces that $r(\alpha+\beta)=r(r(\alpha)+r(\beta))=r(A)=A$.

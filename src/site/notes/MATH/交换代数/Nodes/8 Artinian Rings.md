@@ -104,17 +104,19 @@ If i) does not hold, then $m^n=m^{n+1}$. By [[MATH/交换代数/Nodes/2 Modules#
 
 "->" By [[MATH/交换代数/Nodes/8 Artinian Rings#^steden\|#^steden]], $A$ has finitely many maximal ideals $m_1,\cdots,m_n$. By proof of [[MATH/交换代数/Nodes/8 Artinian Rings#^myy86x\|#^myy86x]], we have $(m_1\cdots m_n)^k=0$. 
 
-Note that $\{m_i\}_{i=1}^n$ are pairwise coprime, so $\{m_i^k\}$ are also coprime 
+Note that $\{m_i\}_{i=1}^n$ are pairwise coprime and so for $\{m_i^k\}$ are also coprime, because 
 
-![Pasted image 20250421203354.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250421203354.png)
+$$r(m_i^k+m_j^k)=r(r(m_i^k)+r(m_j^k))=A$$
 
+by [[MATH/交换代数/Nodes/1 Rings and Ideals#^xs5hv8\|1 Rings and Ideals#^xs5hv8]]. Then by [[MATH/交换代数/Nodes/1 Rings and Ideals#^ss3fn4\|1 Rings and Ideals#^ss3fn4]], we have $\prod_{i=1}^n m_i^k=\cap_{i=1}^n m_i^k$. It deduces that 
+
+$$A\simeq A/(0)=A/\prod_{i=1}^n m_i^k=A/\cap_{i=1}^n m_i^k\simeq \prod_{i=1}^n A/m_i^k.$$
+
+Claim that $A/m_i^k$ is Artinian local. It is easy to check $A/m_i^k$ is Artinian. Additionally, note that $\overline{ m_j}=A/m_i^k$ for all $j\neq i$. Hence $\overline m_i$ is the unique maximal ideal of $A/m_i^k$. Now we finish the proof.
 <p align="left">□</p>
 
 
-- [ ] Now given （最后一行
-
-![Pasted image 20250421204722.png](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250421204722.png)
-
+**Remark.** Given a Noetherian local ring $(A,m)$, $m/m^2$ is a $k=A/m$-vector space and so $\dim_k m/m^2<\infty$.
 
 > [!proposition]
 > Suppose $(A,m)$ is Artinian local. Then TFAE:

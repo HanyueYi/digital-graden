@@ -42,9 +42,9 @@ $$\phi:M\to M,m\mapsto xm$$
 
 be a homomorphism of $A$-modules with $\alpha=A$. Then there exist $a_1,\cdots,a_n\in A$ such that 
 
-$$\phi^n+a+1\phi^{n-1}+\cdots+ a_n$$
+$$\phi^n+a_1\phi^{n-1}+\cdots+ a_n$$
 
-kills $M$. Then $x^n+a_1x+\cdots+a_n\in\mathrm{Ann}(M)$. Since $M$ is an $A[x]$-module, we know $x$ is integral over $A$. 
+kills $M$. Then $x^n+a_1x^{n-1}+\cdots+a_n\in\mathrm{Ann}(M)$. Since $M$ is an $A[x]$-module, we know $x$ is integral over $A$. 
 <p align="left">□</p>
 
 
@@ -69,8 +69,8 @@ Let $x,y\in C$, then $A[x,y]$ is a finitely generated $A$-module by [[MATH/交�
 
 
 > [!definition]
-> $C$ in [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^4b091b\|#^4b091b]] is called the integral closure of $A$ in $B$. 
-> - If $C$ above is equal to $A$, then we say $A$ is integrally closed in $B$. 
+> $C$ in [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^4b091b\|#^4b091b]] is called the *integral closure* of $A$ in $B$. 
+> - If $C$ above is equal to $A$, then we say $A$ is *integrally closed* in $B$. 
 > - If $C=B$, then we say $B$ is integral over $A$. 
 
 **Remark.** Let $f:A\to B$ be a ring homomorphism. We say $f$ is an integral homomorphism if $B$ is integral over $f(A)$. In this case, we say $B$ is an integral $A$-algebra. 
@@ -154,7 +154,9 @@ By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^f6d0xm\|#^f6d0
 
 
 > [!corollary]
-> Suppose $B/A$ is integral. Let $q\subseteq q'\subseteq B$ be a prime ideal. If $q^c=q'^c=p\subseteq A$, then $q=q'$. 
+> Suppose $B/A$ is integral. Let $q\subseteq q'\subseteq B$ be a prime ideal. If $q^c=q'^c=p\subseteq A$, then $q=q'$.
+{ #8f19d4}
+
 
 **_Proof._**
 Consider the following diagram. 
@@ -170,7 +172,6 @@ By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^8zjrn5\|#^8zjr
 Then $q=q'$ by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|3 Rings and Modules of Fractions#^961e0a]]. 
 <p align="left">□</p>
 
-我没听懂（）回头再看。
 
 > [!corollary]
 > Assume $A\subseteq_{\text{int}}B$. Then $\dim A\geqslant \dim B$. 
@@ -178,7 +179,7 @@ Then $q=q'$ by [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0
 
 
 **_Proof._**
-Let $q_0\subsetneq q_1\subsetneq \cdots\subsetneq q_n$ be the largest chain of primes in $B$. Then 
+Let $q_0\subsetneq q_1\subsetneq \cdots\subsetneq q_n$ be the largest chain of primes in $B$. Then by [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^8f19d4\|#^8f19d4]] 
 
 $$q_0^c\subsetneq q_1^c\subsetneq \cdots\subsetneq q_n^c$$
 
@@ -205,7 +206,7 @@ and so we finish the proof.
 
 
 > [!theorem] going-up theorem
-> Assume $A\subseteq_{\text{int}}B$. Let $q_1\subseteq\cdots\subseteq q_n$ be a chain of prime ideals in $A$, and let $q_1\subseteq \cdots\subseteq q_m$ be a chain of prime ideals in $B$ with $0\leqslant m<n$ and $q_i^c=p_i$. Then one can extend the second chain to 
+> Assume $A\subseteq_{\text{int}}B$. Let $p_1\subseteq\cdots\subseteq p_n$ be a chain of prime ideals in $A$, and let $q_1\subseteq \cdots\subseteq q_m$ be a chain of prime ideals in $B$ with $0\leqslant m<n$ and $q_i^c=p_i$. Then one can extend the second chain to 
 > 
 > $$q_1\subseteq \cdots\subseteq q_{m}\subseteq q_{m+1}\subseteq\cdots \subseteq q_{n}$$
 > 
@@ -283,7 +284,7 @@ It deduces that $x^{mn}+b_1x^{n(m-1)}+\cdots+b_m=0$ by $\phi(1)=x^n$ and so $x$ 
 
 
 > [!proposition]
-> Let $A\subseteq B$ be two integral domains. Suppose $A$ is integrally closed and $\alpha\subseteq A$ is an ideal. If $x\in B$ is integral over $\alpha$, then $x$ is algebraic over $k=\mathrm{Frac}A$. Furthermore, if $\mathrm{Irr}(x,K)=t^n+a_1t^{n-1}+\cdots+a_n$, then $a_i\in r(\alpha)$. 
+> Let $A\subseteq B$ be two integral domains. Suppose $A$ is integrally closed and $\alpha\subseteq A$ is an ideal. If $x\in B$ is integral over $\alpha$, then $x$ is algebraic over $k=\mathrm{Frac}A$. Furthermore, if $\mathrm{Irr}(x,K)=t^n+a_1t^{n-1}+\cdots+a_n$, then $a_i\in r(\alpha)$.
 { #fbc39e}
 
 
@@ -297,7 +298,7 @@ Apply [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^vwwek4\|#^v
 
 
 > [!theorem] Going-down theorem
-> Let $A\subseteq B$ be integral domains. Suppose $A$ is integrally closed and $B$ is integral over $A$. Let $p_1\supseteq\cdots\supseteq p_n$ be a chain of prime ideals in $A$, and let $q_1\supseteq\cdots\supseteq q_m$ be a chain of prime ideals in $B$ with $q_i^c=p_i$ and $m<n$. Then there exists $q_1\supseteq\cdots\supseteq q_m\supseteq\cdots\supseteq q_n$ such that $q_i^c=p_i$.
+> Let $A\subseteq B$ be integral domains. Suppose $A$ is **integrally closed** and $B$ is integral over $A$. Let $p_1\supseteq\cdots\supseteq p_n$ be a chain of prime ideals in $A$, and let $q_1\supseteq\cdots\supseteq q_m$ be a chain of prime ideals in $B$ with $q_i^c=p_i$ and $m<n$. Then there exists $q_1\supseteq\cdots\supseteq q_m\supseteq\cdots\supseteq q_n$ such that $q_i^c=p_i$.
 
 **_Proof._**
 The case of $n=1$ is trivial by [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^whjkcj\|#^whjkcj]]. For $n\geqslant 2$, similarly it suffices to consider the case of $n=2$ and $m=1$. So we have $p_1\supseteq p_2$ and $q_1\supseteq ?$. Recall [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^7xys15\|3 Rings and Modules of Fractions#^7xys15]], for a ring homomorphism $A\to B$, prime ideal $p\subseteq A$ is a contraction iff $p^{ec}=p$. 
@@ -327,3 +328,8 @@ Recall that we aim to show $x\in p_2$. Suppose otherwise, since $v_ix^r=u_i\in p
 > “这一章要考的话，主要考integral的判别法则。”
 > 
 > “going up going down 不考，主要是欣赏一下。”
+> > [!check]
+> 上升定理说的是，从下往上匹配素理想链总是可能的（只要是整扩张）。 下降定理说的是，在更好的条件下（A 整闭等），从上往下匹配素理想链也是可能的。
+
+
+

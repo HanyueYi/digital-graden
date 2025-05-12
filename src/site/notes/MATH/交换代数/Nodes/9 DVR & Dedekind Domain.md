@@ -76,7 +76,7 @@ We starts with $2$ facts on $A$.
 
 i)->ii) See [[MATH/交换代数/Nodes/HW13#^bygw7s\|here]]. 
 
-ii)->iii) Choose any nonzero $a\in m$. By Fact A, there exists $n$ such that $m^n\subseteq(a)$ and $m^{n-1}\not\subseteq (a)$. Pick some $b\in m^{n-1}$ such that $b\notin(a)$. Let $x=a/b\in K=\mathrm{Frac}(A)$. We aim to show $x$ is a "uniformlizer", that is, $m=(x)$. Note $x^{-1}=b/a\notin A$, then $x^{-1}$ is not integral over $A$ by $A$ integral closed. Claim $x^{-1}m=A$ as subsets of $K$. (Remark that we don't know whether $x\in A$.) If $x^{-1}m=A$, then $m=(x)$ and iii) holds. 
+ii)->iii) Choose any nonzero $a\in m$. By Fact A, there exists $n$ such that $m^n\subseteq(a)$ and $m^{n-1}\not\subseteq (a)$. Pick some $b\in m^{n-1}$ such that $b\notin(a)$. Let $x=a/b\in K=\mathrm{Frac}(A)$. We aim to show $x$ is a "uniformizer", that is, $m=(x)$. Note $x^{-1}=b/a\notin A$, then $x^{-1}$ is not integral over $A$ by $A$ integral closed. Claim $x^{-1}m=A$ as subsets of $K$. (Remark that we don't know whether $x\in A$.) If $x^{-1}m=A$, then $m=(x)$ and iii) holds. 
 
 Now we prove the claim. Notice that $x^{-1}m=(b/a)m\subseteq A$, because for any $y\in m$, $by\in m^n\subseteq (a)$. Also note that $x^{-1}m$ is an ideal of $A$. So it remains to prove $x^{-1}m\not\subseteq m$. Suppose otherwise $x^{-1}m\subseteq m$, then this defines an $A[x^{-1}]$-module structure on $m$. This is a faithful $A[x^{-1}]$-module, because all multiplications happen inside $K$. By [[MATH/交换代数/Nodes/5 Integral Dependence and Valuation#^jy6o7s\|5 Integral Dependence and Valuation#^jy6o7s]], $x^{-1}$ is integral over $A$, leading to a contradiction. Now we proved the claim.
 

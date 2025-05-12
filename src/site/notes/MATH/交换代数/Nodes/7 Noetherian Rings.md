@@ -32,11 +32,7 @@ By [[MATH/交换代数/Nodes/3 Rings and Modules of Fractions#^961e0a\|3 Rings a
 > [!corollary]
 > If $A$ is Noetherian, then $A_p$ is Noetherian. 
 
-**Remark.** There exists a ring $A$ such that $A_p$ is Noetherian, but $A$ is not Noetherian. Indeed, let $A=(\prod_{n=1}^\infty \mathbb{F})$ with $\mathbb{F}=\mathbb{Z}/2\mathbb{Z}$, which is non-Noetherian, because $\mathbb{F}\times 0\times 0\cdots\subseteq \mathbb{F}\times \mathbb{F}\times 0\times\cdots\subseteq\cdots$ does not terminate. A prime ideal $p=\mathbb{F}\times \mathbb{F}\times \cdots\times\{0\}\times \mathbb{F}\times \cdots$ and $A_p=\mathbb{F}$ is Noetherian. See [here](https://math.stackexchange.com/a/73442/1445401). 
-
-![Pasted image 20250414203157.png|500](/img/user/%E9%99%84%E4%BB%B6/Pasted%20image%2020250414203157.png)
-
-
+**Remark.** There exists a ring $A$ such that $A_p$ is Noetherian for all prime ideals $p$, but $A$ is not Noetherian. Indeed, let $A=(\prod_{n=1}^\infty \mathbb{F})$ with $\mathbb{F}=\mathbb{Z}/2\mathbb{Z}$, which is non-Noetherian, because $\mathbb{F}\times 0\times 0\cdots\subseteq \mathbb{F}\times \mathbb{F}\times 0\times\cdots\subseteq\cdots$ does not terminate. All prime ideals are in the form of $p=\mathbb{F}\times \mathbb{F}\times \cdots\times\{0\}\times \mathbb{F}\times \cdots$ and the corresponding $A_p=\mathbb{F}$ is Noetherian. See [here](https://math.stackexchange.com/a/73442/1445401). 
 
 
 > [!theorem] Hilbert basis theorem
@@ -229,9 +225,9 @@ Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384
 **_Proof._**
 i)->ii) by definition. 
 
-- [ ] ii)->i) by 4 ? 这个证明没看懂
+ii)->i) By [[MATH/交换代数/Nodes/4 Primary Decomposition#^vsnd02\|4 Primary Decomposition#^vsnd02]].
 
-ii)->iii) by [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384015]]
+ii)->iii) by [[MATH/交换代数/Nodes/7 Noetherian Rings#^384015\|#^384015]]. 
 
 iii)->ii) obvious.
 <p align="left">□</p>

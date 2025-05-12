@@ -47,6 +47,8 @@ Recall that $r(q)=\cap_{p\supseteq q}p$, so it suffices to show $r(q)$ is a prim
 
 > [!proposition]
 > Let $\alpha\subseteq A$ be an ideal. If $r(\alpha)$ is a maximal ideal, then $\alpha$ is a primary. In particular, if $m\subseteq A$ is a maximal ideal, then $m^n$ is primary. 
+{ #vsnd02}
+
 
 **_Proof._**
 Note that $\alpha\subseteq r(\alpha)=\cap_{p\supseteq\alpha}p=m$ is maximal. Then $m$ is the unique prime ideal containing $\alpha$, and so $m$ is the unique maximal ideal in $A/\alpha$. Hence $A/\alpha$ is a local ring. Suppose $xy\in \alpha$, if $x\notin m=r(\alpha)$, i.e., $x^n\notin \alpha$, then we aim to show $y\in \alpha$. Since $A/\alpha$ is local, $\overline x\in (A/\alpha)^\times$ and so $\overline y=0\in A/\alpha$. Thus, $y\in \alpha$. 
@@ -144,10 +146,9 @@ Associated primes are $\{(x),(xy)\}$.
 **_Proof._**
 If $p$ is prime, then $p\supseteq\alpha=\cap q_i$ yields $p\supseteq r(\alpha)=\cap r(q_i)=\cap p_i$. By [[MATH/交换代数/Nodes/1 Rings and Ideals#^tepoo1\|1 Rings and Ideals#^tepoo1]], $p\supseteq p_i$ for some $i$. So given a minimal element $p/\alpha$ on RHS, $p\supseteq p_i$. By minimality, $p=p_i$ and $p_i$ has to be minimal in LHS. So $\theta$ is surjective. 
 
-In remains to show, if $p_i$ is minimal element in $\{p_1,\cdots,p_n\}$, then $p_i/\alpha$ is a minimal element in $\mathrm{Spec}(A/\alpha)$. Otherwise, minimal element $p_i\supsetneq p$ for some $p$ such that $p/\alpha$ is minimal in $\mathrm{Spec}(A/\alpha)$. But by Step 1, $p=p_j$ for some $j$ but $p_i\supsetneq p_j$ leading to a contradiction. 
+In remains to show, if $p_i$ is minimal element in $\{p_1,\cdots,p_n\}$, then $p_i/\alpha$ is a minimal element in $\mathrm{Spec}(A/\alpha)$. Otherwise, by Zorn's lemma, there is a minimal element $p_i\supsetneq p$ for some $p$ such that $p/\alpha$ is minimal in $\mathrm{Spec}(A/\alpha)$. But by Step 1, $p=p_j$ for some $j$ but $p_i\supsetneq p_j$ leading to a contradiction. 
 <p align="left">□</p>
 
-- [ ] existence of minimal prime
 
 # Interlude: relation between primary decomposition and irreducible components
 
@@ -164,11 +165,7 @@ Recall that
 </div></div>
 
 
-and an irreducible component is defined as a maximal irreducible subspace.
-
-- [ ] In general, irreducible component of $\mathrm{Spec}A$ are $V(p)$'s where $p$ is a minimal prime ideal.
-{ #eai9n3}
-
+and an irreducible component is defined as a maximal irreducible subspace. In general, irreducible component of $\mathrm{Spec}A$ are $V(p)$'s where $p$ is a minimal prime ideal.^eai9n3
 
 If $\alpha$ is decomposable, then by [[MATH/交换代数/Nodes/4 Primary Decomposition#^6e2c2b\|#^6e2c2b]], $\mathrm{Spec}(A/\alpha)$ has finitely many irreducible components. 
 
@@ -180,8 +177,7 @@ If $\alpha$ is decomposable, then by [[MATH/交换代数/Nodes/4 Primary Decompo
 
 $$V(\alpha)\to \mathrm{Spec}(A/\alpha),p\mapsto p/\alpha$$
 
-is a homeomorphism. 
-- [ ] proof
+is a homeomorphism. The proof is easy.
 
 
 > [!proposition]
@@ -263,9 +259,9 @@ Take $\alpha=(0)$ in [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|
 **_Proof._**
 i)->ii) by definition. 
 
-- [ ] ii)->i) by 4 ? 这个证明没看懂
+ii)->i) By [[MATH/交换代数/Nodes/4 Primary Decomposition#^vsnd02\|4 Primary Decomposition#^vsnd02]].
 
-ii)->iii) by [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]
+ii)->iii) by [[MATH/交换代数/Nodes/4 Primary Decomposition#^384015\|#^384015]]. 
 
 iii)->ii) obvious.
 <p align="left">□</p>
