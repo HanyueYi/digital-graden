@@ -53,6 +53,8 @@ By [[MATH/Cards/Nodes/Burnside's Transfer Theorem#^sezt3q\|#^sezt3q]], $G$ is $2
 
 > [!proposition]
 > Let $G$ be a finite nonabelian simple group, and let $p$ be the smallest prime divisor of $|G|$. Then $|G|$ is divisible by $p^3$ or $12$.
+{ #5il03i}
+
 
 **_Proof._**
 Suppose $|G|$ is not divisible by $p^3$, then $p^2||G|$. Otherwise, a Sylow $p$-subgroup $P=C_p$ and $G$ is $P$-nilpotent, contradiction by $G$ simple. Thus $P$ is cyclic or $P\cong C_p\times C_p$. The first case is impossible. Hence $P\cong C_p\times C_p$ and $N_G(P)\neq C_G(P)$. Further $N_G(P)/C_G(P)\lesssim\mathrm{Aut}(P)=\mathrm{GL}_2(p)$ and $|\mathrm{GL}_2(p)|=p(p-1)^2(p+1)$. Since $p$ is the smallest prime divisor and $G$ is nonsolvable, then $p=2$ and $p+1=3$. It yields that $12\big||G|$.  

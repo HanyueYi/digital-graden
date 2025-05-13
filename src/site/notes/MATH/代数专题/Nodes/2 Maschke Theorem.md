@@ -7,6 +7,8 @@ Let $G$ be a group, $k$ a field and $V$ a vector space over $k$. Assume that $V$
 
 > [!theorem] Maschke theorem
 > Let $G$ be a finite group and $\mathrm{char} k\not\mid |G|$. Let $V$ be a $G$-module and $W$ a $G$-submodule. Then there exists a $G$-submodule $W'$ such that $V=W\oplus W'$.
+{ #mgo6js}
+
 
 **_Proof._**
 Consider the subspace $W\subset V$ and $V$ can be decomposed as $V=W\oplus W_0$. We have surjective map $\pi:V\to W,v\to w$. Define
@@ -28,6 +30,8 @@ Assume that $G$ is a finite group with any $G$-module $V=V_1^{a_1}\oplus\cdots\o
 
 > [!proposition]
 > Any irreducible representation of abelian group is one-dimensional.
+{ #7hj8fw}
+
 
 - Therefore, if $\rho:C_3\to \mathbb{C}^*$ is a representation, then $\rho(a)\in\{1,\omega,\omega^2\}$ where $\rho$ is a primitive root of unity of degree $3$. 
 - It is easy to verify that $\rho_1(a)=\omega$ and $\rho_2(a)=\omega^2$ are non-isomorphic. In fact, we have that $|G|=\sum_i\dim|V_i|^2$. So $\rho_i(a)=\omega^i$ for $i=0,1,2$ are all irreducible $G$-module up to isomorphic.

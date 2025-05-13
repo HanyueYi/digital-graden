@@ -5,6 +5,8 @@
 
 > [!proposition]
 > If a group of order $2^nm$ with odd $m$ has cyclic Sylow $2$-subgroup, then $G$ has the unique normal subgroup of order $m$ and so $G$ is solvable.
+{ #4fsgek}
+
 
 **_Proof._**
 When $n=1$, there exists a $g\in G$ with $|g|=2$. Then $\check g\in\mathrm{Sym}(G)$, which is defined [[MATH/Cards/Nodes/Three Permutations on G Induced from G\|here]], is a product of $2$-cycles. Since $m$ is odd, we have that $\check g$ is a product of $m$'s $2$-cycles and so $\check g$ is an odd permutation. Define $\varphi:\check G\to \mathbb{Z}_2$ such that $\ker\varphi=\check G\cap A_{|G|}$. Then $\ker\varphi\lhd \check G$ is a group of order $m$ and so we get a normal subgroup $H$ of $G$ with order $m$. 
@@ -16,3 +18,4 @@ Now suppose that it holds for groups of order $2m,2^2m,\cdots,2^{n-1}m$, and sup
 By [Feit-Thompson theorem](https://en.wikipedia.org/wiki/Feit–Thompson_theorem), a group $G$ with cyclic Sylow $2$-subgroup is solvable.
 <p align="left">□</p>
 
+**Remark.** Also see [[MATH/Cards/Nodes/Group with Cyclic Sylow Subgroups\|Group with Cyclic Sylow Subgroups]]. 

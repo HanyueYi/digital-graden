@@ -128,3 +128,14 @@ Assume that $G$ is simple. Note that $n_3\in\{4,16\}$. If $n_3=4$, $G$ has a sub
 
 By [[MATH/Cards/Nodes/Sylow Theorems#^qes1qo\|#^qes1qo]], $P_i\cap P_j$ is a maximal subgroup of $P_i$, so $N_{P_i}(P_i\cap P_j)=P_i$. It deduces that $N_G(P_i\cap P_j)\geqslant\left\langle P_i,P_j\right\rangle$. Since $N_G(P_i\cap P_j)$ has at least $4$ Sylow $3$-subgroups, we have $|N_G(P_i\cap P_j)|\geqslant 4\cdot N_{N_G(P_i\cap P_j)}(P_i)\geqslant 4\cdot 3^3=108$ and $[G:N_G(P_i\cap P_j)]\leqslant 4$. Then $G$ has a subgroup of index $\leqslant 4$ and $G\lesssim S_4$, which is impossible.
 <p align="left">□</p>
+
+> [!proposition]
+> Group of order $180=2^2\cdot3^2\cdot 5$ is not simple. 
+
+**_Proof._**
+Assume that $G$ is simple. Then by [[MATH/Cards/Nodes/Sylow Theorems\|Sylow theorems]] and [[MATH/Cards/Nodes/Burnside's Transfer Theorem\|Burnside's transfer theorem]], one can get $n_2=15$, $n_3=10$ and $n_5=6$. There is an embedding $G\hookrightarrow S_6$ with $[S_6:G]=4$, which induces a group homomorphism $\varphi:S_6\to S_4$ and $\varphi(S_6)$ is transitive. Since $\ker\varphi\in\{\{e\},A_6,S_6\}$, $\varphi$ does not exist. Hence $G$ is not simple. 
+
+***Alternating proof.***
+Since $n_5=6$, there is $N_G(P)=30$ for any Sylow $5$-subgroup $P$. Note that $\mathrm{Aut}(P)\simeq C_4$ and $N_G(P)/C_G(P)\lesssim C_4$, then we know $C_G(P)=15$. Since a group of order $15$ is cyclic, $G$ has an element of order $15$. However, $G\lesssim S_6$ does not have element of order $15$. 
+<p align="left">□</p>
+

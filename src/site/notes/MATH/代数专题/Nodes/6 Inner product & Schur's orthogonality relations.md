@@ -132,6 +132,8 @@ By Maschke's theorem, for $V=V_1\oplus\cdots\oplus V_r$ with irreducible $V_i$'s
 **Remark.** Note that $\chi_V(g)=\mathrm{tr}(\rho(g))$ where $\rho:G\to\mathrm{GL}(V)$ satisfies $gv:=\rho(g)v$.
 
 Now we are ready to prove [[MATH/代数专题/Nodes/6 Inner product & Schur's orthogonality relations#^rld430\|#^rld430]].
+{ #wl1f85}
+
 
 **_Proof._**
 For any $g\in G$ and $\varphi\in\mathrm{Hom}(V,W)$ with $g\varphi=\varphi$, there is $\varphi(v)=(g\varphi)(v)=g\varphi(g^{-1}v)$ and so $\varphi(g^{-1}v)=g^{-1}\varphi(v)$. It follows that $\varphi\in\mathrm{Hom}_{\mathbb{C}G}(V,W)$. Note that 
@@ -139,9 +141,7 @@ For any $g\in G$ and $\varphi\in\mathrm{Hom}(V,W)$ with $g\varphi=\varphi$, ther
 $$\dim\mathrm{Hom}_{\mathbb{C}G}(V,W)=\dim\mathrm{Hom}(V,W)^G=\frac{1}{|G|}\sum_{g\in G}\chi_{\mathrm{Hom}(V,W)}(g)=\frac{1}{|G|}\sum_{g\in G}\overline{\chi_V(g)}\chi_W(g)=\left\langle\chi_W,\chi_V\right\rangle.$$
 
 By [[MATH/Cards/Nodes/Schur Lemma\|Schur's lemma]], $\dim\mathrm{Hom}_{\mathbb{C}G}(s_i,s_j)=\delta_{ij}$ for irreducible representations $s_i$ and $s_j$. Now we finish the proof. 
-<p align="left">□</p> 
-{ #wl1f85}
-
+<p align="left">□</p>
 
 
 > [!corollary]

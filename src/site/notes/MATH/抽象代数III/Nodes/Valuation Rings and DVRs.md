@@ -3,7 +3,9 @@
 ---
 
 
-# Discrete Valuation
+# Valuations on Fields
+
+## Exponential Valuations
 
 > [!definition]
 > Let $k$ be a field. An *(exponential) valuation* of $k$ is a real-valued function $\nu$ defined on $k^*=k\setminus\{0\}$ satisfying
@@ -28,14 +30,16 @@
 > 
 > Note that $R$ is a local ring with $P=J(R)=\{\text{nonunits of }R\}$, and $R/P$ is called *residue field* of $\nu$. 
 
-Let $\lambda\in R$ with $\lambda >0$. Define $\nu'(a)=\lambda\nu(a)$ for all $a\in k^\times$. Then $\nu$ is also a valuation. We say $\nu$ is equivalent to $\nu'$, and write $\nu\sim \nu'$. 
+
+> [!definition]
+> Let $\lambda\in R$ with $\lambda >0$. Define $\nu'(a)=\lambda\nu(a)$ for all $a\in k^\times$. Then $\nu$ is also a valuation. We say $\nu$ is *equivalent* to $\nu'$, and write $\nu\sim \nu'$. 
+
 
 > [!definition]
 > A valuation $\nu$ of $k$ is called *discrete* if its value group is isomorphic to $\mathbb{Z}$. In this situation, $R$ is called a *discrete valuation ring*. 
 > 
 > In the case $\nu(k^\times)=\mathbb{Z}$, $\nu$ is said to be *normalized*. 
 
-*****
 
 > [!theorem]
 > Let $(k,\nu)$ be a discrete normalized valuation field. Let $R$ be its valuation ring, and let $P$ be its valuation ideal. 
@@ -50,7 +54,19 @@ i) For $\alpha\in k$ with $\nu(\alpha)=i$, we have $\nu(\alpha \pi^{-i})=0$ and 
 
 ii) Let $I$ be a nonzero ideal of $R$. Let $i=\min\{\nu(a):a\in I\}$. Then $\pi^i=a u^{-1}\in I$. Let $0\neq a\in I$ with $\nu(a)=j\geqslant i$. Then $a=\pi^j u=\pi^i(\pi^{j-i}u)\in (\pi^i)$. So $I=(\pi^i)$. In particular, $P=(\pi)$ and $I=P^i$.
 
-iii) have done?
+iii) Take integral $\alpha\in k$, then there exists $a_i\in R$ such that 
+
+$$\alpha^n+a_{n-1}\alpha^{n-1}+\cdots+a_0=0.$$
+
+If $\alpha\notin R$, then $\alpha$ can be written as $\alpha=\pi^{-j}u$ with $j\in \mathbb{N}_+$. It deduces that 
+
+$$u^n+a_{n-1} \pi^j u^{n-1}+a_{n-2} \pi^{2 j} u^{n-2}+\cdots+a_1 \pi^{(n-1) j} u+a_0 \pi^{n j}=0$$
+
+and so 
+
+$$u^n=-\pi^j\left(a_{n-1} u^{n-1}+a_{n-2} \pi^j u^{n-2}+\cdots+a_1 \pi^{(n-2) j} u+a_0 \pi^{(n-1) j}\right).$$
+
+Note that $\nu(\text{LHS})=n\nu(u)=0$ and $\nu(\text{RHS})=j+\nu(x)$ with $x\in R$, then we have $0=j+\nu(x)>0$, which is impossible. Therefore, $\alpha\in R$. 
 <p align="left">□</p>
 
 
@@ -60,7 +76,7 @@ iii) have done?
 
 
 **_Proof._**
-Suppose that $\nu$ and $\nu'$ have the same valuation ideal, say $P$. Then $R=k\setminus P^{-1}$ is the valuation ring, where $P^{-1}=\{x^{-1}:x\in P\setminus \set0\}$. Suppose $\nu$ and $\nu'$ are normalized. They have the same value in $R$ and so in $k$ by [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^bb0319\|#^bb0319]]. 
+Suppose that $\nu$ and $\nu'$ have the same valuation ideal, say $P$. Then $R=k\setminus P^{-1}$ is the valuation ring, where $P^{-1}=\{x^{-1}:x\in P\setminus \set0\}$. Suppose $\nu$ and $\nu'$ are normalized, then they have the same value in $R$ and so in $k$ by [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^bb0319\|#^bb0319]]. Thus $\nu$ and $\nu'$ are equivalent of $k$. 
 <p align="left">□</p>
 
 
@@ -70,7 +86,7 @@ Suppose that $\nu$ and $\nu'$ have the same valuation ideal, say $P$. Then $R=k\
 
 
 **_Proof._**
-"<-" Let $R$ be a local PID. Let $P=J(R)=(\pi)$. We claim that $\cap_{i=1}^\infty P^i=0$. If $0\neq a\in\cap_{i=1}^\infty$, then $a=\pi a_1=\pi^2 a_2=\cdots$ with $a_i\in R$. It deduces that $a_i=\pi a_{i+1}$ and so we get a ascending series $(a_1)\subsetneq (a_2)\subsetneq \cdots$ Since $R$ is PID, the series terminate, leading to a contradiction. 
+"<-" Let $R$ be a local PID. Let $P=J(R)=(\pi)$. We claim that $\cap_{i=1}^\infty P^i=0$. Otherwise, if $0\neq a\in\cap_{i=1}^\infty P^i$, then $a=\pi a_1=\pi^2 a_2=\cdots$ with $a_i\in R$. It deduces that $a_i=\pi a_{i+1}$ and so we get a ascending series $(a_1)\subsetneq (a_2)\subsetneq \cdots$ Since $R$ is PID, the series terminate, leading to a contradiction. 
 
 For any $0\neq a\in R$, there exists $i\in \mathbb{N}_+$ such that $a\in P^i$ and $a\notin P^{i+1}$. Thus $a=\pi^i u$ for some $u\in R\setminus P$.  Let $k$ be the fractional field of $R$. Define $\nu(a/b)=\nu(a)-\nu(b)$ and $\nu$ is a discrete valuation. 
 
@@ -78,36 +94,39 @@ For any $0\neq a\in R$, there exists $i\in \mathbb{N}_+$ such that $a\in P^i$ an
 <p align="left">□</p>
 
 
+## Multiplicative Valuation
 
+> [!definition]
+> Let $\nu$ be an exponential valuation of a field $k$. Fix a real number $\gamma$ with $0<\gamma<1$. Define $\varphi:k\to \mathbb{R},a\mapsto \gamma^{\nu(a)}$. Then 
+> - $\varphi(a)\geqslant 0$ and $\varphi(a)=0$ yields $a=0$;
+> - $\varphi(ab)=\varphi(a)\varphi(b)$
+> - $\varphi(a+b)\leqslant \max\{\varphi(a),\varphi(b)\}$
+> - $\varphi(a^{-1})=\varphi(a)^{-1}$
+> - $\varphi(a)<\varphi(b)$ yields $\varphi(a+b)=\varphi(b)$. 
+> 
+> Define the valuation ring $R=\{a\in k:\varphi(a)\leqslant 1\}$ and valuation ideal $P=\{a\in k:\varphi(a)<1\}$. 
+> 
+> Two multiplicative valuation $\varphi_1$ and $\varphi_2$ are called equivalent if there exists $r\in \mathbb{R}_{\geqslant 0}$ such that $\varphi_2(a)=\varphi_1(a)^r$ for all $a\in k$. 
 
-# 原来的第9节
-
-Let $\nu$ be an exponential valuation of a field $k$. Fix a real number $\gamma$ with $0<\gamma<1$. Define $\varphi:k\to \mathbb{R},a\mapsto \gamma^{\nu(a)}$. Then 
+**Remark.** We can get a multiplicative valuation from an exponential valuation. For a given a function $\varphi:k\to R$ satisfying 
 - $\varphi(a)\geqslant 0$ and $\varphi(a)=0$ yields $a=0$;
 - $\varphi(ab)=\varphi(a)\varphi(b)$
 - $\varphi(a+b)\leqslant \max\{\varphi(a),\varphi(b)\}$
-- $\varphi(a^{-1})=\varphi(a)^{-1}$
-- $\varphi(a)<\varphi(b)$ yields $\varphi(a+b)=\varphi(b)$. 
 
-Define the valuation ring $R=\{a\in k:\varphi(a)\leqslant 1\}$ and valuation ideal $P=\{a\in k:\varphi(a)<1\}$. 
-
-Conversely, if we are given a function $\varphi:k\to R$ satisfying 
-- $\varphi(a)\geqslant 0$ and $\varphi(a)=0$ yields $a=0$;
-- $\varphi(ab)=\varphi(a)\varphi(b)$
-- $\varphi(a+b)\leqslant \max\{\varphi(a),\varphi(b)\}$
-
-and define $\nu(a)=\log_{\gamma}\varphi(a)$, then $\nu$ is a valuation on $k$. $\varphi$ is called multiplicative valuation of $k$. Two multiplicative valuation $\varphi_1$ and $\varphi_2$ are called equivalent if there exists $r\in \mathbb{R}_{\geqslant 0}$ such that $\varphi_2(a)=\varphi_1(a)^r$ for all $a\in k$. 
+define $\nu(a)=\log_{\gamma}\varphi(a)$, then $\nu$ is a valuation on $k$. 
 
 
-Define $d(a,b)=\varphi(a-b)$, which is a **metric** on $k$. Then $k$ is a Hausdorff space and
-- $k\times k \to k,(a,b)\mapsto a+b$
-- $k\times k\to k,(a,b)\mapsto ab$
-- $k^\times\times k^\times\to k,(a,b)\mapsto ab^{-1}$
+> [!definition]
+> Define $d(a,b)=\varphi(a-b)$, which is a **metric** on $k$. Then $k$ is a Hausdorff space and
+> - $k\times k \to k,(a,b)\mapsto a+b$
+> - $k\times k\to k,(a,b)\mapsto ab$
+> - $k^\times\times k^\times\to k,(a,b)\mapsto ab^{-1}$
+> 
+> are continuous. 
 
-are continuous. 
+# Completion
 
-If every Cauchy sequence in $k$ converges, $k$ is called complete, or a complete field. The associated valuation ring is said to be a complete valuation ring. 
-
+Recall that if every Cauchy sequence in $k$ converges, then $k$ is called *complete*, or a complete field. The associated valuation ring is said to be a complete valuation ring. 
 
 Given a valuation field $k$, let $C$ denote the set of Cauchy sequence in $k$. Define $(a_n)+(b_n)=(a_n+b_n)$ and $(a_n)(b_n)=(a_nb_n)$. Then $C$ is a commutative ring. If $I$ denotes the subset of $C$ consisting of the sequences converge to $0$, then $I$ is a maximal ideal. Hence $\widetilde k=C/I$ is a field. 
 
@@ -121,9 +140,8 @@ $$\widetilde \varphi:\widetilde k\to R,\widetilde{(a_n)}=\lim_{n\to \infty}\varp
 
 for $\widetilde{(a_n)}=(a_n)+I$. It is well-defined by [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^147dxw\|#^147dxw]]. Furthermore, we can check $\widetilde \varphi$ is a multiplicative valuation of $\widetilde k$. 
 
-For $a\in k$, the sequence $(a)=(a,a,a,\cdots)$ is a Cauchy sequence and $\widetilde{(a)}\neq \widetilde{(b)}$ if $a\neq b$. Thus we can regard $k$ as a subfield of $\widetilde k$ by identifying $a$ with $\widetilde{(a)}$. So $\widetilde \varphi$ is an extension of $\varphi$ and $k$ is dense in $\widetilde k$ by definition. 
+For $a\in k$, the sequence $(a)=(a,a,a,\cdots)$ is a Cauchy sequence and $\widetilde{(a)}\neq \widetilde{(b)}$ if $a\neq b$. Thus we can regard $k$ as a subfield of $\widetilde k$ by identifying $a$ with $\widetilde{(a)}$. So $\widetilde \varphi$ is an extension of $\varphi$ and $k$ is dense in $\widetilde k$ by definition. It deduces the following lemma. 
 
-这好像就是从Q得到R的过程吧
 
 > [!lemma]
 > $\widetilde k$ is a complete field. 
@@ -140,10 +158,11 @@ Let $a\in \widetilde R$ with $a\neq 0$. Then $0<\widetilde \varphi(a)\leqslant 1
 Notice that $\varphi(a_n)=\widetilde\varphi(a_n-a+a)=\widetilde \varphi(a)\leqslant 1$ and $a_n\in R$. And $\widetilde \varphi(a_n-a)<\widetilde \varphi(a)\leqslant 1$ yields $a_n-a\in \widetilde P$, Then $a=a_n-a+a\in R+\widetilde P$. 
 <p align="left">□</p>
 
+# Valuations on Vector Spaces and Field Extensions
+## Norms and Topology on Vector Spaces over Valued Fields
 
-Let $\nu$ be a normalized discrete valuation of $k$ with valuation ring $R$ and valuation ideal $P=(\pi)$. Then $\{P,P^2,\cdots\}$ is a fundamental neighborhood system of $0$ by $\cap_{i=1}^\infty(\pi^i)=0$. 
+Let $\nu$ be a normalized discrete valuation of $k$ with valuation ring $R$ and valuation ideal $P=(\pi)$. Then $\{P,P^2,\cdots\}$ is a fundamental neighborhood system of $0$ by $\cap_{i=1}^\infty(\pi^i)=0$. Therefore, $(a_n)$ is a Cauchy sequence iff for any $\ell\in \mathbb{Z}_{>0}$, there exists $N$ such that $a_m-a_n\in P^\ell$ for all $m,n\geqslant N$. Also $\lim_{n\to \infty} a_n=a$ iff given $\ell$, there exists $N$ such that $a_n-a\in P^\ell$ for all $n\geqslant N$. 
 
-Therefore, $(a_n)$ is a Cauchy sequence iff for any $\ell\in \mathbb{Z}_{>0}$, there exists $N$ such that $a_m-a_n\in P^\ell$ for all $m,n\geqslant N$. Also $\lim_{n\to \infty} a_n=a$ iff given $\ell$, there exists $N$ such that $a_n-a\in P^\ell$ for all $n\geqslant N$. 我觉得这段全是废话？
 
 > [!lemma]
 > Let $\varphi_1,\varphi_2$ be discrete multiplicative valuations of $k$. TFAE:
@@ -152,13 +171,12 @@ Therefore, $(a_n)$ is a Cauchy sequence iff for any $\ell\in \mathbb{Z}_{>0}$, t
 > - the topologies on $k$ induced by $\varphi_1$ and $\varphi_2$ are same. 
 
 **_Proof._**
-i)<->ii) 赋值理想决定等价 see [[MATH/抽象代数III/Nodes/8 250415#^tw3uv5\|8 250415#^tw3uv5]]
+i)<->ii) See [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^ox907z\|#^ox907z]].
 
 ii)->iii) It suffices to show i)->iii), which is trivial because their fundamental neighborhood systems are equivalent. 
 
 iii)->ii) Suppose $\varphi_1(a)<1$, then $\lim_{n\to\infty}\varphi_1(a^n)=\lim_{n\to\infty}\varphi_1(a)^n=0$. So $\lim_{n\to\infty}\varphi_2(a)^n=0$ and $\varphi_2(a)<1$. Similarly, $\varphi_2(a)<1$ yields $\varphi_1(a)<1$. 
 <p align="left">□</p>
-
 
 
 > [!definition]
@@ -167,7 +185,7 @@ iii)->ii) Suppose $\varphi_1(a)<1$, then $\lim_{n\to\infty}\varphi_1(a^n)=\lim_{
 > - $||a v||=\varphi(a)||v||$ for any $a\in k$ and $v\in V$. 
 > - $||u+v||\leqslant \max\{||u||,||v||\}$. 
 
-If we set $d(u,v)=||u-v||$, then $V$ is a metric space. Note that $V\times V\to V,(u,v)\mapsto u+v$ and $k\times V\to V,(a,v)\mapsto av$ are continuous. 
+If we set $d(u,v)=||u-v||$, then $V$ is a metric space. Note that $V\times V\to V,(u,v)\mapsto u+v$ and $k\times V\to V,(a,v)\mapsto av$ are continuous. Remark that norm induces metric, but not vice versa.
 
 > [!lemma]
 > Let $u_1,\cdots,u_n$ be a basis of a finite-dimensional $k$-space $V$. For $v=a_1u_1+\cdots+a_nu_n\in V$, define $||v||_0=\max\{\varphi(a_i):1\leqslant i\leqslant n\}$. Then $||\cdot||_0$ is a norm on $V$. The following holds for the metric indeed by $||\cdot||_0$. 
@@ -175,11 +193,11 @@ If we set $d(u,v)=||u-v||$, then $V$ is a metric space. Note that $V\times V\to 
 > - If $k$ is complete, then so is $V$. 
 
 **_Proof._**
-- [ ] Exercise
+See [[MATH/抽象代数III/Nodes/HW10#^wlky1j\|homework]]. 
 <p align="left">□</p>
 
 
-> [!lemma]
+> [!lemma] all norms are equivalent
 > Suppose that $k$ is complete. Then for any norm $||v||$ on $V$, there exists constant $\lambda,\mu$ such that $||v||\leqslant \lambda||v||_0$, $||v||_0\leqslant \mu||v||$ for all $v\in V$. Thus the topological induces by these two norms are the same. 
 
 **_Proof._**
@@ -187,7 +205,11 @@ Let $\lambda=\max\{||u_i||:1\leqslant i\leqslant n\}$. Then for $v=\sum_{i=1}^n 
 
 We will show the existence of $\mu$ by induction on $n$. 
 
-The case of $n=1$ is trivial. Let $n>1$. For $v=a_1u_1+\cdots+a_nu_n$, set $\varphi_i(v)=\varphi(a_i)$. Claim that for all $i$, there exists $\mu_i$ such that $\varphi_i(v)\leqslant \mu_i||v||$. If it is true, then $||v||_0=\max\{\varphi_i(v)\}\leqslant \max\{\mu_i||v||\}=(\max \{\mu_i\})||v||$ and $\mu=\max\{\mu_i\}$ is what we desired.
+The case of $n=1$ is trivial. Let $n>1$. For $v=a_1u_1+\cdots+a_nu_n$, set $\varphi_i(v)=\varphi(a_i)$. Claim that for all $i$, there exists $\mu_i$ such that $\varphi_i(v)\leqslant \mu_i||v||$. If it is true, then 
+
+$$||v||_0=\max\{\varphi_i(v)\}\leqslant \max\{\mu_i||v||\}=(\max \{\mu_i\})||v||$$
+
+and $\mu=\max\{\mu_i\}$ is what we desired.
 
 Let $V'=ku_1\oplus\cdots\oplus ku_{n-1}$. By induction $||\cdot||$ and $||\cdot||_0$ induce the same topologies on $V$. In particular, $V'$ is complete w.r.t. $||\cdot||$ or $||\cdot||_0$. 
 
@@ -197,12 +219,14 @@ This holds if $v_j$ is replaced by its nonzero scalar multiples, so we can assum
 yields $\lim_j v_j=0$ w.r.t. $||\cdot||$. So $\lim_{j}(v_j-u_n)=-u_n$. But note that $v_j-u_n\in V'$ for all $j$ and $V'$ is closed in $V$, so $-u_n\in V'$, leading to a contradiction. 
 <p align="left">□</p>
 
+## Extension of Valuations in Field Extensions
 
 Let $K,L$ be discrete valuation fields with multiplicative valuation $\varphi$ and $\Phi$, respectively. If $K\subseteq L$ and $\Phi$ is an extension of $\varphi$, then we say $(L,\Phi)$ is an extension of $(K,\varphi)$, and write $(K,\varphi)\subseteq (L,\Phi)$. Consider $L$ as an $K$-space. Let $||x||=\Phi(x)$ for $x\in L$. 
 
-
 > [!theorem]
 > Let $\varphi$ be a complete discrete multiplicative valuation of $K$ and $L$ be a finite extension of $K$. If there exists an extension $(L,\Phi)$ of $(K,\varphi)$, then $\Phi$ is unique up to equivalent. Furthermore, $(L,\Phi)$ is complete. 
+
+# $I$-adic Theory
 
 Let $R$ be a ring, and let $V$ be an $R$-module. For an ideal $I\subseteq R$, assume that $\cap_{i=1}^\infty I^iV=0$. Fix $\gamma\in \mathbb{R}$ with $0<r<1$, define $||\cdot||_I$ on $V$ by 
 - $||0||_I=0$
@@ -251,6 +275,8 @@ Let $W$ be a submodule of $V$. Since $f:V\to V/W$ is continuous, we have $W=f^{-
 Let $R$ be complete discrete valuation ring with valuation $\nu$, and let $P=(\pi)$ and $F=R/P$ be the valuation ideal and residue field of $\nu$ respectively. 
 
 Let $V$ be a finitely generated $R$-module. Then $V=Ru_1\oplus \cdots\oplus R u_r$ is a direct sum of cyclic submodule. Since $(\pi^n)V=(\pi^n)u_1\oplus\cdots\oplus (\pi^n)u_r$, there is $\cap_{n=1}^\infty \pi^n V=0$. Then $d_P$ is defined for all finitely generated $R$-module. Since $R$ is complete, the module $V$ is also complete by [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^ffpm0c\|#^ffpm0c]]. 
+
+# 这又是什么，这不该在这一章吧
 
 Let $A$ be an $R$-algebra, which is finitely generated as an $R$-module. 
 
