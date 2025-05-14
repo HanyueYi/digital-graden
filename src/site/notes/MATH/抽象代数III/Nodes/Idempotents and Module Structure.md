@@ -346,3 +346,58 @@ iv) is trivial by iii) and note that $\dim_k\mathrm{End}_A(S)=1$ by [[MATH/Cards
 <p align="left">□</p>
 
 
+# 从9节来的
+
+Let $A$ be an $R$-algebra, which is finitely generated as an $R$-module. 
+
+**Fact.** $A\times A\to A,(a,b)\mapsto ab$ is continuous. 
+
+$A^*=A/\pi A$ is a finitely generated $F$-algebra. 
+
+> [!theorem]
+> Let $A$ be finitely generated $R$-algebra. Then 
+> - $A\pi\subseteq J(A)$;
+> - $J(A)^n\subseteq A\pi$ for some $n>0$. 
+{ #nuyi3u}
+
+
+**_Proof._**
+i) Let $V$ be a simple $A$-module. Then either $\pi V=V$ or $\pi V=0$. Since $V=Av$ for any $0\neq v\in V$ and $A$ is finitely generated over $R$, we know $V$ is finitely generated over $R$. Thus if $\pi V=V$, then $V=0$ by [[MATH/交换代数/Nodes/2 Modules#^c2a5d0\|Nakayama lemma]]. So $\pi V=A\pi V=0$ and $A\pi\subseteq J(A)$. 
+
+ii) Define $A^*=A/A\pi$. Then $J(A^*)=J(A)/A\pi$. Since $A^*$ is a finite-dimensional $F$-algebra, we have $A^*$ is Artinian and $J(A^*)$ is nilpotent. It deduces that $J(A)^n\subseteq A\pi$ for some $n>0$. 
+<p align="left">□</p>
+
+
+> [!theorem]
+> Let $A$ be a finitely generated $R$-algebra. Let $I$ be an ideal of $A$ with $I\subseteq J(A)$ and $\overline A=A/I$. 
+> - Let $\overline c$ be an idempotent in $\overline A$, and let $\overline c=\overline c_1+\cdots+\overline c_n$ be an idempotent decomposition in $\overline A$. Then $\overline c$ lifts to an idempotent $e$ of $A$ and there exists orthogonal idempotent $e_1,\cdots,e_n$ of $A$ satisfying $\overline e_i=\overline c_i$ and $e=e_1+\cdots+e_n$. 
+> - An idempotent $e$ of $A$ is primitive iff $\overline e$ is primitive in $\overline A$.
+> - Let $e,f$ be primitive idempotent of $A$, the. $Ae\simeq Af$ iff $\overline A\overline e\simeq \overline A\overline f$. 
+{ #4kwh24}
+
+
+**_Proof._**
+$I\subseteq J(A)$ yields $I^m\subseteq A\pi$ for some $m$. Hence $I^m\subseteq A\pi^r$ for all $r\geqslant 1$. Set $\overline A^{(r)}=A/I^{mr}$. 
+
+i) $I/I^m$ is an nilpotent ideal in $\overline A^{(1)}$. $\overline c$ lifts to a idempotent of $\overline A^{(1)}$, namely, there exists $c^{(1)}\in A$ such that $(c^{(1)})^2\equiv c^{(1)}\pmod{I^m}$ and $c^{(1)}\equiv c\pmod I$. 
+
+Next, $I^m/I^{2m}$ is a nilpotent ideal in $\overline A^{(2)}$, there exists $c^{(2)}\in A$ such that $(c^{(2)})^2\equiv c^{(2)}\pmod{I^{2m}}$ and $c^{(2)}\equiv c^{(1)}\pmod{I^{(r-1)m}}$. 
+
+Then $\{c(r)\}_r$ is a Cauchy sequence, and $e=\lim_{r\to\infty}c^{(r)}$ exists. We can check that $e$ is an idempotent of $A$ that lifts $\overline c$ to $A$. 
+
+Show existence of $e_1,\cdots,e_n$. Let $e$ is any idempotent of $A$ that lifts $\overline c$. 
+
+Similar as the above arguments, there exists $c_i^{(r)}\in A$ for each $r$ such that $c_i^{(r)}\equiv c_i^{(r-1)}\pmod{I^{(r-1)m}}$ and $e=c_1^{(r)}+\cdots+c_n^{(r)}\pmod I^{rm}$ is an idempotent decomposition in $\overline A^{(r)}$. 
+
+Each $(c_i^{(r)})_r$ is a Cauchy sequence. Let $e_i=\lim_{r\to\infty} c_i^{(r)}$. Then $e_1,\cdots,e_n$ satisfy our requirement. 
+
+ii) $J(A)$ has no idempotent. Similar as before.
+
+iii) $Ae$ is the projective cover of $\overline A\overline e$. 
+
+
+
+
+**Remark.** Let $I=A\pi$, then $\overline A=A^*$ where $A$ is an $R$-algebra, $A^*$ is an $F$-algebra and $k\otimes _R A$ is a $k$-algebra. 
+
+定理描述了R代数和F代数之间的idem提升的性质

@@ -149,6 +149,8 @@ For $a\in k$, the sequence $(a)=(a,a,a,\cdots)$ is a Cauchy sequence and $\widet
 
 > [!theorem]
 > Let $\widetilde R$ and $\widetilde P$ be the valuation ring and valuation ideal of $\widetilde \varphi$ respectively. Then $\widetilde R/\widetilde P\simeq R/P$. 
+{ #nlam3t}
+
 
 **_Proof._**
 It suffices to show $R+\widetilde P=\widetilde R$. Note that $R+\widetilde P\subseteq \widetilde R$ is trivial. 
@@ -169,6 +171,8 @@ Let $\nu$ be a normalized discrete valuation of $k$ with valuation ring $R$ and 
 > - $\varphi_1$ and $\varphi_2$ are equivalent;
 > - $\{a\in k:\varphi_1(a)<1\}=\{a\in k:\varphi_2(a)<1\}$;
 > - the topologies on $k$ induced by $\varphi_1$ and $\varphi_2$ are same. 
+{ #9b52ya}
+
 
 **_Proof._**
 i)<->ii) See [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^ox907z\|#^ox907z]].
@@ -199,6 +203,8 @@ See [[MATH/抽象代数III/Nodes/HW10#^wlky1j\|homework]].
 
 > [!lemma] all norms are equivalent
 > Suppose that $k$ is complete. Then for any norm $||v||$ on $V$, there exists constant $\lambda,\mu$ such that $||v||\leqslant \lambda||v||_0$, $||v||_0\leqslant \mu||v||$ for all $v\in V$. Thus the topological induces by these two norms are the same. 
+{ #zs3z31}
+
 
 **_Proof._**
 Let $\lambda=\max\{||u_i||:1\leqslant i\leqslant n\}$. Then for $v=\sum_{i=1}^n a_iu_i$, $||v||\leqslant \max\{\varphi(a_i)||u_i||\}\leqslant \lambda||v||_0$. 
@@ -266,6 +272,8 @@ So $w_n=\sum_{i=1}^s b_{nt}v_t$ with $b_{nt}=b_{1t}+\sum_{j=1}^{n-1}a_{jt}$. Not
 
 > [!lemma]
 > Suppose that $d_I$ is defined for all finitely generated $R$-modules. If $V$ is a finitely generated $R$-module, then every submodule of $V$ is closed. 
+{ #cpwp8z}
+
 
 **_Proof._**
 Let $W$ be a submodule of $V$. Since $f:V\to V/W$ is continuous, we have $W=f^{-1}(0)$ is closed. 
@@ -275,55 +283,3 @@ Let $W$ be a submodule of $V$. Since $f:V\to V/W$ is continuous, we have $W=f^{-
 Let $R$ be complete discrete valuation ring with valuation $\nu$, and let $P=(\pi)$ and $F=R/P$ be the valuation ideal and residue field of $\nu$ respectively. 
 
 Let $V$ be a finitely generated $R$-module. Then $V=Ru_1\oplus \cdots\oplus R u_r$ is a direct sum of cyclic submodule. Since $(\pi^n)V=(\pi^n)u_1\oplus\cdots\oplus (\pi^n)u_r$, there is $\cap_{n=1}^\infty \pi^n V=0$. Then $d_P$ is defined for all finitely generated $R$-module. Since $R$ is complete, the module $V$ is also complete by [[MATH/抽象代数III/Nodes/Valuation Rings and DVRs#^ffpm0c\|#^ffpm0c]]. 
-
-# 这又是什么，这不该在这一章吧
-
-Let $A$ be an $R$-algebra, which is finitely generated as an $R$-module. 
-
-**Fact.** $A\times A\to A,(a,b)\mapsto ab$ is continuous. 
-
-$A^*=A/\pi A$ is a finitely generated $F$-algebra. 
-
-> [!theorem]
-> Let $A$ be finitely generated $R$-algebra. Then 
-> - $A\pi\subseteq J(A)$;
-> - $J(A)^n\subseteq A\pi$ for some $n>0$. 
-
-**_Proof._**
-i) Let $V$ be a simple $A$-module. Then either $\pi V=V$ or $\pi V=0$. Since $V=Av$ for any $0\neq v\in V$ and $A$ is finitely generated over $R$, we know $V$ is finitely generated over $R$. Thus if $\pi V=V$, then $V=0$ by [[MATH/交换代数/Nodes/2 Modules#^c2a5d0\|Nakayama lemma]]. So $\pi V=A\pi V=0$ and $A\pi\subseteq J(A)$. 
-
-ii) Define $A^*=A/A\pi$. Then $J(A^*)=J(A)/A\pi$. Since $A^*$ is a finite-dimensional $F$-algebra, we have $A^*$ is Artinian and $J(A^*)$ is nilpotent. It deduces that $J(A)^n\subseteq A\pi$ for some $n>0$. 
-<p align="left">□</p>
-
-
-> [!theorem]
-> Let $A$ be a finitely generated $R$-algebra. Let $I$ be an ideal of $A$ with $I\subseteq J(A)$ and $\overline A=A/I$. 
-> - Let $\overline c$ be an idempotent in $\overline A$, and let $\overline c=\overline c_1+\cdots+\overline c_n$ be an idempotent decomposition in $\overline A$. Then $\overline c$ lifts to an idempotent $e$ of $A$ and there exists orthogonal idempotent $e_1,\cdots,e_n$ of $A$ satisfying $\overline e_i=\overline c_i$ and $e=e_1+\cdots+e_n$. 
-> - An idempotent $e$ of $A$ is primitive iff $\overline e$ is primitive in $\overline A$.
-> - Let $e,f$ be primitive idempotent of $A$, the. $Ae\simeq Af$ iff $\overline A\overline e\simeq \overline A\overline f$. 
-
-**_Proof._**
-$I\subseteq J(A)$ yields $I^m\subseteq A\pi$ for some $m$. Hence $I^m\subseteq A\pi^r$ for all $r\geqslant 1$. Set $\overline A^{(r)}=A/I^{mr}$. 
-
-i) $I/I^m$ is an nilpotent ideal in $\overline A^{(1)}$. $\overline c$ lifts to a idempotent of $\overline A^{(1)}$, namely, there exists $c^{(1)}\in A$ such that $(c^{(1)})^2\equiv c^{(1)}\pmod{I^m}$ and $c^{(1)}\equiv c\pmod I$. 
-
-Next, $I^m/I^{2m}$ is a nilpotent ideal in $\overline A^{(2)}$, there exists $c^{(2)}\in A$ such that $(c^{(2)})^2\equiv c^{(2)}\pmod{I^{2m}}$ and $c^{(2)}\equiv c^{(1)}\pmod{I^{(r-1)m}}$. 
-
-Then $\{c(r)\}_r$ is a Cauchy sequence, and $e=\lim_{r\to\infty}c^{(r)}$ exists. We can check that $e$ is an idempotent of $A$ that lifts $\overline c$ to $A$. 
-
-Show existence of $e_1,\cdots,e_n$. Let $e$ is any idempotent of $A$ that lifts $\overline c$. 
-
-Similar as the above arguments, there exists $c_i^{(r)}\in A$ for each $r$ such that $c_i^{(r)}\equiv c_i^{(r-1)}\pmod{I^{(r-1)m}}$ and $e=c_1^{(r)}+\cdots+c_n^{(r)}\pmod I^{rm}$ is an idempotent decomposition in $\overline A^{(r)}$. 
-
-Each $(c_i^{(r)})_r$ is a Cauchy sequence. Let $e_i=\lim_{r\to\infty} c_i^{(r)}$. Then $e_1,\cdots,e_n$ satisfy our requirement. 
-
-ii) $J(A)$ has no idempotent. Similar as before.
-
-iii) $Ae$ is the projective cover of $\overline A\overline e$. 
-
-
-
-
-**Remark.** Let $I=A\pi$, then $\overline A=A^*$ where $A$ is an $R$-algebra, $A^*$ is an $F$-algebra and $k\otimes _R A$ is a $k$-algebra. 
-
-定理描述了R代数和F代数之间的idem提升的性质

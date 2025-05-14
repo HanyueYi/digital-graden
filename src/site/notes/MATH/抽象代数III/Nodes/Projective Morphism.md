@@ -3,6 +3,9 @@
 ---
 
 
+> [!check] Why is this section called "Projective Morphism"?
+> The naming of ***Projective Morphisms*** (as elements in the image of $\tau_{X, Y}$) is deeply connected to the [[MATH/抽象代数III/Nodes/Projective Morphism#^joizl5\|Dual Basis Lemma]]. This lemma reveals that if $X$ is a finitely generated projective module, then $\operatorname{Hom}_R(X, Y)\simeq X^* \otimes_R Y$, meaning every such homomorphism arises from tensoring linear functionals on $X$ with elements in $Y$.
+
 > [!proposition]
 > Let $R$ be a commutative ring with $1$. For $R$-modules $X,Y$ and $M$, we have an $R$-morphism 
 > 

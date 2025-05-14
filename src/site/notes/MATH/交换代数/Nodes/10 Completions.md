@@ -42,6 +42,8 @@ which is continuous. Its inverse map is $T_{-a}:g\mapsto g-a$, which is also con
 
 > [!lemma]
 > Let $U\in N(0)$, then there exists $V\in N(0)$ such that $V+V\subseteq U$ and $V-V\subseteq U$. 
+{ #36d8qm}
+
 
 **_Proof._**
 Consider the continuous map
@@ -63,4 +65,15 @@ Similarly we can get $V'$ such that $V'+V'\subseteq U$. Then $V\cap V'$ is what 
 **_Proof._**
 i) Suppose $h_1,h_2\in H$, we aim to show $h_1\pm h_2\in H$. For any given $U\in N(0)$, it suffices to show $h_1\pm h_2\in U$. Note that $-U\in N(0)$ and $h_1,h_2\in \pm U$. Then $h_1+U\in N(0)$ and so $h_2\in h_1+U$, which yields $h_2-h_1\in U$. Similarly, we can prove that $h_1\pm h_2\in U$. 
 
-ii) later. 
+ii) Note that $x\notin\overline{\{0\}}$ iff there exists $V\in N(x)$ such that $0\notin V$. But $V=x+V_0$ for some $V_0\in N(0)$. So $0\notin x+V_0$ yields $-x\notin V_0$. Therefore, $x\notin\overline{\{0\}}$ iff $-x\notin H$ iff $x\notin H$ by i) iff $\overline{\{0\}}=H$. 
+
+iii) By ii), $H$ is closed. Recall quotient topology on $G/H$ is defined by $G\stackrel{\pi}{\to}G/H$, where $V\subseteq G/H$ open iff $\pi^{-1}(V)$ open. Since $\pi^{-1}(0+H)=H$ is closed, we know $\overline 0\in G/H$ is a closed point. Let $x, y\in G/H$ be distinct points. Then $x-y\neq \overline 0$, and there exists $U\in N(x-y)$ such that $0\notin U$. Also $U=(x-y)+U_0$ for $U_0\in N(0)$. Take $V_0\in N(0)$ such that $V_0-V_0\subseteq U_0$ by [[MATH/交换代数/Nodes/10 Completions#^36d8qm\|#^36d8qm]]. Since $0\notin U$, we have $0\notin (x-y)+(V_0-V_0)$. It deduces that $(x+V_0)\cap (y+V_0)=\emptyset$. Therefore, $G/H$ is Hausdorff. 
+
+iv) "->" If $G$ is Hausdorff, then $0$ is closed and so $H=\overline{\{0\}}=\{0\}$. "<-" by iii). 
+<p align="left">□</p>
+
+**Remark.** Let $G$ be a group, and let $H<G$ be a subgroup. Then $G/H$ Hausdorff iff $H$ is closed. The proof is similar as above.
+
+## Completion of Topological Abelian Group
+
+
